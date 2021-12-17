@@ -17,17 +17,17 @@ To help guide educators on how to most effectively use the Open Case Studies (ei
  -  ch1 - Intro to open case studies 
 This chapter describes the philosophy and motivation behind the open case studies project, as well as the anatomy of an individual open case study. 
 
--   ch2 - Open case studies infastructure
+-   ch2 - Open case studies infrastructure
 This chapter describes the infrastructure for the project as a whole and the case study workflow in terms of how to access data and other materials, including information about our website, which include a case study search tool, a package to access data within R called [OCSdata](https://cran.r-project.org/web/packages/OCSdata/vignettes/instructions.html), and our repositories on GitHub.
 
 - ch3 - Use of open case studies
 This chapter provides information and examples on different ways to use open case studies in the classroom, such as how to use case studies in a modular way by only using specific case study sections and guidance about which case studies  to focus on for different types of students including examples of how to appropriately tailor homework assignments to expand beyond the case studies as assignemtns for students. 
 
-- ch4 - Modifying and creating open case studies
-This chapter demonstrates the technical aspects involved with using case studies in a modular way and how to create specific alterations, as well as guidance about how to build new case studies that follow the open case studies principles.
+- ch4 - Modifying case studies
+This chapter demonstrates the technical aspects involved with using case studies in a modular way and how to create specific alterations
 
 - ch5 - Contribution guidelines 
-This chapter will describe how to join the community and publish new case studies.
+This chapter will describe how to join the community and publish new case studies. It will provide guidance about how to build new case studies that follow the open case studies principles.
 
 
 [![Render Bookdown and Coursera](https://github.com/jhudsl/OTTR_Template/actions/workflows/render-bookdown.yml/badge.svg)](https://github.com/jhudsl/OTTR_Template/actions/workflows/render-bookdown.yml)
