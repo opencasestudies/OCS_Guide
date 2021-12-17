@@ -5,6 +5,8 @@ leanbuild::set_knitr_image_path()
 
 # Contribution guidelines
 
+In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project.
+
 ## Learning Objectives
 
 *Every chapter also needs Learning objectives that will look like this:  
