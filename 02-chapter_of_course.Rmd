@@ -1,11 +1,9 @@
 
-*If you haven't yet read the getting started Wiki pages; [start there](https://github.com/jhudsl/OTTR_Template/wiki/Getting-started)
-
-Every chapter needs to start out with this chunk of code:
-
 ```{r, include = FALSE}
 leanbuild::set_knitr_image_path()
 ```
+
+# Open Case Study Infastructure
 
 ## Learning Objectives
 
