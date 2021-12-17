@@ -9,7 +9,7 @@ In this chapter we will discuss the guidelines for creating new case studies as 
 
 ## Learning Objectives
 
-*Every chapter also needs Learning objectives that will look like this:  
+*Every chapter also needs Learning objectives that will look like this:   
 
 This chapter will cover:  
 
