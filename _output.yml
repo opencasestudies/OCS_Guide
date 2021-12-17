@@ -1,14 +1,13 @@
 bookdown::gitbook:
   css: assets/style.css
   includes:
-    before_body: assets/big-image.html
     after_body: assets/footer.html
   highlight: tango
   config:
     toc:
       collapse: section
       before: |
-       <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+       <a href="https://www.opencasestudies.org/"><img src="https://opencasestudies.github.io/img/icon.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
       after: |
        <p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
        <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
