@@ -37,19 +37,7 @@ if (!dir.exists(output_dir)) {
 }
 ```
 
-And make plots too:
 
-```{r}
-hist_plot <- hist(iris$Sepal.Length)
-```
-
-You can also save these plots to file:
-
-```{r}
-png(file.path(output_dir, "test_plot.png"))
-hist_plot
-dev.off()
-```
 
 ### Image example
 
