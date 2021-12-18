@@ -1,9 +1,9 @@
 
-*If you haven't yet read the getting started Wiki pages; [start there](https://github.com/jhudsl/OTTR_Template/wiki/Getting-started)
-
-Every chapter needs to start out with this chunk of code:
 
 
+# Contribution guidelines
+
+In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project.
 
 ## Learning Objectives
 
@@ -52,7 +52,7 @@ And make plots too:
 hist_plot <- hist(iris$Sepal.Length)
 ```
 
-![](resources/images/02-chapter_of_course_files/figure-docx/unnamed-chunk-4-1.png)<!-- -->
+![](resources/images/05-OCS_Contribution_files/figure-docx/unnamed-chunk-4-1.png)<!-- -->
 
 You can also save these plots to file:
 
@@ -100,7 +100,7 @@ dev.off()
 
 How to include a Google slide. It's simplest to use the `leanbuild` package:
 
-![](resources/images/02-chapter_of_course_files/figure-docx//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png)
+![](resources/images/05-OCS_Contribution_files/figure-docx//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png)
 
 But if you have the slide or some other image locally downloaded you can also use html like this:
 
