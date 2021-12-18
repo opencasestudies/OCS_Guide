@@ -39,3 +39,8 @@ This guide documents:
 - Examples of how to use the case studies
 - How to modify and adapt components of the case studies for the classroom
 - How to contribute new case studies. 
+
+
+## Open Case Studies Philosophy
+
+## Open Case Studies Anatomy
