@@ -1,13 +1,9 @@
 
 
 
-# Use of open case studies
+# Open Case Study Infastructure
 
 ## Learning Objectives
-
-*Every chapter also needs Learning objectives that will look like this:  
-
-This chapter will cover:  
 
 
 ## Libraries
@@ -41,66 +37,17 @@ if (!dir.exists(output_dir)) {
 }
 ```
 
-And make plots too:
 
-
-```r
-hist_plot <- hist(iris$Sepal.Length)
-```
-
-<img src="resources/images/03-OCS_Use_files/figure-html/unnamed-chunk-4-1.png" width="672" />
-
-You can also save these plots to file:
-
-
-```r
-png(file.path(output_dir, "test_plot.png"))
-hist_plot
-```
-
-```
-## $breaks
-## [1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0
-## 
-## $counts
-## [1]  5 27 27 30 31 18  6  6
-## 
-## $density
-## [1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000
-## [8] 0.08000000
-## 
-## $mids
-## [1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75
-## 
-## $xname
-## [1] "iris$Sepal.Length"
-## 
-## $equidist
-## [1] TRUE
-## 
-## attr(,"class")
-## [1] "histogram"
-```
-
-```r
-dev.off()
-```
-
-```
-## png 
-##   2
-```
 
 ### Image example
 
 
 How to include a Google slide. It's simplest to use the `leanbuild` package:
 
-<img src="resources/images/03-OCS_Use_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
+![](resources/images/02-OCS_Infastructure_files/figure-docx//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png)
 
-But if you have the slide or some other image locally downloaded you can also use html like this:
 
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
+
 
 
 ### Video examples
@@ -112,7 +59,11 @@ You can use `knitr::include_url()` like this:
 knitr::include_url("https://www.youtube.com/embed/VOCYL-FNbr0")
 ```
 
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px"></iframe>
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="100%" height="400px"></iframe>
 
 OR this works:
 
@@ -122,7 +73,7 @@ OR this works:
 
 This works:
 
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="672" height="800px"></iframe>
+<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="100%" height="800px"></iframe>
 
 Or this:
 
@@ -143,7 +94,7 @@ This works:
 knitr::include_url("https://yihui.org")
 ```
 
-<iframe src="https://yihui.org" width="672" height="400px"></iframe>
+<iframe src="https://yihui.org" width="100%" height="400px"></iframe>
 
 OR this:
 
@@ -193,8 +144,8 @@ sessionInfo()
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] knitr_1.33      hms_0.5.3       R6_2.4.1        rlang_0.4.10   
-##  [5] stringr_1.4.0   highr_0.8       httr_1.4.2      tools_4.0.2    
-##  [9] xfun_0.26       jquerylib_0.1.1 htmltools_0.5.0 ellipsis_0.3.1 
+##  [5] highr_0.8       stringr_1.4.0   httr_1.4.2      tools_4.0.2    
+##  [9] webshot_0.5.2   xfun_0.26       htmltools_0.5.0 ellipsis_0.3.1 
 ## [13] yaml_2.2.1      leanbuild_0.1.2 digest_0.6.25   tibble_3.0.3   
 ## [17] lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24   readr_1.4.0    
 ## [21] vctrs_0.3.4     fs_1.5.0        curl_4.3        evaluate_0.14  

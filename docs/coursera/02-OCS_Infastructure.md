@@ -46,9 +46,8 @@ How to include a Google slide. It's simplest to use the `leanbuild` package:
 
 <img src="resources/images/02-OCS_Infastructure_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
 
-But if you have the slide or some other image locally downloaded you can also use html like this:
 
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
+
 
 
 ### Video examples
