@@ -7,7 +7,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Guide for the Open Case Studies Project"
-favicon: assets/dasl_favicon.ico
+favicon: assets/favicon_ocs.ico
 output:
     bookdown::word_document2:
       toc: true
