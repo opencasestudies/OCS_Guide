@@ -5,12 +5,35 @@
 
 
 ## Motivation
+The [Open Case Studies project](https://www.opencasestudies.org), developed at the [Johns Hopkins Data Science Lab](https://jhudatascience.org/), is an education platform that provides self-contained, multimodal, peer-reviewed, and open-source guides for real-world examples for active experiences of complete data analyses. The intention of this guide is to provide instructors more information about how to make the most of our case studies.
 
 
 ## Target Audience  
 
-The course is intended for ...
+This guide is intended for educators who are interested in using the Open Case Studies for instruction.
+
+Elements of the Case studies can be helpful for instructors who teach:
+
+- High school students
+- Undergraduate students
+- Graduate students
+
+Elements of the case studies  can assist with teaching courses about the following topics:
+
+- Data science
+- Statistics
+- Public health
+- Programming
+- Technical writing  
+
+... and more
 
 ## Curriculum  
 
-The course covers...
+This guide documents:
+
+- The open case studies philosphy
+- Various entry points to using the case studies (including an R package to enable modular use of the case studies)
+- Examples of how to use the case studies
+- How to modify and adapt components of the case studies for the classroom
+- How to contribute new case studies. 
