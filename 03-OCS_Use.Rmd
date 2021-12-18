@@ -11,8 +11,6 @@ leanbuild::set_knitr_image_path()
 
 This chapter will cover:  
 
-- {You can use https://tips.uark.edu/using-blooms-taxonomy/ to define some learning objectives here}
-- {Another learning objective}
 
 ## Libraries
 
