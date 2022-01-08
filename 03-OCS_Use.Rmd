@@ -34,3 +34,29 @@ Some educators may find that only certain sections of a case study are relevant 
 | simpler_import | Data Import                       | Introductory data science instructor wants students to practice data import without over-complication |
 | extra          | Not Used in Case Study            | Public health course assigns homework to practice case study methods with similar but new data        | 
 
+## Academic Levels
+
+The following table lists the lowest recommended academic level that would be appropriate for each case study.
+
+| Case Study | Minimum Academic Level |
+| ---------- | ---------------------- |
+| ![School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/) | Undergraduate | 
+| ![Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection/) | Undergraduate |
+| ![Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/) | Undergraduate | 
+| ![Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study/) | High School (?) |
+| ![Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health/) | Undergraduate |
+| ![Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity/) | Undergraduate |
+| ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis/) | Graduate (?) |
+| ![Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions/) | High School |
+| ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/) | Graduate (?) |
+| ![Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet/) | Undergraduate |
+| ![Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution/) | Undergraduate (?) |
+
+**should I include the health expenditure case study in this table?**
+
+## Examples
+
+
+## Homework Assignments
+
+
