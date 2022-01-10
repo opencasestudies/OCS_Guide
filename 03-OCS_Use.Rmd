@@ -52,11 +52,12 @@ The following table lists the lowest recommended academic level that would be ap
 | ![Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet/) | Undergraduate |
 | ![Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution/) | Undergraduate (?) |
 
-**should I include the health expenditure case study in this table?**
+*dont need table*
 
 ## Examples
 
 
 ## Homework Assignments
+
 
 
