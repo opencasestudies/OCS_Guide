@@ -34,7 +34,7 @@ Elements of the case studies  can assist with teaching courses about the followi
 
 This guide documents:
 
-- The open case studies philosphy 
+- The open case studies philosophy 
 - The general structure of case studies
 - Various entry points to using the case studies (including an R package to enable modular use of the case studies)
 - Examples of how to use the case studies

@@ -3,7 +3,7 @@
 leanbuild::set_knitr_image_path()
 ```
 
-# Open Case Study Infastructure
+# Open Case Study Infrastructure
 
 ## Learning Objectives
 
@@ -16,7 +16,7 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 
 ## OCS Website 
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, amongst other information. 
+The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, among other information. 
 
 The website also includes a link to a [user experience survey](https://www.opencasestudies.org/) (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out  if you have the time! 
 
@@ -28,7 +28,7 @@ The [OCS case study search tool](https://www.opencasestudies.org/#searchtab) is 
 
 The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
 
-The table also includes links to both the static and interactive versions oof the case studies and their GitHub repositories. 
+The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. 
 
 
 (Include example of one case study row)
@@ -42,7 +42,7 @@ Data included in the GitHub repository is available in multiple formats to facil
 (Add figure 2.4 outlining repo structure)
 
 ## OCSdata 
-To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downlaods the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analyis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
+To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
 
 (Add table 2.1 summarizing data formats available for download via OCSdata)
 
@@ -50,7 +50,7 @@ To simplify the process of accessing the data required for each case study, we h
 
 The `OCSdata` package is available on the package repository CRAN and can be installed in R as follows: 
 
-[R version equirement?]
+[avocado R version requirement?]
 
 ```{r, include = TRUE, eval = FALSE}
 install.packages("OCSdata") #only run once to install package
