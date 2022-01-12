@@ -31,7 +31,7 @@ The main two columns likely to be helpful in identifying appropriate case studie
 The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. 
 
 
-(Include example of one case study row)
+(avocado Include example of one case study row)
 
 ## GitHub Organization 
 
