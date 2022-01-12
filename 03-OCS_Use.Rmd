@@ -9,6 +9,16 @@ leanbuild::set_knitr_image_path()
 
 This chapter will provide guidance on how to use Open Case Studies in classroom settings for beginner, intermediate, and advanced students. Example uses will be discussed as well as suggestions for crafting homework assignments based on the case studies. 
 
+### Experience Level Descriptions
+
+| Experience Level | Description |
+| ---------------- | ----------- |
+| Beginner         | Little to no previous experience with coding and/or statistical analysis. |
+| Intermediate     | Familiar with at least one programming language and has experience working with data and statistics. |
+| Advanced         | Fluent in at least one programming language and likely familiar with more. Has a depth of experience working with data science projects. |
+
+Typically, most middle/high school and first year undergraduate students will fit in the beginner category. Upperclassmen undergraduates and some graduate students are often at the intermediate level. Most advanced level students will be at the graduate level. However, this is a generalization, and a student may be considered beginner, intermediate, or advanced at any academic level depending on their independent studies and experiences. 
+
 ## Open Case Studies in the Classroom
 
 The case studies are structured to support both partial and full use of a case study.  
@@ -34,23 +44,16 @@ Some educators may find that only certain sections of a case study are relevant 
 | simpler_import | Data Import | Introductory data science instructor wants students to practice data import without over-complication |
 | extra | Not Used in Case Study | Public health course assigns homework to practice case study methods with similar but new data | 
 
-## Academic Levels
+## Case Study Reccomendations
 
-The following table lists the lowest recommended academic level that would be appropriate for each case study.
+The following table lists a few example case studies that would be suitable for each experience level. 
 
-| Case Study | Minimum Academic Level |
-| ---------- | ---------------------- |
-| ![School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/) | Undergraduate | 
-| ![Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection/) | Undergraduate |
-| ![Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/) | Undergraduate | 
-| ![Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study/) | High School (?) |
-| ![Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health/) | Undergraduate |
-| ![Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity/) | Undergraduate |
-| ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis/) | Graduate (?) |
-| ![Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions/) | High School |
-| ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/) | Graduate (?) |
-| ![Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet/) | Undergraduate |
-| ![Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution/) | Undergraduate (?) |
+| Experience Level | Case Studies |
+| ---------------- | ------------ |
+| Beginner         | ![Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions/), ![Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study/) |
+| Intermediate     | ![Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), ![Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/) |
+| Advanced         | ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/), ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis/) |
+
 
 ## Examples
 
