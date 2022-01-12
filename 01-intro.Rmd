@@ -34,7 +34,7 @@ Elements of the case studies  can assist with teaching courses about the followi
 
 This guide documents:
 
-- The open case studies philosphy 
+- The open case studies philosophy 
 - The general structure of case studies
 - Various entry points to using the case studies (including an R package to enable modular use of the case studies)
 - Examples of how to use the case studies
@@ -55,7 +55,7 @@ knitr::include_graphics('assets/ocs_anatomy.png', dpi = NA)
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
 
-Each case study is composed of three main stages.
+Each case study is composed of three main stages. 
 - Stage 1: Getting Started 
 In the first stage, students learn about the subject area they will be investigating in their data analysis. This can include historical perspectives, previous literature, and current overarching questions in the field. Ideally, this will provide motivation as to why the data analysis they will be performing is interesting and useful. Students will then further refine questions of interest and define a specific question to be investigated by the data at hand. This question will define the statistical and data science learning objectives for the case study. Finally, students will explore the limitations of their investigation and discuss why their data analysis may or may not be able to fully answer the main question of interest. 
 	- Case study context 

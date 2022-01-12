@@ -7,125 +7,41 @@ leanbuild::set_knitr_image_path()
 
 ## Learning Objectives
 
-*Every chapter also needs Learning objectives that will look like this:  
+In this chapter we will discuss how we envisioned case studies to be used in the classroom. We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners. We will present some examples of assignments that can accompany the case studies and the rubrics that they can be evaluated with. Furthermore, we provide examples of extensions to case studies that can serve as a template for homework assignments or independent student exploration. 
 
-This chapter will cover:  
+The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please let us know what you come up with so that other educators may be inspired by your creativity. 
 
 
-## Libraries
+## Examples of assignments 
 
-For this chapter, we'll need the following packages attached:
+In addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their technical writing and communication skills. This includes but is not limited to data visualization and presentation, written reports, and oral presentations. 
 
-*Remember to add [any additional packages you need to your course's own docker image](https://github.com/jhudsl/OTTR_Template/wiki/Using-Docker#starting-a-new-docker-image).
+### Data visualization
 
-```{r}
-library(magrittr)
+The data visualizations included in the case studies are not the only way to present the results of the analyses. Below is an example of an assignment to guide students in exploring different ways of visualizing the same results.
+
+(avocado data visualization assignment guide, example, rubric)
+
+### Written report 
+
+Below is an example of a scientific-style paper written based on the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question). We also include an example rubric by which this paper can be evaluated adapted from [here](https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation). 
+
+(avocado report assignment guide)
+[OCS Opioid Use in the US Example Report](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf)
+[OCS Opioid Use in the US Example Report Rubric](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf)
+
+
+### Oral presentation 
+
+Below is an example of a presentation based on the [Vaping Behaviors in American Youth Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).  
+
+(avocado insert presentation assignment guide, example, and grading rubric)
+
+
+```{r, echo = FALSE, eval = FALSE}
+"https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation"
 ```
 
-# Topic of Section
-
-You can write all your text in sections like this!
-
-## Subtopic
-
-Here's a subheading and some text in this subsection!
-
-### Code examples
-
-You can demonstrate code like this:
-
-```{r}
-output_dir <- file.path("resources", "code_output")
-if (!dir.exists(output_dir)) {
-  dir.create(output_dir)
-}
-```
-
-And make plots too:
-
-```{r}
-hist_plot <- hist(iris$Sepal.Length)
-```
-
-You can also save these plots to file:
-
-```{r}
-png(file.path(output_dir, "test_plot.png"))
-hist_plot
-dev.off()
-```
-
-### Image example
-
-
-How to include a Google slide. It's simplest to use the `leanbuild` package:
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Major point!! example image"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ/edit#slide=id.gcc4fbee202_0_141")
-```
-
-But if you have the slide or some other image locally downloaded you can also use html like this:
-
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
-
-
-### Video examples
-
-You can use `knitr::include_url()` like this:
-
-```{r}
-knitr::include_url("https://www.youtube.com/embed/VOCYL-FNbr0")
-```
-
-OR this works:
-
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px"></iframe>
-
-### Links to files
-
-This works:
-
-```{r, fig.align="center", echo=FALSE}
-knitr::include_url("https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf", height = "800px")
-```
-
-Or this:
-
-[This works](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf).
-
-Or this:
-
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="672" height="800px"></iframe>
-
-### Links to websites
-
-Examples of including a website link.
-
-This works:
-
-```{r, fig.align="center"}
-knitr::include_url("https://yihui.org")
-```
-
-OR this:
-
-![Another link](https://yihui.org)
-
-OR this:
-
-<iframe src="https://yihui.org" width="672" height="400px"></iframe>
-
-### Citation examples
-
-We can put citations at the end of a sentence like this [@rmarkdown2021].
-Or multiple citations [@rmarkdown2021, @Xie2018].
-
-but they need a ; separator [@rmarkdown2021; @Xie2018].
-
-In text, we can put citations like this @rmarkdown2021.
-
-## Print out session info
-
-```{r}
+```{r, echo = FALSE}
 sessionInfo()
 ```
