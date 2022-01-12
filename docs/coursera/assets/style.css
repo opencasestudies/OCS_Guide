@@ -166,6 +166,23 @@ color: #050180
   padding-left: 11px !important;
 } 
 
+.trapezoid {
+  width: 130px;
+  text-align: center;
+  height: 15; 
+  position: relative;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #dbdbdb;
+  border-left: 50px solid transparent;
+  box-sizing: content-box;
+}
+.trapezoid span { 
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5%;
+  color: #fff;
+}
 
 li.appendix span, li.part span { /* for TOC part names */
   margin-top: 1em;
