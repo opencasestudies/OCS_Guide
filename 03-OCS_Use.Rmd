@@ -21,7 +21,7 @@ Typically, most middle/high school and first year undergraduate students will fi
 
 ## Open Case Studies in the Classroom
 
-The case studies are structured to support both partial and full use of a case study.  
+The case studies are structured to support both partial and full use of a case study. Educators are also free to use case study data by itself.  
 
 ### Teaching a Full Case Study
 
@@ -43,6 +43,16 @@ Some educators may find that only certain sections of a case study are relevant 
 | wrangled | Data Visualization, Data Analysis | Statistics course practicing analysis methods with real data as a live lesson |
 | simpler_import | Data Import | Introductory data science instructor wants students to practice data import without over-complication |
 | extra | Not Used in Case Study | Public health course assigns homework to practice case study methods with similar but new data | 
+
+*MB: Should we highlight the interactive case studies here as well?*
+
+### Teaching With Case Study Data Only
+
+- Data available on GitHub
+- Can use OCSdata package for streamlined data retrieval process
+- Suggestions on how to use data?
+- Look at case studies for exercise ideas
+- more?
 
 ## Case Study Recommendations
 
