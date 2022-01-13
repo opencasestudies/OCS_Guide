@@ -3,7 +3,7 @@
 leanbuild::set_knitr_image_path()
 ```
 
-# Use of open case studies
+# Use of Open Case Studies
 
 ## Learning Objectives
 
