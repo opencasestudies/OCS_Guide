@@ -44,7 +44,7 @@ Some educators may find that only certain sections of a case study are relevant 
 | simpler_import | Data Import | Introductory data science instructor wants students to practice data import without over-complication |
 | extra | Not Used in Case Study | Public health course assigns homework to practice case study methods with similar but new data | 
 
-## Case Study Reccomendations
+## Case Study Recommendations
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
