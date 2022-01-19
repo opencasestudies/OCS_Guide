@@ -5,173 +5,39 @@
 
 ## Learning Objectives
 
-*Every chapter also needs Learning objectives that will look like this:  
+In this chapter we will discuss how we envisioned case studies to be used in the classroom. We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners. We will present some examples of assignments that can accompany the case studies and the rubrics that they can be evaluated with. Furthermore, we provide examples of extensions to case studies that can serve as a template for homework assignments or independent student exploration. 
 
-This chapter will cover:  
+The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please let us know what you come up with so that other educators may be inspired by your creativity. 
 
 
-## Libraries
+## Examples of assignments 
 
-For this chapter, we'll need the following packages attached:
+In addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their technical writing and communication skills. This includes but is not limited to data visualization and presentation, written reports, and oral presentations. 
 
-*Remember to add [any additional packages you need to your course's own docker image](https://github.com/jhudsl/OTTR_Template/wiki/Using-Docker#starting-a-new-docker-image).
+### Data visualization
 
+The data visualizations included in the case studies are not the only way to present the results of the analyses. Below is an example of an assignment to guide students in exploring different ways of visualizing the same results.
 
-```r
-library(magrittr)
-```
+(avocado data visualization assignment guide, example, rubric)
 
-# Topic of Section
+### Written report 
 
-You can write all your text in sections like this!
+Below is an example of a scientific-style paper written based on the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question). We also include an example rubric by which this paper can be evaluated adapted from [here](https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation). 
 
-## Subtopic
+(avocado report assignment guide)
+[OCS Opioid Use in the US Example Report](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf)
+[OCS Opioid Use in the US Example Report Rubric](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf)
 
-Here's a subheading and some text in this subsection!
 
-### Code examples
+### Oral presentation 
 
-You can demonstrate code like this:
+Below is an example of a presentation based on the [Vaping Behaviors in American Youth Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).  
 
+(avocado insert presentation assignment guide, example, and grading rubric)
 
-```r
-output_dir <- file.path("resources", "code_output")
-if (!dir.exists(output_dir)) {
-  dir.create(output_dir)
-}
-```
 
-And make plots too:
 
 
-```r
-hist_plot <- hist(iris$Sepal.Length)
-```
-
-![](resources/images/03-OCS_Use_files/figure-docx/unnamed-chunk-4-1.png)<!-- -->
-
-You can also save these plots to file:
-
-
-```r
-png(file.path(output_dir, "test_plot.png"))
-hist_plot
-```
-
-```
-## $breaks
-## [1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0
-## 
-## $counts
-## [1]  5 27 27 30 31 18  6  6
-## 
-## $density
-## [1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000
-## [8] 0.08000000
-## 
-## $mids
-## [1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75
-## 
-## $xname
-## [1] "iris$Sepal.Length"
-## 
-## $equidist
-## [1] TRUE
-## 
-## attr(,"class")
-## [1] "histogram"
-```
-
-```r
-dev.off()
-```
-
-```
-## png 
-##   2
-```
-
-### Image example
-
-
-How to include a Google slide. It's simplest to use the `leanbuild` package:
-
-![](resources/images/03-OCS_Use_files/figure-docx//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png)
-
-But if you have the slide or some other image locally downloaded you can also use html like this:
-
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
-
-
-### Video examples
-
-You can use `knitr::include_url()` like this:
-
-
-```r
-knitr::include_url("https://www.youtube.com/embed/VOCYL-FNbr0")
-```
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="100%" height="400px"></iframe>
-
-OR this works:
-
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px"></iframe>
-
-### Links to files
-
-This works:
-
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="100%" height="800px"></iframe>
-
-Or this:
-
-[This works](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf).
-
-Or this:
-
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="672" height="800px"></iframe>
-
-### Links to websites
-
-Examples of including a website link.
-
-This works:
-
-
-```r
-knitr::include_url("https://yihui.org")
-```
-
-<iframe src="https://yihui.org" width="100%" height="400px"></iframe>
-
-OR this:
-
-![Another link](https://yihui.org)
-
-OR this:
-
-<iframe src="https://yihui.org" width="672" height="400px"></iframe>
-
-### Citation examples
-
-We can put citations at the end of a sentence like this [@rmarkdown2021].
-Or multiple citations [@rmarkdown2021, @Xie2018].
-
-but they need a ; separator [@rmarkdown2021; @Xie2018].
-
-In text, we can put citations like this @rmarkdown2021.
-
-## Print out session info
-
-
-```r
-sessionInfo()
-```
 
 ```
 ## R version 4.0.2 (2020-06-22)
@@ -192,16 +58,12 @@ sessionInfo()
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
-## other attached packages:
-## [1] magrittr_1.5
-## 
 ## loaded via a namespace (and not attached):
-##  [1] knitr_1.33      hms_0.5.3       R6_2.4.1        rlang_0.4.10   
-##  [5] stringr_1.4.0   highr_0.8       httr_1.4.2      tools_4.0.2    
-##  [9] webshot_0.5.2   xfun_0.26       htmltools_0.5.0 ellipsis_0.3.1 
-## [13] yaml_2.2.1      leanbuild_0.1.2 digest_0.6.25   tibble_3.0.3   
-## [17] lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24   readr_1.4.0    
-## [21] vctrs_0.3.4     fs_1.5.0        curl_4.3        evaluate_0.14  
-## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
-## [29] pkgconfig_2.0.3
+##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_1.5    evaluate_0.14   pillar_1.4.6   
+##  [9] leanbuild_0.1.2 rlang_0.4.10    stringi_1.5.3   fs_1.5.0       
+## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
+## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
+## [21] yaml_2.2.1      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
+## [25] knitr_1.33      tibble_3.0.3
 ```

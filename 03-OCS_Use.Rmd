@@ -11,6 +11,10 @@ This chapter will provide guidance on how to use Open Case Studies in classroom 
 
 ### Experience Level Descriptions
 
+In this chapter we will discuss how we envisioned case studies to be used in the classroom. We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners. We will present some examples of assignments that can accompany the case studies and the rubrics that they can be evaluated with. Furthermore, we provide examples of extensions to case studies that can serve as a template for homework assignments or independent student exploration. 
+
+The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please let us know what you come up with so that other educators may be inspired by your creativity. 
+
 | Experience Level | Description |
 | ---------------- | ----------- |
 | Beginner         | Little to no previous experience with coding and/or statistical analysis. |
@@ -71,4 +75,39 @@ The following table lists a few example case studies that would be suitable for 
 ## Homework Assignments
 
 
+
+=======
+## Examples of assignments 
+
+In addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their technical writing and communication skills. This includes but is not limited to data visualization and presentation, written reports, and oral presentations. 
+
+### Data visualization
+
+The data visualizations included in the case studies are not the only way to present the results of the analyses. Below is an example of an assignment to guide students in exploring different ways of visualizing the same results.
+
+(avocado data visualization assignment guide, example, rubric)
+
+### Written report 
+
+Below is an example of a scientific-style paper written based on the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question). We also include an example rubric by which this paper can be evaluated adapted from [here](https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation). 
+
+(avocado report assignment guide)
+[OCS Opioid Use in the US Example Report](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf)
+[OCS Opioid Use in the US Example Report Rubric](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf)
+
+
+### Oral presentation 
+
+Below is an example of a presentation based on the [Vaping Behaviors in American Youth Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).  
+
+(avocado insert presentation assignment guide, example, and grading rubric)
+
+
+```{r, echo = FALSE, eval = FALSE}
+"https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation"
+```
+
+```{r, echo = FALSE}
+sessionInfo()
+```
 

@@ -11,5 +11,7 @@ bookdown::gitbook:
        <a href="https://www.opencasestudies.org/"><img src="https://opencasestudies.github.io/img/icon.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
       after: |
        <p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
-       <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+       <p style="text-align:center;"> <a href="https://www.opencasestudies.org/"> Open Case Studies</a></p>
+       <p style="text-align:center;"> <a href="http://jhudatascience.org/">  of the Johns Hopkins Data Science Lab </a></p>
        <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+       <p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://github.com/opencasestudies/OCS_Guide/issues/new/choose"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
