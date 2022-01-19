@@ -1,8 +1,8 @@
 AnVIL
 BIPOC
 Bloomberg
+csv
 Datatrail
-DataTrail
 GDSCN
 impactful
 ITCR
@@ -11,14 +11,10 @@ ITN
 Leanpub
 Markua
 mentorship
+modularization
+multicollinearity
 NCI
 NHGRI
-UE
-UE5
-underserved
-www
-csv
-modularization
 OCS
 OCSdata
 OpenCaseStudies
@@ -27,3 +23,7 @@ rda
 repo
 Rmd
 Rstudio
+UE
+UE5
+underserved
+www
