@@ -80,14 +80,17 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	- Homework 
 	- Additional info
 
+## Starter Kit
 
+Open Case Studies are designed to be beginner friendly. Users can work through an entire case study with no prerequisite knowledge in programming, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is required. This section will detail what students will need to be able to jump into a case study. 
 
+(avocado grab material from intro to R course)
 
+### Technical Requirements 
 
+(avocado note from slack: what physical resources are needed - software installed - what type of computers - think about interactive case studies)
 
+### R Studio
 
-
-
-
-
+(avocado material from R course, maybe a R Studio anatomy figure)
 
