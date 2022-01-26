@@ -27,8 +27,7 @@ teaching-a-full-case-study
 teaching-part-of-a-case-study
 teaching-with-case-study-data-only
 case-study-recommendations
-examples
-homework-assignments
+examples-of-assignments
 data-visualization
 written-report
 oral-presentation
