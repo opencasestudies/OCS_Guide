@@ -79,6 +79,11 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	- Next steps 
 	- Homework 
 	- Additional info
+	
+This anatomy is reflected in the table of contents:	
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents"}
+knitr::include_graphics('assets/OCS_TOC_anatomy.png', dpi = NA)
+```
 
 ## Starter Kit
 
