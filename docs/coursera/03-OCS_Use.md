@@ -13,8 +13,10 @@ In this chapter we will discuss how we envisioned case studies to be used in the
 
 The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please let us know what you come up with so that other educators may be inspired by your creativity. 
 
-| Experience Level | Description |
-| ---------------- | ----------- |
+The table below explains how we define the beginner, intermediate, and advanced experience levels. 
+
+| Experience Level | Description      |
+| ---------------- | ---------------- |
 | Beginner         | Little to no previous experience with coding and/or statistical analysis. |
 | Intermediate     | Familiar with at least one programming language and has experience working with data and statistics. |
 | Advanced         | Fluent in at least one programming language and likely familiar with more. Has a depth of experience working with data science projects. |
@@ -62,19 +64,10 @@ The following table lists a few example case studies that would be suitable for 
 
 | Experience Level | Case Studies |
 | ---------------- | ------------ |
-| Beginner         | ![Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions/), ![Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study/) |
-| Intermediate     | ![Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), ![Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/) |
-| Advanced         | ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/), ![Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis/) |
+| Beginner         | [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions/), [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study/) |
+| Intermediate     | [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/) |
+| Advanced         | [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/), [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis/) |
 
-
-## Examples
-
-
-## Homework Assignments
-
-
-
-=======
 ## Examples of assignments 
 
 In addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their technical writing and communication skills. This includes but is not limited to data visualization and presentation, written reports, and oral presentations. 
