@@ -29,12 +29,12 @@ library(OCSdata)
 
 ## Modify a case study
 
-*short explanation of case study structure: Rstudio projects written in .Rmds, knitted to HTML and hosted on GitHub
-*tutorial on Rmd's and knitting in RStudio
+*short explanation of case study structure: RStudio projects written in Rmd, knitted to HTML and hosted on GitHub
+*tutorial on .Rmd and knitting in RStudio
 *tutorial on GitHub: forking
 *step by step example of forking a case study repository, editing Rmd content, knitting, and sharing the output
 
 ## Create a case study
 
-*tutorial on how to create a case study using github template
-*tutorial on how to create a case study using makecasestudies webapp
+*tutorial on how to create a case study using GitHub template
+*tutorial on how to create a case study using MakeCaseStudies app
