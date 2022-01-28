@@ -7,127 +7,34 @@ leanbuild::set_knitr_image_path()
 
 ## Learning Objectives
 
-*Every chapter also needs Learning objectives that will look like this:  
+This chapter will cover how to modify the case studies to your own needs using the following methods:  
 
-This chapter will cover:  
-
-- {You can use https://tips.uark.edu/using-blooms-taxonomy/ to define some learning objectives here}
-- {Another learning objective}
+- Modular case study use with the help of the [OCSdata package](https://github.com/opencasestudies/OCSdata)
+- Modifying a case study with [GitHub](https://github.com/opencasestudies) and [RStudio](https://www.rstudio.com/)
+- Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template) and [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/)
 
 ## Libraries
 
 For this chapter, we'll need the following packages attached:
 
-*Remember to add [any additional packages you need to your course's own docker image](https://github.com/jhudsl/OTTR_Template/wiki/Using-Docker#starting-a-new-docker-image).
-
 ```{r}
-library(magrittr)
+library(OCSdata)
 ```
 
-# Topic of Section
+## Modular use
 
-You can write all your text in sections like this!
+*short explanation of how case studies can be used modularly for those who want to break the case study up or are only interested in part of the case study 
+*table about which package functions to use for each section in a case study you could start from
+*step by step example of how to jump into the middle of a case study (do data analysis section as an example?)
 
-## Subtopic
+## Modify a case study
 
-Here's a subheading and some text in this subsection!
+*short explanation of case study structure: Rstudio projects written in .Rmds, knitted to HTML and hosted on GitHub
+*tutorial on Rmd's and knitting in RStudio
+*tutorial on GitHub: forking
+*step by step example of forking a case study repository, editing Rmd content, knitting, and sharing the output
 
-### Code examples
+## Create a case study
 
-You can demonstrate code like this:
-
-```{r}
-output_dir <- file.path("resources", "code_output")
-if (!dir.exists(output_dir)) {
-  dir.create(output_dir)
-}
-```
-
-And make plots too:
-
-```{r}
-hist_plot <- hist(iris$Sepal.Length)
-```
-
-You can also save these plots to file:
-
-```{r}
-png(file.path(output_dir, "test_plot.png"))
-hist_plot
-dev.off()
-```
-
-### Image example
-
-
-How to include a Google slide. It's simplest to use the `leanbuild` package:
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Major point!! example image"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ/edit#slide=id.gcc4fbee202_0_141")
-```
-
-But if you have the slide or some other image locally downloaded you can also use html like this:
-
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
-
-
-### Video examples
-
-You can use `knitr::include_url()` like this:
-
-```{r}
-knitr::include_url("https://www.youtube.com/embed/VOCYL-FNbr0")
-```
-
-OR this works:
-
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px"></iframe>
-
-### Links to files
-
-This works:
-
-```{r, fig.align="center", echo=FALSE}
-knitr::include_url("https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf", height = "800px")
-```
-
-Or this:
-
-[This works](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf).
-
-Or this:
-
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="672" height="800px"></iframe>
-
-### Links to websites
-
-Examples of including a website link.
-
-This works:
-
-```{r, fig.align="center"}
-knitr::include_url("https://yihui.org")
-```
-
-OR this:
-
-![Another link](https://yihui.org)
-
-OR this:
-
-<iframe src="https://yihui.org" width="672" height="400px"></iframe>
-
-### Citation examples
-
-We can put citations at the end of a sentence like this [@rmarkdown2021].
-Or multiple citations [@rmarkdown2021, @Xie2018].
-
-but they need a ; separator [@rmarkdown2021; @Xie2018].
-
-In text, we can put citations like this @rmarkdown2021.
-
-## Print out session info
-
-```{r}
-sessionInfo()
-```
+*tutorial on how to create a case study using github template
+*tutorial on how to create a case study using makecasestudies webapp
