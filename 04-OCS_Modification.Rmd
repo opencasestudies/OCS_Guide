@@ -38,3 +38,9 @@ library(OCSdata)
 
 *tutorial on how to create a case study using GitHub template
 *tutorial on how to create a case study using MakeCaseStudies app
+
+## Session info
+
+```{r, echo = FALSE}
+sessionInfo()
+```
