@@ -10,7 +10,7 @@ leanbuild::set_knitr_image_path()
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
 * our website
 * an open case studies search tool
-* our GitHub organization
+* our GitHub
 * OCSdata package
 
 
@@ -33,14 +33,23 @@ The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) functio
 - The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.)
 - The "Category" column lists the source of funding (?avacado)
 
+This table can be used to access all case study resources:
+```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table"}
+knitr::include_graphics('assets/OCS_GitHub_Repository_Diagram_Draft3.png', dpi = NA)
+```
+This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.
 
-## GitHub Organization 
 
-The GitHub repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. 
+## OCS GitHub 
 
-Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the OCSdata R package described below. 
+GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. 
 
-(Add figure 2.4 outlining repo structure)
+Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies as described below. 
+```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table"}
+knitr::include_graphics('assets/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
+```
+
+To use the case study data, you can download the GitHub repository directly or use the OCSdata R package described below. 
 
 ## OCSdata 
 To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
