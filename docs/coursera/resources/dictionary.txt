@@ -1,9 +1,11 @@
+Aldhous
 AnVIL
 BIPOC
 Bloomberg
 csv
 Datatrail
 GDSCN
+homeworks
 impactful
 ITCR
 itcrtraining
@@ -18,11 +20,14 @@ NHGRI
 OCS
 OCSdata
 OpenCaseStudies
+Opioid
 Opioids
+Peng
 rda
 repo
 Rmd
 Rstudio
+skillsets
 UE
 UE5
 underserved
