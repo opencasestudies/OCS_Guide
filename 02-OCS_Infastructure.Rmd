@@ -11,27 +11,28 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 * our website
 * an open case studies search tool
 * our GitHub organization
-* an R package called OCSdata
+* OCSdata package
 
 
 ## OCS Website 
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Studies Website Landing Page"}
+knitr::include_graphics('assets/OCSwebsite.png', dpi = NA)
+```
+Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can be found on the website as well as an archive of talks and blog posts. 
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, among other information. 
-
-The website also includes a link to a [user experience survey](https://www.opencasestudies.org/) (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out  if you have the time! 
-
-Finally, the website includes the OCS case study search tool to aid instructors in finding appropriate case studies for their learning objectives. The search tool is described in more detail below. 
 
 ## OCS Case Study Search Tool 
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Studies Searchable Table"}
+knitr::include_graphics('assets/searchtable.png', dpi = NA)
+```
+The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) function can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
 
-The [OCS case study search tool](https://www.opencasestudies.org/#searchtab) is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
+- The "Case Study" column contains the case study name and a link to the case study itself
+- The "GitHub Repository" column provides links to the case study's associated GitHub repository that contains all case study source files, data, code, and more. 
+- The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill
+- The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.)
+- The "Category" column lists the source of funding (?avacado)
 
-The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
-
-The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. 
-
-
-(avocado Include example of one case study row)
 
 ## GitHub Organization 
 
@@ -119,6 +120,12 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
 ### Forking the case study repository
+
+
+
+## Feedback
+
+If you would like to provide feedback on the Open Case Studies please do so with our [user feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link). The survey should take no more than 10 minutes to complete and can be found on the [OCS website](https://www.opencasestudies.org/#survey) as well as within the case studies themselves. Your feedback helps us understand how we can better meet the needs of our users. We greatly appreciate any responses provided.
 
 
 ```{r, echo = FALSE}
