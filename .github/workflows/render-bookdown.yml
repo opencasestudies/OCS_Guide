@@ -78,7 +78,8 @@ jobs:
           docker run \
           --mount type=bind,target=/home/rstudio,source=$PWD \
           jhudsl/ocs_guide \
-          Rscript -e "leanbuild::render_coursera()"
+          Rscript -e "ottr::render_coursera()"
+
 
 ##### End of Coursera rendering section ########################################
 

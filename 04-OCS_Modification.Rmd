@@ -37,7 +37,7 @@ library(OCSdata)
 ## Create a case study
 
 *tutorial on how to create a case study using GitHub template
-*tutorial on how to create a case study using MakeCaseStudies app
+*tutorial on how to create a case study using [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app
 
 ## Session info
 
