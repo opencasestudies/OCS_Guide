@@ -96,7 +96,7 @@ dev.off()
 ### Image example
 
 
-How to include a Google slide. It's simplest to use the `leanbuild` package:
+How to include a Google slide. It's simplest to use the `ottr` package:
 
 <img src="resources/images/04-OCS_Modification_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
 
@@ -197,7 +197,7 @@ sessionInfo()
 ##  [1] knitr_1.33      hms_0.5.3       R6_2.4.1        rlang_0.4.10   
 ##  [5] stringr_1.4.0   highr_0.8       httr_1.4.2      tools_4.0.2    
 ##  [9] xfun_0.26       jquerylib_0.1.1 htmltools_0.5.0 ellipsis_0.3.1 
-## [13] yaml_2.2.1      leanbuild_0.1.2 digest_0.6.25   tibble_3.0.3   
+## [13] yaml_2.2.1      ottr_0.1.2 digest_0.6.25   tibble_3.0.3   
 ## [17] lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24   readr_1.4.0    
 ## [21] vctrs_0.3.4     fs_1.5.0        curl_4.3        evaluate_0.14  
 ## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
