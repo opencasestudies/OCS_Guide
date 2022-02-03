@@ -22,7 +22,7 @@ jobs:
   render-main:
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/course_template
+      image: jhudsl/ocs_guide
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -60,11 +60,11 @@ jobs:
           load: true
           context: docker
           file: docker/Dockerfile
-          tags: jhudsl/course_template
+          tags: jhudsl/ocs_guide
 
       # Push the Docker image
       - name: Push Docker image
-        run: docker push jhudsl/course_template
+        run: docker push jhudsl/ocs_guide
 
 ###### END OF DOCKER UPDATE CHUNK ##############################################
 
