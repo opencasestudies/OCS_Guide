@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:4.0.2
+FROM FROM jhudsl/course_template
 LABEL maintainer="cansav09@gmail.com"
 WORKDIR /rocker-build/
 
