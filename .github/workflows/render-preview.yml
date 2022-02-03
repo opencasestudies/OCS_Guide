@@ -14,7 +14,7 @@ jobs:
   render-preview:
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/course_template
+      image: jhudsl/ocs_guide
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -54,7 +54,7 @@ jobs:
       # Run Coursera version
       - name: Run Coursera version of render
         id: coursera
-        run: Rscript -e "ottr::render_coursera()"
+        run: Rscript -e "leanbuild::render_coursera()"
 
 ##### End of Coursera rendering section ########################################
 
