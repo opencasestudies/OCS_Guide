@@ -1,9 +1,5 @@
 
-# This code was originally written by Josh Shapiro and Candace Savonen
-# for the Childhood Cancer Data Lab, an initiative of Alexs Lemonade Stand Foundation.
-# https://github.com/AlexsLemonade/refinebio-examples/blob/33cdeff66d57f9fe8ee4fcb5156aea4ac2dce07f/.github/workflows/style-and-sp-check.yml#L1
-
-# Adapted for this jhudsl repository by Candace Savonen Apr 2021
+# Candace Savonen Jan 2022
 
 name: Render Bookdown and Coursera
 
@@ -21,8 +17,7 @@ jobs:
   # This workflow contains a single job called "build-all"
   render-main:
     runs-on: ubuntu-latest
-    container:
-      image: jhudsl/ocs_guide
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -34,17 +29,13 @@ jobs:
           # use github PAT
           token: ${{ secrets.GH_PAT }}
 
-###### If you will be making changes to the Docker image to make specific to the
-###### course, then highlight this chunk and uncomment it. #####################
-###### Recommend using short cut -- Command and / works for some editors.#######
-###### START OF DOCKER UPDATE CHUNK
       # Login to Dockerhub
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-
+          
       # Set up Docker build
       - name: Set up Docker Build
         uses: docker/setup-buildx-action@v1
@@ -66,8 +57,6 @@ jobs:
       - name: Push Docker image
         run: docker push jhudsl/ocs_guide
 
-###### END OF DOCKER UPDATE CHUNK ##############################################
-
       # We want a fresh run of the renders each time
       - name: Delete old docs/*
         run: rm -r docs/*
@@ -75,13 +64,21 @@ jobs:
       # Run bookdown rendering
       - name: Run bookdown render
         id: bookdown
-        run: Rscript -e "bookdown::render_book('index.Rmd', output_format = 'all')"
+        run: |
+          docker run \
+          --mount type=bind,target=/home/rstudio,source=$PWD \
+          jhudsl/ocs_guide \
+          Rscript -e "bookdown::render_book('index.Rmd', output_format = 'all')"
 
 ##### If you do not wish to host your course on Coursera, you can delete this section #####
       # Run Coursera version
       - name: Run Coursera version of render
         id: coursera
-        run: Rscript -e "leanbuild::render_coursera()"
+        run: |
+          docker run \
+          --mount type=bind,target=/home/rstudio,source=$PWD \
+          jhudsl/ocs_guide \
+          Rscript -e "leanbuild::render_coursera()"
 
 ##### End of Coursera rendering section ########################################
 
