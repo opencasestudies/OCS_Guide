@@ -2,7 +2,7 @@
 # for the Childhood Cancer Data Lab, an initiative of Alexs Lemonade Stand Foundation.
 # https://github.com/AlexsLemonade/refinebio-examples/blob/33cdeff66d57f9fe8ee4fcb5156aea4ac2dce07f/.github/workflows/style-and-sp-check.yml#L1
 
-# Adapted for this jhudsl repository by Candace Savonen Apr 2021
+# Adapted for this OCS repository by Carrie WrightFeb 2021 following Candace Savonen's adaptions in Apr 2021 to the OTTR template
 
 name: Test build of Dockerfile
 
@@ -74,7 +74,7 @@ jobs:
           load: true
           context: docker
           file: docker/Dockerfile
-          tags: jhudsl/course_template
+          tags: jhudsl/ocs_guide
 
       # Login to Dockerhub
       - name: Login to DockerHub
@@ -87,7 +87,7 @@ jobs:
       # Push the Docker image if set to true from a manual trigger
       - name: Push Docker image if manual trigger set to true
         if: ${{ github.event.inputs.dockerhubpush != 'false' }}
-        run: docker push jhudsl/course_template
+        run: docker push jhudsl/ocs_guide
 
       - name: Get the version
         id: get_version
@@ -98,5 +98,5 @@ jobs:
       - name: Push Docker image if release
         if: ${{ github.event_name == 'release' }}
         run: |
-          docker tag jhudsl/course_template:latest jhudsl/course_template:${{ steps.get_version.outputs.version }}
-          docker push jhudsl/course_template:1.0
+          docker tag jhudsl/ocs_guide:latest jhudsl/ocs_guide:${{ steps.get_version.outputs.version }}
+          docker push jhudsl/ocs_guide:1.0
