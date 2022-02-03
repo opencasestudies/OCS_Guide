@@ -21,8 +21,7 @@ jobs:
   # This workflow contains a single job called "build-all"
   render-main:
     runs-on: ubuntu-latest
-    container:
-      image: jhudsl/ocs_guide
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -38,33 +37,33 @@ jobs:
 ###### course, then highlight this chunk and uncomment it. #####################
 ###### Recommend using short cut -- Command and / works for some editors.#######
 ###### START OF DOCKER UPDATE CHUNK
-      # Login to Dockerhub
-      - name: Login to DockerHub
-        uses: docker/login-action@v1
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-      # Set up Docker build
-      - name: Set up Docker Build
-        uses: docker/setup-buildx-action@v1
-
-      - name: Get Token
-        run: echo ${{ secrets.GH_PAT }} > docker/git_token.txt
-
-      # Build docker image
-      - name: Build Docker image
-        uses: docker/build-push-action@v2
-        with:
-          push: false
-          load: true
-          context: docker
-          file: docker/Dockerfile
-          tags: jhudsl/ocs_guide
-
-      # Push the Docker image
-      - name: Push Docker image
-        run: docker push jhudsl/ocs_guide
+      # # Login to Dockerhub
+      # - name: Login to DockerHub
+      #   uses: docker/login-action@v1
+      #   with:
+      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
+      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
+      #
+      # # Set up Docker build
+      # - name: Set up Docker Build
+      #   uses: docker/setup-buildx-action@v1
+      #
+      # - name: Get Token
+      #   run: echo ${{ secrets.GH_PAT }} > docker/git_token.txt
+      #
+      # # Build docker image
+      # - name: Build Docker image
+      #   uses: docker/build-push-action@v2
+      #   with:
+      #     push: false
+      #     load: true
+      #     context: docker
+      #     file: docker/Dockerfile
+      #     tags: jhudsl/course_template
+      #
+      # # Push the Docker image
+      # - name: Push Docker image
+      #   run: docker push jhudsl/course_template
 
 ###### END OF DOCKER UPDATE CHUNK ##############################################
 
@@ -75,13 +74,21 @@ jobs:
       # Run bookdown rendering
       - name: Run bookdown render
         id: bookdown
-        run: Rscript -e "bookdown::render_book('index.Rmd', output_format = 'all')"
+        run: |
+          docker run \
+          --mount type=bind,target=/home/rstudio,source=$PWD \
+          jhudsl/course_template \
+          Rscript -e "bookdown::render_book('index.Rmd', output_format = 'all')"
 
 ##### If you do not wish to host your course on Coursera, you can delete this section #####
       # Run Coursera version
       - name: Run Coursera version of render
         id: coursera
-        run: Rscript -e "leanbuild::render_coursera()"
+        run: |
+          docker run \
+          --mount type=bind,target=/home/rstudio,source=$PWD \
+          jhudsl/course_template \
+          Rscript -e "ottr::render_coursera()"
 
 ##### End of Coursera rendering section ########################################
 
