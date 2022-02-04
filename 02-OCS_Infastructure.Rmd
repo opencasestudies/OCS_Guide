@@ -44,12 +44,12 @@ This diagram illustrates the workflow of accessing a case study from the OCS web
 
 GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. 
 
-Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies as described below. 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table"}
+Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
+```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
 knitr::include_graphics('assets/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
 ```
 
-To use the case study data, you can download the GitHub repository directly.
+This data can be directly downloaded from GitHub. 
 
 ## OCSdata 
 To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
