@@ -49,7 +49,7 @@ Data included in the GitHub repository is available in multiple formats to enabl
 knitr::include_graphics('assets/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
 ```
 
-To use the case study data, you can download the GitHub repository directly or use the OCSdata R package described below. 
+To use the case study data, you can download the GitHub repository directly.
 
 ## OCSdata 
 To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 

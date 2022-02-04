@@ -10,3 +10,4 @@ spell_check_results.tsv
 docker/git_token.txt
 .Rproj.user
 OCS_Guide.Rproj
+Course_Name.rds
