@@ -99,6 +99,10 @@ This anatomy is reflected in the table of contents:
 knitr::include_graphics('assets/OCS_TOC_anatomy.png', dpi = NA)
 ```
 
+The table of contents can be used to navigate to specific sections in a case study:
+```{r, fig.align='center', echo = FALSE, fig.alt= "Moving GIF image illustrating how to navigate a case study with the table of contents"}
+knitr::include_graphics('assets/TOC_scroll.gif', dpi = NA)
+```
 
 ## Starter Kit
 
