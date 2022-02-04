@@ -13,17 +13,10 @@ This chapter will cover how to modify the case studies to your own needs using t
 - Modifying a case study with [GitHub](https://github.com/opencasestudies) and [RStudio](https://www.rstudio.com/)
 - Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template) and [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/)
 
-## Libraries
-
-For this chapter, we'll need the following packages attached:
-
-```{r}
-library(OCSdata)
-```
-
 ## Modular use
 
-*short explanation of how case studies can be used modularly for those who want to break the case study up or are only interested in part of the case study 
+Some educators may find that only certain sections of a case study are relevant to their specific needs. For example, a statistics teacher may want students to practice the skills covered in the data analysis section, but doesn't have time to go through the whole case study. The case studies are designed to allow for such use. This educator and their students may jump right in to any case study section without working through any previous sections. This is made possible becase the data files are saved at the end of each section. These data files are made available on the case study's GitHub repository and may also be downloaded with the help of the OCSdata package. See Chapter 2 for more details on the structure and organization of a case study data folder. The table below explains which data sub-folder and package function to use when starting from each case study section. 
+
 *table about which package functions to use for each section in a case study you could start from
 *step by step example of how to jump into the middle of a case study (do data analysis section as an example?)
 
