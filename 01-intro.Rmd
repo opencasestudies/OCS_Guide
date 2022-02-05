@@ -94,10 +94,29 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	- Homework 
 
 	
-This anatomy is reflected in the table of contents:	
+This anatomy is reflected in the table of contents of case study sections:	
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents"}
 knitr::include_graphics('assets/OCS_TOC_anatomy.png', dpi = NA)
 ```
+
+
+| **Case Study Section** | **Description** |
+| ------- | ---------------- |
+| Motivation | Motivating fgure and text at the start of the case study |
+| Main questions | Scientifc question(s) |
+| Learning objectives  | Both data science and statistics learning objectives |
+| Context | Context of question(s) or data |
+| Limitations | Any limitations in case study or with data used |
+| What are the data? | Summary of where the data came from and what the data contain |
+| Data import | Analyses for importing data |
+| Data wrangling | Analyses for wrangling data |
+| Data exploration | Analyses for data exploration | 
+| Data visualization | Analyses for data visualization | 
+| Data analysis | Analyses containing statistical concepts and methods to answer question(s) | 
+| Summary | Summary of results and conclusion |
+| Suggested homework | Question(s) to explore further |
+| Additional information | Helpful links and packages used |
+
 
 The table of contents can be used to navigate to specific sections in a case study:
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Moving GIF image illustrating how to navigate a case study with the table of contents"}
