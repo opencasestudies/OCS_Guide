@@ -17,21 +17,23 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 
 ## OCS Website 
 
-** Open Case Studies mission ** 
+### Open Case Studies mission 
 
 The [Open Case Studies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
 
-** Open Case Studies feedback ** 
+### Open Case Studies feedback 
 
 The website also includes a link to a [user experience survey](https://www.opencasestudies.org/) (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out  if you have the time! 
 
-** Open Case Studies search tool ** 
+### Open Case Studies search tool 
 
 Finally, the website includes the OCS case study search tool to aid instructors in finding appropriate case studies for their learning objectives. The search tool is described in more detail below. 
 
 ## OCS Case Study Search Tool 
 
-The [OCS case study search tool](https://www.opencasestudies.org/#searchtab) is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
+A brief description of the subject areas of each case study is included at the [Bloomberg American Health Initiative website](https://americanhealth.jhu.edu/open-case-studies).
+
+To aid with case study selection, we created the [OCS case study search tool](https://www.opencasestudies.org/#searchtab). This search tool is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
 
 The main two columns likely to be helpful in identifying appropriate case studies are the **"Packages"** and **"Objectives"** columns. The **Packages** column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The **Objectives** column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
 
