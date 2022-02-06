@@ -41,6 +41,7 @@ RUN Rscript -e  "install.packages( \
     c('bookdown', \
       'here', \
       'leanpubr', \
+      'OCSdata', \
       'optparse', \
       'oro.nifti', \
       'qpdf', \
