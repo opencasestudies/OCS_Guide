@@ -14,6 +14,7 @@ Leanpub
 Markua
 mentorship
 modularization
+modularly
 multicollinearity
 NCI
 NHGRI
@@ -26,7 +27,7 @@ Peng
 rda
 repo
 Rmd
-Rstudio
+RStudio
 skillsets
 UE
 UE5
