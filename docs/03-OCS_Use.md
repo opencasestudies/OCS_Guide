@@ -5,11 +5,13 @@
 
 ## Learning Objectives
 
+
 This chapter will provide guidance on how to use Open Case Studies in classroom settings. We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners. We will present some examples of assignments that can accompany the case studies and the rubrics that they can be evaluated with. Furthermore, we provide examples of extensions to case studies that can serve as a template for homework assignments or independent student exploration. 
 
 The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please let us know what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
+
 
 **Public Health Subject Matter**  
  
@@ -29,13 +31,15 @@ All case studies use the R statistical programming language for data analysis. W
 
 ### Experience Level Descriptions
 
+### Experience Level Descriptions
+
 The table below explains how we define the beginner, intermediate, and advanced experience levels. 
 
-| Experience Level | Description      |
-| ---------------- | ---------------- |
-| Beginner         | Little to no previous experience with coding and/or statistical analysis. |
-| Intermediate     | Familiar with at least one programming language and has experience working with data and statistics. |
-| Advanced         | Fluent in at least one programming language and likely familiar with more. Has a depth of experience working with data science projects. |
+| Experience Level | Description |
+| ------- | ---------------- |
+| Beginner | Little to no previous experience with coding and/or statistical analysis. |
+| Intermediate | Familiar with at least one programming language and has experience working with data and statistics. |
+| Advanced | Fluent in at least one programming language and likely familiar with more. Has a depth of experience working with data science projects. |
 
 Typically, most middle/high school and first year undergraduate students will fit in the beginner category. Upperclassmen undergraduates and some graduate students are often at the intermediate level. Most advanced level students will be at the graduate level. However, this is a generalization, and a student may be considered beginner, intermediate, or advanced at any academic level depending on their independent studies and experiences. 
 
@@ -52,19 +56,21 @@ The case studies are written to provide a cohesive story that simulates data sci
 - Suggested reading and supplemental material 
 - more? 
 
+(avocado add discussion of interactive case studies)
+
 ### Teaching Part of a Case Study
 
-Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study ![GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the ![OCSdata](https://github.com/opencasestudies/OCSdata) package (see chapter 2.5). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
+Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see chapter 2.5). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
 
 | Data Folder | Case Study Section | Example Use |
-| ----------- | ------------------ | ----------- |
+| ------- | --------- | ------------------------ |
 | raw | Data Import | Assigning public health students to read through a case study starting from the beginning |
 | imported | Data Exploration, Data Wrangling | Data science students practicing wrangling methods with in class exercises |
 | wrangled | Data Visualization, Data Analysis | Statistics course practicing analysis methods with real data as a live lesson |
 | simpler_import | Data Import | Introductory data science instructor wants students to practice data import without over-complication |
 | extra | Not Used in Case Study | Public health course assigns homework to practice case study methods with similar but new data | 
 
-*MB: Should we highlight the interactive case studies here as well?*
+(avocado add discussion of interactive case studies)
 
 ### Teaching With Case Study Data Only
 
@@ -79,10 +85,10 @@ Some educators may find that only certain sections of a case study are relevant 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
 | Experience Level | Case Studies |
-| ---------------- | ------------ |
-| Beginner         | [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions/), [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study/) |
-| Intermediate     | [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/) |
-| Advanced         | [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/), [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis/) |
+| ------ | ---------------------- |
+| Beginner | Exploring CO2 emissions across time: [Static](https://www.opencasestudies.org/ocs-bp-co2-emissions/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-co2-emissions-interactive/). Vaping Behaviors in American Youth: [Static](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). |
+| Intermediate | Mental Health of American Youth: [Static](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-youth-mental-health-interactive/). Opioids in United States: [Static](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-opioid-rural-urban-interactive). |
+| Advanced | Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1: [Static](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/). Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2: [Static](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-RTC-analysis-interactive). |
 
 
 ## Example Use Cases
@@ -159,12 +165,12 @@ The data visualizations included in the case studies are not the only way to pre
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_1.5    evaluate_0.14   pillar_1.4.6   
-##  [9] ottr_0.1.2 rlang_0.4.10    stringi_1.5.3   fs_1.5.0       
-## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
+##  [1] bookdown_0.24   crayon_1.4.2    digest_0.6.25   R6_2.5.1       
+##  [5] lifecycle_1.0.1 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
+##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.2        ellipsis_0.3.1 
+## [13] vctrs_0.3.4     rmarkdown_2.10  ottr_0.1.2      tools_4.0.2    
 ## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
-## [21] yaml_2.2.1      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
+## [21] yaml_2.2.2      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
 ## [25] knitr_1.33      tibble_3.0.3
 ```
 

@@ -4,6 +4,9 @@ target-audience
 curriculum
 open-case-studies-philosophy
 open-case-studies-anatomy
+starter-kit
+technical-requirements
+r-studio
 open-case-study-infrastructure
 learning-objectives
 ocs-website
@@ -23,6 +26,7 @@ use-of-open-case-studies
 learning-objectives-1
 prerequisites
 experience-level-descriptions
+experience-level-descriptions-1
 open-case-studies-in-the-classroom
 teaching-a-full-case-study
 teaching-part-of-a-case-study
@@ -33,6 +37,13 @@ examples-of-assignments
 modifying-and-creating-open-case-studies
 learning-objectives-2
 libraries
+modular-use
+modify-a-case-study
+create-a-case-study
+session-info
+contribution-guidelines
+learning-objectives-3
+libraries-1
 topic-of-section
 subtopic
 code-examples
@@ -42,15 +53,3 @@ links-to-files
 links-to-websites
 citation-examples
 print-out-session-info
-contribution-guidelines
-learning-objectives-3
-libraries-1
-topic-of-section-1
-subtopic-1
-code-examples-1
-image-example-1
-video-examples-1
-links-to-files-1
-links-to-websites-1
-citation-examples-1
-print-out-session-info-1
