@@ -141,7 +141,7 @@ Below is an example of a presentation based on the [Vaping Behaviors in American
 
 The data visualizations included in the case studies are not the only way to present the results of the analyses. While the principles of effective data visualization are not a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. As examples, we link a [lecture on the principles of data visualization](https://paldhous.github.io/ucb/2019/dataviz/week2.html) from Dr. Peter Aldhous' Introduction to Data Visualization Course and a [data visualization assignment and accompanying grading rubric](http://vis.mit.edu/classes/6.894/A1) from the Interactive Data Visualization course at MIT's Department of Computer Science.
 
-*Acknowledgements*
+*Acknowledgments*
 
 We would like to thank the following people for generously sharing the ways in which they used Open Case Studies materials in their teaching:  
 

@@ -89,9 +89,30 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	- Homework 
 
 	
-This anatomy is reflected in the table of contents:	
+This anatomy is reflected in the table of contents of case study sections:	
 <img src="assets/OCS_TOC_anatomy.png" title="Open Case Study Anatomy in the Table of Contents" alt="Open Case Study Anatomy in the Table of Contents" style="display: block; margin: auto;" />
 
+
+| **Case Study Section** | **Description** |
+| ------- | ---------------- |
+| Motivation | Motivating figure and text at the start of the case study |
+| Main questions | Scientific question(s) |
+| Learning objectives  | Both data science and statistics learning objectives |
+| Context | Context of question(s) or data |
+| Limitations | Any limitations in case study or with data used |
+| What are the data? | Summary of where the data came from and what the data contain |
+| Data import | Analyses for importing data |
+| Data wrangling | Analyses for wrangling data |
+| Data exploration | Analyses for data exploration | 
+| Data visualization | Analyses for data visualization | 
+| Data analysis | Analyses containing statistical concepts and methods to answer question(s) | 
+| Summary | Summary of results and conclusion |
+| Suggested homework | Question(s) to explore further |
+| Additional information | Helpful links and packages used |
+
+
+The table of contents can be used to navigate to specific sections in a case study:
+<img src="assets/TOC_scroll.gif" title="Moving GIF image illustrating how to navigate a case study with the table of contents" alt="Moving GIF image illustrating how to navigate a case study with the table of contents" style="display: block; margin: auto;" />
 
 ## Starter Kit
 
@@ -101,9 +122,9 @@ Open Case Studies are designed to be beginner friendly. Users can work through a
 
 (avocado note from slack: what physical resources are needed - software installed - what type of computers - think about interactive case studies)
 
-All case studies use the R statistical programming language for data analysis. R is available for Windows, MacOS, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to get and load the data, does require R 3.5 (avocado). Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the sessionInfo() section in each case study.
+All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to get and load the data, does require R 3.5 (avocado). Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
 
-Cheatsheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
+Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
 ### RStudio
 

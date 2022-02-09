@@ -90,7 +90,7 @@ simpler_import_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
 #### Importing data as R objects 
-The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in Rstudio or using the load() function as follows. 
+The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the load() function as follows. 
 
 
 
