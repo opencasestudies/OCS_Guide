@@ -105,8 +105,8 @@ knitr::include_graphics('assets/OCS_TOC_anatomy.png', dpi = NA)
 
 | **Case Study Section** | **Description** |
 | ------- | ---------------- |
-| Motivation | Motivating fgure and text at the start of the case study |
-| Main questions | Scientifc question(s) |
+| Motivation | Motivating figure and text at the start of the case study |
+| Main questions | Scientific question(s) |
 | Learning objectives  | Both data science and statistics learning objectives |
 | Context | Context of question(s) or data |
 | Limitations | Any limitations in case study or with data used |

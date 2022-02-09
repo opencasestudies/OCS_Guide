@@ -11,6 +11,7 @@ ITCR
 itcrtraining
 ITN
 Leanpub
+MakeCaseStudies
 Markua
 mentorship
 modularization
