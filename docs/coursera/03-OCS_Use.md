@@ -97,7 +97,7 @@ Because the case studies were developed to be modular and stand-alone, they can 
 
 **Beginner Undergraduate Data Science Course** 
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week beginner undergraduate (?avocado) course taught be Dr. Shannon Ellis at University of California Santa Barbara. It includes three Open Case Studies and uses them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught be Dr. Shannon Ellis at University of California Santa Barbara. It includes three Open Case Studies and uses them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
 The course incorporates labs and homeworks, which have guided coding and analysis exercises related to the concepts discussed in lecture. The course also assigns written reports where students present the analysis they conduct related to the case study in the format of a scientific article (see example assignment below). 
 
@@ -141,6 +141,11 @@ Below is an example of a presentation based on the [Vaping Behaviors in American
 
 The data visualizations included in the case studies are not the only way to present the results of the analyses. While the principles of effective data visualization are not a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. As examples, we link a [lecture on the principles of data visualization](https://paldhous.github.io/ucb/2019/dataviz/week2.html) from Dr. Peter Aldhous' Introduction to Data Visualization Course and a [data visualization assignment and accompanying grading rubric](http://vis.mit.edu/classes/6.894/A1) from the Interactive Data Visualization course at MIT's Department of Computer Science.
 
+*Acknowledgements*
+
+We would like to thank the following people for generously sharing the ways in which they used Open Case Studies materials in their teaching:  
+
+- Shannon Ellis PhD., *University of California, Santa Barbara
 
 
 

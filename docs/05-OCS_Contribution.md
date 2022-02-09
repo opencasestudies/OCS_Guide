@@ -1,176 +1,41 @@
 
 
 
-# Contribution guidelines
+# New Case Studies - Building and Contributing 
+
+In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project. To preserve the integrity of the core ideas of our resource we provide the following guidelines for case studies to be included in the Open Case Studies collection:
+
+### Guidelines:
+
+- **Programming language:** Case studies should be written in open source programming languages (preferably R). 
+- **Data:**
+  - Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already. 
+  - Transparent descriptions of data sources and how data was generated should be included when possible. 
+- **Core sections**: all case studies should include the following sections consistent with the published case studies. See Chapter 1, Case Study Anatomy for a detailed description on what each section should include:
+  - Case study context 
+  - Study motivation 
+  - Main question 
+  - Learning objectives 
+  - Study limitations
+  - Data description 
+  - Import and exploration 
+  - Wrangling 
+  - Visualization 
+  - Analysis
+  - Analysis conclusions 
+  - Case study summary 
+  - Next steps 
+  - Homework 
+  - Additional information
+- **Content:** Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process. 
+  - Links to literature or other sources to motivate the scientific topic of the case study should be included where possible.
+  - Case studies should aim to describe the decision making process involved in performing data science related tasks.
+- **Attribution:** all outside resources used in the case study should be referenced appropriately. 
+  - Case studies should include disclaimers and appropriate license agreements.
+  - All included images (that are not original to the case study) should include relevant sources.
+
+### Submission: 
 
-In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project.
-
-## Learning Objectives
-
-*Every chapter also needs Learning objectives that will look like this:  
-
-This chapter will cover:  
-
-- {You can use https://tips.uark.edu/using-blooms-taxonomy/ to define some learning objectives here}
-- {Another learning objective}
-
-## Libraries
-
-For this chapter, we'll need the following packages attached:
-
-*Remember to add [any additional packages you need to your course's own docker image](https://github.com/jhudsl/OTTR_Template/wiki/Using-Docker#starting-a-new-docker-image).
-
-
-```r
-library(magrittr)
-```
-
-# Topic of Section
-
-You can write all your text in sections like this!
-
-## Subtopic
-
-Here's a subheading and some text in this subsection!
-
-### Code examples
-
-You can demonstrate code like this:
-
-
-```r
-output_dir <- file.path("resources", "code_output")
-if (!dir.exists(output_dir)) {
-  dir.create(output_dir)
-}
-```
-
-And make plots too:
-
-
-```r
-hist_plot <- hist(iris$Sepal.Length)
-```
-
-![](resources/images/05-OCS_Contribution_files/figure-docx/unnamed-chunk-4-1.png)<!-- -->
-
-You can also save these plots to file:
-
-
-```r
-png(file.path(output_dir, "test_plot.png"))
-hist_plot
-```
-
-```
-## $breaks
-## [1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0
-## 
-## $counts
-## [1]  5 27 27 30 31 18  6  6
-## 
-## $density
-## [1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000
-## [8] 0.08000000
-## 
-## $mids
-## [1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75
-## 
-## $xname
-## [1] "iris$Sepal.Length"
-## 
-## $equidist
-## [1] TRUE
-## 
-## attr(,"class")
-## [1] "histogram"
-```
-
-```r
-dev.off()
-```
-
-```
-## png 
-##   2
-```
-
-### Image example
-
-
-How to include a Google slide. It's simplest to use the `ottr` package:
-
-![](resources/images/05-OCS_Contribution_files/figure-docx//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png)
-
-But if you have the slide or some other image locally downloaded you can also use html like this:
-
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
-
-
-### Video examples
-
-You can use `knitr::include_url()` like this:
-
-
-```r
-knitr::include_url("https://www.youtube.com/embed/VOCYL-FNbr0")
-```
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
-
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="100%" height="400px"></iframe>
-
-OR this works:
-
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px"></iframe>
-
-### Links to files
-
-This works:
-
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="100%" height="800px"></iframe>
-
-Or this:
-
-[This works](https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf).
-
-Or this:
-
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="672" height="800px"></iframe>
-
-### Links to websites
-
-Examples of including a website link.
-
-This works:
-
-
-```r
-knitr::include_url("https://yihui.org")
-```
-
-<iframe src="https://yihui.org" width="100%" height="400px"></iframe>
-
-OR this:
-
-![Another link](https://yihui.org)
-
-OR this:
-
-<iframe src="https://yihui.org" width="672" height="400px"></iframe>
-
-### Citation examples
-
-We can put citations at the end of a sentence like this [@rmarkdown2021].
-Or multiple citations [@rmarkdown2021, @Xie2018].
-
-but they need a ; separator [@rmarkdown2021; @Xie2018].
-
-In text, we can put citations like this @rmarkdown2021.
-
-## Print out session info
 
 
 ```r
@@ -196,16 +61,12 @@ sessionInfo()
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
-## other attached packages:
-## [1] magrittr_2.0.2
-## 
 ## loaded via a namespace (and not attached):
-##  [1] knitr_1.33      ottr_0.1.2      hms_0.5.3       R6_2.5.1       
-##  [5] rlang_0.4.10    stringr_1.4.0   highr_0.8       httr_1.4.2     
-##  [9] tools_4.0.2     webshot_0.5.2   xfun_0.26       htmltools_0.5.0
-## [13] ellipsis_0.3.1  yaml_2.2.2      digest_0.6.25   tibble_3.0.3   
-## [17] lifecycle_1.0.1 crayon_1.4.2    bookdown_0.24   readr_1.4.0    
-## [21] vctrs_0.3.4     fs_1.5.2        curl_4.3.2      evaluate_0.14  
-## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
-## [29] pkgconfig_2.0.3
+##  [1] bookdown_0.24   crayon_1.4.2    digest_0.6.25   R6_2.5.1       
+##  [5] lifecycle_1.0.1 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
+##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.2        ellipsis_0.3.1 
+## [13] vctrs_0.3.4     rmarkdown_2.10  ottr_0.1.2      tools_4.0.2    
+## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
+## [21] yaml_2.2.2      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
+## [25] knitr_1.33      tibble_3.0.3
 ```

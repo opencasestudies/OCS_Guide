@@ -6,30 +6,38 @@
 ## Learning Objectives
 
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
-* our website
-* an open case studies search tool
-* our GitHub organization
-* an R package called OCSdata
+
+- our website
+- an Open Case Studies search tool
+- our GitHub organization
+- an R package called OCSdata
 
 
 ## OCS Website 
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, among other information. 
+### Open Case Studies mission 
+
+The [Open Case Studies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
+
+### Open Case Studies feedback 
 
 The website also includes a link to a [user experience survey](https://www.opencasestudies.org/) (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out  if you have the time! 
+
+### Open Case Studies search tool 
 
 Finally, the website includes the OCS case study search tool to aid instructors in finding appropriate case studies for their learning objectives. The search tool is described in more detail below. 
 
 ## OCS Case Study Search Tool 
 
-The [OCS case study search tool](https://www.opencasestudies.org/#searchtab) is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
+A brief description of the subject areas of each case study is included at the [Bloomberg American Health Initiative website](https://americanhealth.jhu.edu/open-case-studies).
 
-The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
+To aid with case study selection, we created the [OCS case study search tool](https://www.opencasestudies.org/#searchtab). This search tool is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
 
-The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. 
+The main two columns likely to be helpful in identifying appropriate case studies are the **"Packages"** and **"Objectives"** columns. The **Packages** column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The **Objectives** column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
 
+The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. Below is an example of the information included in the search tool results for the case study on [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/).
 
-(avocado Include example of one case study row)
+![](assets/search_tool_example.png)
 
 ## GitHub Organization 
 
@@ -37,7 +45,7 @@ The GitHub repository contains all the materials needed for the case study. This
 
 Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the OCSdata R package described below. 
 
-(Add figure 2.4 outlining repo structure)
+(avocado Add figure 2.4 outlining repo structure)
 
 ## OCSdata 
 To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
