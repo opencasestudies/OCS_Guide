@@ -6,30 +6,38 @@
 ## Learning Objectives
 
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
-* our website
-* an open case studies search tool
-* our GitHub organization
-* an R package called OCSdata
+
+- our website
+- an Open Case Studies search tool
+- our GitHub organization
+- an R package called OCSdata
 
 
 ## OCS Website 
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, among other information. 
+### Open Case Studies mission 
+
+The [Open Case Studies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
+
+### Open Case Studies feedback 
 
 The website also includes a link to a [user experience survey](https://www.opencasestudies.org/) (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out  if you have the time! 
+
+### Open Case Studies search tool 
 
 Finally, the website includes the OCS case study search tool to aid instructors in finding appropriate case studies for their learning objectives. The search tool is described in more detail below. 
 
 ## OCS Case Study Search Tool 
 
-The [OCS case study search tool](https://www.opencasestudies.org/#searchtab) is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
+A brief description of the subject areas of each case study is included at the [Bloomberg American Health Initiative website](https://americanhealth.jhu.edu/open-case-studies).
 
-The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
+To aid with case study selection, we created the [OCS case study search tool](https://www.opencasestudies.org/#searchtab). This search tool is designed to aid instructors in identifying appropriate case studies for their learning objectives. The tool consists of a table with searchable columns, where each row is an individual case study. 
 
-The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. 
+The main two columns likely to be helpful in identifying appropriate case studies are the **"Packages"** and **"Objectives"** columns. The **Packages** column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The **Objectives** column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
 
+The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. Below is an example of the information included in the search tool results for the case study on [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/).
 
-(avocado Include example of one case study row)
+<img src="assets/search_tool_example.png" title="Open Case Study search tool: row for the School Shootings in the US case study" alt="Open Case Study search tool: row for the School Shootings in the US case study" style="display: block; margin: auto;" />
 
 ## GitHub Organization 
 
@@ -37,7 +45,7 @@ The GitHub repository contains all the materials needed for the case study. This
 
 Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the OCSdata R package described below. 
 
-(Add figure 2.4 outlining repo structure)
+(avocado Add figure 2.4 outlining repo structure)
 
 ## OCSdata 
 To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
@@ -82,7 +90,7 @@ simpler_import_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
 #### Importing data as R objects 
-The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in Rstudio or using the load() function as follows. 
+The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the load() function as follows. 
 
 
 
@@ -147,11 +155,11 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   digest_0.6.25   crayon_1.4.2    R6_2.5.1       
-##  [5] lifecycle_1.0.1 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
-##  [9] stringi_1.5.3   rlang_0.4.10    fs_1.5.2        jquerylib_0.1.1
-## [13] vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10  ottr_0.1.2     
-## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
-## [21] yaml_2.2.2      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
-## [25] htmltools_0.5.0 knitr_1.33      tibble_3.0.3
+##  [1] knitr_1.33      ottr_0.1.2      magrittr_2.0.2  hms_0.5.3      
+##  [5] R6_2.5.1        rlang_0.4.10    stringr_1.4.0   highr_0.8      
+##  [9] tools_4.0.2     xfun_0.26       jquerylib_0.1.1 htmltools_0.5.0
+## [13] ellipsis_0.3.1  yaml_2.2.2      digest_0.6.25   tibble_3.0.3   
+## [17] lifecycle_1.0.1 crayon_1.4.2    bookdown_0.24   readr_1.4.0    
+## [21] vctrs_0.3.4     fs_1.5.2        evaluate_0.14   rmarkdown_2.10 
+## [25] stringi_1.5.3   compiler_4.0.2  pillar_1.4.6    pkgconfig_2.0.3
 ```
