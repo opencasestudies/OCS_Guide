@@ -17,7 +17,7 @@ open-case-studies-mission
 open-case-studies-feedback
 open-case-studies-search-tool
 ocs-case-study-search-tool
-github-organization
+ocs-github
 ocsdata
 getting-started-with-ocsdata
 downloading-raw-data
@@ -28,6 +28,7 @@ importing-wrangled-data
 downloading-extra-data
 downloading-all-case-study-data
 forking-the-case-study-repository
+feedback-1
 use-of-open-case-studies
 learning-objectives-1
 prerequisites
