@@ -28,6 +28,7 @@ Peng
 rda
 repo
 Rmd
+RMarkdown
 RStudio
 skillsets
 UE
