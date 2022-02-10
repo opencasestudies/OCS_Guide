@@ -19,7 +19,7 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 ## OCS Website 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Studies Website Landing Page"}
-knitr::include_graphics('assets/OCSwebsite.png', dpi = NA)
+knitr::include_graphics('resources/images/OCSwebsite.png', dpi = NA)
 ```
 
 Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can be found on the website as well as an archive of talks and blog posts. 
@@ -41,7 +41,7 @@ Finally, the website includes the OCS case study search tool to aid instructors 
 ## OCS Case Study Search Tool
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Studies Searchable Table"}
-knitr::include_graphics('assets/searchtable.png', dpi = NA)
+knitr::include_graphics('resources/images/searchtable.png', dpi = NA)
 ```
 
 The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) function can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
@@ -56,7 +56,7 @@ The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) functio
 This table can be used to access all case study resources:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table"}
-knitr::include_graphics('assets/OCS_GitHub_Repository_Diagram_Draft3.png', dpi = NA)
+knitr::include_graphics('resources/images/OCS_GitHub_Repository_Diagram_Draft3.png', dpi = NA)
 ```
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.
@@ -70,7 +70,7 @@ The main two columns likely to be helpful in identifying appropriate case studie
 The table also includes links to both the static and interactive versions of the case studies and their GitHub repositories. Below is an example of the information included in the search tool results for the case study on [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/).
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study search tool: row for the School Shootings in the US case study"}
-knitr::include_graphics('assets/search_tool_example.png', dpi = NA)
+knitr::include_graphics('resources/images/search_tool_example.png', dpi = NA)
 ```
 
 
@@ -81,7 +81,7 @@ GitHub is a website and cloud service that enables developers to store, manage, 
 Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
-knitr::include_graphics('assets/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
+knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
 ```
 
 To use the case study data, you can download data from the GitHub repository directly or use the OCSdata R package described below.
