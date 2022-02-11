@@ -11,9 +11,11 @@ ITCR
 itcrtraining
 ITN
 Leanpub
+MakeCaseStudies
 Markua
 mentorship
 modularization
+modularly
 multicollinearity
 NCI
 NHGRI
@@ -26,7 +28,8 @@ Peng
 rda
 repo
 Rmd
-Rstudio
+RMarkdown
+RStudio
 skillsets
 UE
 UE5
