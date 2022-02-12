@@ -2,14 +2,17 @@ Aldhous
 AnVIL
 BIPOC
 Bloomberg
+bp
 csv
 Datatrail
 GDSCN
+github
 homeworks
 impactful
 ITCR
 itcrtraining
 ITN
+knitr
 Leanpub
 MakeCaseStudies
 Markua
@@ -20,8 +23,10 @@ multicollinearity
 NCI
 NHGRI
 OCS
+ocs
 OCSdata
 OpenCaseStudies
+opencasestudies
 Opioid
 Opioids
 Peng
@@ -29,6 +34,7 @@ rda
 repo
 Rmd
 RMarkdown
+Rproj
 RStudio
 skillsets
 UE
