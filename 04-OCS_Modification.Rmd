@@ -30,6 +30,7 @@ Some educators may find that only certain sections of a case study are relevant 
 The following steps illustrate how one would skip to a specific case study section. The data analysis section from the "Opioids in United States" case study is used for this example, but these directions apply for any section in any case study.
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
+
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Moving image (GIF) showing a user skipping to the data analysis section of a case study"}
 knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 ```
@@ -74,15 +75,55 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 ## Modify a case study
 
-*short explanation of case study structure: RStudio projects written in Rmd, knitted to HTML and hosted on GitHub
-*tutorial on .Rmd and knitting in RStudio
-*tutorial on GitHub: forking
-*step by step example of forking a case study repository, editing Rmd content, knitting, and sharing the output
+The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using Markdown syntax (avocado$). RStudio projects are used to organize the case studies and support version control (is this correct?). The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. Open Case Studies uses these HTML files to post the case studies online. The entire case study project is contained in a GitHub repository which allows for easy distribution and version control. [GitHub Pages](https://pages.github.com/) is used to host the case study webpage from the case study repository. 
+
+$ do we have any resources for markdown we prefer to use?
+
+Modifying a case study requires the following simple steps:
+
+1. Clone or fork the case study repository from GitHub. Clone if you only want to have the repository locally. Fork if you would like to have both a local version and a remote repository on your personal GitHub account. 
+
+2. In the repository folder, open the case study .Rproj file to open the project up in RStudio.
+
+3. Edit the sections to be modified in the index.Rmd file.
+
+4. Save your changes, then click on the "Knit" drop down menu in the top left corner of RStudio. Choose which file format you'd like to knit to. 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened."}
+knitr::include_graphics('resources/images/rstudio_modify_knit_red.png', dpi = NA)
+```
+
+5. Distribute your modified case study as you please! (avocado should i add a note here about hosting online with personal github pages?)
+
+*add reference to a resource on GitHub for beginners?
+
+*create a video showing: step by step example of forking a case study repository, editing Rmd content, knitting, and sharing the output
 
 ## Create a case study
 
-*tutorial on how to create a case study using GitHub template
-*tutorial on how to create a case study using [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app
+Open Case Studies offers two options for creating a case study. The first method is a template repository available on GitHub. The second is a new live web application. The first option offers more customization, while the second is much more fast and simple.
+
+### Template Case Study
+
+A template case study is available in a repository on our GitHub page at [github.com/opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). This template contains the basic skeletal structure used for our case studies. Creating a new case study with the template is very similar to modifying an existing case study:
+
+1. Clone the template at [opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). (avocado should be "click use as template button")
+
+2. Open the index.Rmd file in RStudio.
+
+3. Add the case study content to the index.Rmd file. Use the instructions provided in this file to add different elements such as images and videos. 
+
+4. Save your changes and knit the case study to the preferred file format. 
+
+5. Distribute the knitted case study as you please! 
+
+*avocado create a video showing step by step example of creating case study with template
+
+### MakeCaseStudies App
+
+Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app as an option for our users to create their own case studies. The app has an easy-to-use interface where users can copy and paste their content into text boxes on the ‘Create’ tab and check the ‘Preview’ tab to see what they’ve made so far. Once satisfied, click the download button to export your finished case study!
+
+*avocado attach/add link to video about app from DELTA symposium
 
 ## Session info
 
