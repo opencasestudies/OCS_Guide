@@ -38,6 +38,19 @@ In this chapter we will discuss the guidelines for creating new case studies as 
 
 ### Submission: 
 
+- **Data:**
+  - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
+  ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
+  knitr::include_graphics('assets/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
+  ```
+  - The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient. 
+  - The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section. 
+  - Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the `save()` function in R after importing the raw data. 
+  - Wrangled data is the version of the data after it has been cleaned and is ready for analysis. Use the `save()` function in R after wrangling the data to create these files. This data should be provided in both RDA and CSV format. 
+  - The next two data sub-folders are optional and used as needed: 
+    - If the raw data files for your case study come in a format that requires a complicated data import process (such as web scraping) you may consider providing the raw data in an import friendly format such as CSV or XLS(X). Place these files in the "simpler_import" sub-folder.
+    - If there are any raw data files from your source that are not used in the case study analysis, but could be analysed in a similar fashion, please include these in the "extra" sub-folder. 
+
 
 ```{r}
 sessionInfo()
