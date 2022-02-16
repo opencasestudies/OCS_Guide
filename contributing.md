@@ -144,7 +144,7 @@ dev.off()
 How to include a Google slide. It's simplest to use the `ottr` package:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Major point!! example image"}
-ottr::include_slide("https://docs.google.com/presentation/d/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ/edit#slide=id.gcc4fbee202_0_141")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ/edit#slide=id.gcc4fbee202_0_141")
 ```
 
 But if you have the slide or some other image locally downloaded you can also use html like this:
