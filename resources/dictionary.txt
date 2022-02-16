@@ -31,6 +31,8 @@ Opioid
 Opioids
 Peng
 rda
+RData
+Rds
 repo
 Rmd
 RMarkdown
@@ -41,3 +43,4 @@ UE
 UE5
 underserved
 www
+XLS
