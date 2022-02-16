@@ -1,4 +1,4 @@
-FROM jhudsl/course_template
+FROM jhudsl/course_template:main
 LABEL maintainer="cwright60@jhu.edu"
 
 # OCSData install
