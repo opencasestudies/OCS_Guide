@@ -11,14 +11,14 @@ spell-check: yes
 # Style any R code
 style-code: yes
 # Test build the docker image if any docker-relevant files have been changed
-docker-test: yes
+docker-test: no
 
 ##### Renderings run upon merge to main branch #####
 # Rendering each platform's content
 render-bookdown: yes
-render-leanpub: yes
+render-leanpub: no
 render-coursera: no
 
 # What docker image should be used for rendering?
 # The default is jhudsl/course_template:main
-rendering-docker-image: 'jhudsl/ocs_guide:main'
+rendering-docker-image: 'jhudsl/course_template:main'
