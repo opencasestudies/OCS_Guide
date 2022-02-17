@@ -13,8 +13,9 @@ contact-us
 open-case-study-infrastructure
 learning-objectives
 ocs-website
+open-case-studies-mission
 ocs-case-study-search-tool
-github-organization
+open-case-studies-github-organization
 ocsdata
 getting-started-with-ocsdata
 downloading-raw-data
