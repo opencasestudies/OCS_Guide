@@ -1,6 +1,6 @@
 
 ```{r, include = FALSE}
-ottr::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # New Case Studies - Building and Contributing 
@@ -41,7 +41,7 @@ In this chapter we will discuss the guidelines for creating new case studies as 
 - **Data:**
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
   ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
-  knitr::include_graphics('assets/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
+  knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
   ```
   - The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient. 
   - The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section. 
