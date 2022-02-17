@@ -38,7 +38,7 @@ In this chapter we will discuss the guidelines for creating new case studies as 
 
 - **Data:**
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
-  <img src="assets/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" />
+  <img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" />
   - The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient. 
   - The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section. 
   - Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the `save()` function in R after importing the raw data. 
