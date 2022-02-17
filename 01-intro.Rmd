@@ -5,7 +5,7 @@ output:
 ---
 
 ```{r, include = FALSE}
-ottr::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Introduction
@@ -50,7 +50,7 @@ This guide documents:
 ## Open Case Studies Philosophy
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Graphic"}
-ottr::include_slide("https://docs.google.com/presentation/d/17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0/edit#slide=id.g107fd794960_0_154")
+ottrpal::include_slide("https://docs.google.com/presentation/d/17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0/edit#slide=id.g107fd794960_0_154")
 ```
 
 ## Open Case Studies Anatomy
@@ -60,7 +60,7 @@ alt <- "Illustration of Open Case Studies anatomy, where there are three panels 
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy", fig.alt = alt}
-knitr::include_graphics('assets/ocs_anatomy.png', dpi = NA)
+knitr::include_graphics('resources/images/ocs_anatomy.png', dpi = NA)
 ```
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
@@ -99,7 +99,7 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:	
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents"}
-knitr::include_graphics('assets/OCS_TOC_anatomy.png', dpi = NA)
+knitr::include_graphics('resources/images/OCS_TOC_anatomy.png', dpi = NA)
 ```
 
 
@@ -123,7 +123,7 @@ knitr::include_graphics('assets/OCS_TOC_anatomy.png', dpi = NA)
 
 The table of contents can be used to navigate to specific sections in a case study:
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Moving GIF image illustrating how to navigate a case study with the table of contents"}
-knitr::include_graphics('assets/TOC_scroll.gif', dpi = NA)
+knitr::include_graphics('resources/images/TOC_scroll.gif', dpi = NA)
 ```
 
 ## Starter Kit
@@ -134,7 +134,7 @@ Open Case Studies are designed to be beginner friendly. Users can work through a
 
 (avocado note from slack: what physical resources are needed - software installed - what type of computers - think about interactive case studies)
 
-All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to get and load the data, does require R 3.5 (avocado). Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
+All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
 
 Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
