@@ -20,13 +20,15 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 knitr::include_graphics('resources/images/OCSwebsite.png', dpi = NA)
 ```
 
-Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can also be found on the website as well as an archive of talks and blog posts. 
+Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can also be found on the website as well as an archive of talks and blog posts. The website also contains a contact form that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
 
 ### Open Case Studies mission 
 
 The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
 
 (avocado do we need this subsection?)
+
+
 
 ## OCS Case Study Search Tool
 
