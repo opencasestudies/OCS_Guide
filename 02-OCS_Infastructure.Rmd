@@ -77,9 +77,7 @@ To simplify the process of accessing the data required for each case study, we h
 
 ### Getting Started with OCSdata
 
-The `OCSdata` package is available on the package repository CRAN and can be installed in R as follows: 
-
-[avocado R version requirement?]
+The `OCSdata` package is available on the package repository CRAN. It requires R 3.5 or higher and can be installed in R as follows: 
 
 ```{r, include = TRUE, eval = FALSE}
 install.packages("OCSdata") #only run once to install package
