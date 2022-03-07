@@ -86,6 +86,15 @@ Some educators may find that only certain sections of a case study are relevant 
 
 Each case study demonstrates an entire data analysis starting from data import and wrangling and continuing to statistical analysis and data visualization. This means that individual case studies can often incorporate different skill levels for different stages of the analyses. For example, a case study can use advanced data wrangling approaches but onlyl need beginner level statistical analysis methods. Below we provide broad categorizations of each of the case studies in terms of the skill levels required (beginner, intermediate, or advanced) for each of the general stages of the case studies (data wrangling, data visualization, and statistics). More details on the specific skills taught in each case study can be found in the [Case Study Search Tool](https://www.opencasestudies.org/#searchtab) or in the Learning Objectives section in each case study. 
 
+Here, we are using the following interpretations of "beginner", "intermediate", and "advanced"
+| Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
+| ------- | --------- | ------------------------ | ------- | --------- |
+| Beginner | No experience with importing data into any programming language | No experience wrangling and cleaning raw data in any programming language | No experience visualizing data in any programming language | No experience with statistical concepts |
+| Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
+| Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
+
+
+
 The following table lists a few example case studies that would be suitable for each experience level. 
 
 | Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
