@@ -20,18 +20,19 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 knitr::include_graphics('resources/images/OCSwebsite.png', dpi = NA)
 ```
 
-Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can be found on the website as well as an archive of talks and blog posts. 
-
+Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can also be found on the website as well as an archive of talks and blog posts. The website also contains a contact form that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
 
 ### Open Case Studies mission 
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, among other information. 
+The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
 
-The website also includes a link to a [user experience survey](https://www.opencasestudies.org/) (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out  if you have the time! 
+(avocado do we need this subsection?)
 
-Finally, the website includes the OCS case study search tool to aid instructors in finding appropriate case studies for their learning objectives. The search tool is described in more detail below. 
+
 
 ## OCS Case Study Search Tool
+
+The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accesing the search tool and how to use it is described in more detail below.
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.
 
@@ -47,9 +48,7 @@ The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool ca
 - The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.)
 - The "Category" column lists the source of funding or project that the case study is associated with
 
-The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).
-
-The overall search bar allows users to search with keywords across all columns, otherwise users can search individual columns of interest. 
+The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. Users may search for keywords across all columns using the overall search bar, otherwise users can search individual columns of interest. 
 
 This table can be used to access all case study resources:
 
@@ -73,7 +72,15 @@ Data included in the GitHub repository is available in multiple formats to facil
 
 To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
 
-(Add table 2.1 summarizing data formats available for download via OCSdata)
+| Data Folder | Case Study Section | OCSdata Function |
+| ----- | -------- | ------ |
+| raw | Data Import | `raw_data` |
+| imported | Data Exploration, Data Wrangling | `imported_data` |
+| wrangled | Data Visualization, Data Analysis | `wrangled_csv`, `wrangled_rda` |
+| simpler_import | Data Import | `simpler_import_data` |
+| extra | Suggested Homework (?) | `extra_data` |
+
+(avocado edit this table to fit with context better)
 
 ### Getting Started with OCSdata
 
@@ -87,6 +94,7 @@ library(OCSdata) #run every new R session to load package
 ```
 
 ### Downloading raw data
+
 The `raw_data` function will download the raw data files that can be imported into R. 
 
 The first argument is the name of the case study. A list of case study names can be found in the package documentation [online](https://cran.r-project.org/web/packages/OCSdata/vignettes/instructions.html#casestudy) or by typing `?raw_data` in R. 
@@ -100,9 +108,11 @@ raw_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
 ### Downloading data in other formats
+
 The OCSdata package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.
 
 #### Simpler import
+
 The `simpler_import_data` function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step. 
 
 ```{r, include = TRUE, eval = FALSE}
@@ -110,6 +120,7 @@ simpler_import_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
 #### Importing data as R objects 
+
 The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in Rstudio or using the load() function as follows. 
 
 
@@ -121,19 +132,23 @@ load(file_path) #load R objects
 ```
 
 #### Importing wrangled data
+
 The following functions will download the data files that have already been wrangled and are ready to be analyzed. These come in both .csv and .rda formats.
 
 Download as csv files:
+
 ```{r, include = TRUE, eval = FALSE}
 wrangled_csv("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
 Downloading as R objects:
+
 ```{r, include = TRUE, eval = FALSE}
 wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
 ### Downloading extra data
+
 Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data  but can This data can be downloaded using the `extra_data` function. 
 
 ```{r, include = TRUE, eval = FALSE}
@@ -141,6 +156,7 @@ extra_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
 ### Downloading all case study data
+
 The `zip_ocs` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. 
 
 ```{r, include = TRUE, eval = FALSE}
@@ -149,6 +165,10 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 ### Forking the case study repository
 
+
+## Feedback
+
+If you would like to provide feedback on the Open Case Studies please do so with our [user feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link). The survey should take no more than 10 minutes to complete and can be found on the [OCS website](https://www.opencasestudies.org/#survey) as well as within the case studies themselves. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
 
 ```{r, echo = FALSE}
 sessionInfo()
