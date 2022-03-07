@@ -14,10 +14,8 @@ open-case-study-infrastructure
 learning-objectives
 ocs-website
 open-case-studies-mission
-open-case-studies-feedback
-open-case-studies-search-tool
 ocs-case-study-search-tool
-ocs-github
+open-case-studies-github-organization
 ocsdata
 getting-started-with-ocsdata
 downloading-raw-data
@@ -43,10 +41,12 @@ example-use-cases
 examples-of-assignments
 modifying-and-creating-open-case-studies
 learning-objectives-2
-libraries
 modular-use
+example-of-modular-use
 modify-a-case-study
 create-a-case-study
+template-case-study
+makecasestudies-app
 session-info
 new-case-studies---building-and-contributing
 guidelines
