@@ -84,14 +84,23 @@ Some educators may find that only certain sections of a case study are relevant 
 
 ## Case Study Recommendations
 
+Each case study demonstrates an entire data analysis starting from data import and wrangling and continuing to statistical analysis and data visualization. This means that individual case studies can often incorporate different skill levels for different stages of the analyses. For example, a case study can use advanced data wrangling approaches but onlyl need beginner level statistical analysis methods. Below we provide broad categorizations of each of the case studies in terms of the skill levels required (beginner, intermediate, or advanced) for each of the general stages of the case studies (data wrangling, data visualization, and statistics). More details on the specific skills taught in each case study can be found in the [Case Study Search Tool](https://www.opencasestudies.org/#searchtab) or in the Learning Objectives section in each case study. 
+
 The following table lists a few example case studies that would be suitable for each experience level. 
 
-| Experience Level | Case Studies |
-| ------ | ---------------------- |
-| Beginner | Exploring CO2 emissions across time: [Static](https://www.opencasestudies.org/ocs-bp-co2-emissions/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-co2-emissions-interactive/). Vaping Behaviors in American Youth: [Static](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). |
-| Intermediate | Mental Health of American Youth: [Static](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-youth-mental-health-interactive/). Opioids in United States: [Static](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-opioid-rural-urban-interactive). |
-| Advanced | Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1: [Static](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/). Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2: [Static](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-RTC-analysis-interactive). |
-
+| Case Study | Data Wrangling | Data Visualization | Statistics | 
+| School Shootings in the United States | Beginner | Advanced | Beginner | 
+| Disparities in Youth Disconnection | Intermediate | Beginner | Beginner | 
+| Opioids in United States | Intermediate | Beginner | Intermediate | 
+| Vaping Behaviors in American Youth | Beginner | Beginner | Intermediate | 
+| Mental Health of American Youth | Advanced | Beginner | Beginner | 
+| Exploring global patterns of obesity across rural and urban regions | Intermediate | Beginner | Beginner | 
+| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 1 | Advanced | NA | NA | 
+| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 2 | NA | Intermediate | Advanced | 
+| Exploring CO2 emissions across time | Beginner | Beginner | Beginner | 
+| Exploring global patterns of dietary behaviors associated with health risk | Intermediate | Intermediate | Intermediate | 
+| Predicting Annual Air Pollution | Beginner | Intermediate | Advanced | 
+| Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | 
 
 ## Example Use Cases
 
