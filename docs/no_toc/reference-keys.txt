@@ -26,6 +26,7 @@ importing-wrangled-data
 downloading-extra-data
 downloading-all-case-study-data
 forking-the-case-study-repository
+feedback-1
 use-of-open-case-studies
 learning-objectives-1
 prerequisites
