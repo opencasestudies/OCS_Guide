@@ -88,19 +88,20 @@ Each case study demonstrates an entire data analysis starting from data import a
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
-| Case Study | Data Wrangling | Data Visualization | Statistics | 
-| School Shootings in the United States | Beginner | Advanced | Beginner | 
-| Disparities in Youth Disconnection | Intermediate | Beginner | Beginner | 
-| Opioids in United States | Intermediate | Beginner | Intermediate | 
-| Vaping Behaviors in American Youth | Beginner | Beginner | Intermediate | 
-| Mental Health of American Youth | Advanced | Beginner | Beginner | 
-| Exploring global patterns of obesity across rural and urban regions | Intermediate | Beginner | Beginner | 
-| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 1 | Advanced | NA | NA | 
-| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 2 | NA | Intermediate | Advanced | 
-| Exploring CO2 emissions across time | Beginner | Beginner | Beginner | 
-| Exploring global patterns of dietary behaviors associated with health risk | Intermediate | Intermediate | Intermediate | 
-| Predicting Annual Air Pollution | Beginner | Intermediate | Advanced | 
-| Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | 
+| Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
+| ------- | --------- | ------------------------ | ------- | --------- |
+| School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
+| Disparities in Youth Disconnection | Intermediate | Beginner | Beginner | Beginner | 
+| Opioids in United States | Intermediate | Beginner | Beginner | Intermediate | 
+| Vaping Behaviors in American Youth | Beginner | Beginner | Beginner | Intermediate | 
+| Mental Health of American Youth | Advanced | Beginner | Beginner | Beginner | 
+| Exploring global patterns of obesity across rural and urban regions | Intermediate | Beginner | Beginner | Beginner | 
+| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 1 | Beginner | Advanced | NA | NA | 
+| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 2 | NA | NA | Intermediate | Advanced | 
+| Exploring CO2 emissions across time | Beginner | Beginner | Beginner | Beginner | 
+| Exploring global patterns of dietary behaviors associated with health risk | Intermediate | Intermediate | Intermediate | Intermediate | 
+| Predicting Annual Air Pollution | Beginner | Beginner | Intermediate | Advanced | 
+| Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | Beginner | 
 
 ## Example Use Cases
 
