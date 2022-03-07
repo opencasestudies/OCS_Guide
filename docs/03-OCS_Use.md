@@ -170,12 +170,12 @@ We would like to thank the following people for generously sharing the ways in w
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.4.2    digest_0.6.25   R6_2.5.1       
-##  [5] lifecycle_1.0.1 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
-##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.2        ellipsis_0.3.1 
-## [13] vctrs_0.3.4     rmarkdown_2.10  ottr_0.1.2      tools_4.0.2    
-## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
-## [21] yaml_2.2.2      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
+##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
+##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.0        ellipsis_0.3.1 
+## [13] vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2     stringr_1.4.0  
+## [17] readr_1.4.0     hms_0.5.3       xfun_0.26       yaml_2.2.1     
+## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
 ## [25] knitr_1.33      tibble_3.0.3
 ```
 

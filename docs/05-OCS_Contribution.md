@@ -36,6 +36,17 @@ In this chapter we will discuss the guidelines for creating new case studies as 
 
 ### Submission: 
 
+- **Data:**
+  - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
+  ![](resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png)
+  - The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient. 
+  - The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section. 
+  - Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the `save()` function in R after importing the raw data. 
+  - Wrangled data is the version of the data after it has been cleaned and is ready for analysis. Use the `save()` function in R after wrangling the data to create these files. This data should be provided in both RDA and CSV format. 
+  - The next two data sub-folders are optional and used as needed: 
+    - If the raw data files for your case study come in a format that requires a complicated data import process (such as web scraping) you may consider providing the raw data in an import friendly format such as CSV or XLS(X). Place these files in the "simpler_import" sub-folder.
+    - If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the "extra" sub-folder. 
+
 
 
 ```r
@@ -62,11 +73,11 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.4.2    digest_0.6.25   R6_2.5.1       
-##  [5] lifecycle_1.0.1 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
-##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.2        ellipsis_0.3.1 
-## [13] vctrs_0.3.4     rmarkdown_2.10  ottr_0.1.2      tools_4.0.2    
-## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
-## [21] yaml_2.2.2      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
+##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
+##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.0        ellipsis_0.3.1 
+## [13] vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2     stringr_1.4.0  
+## [17] readr_1.4.0     hms_0.5.3       xfun_0.26       yaml_2.2.1     
+## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
 ## [25] knitr_1.33      tibble_3.0.3
 ```
