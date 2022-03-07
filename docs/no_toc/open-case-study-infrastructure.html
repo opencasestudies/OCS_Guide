@@ -169,6 +169,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.5.5" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-all-case-study-data"><i class="fa fa-check"></i><b>2.5.5</b> Downloading all case study data</a></li>
 <li class="chapter" data-level="2.5.6" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#forking-the-case-study-repository"><i class="fa fa-check"></i><b>2.5.6</b> Forking the case study repository</a></li>
 </ul></li>
+<li class="chapter" data-level="2.6" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#feedback-1"><i class="fa fa-check"></i><b>2.6</b> Feedback</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html"><i class="fa fa-check"></i><b>3</b> Use of Open Case Studies</a>
 <ul>
@@ -258,16 +259,16 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="ocs-website" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> OCS Website</h2>
 <p><img src="resources/images/OCSwebsite.png" title="Open Case Studies Website Landing Page" alt="Open Case Studies Website Landing Page" style="display: block; margin: auto;" /></p>
-<p>Links to all of our case studies can be found on the Open Case Studies website at <a href="https://www.opencasestudies.org/">opencasestudies.org</a>. The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies’ mission, history, and people can be found on the website as well as an archive of talks and blog posts.</p>
+<p>Links to all of our case studies can be found on the Open Case Studies website at <a href="https://www.opencasestudies.org/">opencasestudies.org</a>. The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies’ mission, history, and people can also be found on the website as well as an archive of talks and blog posts. The website also contains a contact form that may be used to send a message to Open Case Studies to ask a question or provide suggestions.</p>
 <div id="open-case-studies-mission" class="section level3" number="2.2.1">
 <h3><span class="header-section-number">2.2.1</span> Open Case Studies mission</h3>
-<p>The <a href="https://www.opencasestudies.org/">OpenCaseStudies website</a> describes the mission of the OpenCaseStudies project, the history of its inception, and current and previous members of the OCS team, among other information.</p>
-<p>The website also includes a link to a <a href="https://www.opencasestudies.org/">user experience survey</a> (takes up to 10 minutes to complete), which helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!</p>
-<p>Finally, the website includes the OCS case study search tool to aid instructors in finding appropriate case studies for their learning objectives. The search tool is described in more detail below.</p>
+<p>The <a href="https://www.opencasestudies.org/">OpenCaseStudies website</a> describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information.</p>
+<p>(avocado do we need this subsection?)</p>
 </div>
 </div>
 <div id="ocs-case-study-search-tool" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> OCS Case Study Search Tool</h2>
+<p>The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accesing the search tool and how to use it is described in more detail below.</p>
 <p>This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.</p>
 <p><img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" style="display: block; margin: auto;" /></p>
 <p>The <a href="https://www.opencasestudies.org/#searchtab">Open Case Study Search</a> tool can be found at the bottom of the <a href="https://www.opencasestudies.org/">OCS Website</a>. The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:</p>
@@ -278,8 +279,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li>The “Objectives” column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.)</li>
 <li>The “Category” column lists the source of funding or project that the case study is associated with</li>
 </ul>
-<p>The main two columns likely to be helpful in identifying appropriate case studies are the “Packages” and “Objectives” columns. The “Packages” column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill. The “Objectives” column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.).</p>
-<p>The overall search bar allows users to search with keywords across all columns, otherwise users can search individual columns of interest.</p>
+<p>The main two columns likely to be helpful in identifying appropriate case studies are the “Packages” and “Objectives” columns. Users may search for keywords across all columns using the overall search bar, otherwise users can search individual columns of interest.</p>
 <p>This table can be used to access all case study resources:</p>
 <p><img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" style="display: block; margin: auto;" /></p>
 </div>
@@ -293,7 +293,43 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="ocsdata" class="section level2" number="2.5">
 <h2><span class="header-section-number">2.5</span> OCSdata</h2>
 <p>To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called “OCSdata” where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study.</p>
-<p>(Add table 2.1 summarizing data formats available for download via OCSdata)</p>
+<table>
+<thead>
+<tr class="header">
+<th>Data Folder</th>
+<th>Case Study Section</th>
+<th>OCSdata Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>raw</td>
+<td>Data Import</td>
+<td><code>raw_data</code></td>
+</tr>
+<tr class="even">
+<td>imported</td>
+<td>Data Exploration, Data Wrangling</td>
+<td><code>imported_data</code></td>
+</tr>
+<tr class="odd">
+<td>wrangled</td>
+<td>Data Visualization, Data Analysis</td>
+<td><code>wrangled_csv</code>, <code>wrangled_rda</code></td>
+</tr>
+<tr class="even">
+<td>simpler_import</td>
+<td>Data Import</td>
+<td><code>simpler_import_data</code></td>
+</tr>
+<tr class="odd">
+<td>extra</td>
+<td>Suggested Homework (?)</td>
+<td><code>extra_data</code></td>
+</tr>
+</tbody>
+</table>
+<p>(avocado edit this table to fit with context better)</p>
 <div id="getting-started-with-ocsdata" class="section level3" number="2.5.1">
 <h3><span class="header-section-number">2.5.1</span> Getting Started with OCSdata</h3>
 <p>The <code>OCSdata</code> package is available on the package repository CRAN and can be installed in R as follows:</p>
@@ -345,6 +381,11 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="forking-the-case-study-repository" class="section level3" number="2.5.6">
 <h3><span class="header-section-number">2.5.6</span> Forking the case study repository</h3>
+</div>
+</div>
+<div id="feedback-1" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Feedback</h2>
+<p>If you would like to provide feedback on the Open Case Studies please do so with our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link">user feedback survey</a>. The survey should take no more than 10 minutes to complete and can be found on the <a href="https://www.opencasestudies.org/#survey">OCS website</a> as well as within the case studies themselves. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!</p>
 <pre><code>## R version 4.0.2 (2020-06-22)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Ubuntu 20.04.3 LTS
@@ -372,7 +413,6 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 ## [21] yaml_2.2.1      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
 ## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3</code></pre>
 
-</div>
 </div>
 </div>
 <hr>

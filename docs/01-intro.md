@@ -53,7 +53,7 @@ This guide documents:
 
 
 
-![](assets/ocs_anatomy.png)
+![](resources/images/ocs_anatomy.png)
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
 
@@ -90,7 +90,7 @@ In the final stage of the case study, students synthesize conclusions to the mai
 
 	
 This anatomy is reflected in the table of contents of case study sections:	
-![](assets/OCS_TOC_anatomy.png)
+![](resources/images/OCS_TOC_anatomy.png)
 
 
 | **Case Study Section** | **Description** |
@@ -112,7 +112,7 @@ This anatomy is reflected in the table of contents of case study sections:
 
 
 The table of contents can be used to navigate to specific sections in a case study:
-![](assets/TOC_scroll.gif)
+![](resources/images/TOC_scroll.gif)
 
 ## Starter Kit
 
@@ -122,7 +122,7 @@ Open Case Studies are designed to be beginner friendly. Users can work through a
 
 (avocado note from slack: what physical resources are needed - software installed - what type of computers - think about interactive case studies)
 
-All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to get and load the data, does require R 3.5 (avocado). Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
+All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
 
 Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
