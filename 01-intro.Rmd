@@ -172,4 +172,6 @@ You can contact us through email using this form:
   <button type="submit">Send</button>
 </form>
 
-You can also find us on Twitter with the following handle: [@OpenCaseStudies](https://twitter.com/opencasestudies)
+<br>
+
+You can also find us on Twitter with the following handle: [`@OpenCaseStudies`](https://twitter.com/opencasestudies)
