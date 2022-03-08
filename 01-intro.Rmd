@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r, include = FALSE}
@@ -154,6 +154,22 @@ We are continually working to improve the Open Case Studies project to address l
 
 ## Contact Us 
 
-Email: opencasestudies@gmail.com
+You can contact us through email using this form:
 
-Twitter: [@OpenCaseStudies](https://twitter.com/opencasestudies)
+<form
+  action="https://formspree.io/f/myybqzpz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+You can also find us on Twitter with the following handle: [@OpenCaseStudies](https://twitter.com/opencasestudies)
