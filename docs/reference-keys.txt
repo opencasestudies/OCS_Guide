@@ -4,6 +4,9 @@ target-audience
 curriculum
 open-case-studies-philosophy
 open-case-studies-anatomy
+stage-1-getting-started
+stage-2-analyzing-the-data
+stage-3-wrapping-up
 starter-kit
 technical-requirements
 rstudio

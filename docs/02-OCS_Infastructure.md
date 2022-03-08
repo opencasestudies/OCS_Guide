@@ -28,7 +28,7 @@ The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mi
 
 ## OCS Case Study Search Tool
 
-The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accesing the search tool and how to use it is described in more detail below.
+The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.
 
@@ -74,9 +74,7 @@ To simplify the process of accessing the data required for each case study, we h
 
 ### Getting Started with OCSdata
 
-The `OCSdata` package is available on the package repository CRAN and can be installed in R as follows: 
-
-[avocado R version requirement?]
+The `OCSdata` package is available on the package repository CRAN. It requires R 3.5 or higher and can be installed in R as follows: 
 
 
 ```r
@@ -114,7 +112,7 @@ simpler_import_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 #### Importing data as R objects 
 
-The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in Rstudio or using the load() function as follows. 
+The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the load() function as follows. 
 
 
 
