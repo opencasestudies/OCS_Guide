@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 
@@ -59,34 +59,34 @@ Case studies are designed to be self-contained examples of complete data analyse
 
 Each case study is composed of three main stages: \ 
 
-- Stage 1: Getting Started \ 
+#### Stage 1: Getting Started \ 
 
 In the first stage, students learn about the subject area they will be investigating in their data analysis. This can include historical perspectives, previous literature, and current overarching questions in the field. Ideally, this will provide motivation as to why the data analysis they will be performing is interesting and useful. Students will then further refine questions of interest and define a specific question to be investigated by the data at hand. This question will define the statistical and data science learning objectives for the case study. Finally, students will explore the limitations of their investigation and discuss why their data analysis may or may not be able to fully answer the main question of interest. 
 
-	- Case study context
-	- Study motivation
-	- Main question
-	- Learning objectives 
-	- Study limitations 
+- Case study context
+- Study motivation
+- Main question
+- Learning objectives 
+- Study limitations 
 
-- Stage 2: Analyzing the Data \ 
+#### Stage 2: Analyzing the Data \ 
 
 This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the required format. The cleaned data can then be visualized and analyzed to answer the study question. 
 
-	- Data description
-	- Import and exploration 
-	- Wrangling 
-	- Visualization 
-	- Analysis 
+- Data description
+- Import and exploration 
+- Wrangling 
+- Visualization 
+- Analysis 
 
-- Stage 3: Wrapping-Up \ 
+#### Stage 3: Wrapping-Up \ 
 
 In the final stage of the case study, students synthesize conclusions to the main study question based on the results of their data analysis. They summarize the data exploration and analysis steps they took and discuss potential next steps they could take based on their results. Finally, additional analyses are suggested as homework and additional information relevant to the case study is provided. 
 
-	- Analysis conclusions 
-	- Case study summary
-	- Next steps 
-	- Homework 
+- Analysis conclusions 
+- Case study summary
+- Next steps 
+- Homework 
 
 	
 This anatomy is reflected in the table of contents of case study sections:	
@@ -142,6 +142,24 @@ We are continually working to improve the Open Case Studies project to address l
 
 ## Contact Us 
 
-[Email:] opencasestudies@gmail.com
+You can contact us through email using this form:
 
-[Twitter:](https://twitter.com/opencasestudies)
+<form
+  action="https://formspree.io/f/myybqzpz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+<br>
+
+You can also find us on Twitter with the following handle: [`@OpenCaseStudies`](https://twitter.com/opencasestudies)

@@ -268,7 +268,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="ocs-case-study-search-tool" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> OCS Case Study Search Tool</h2>
-<p>The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accesing the search tool and how to use it is described in more detail below.</p>
+<p>The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.</p>
 <p>This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.</p>
 <p><img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" style="display: block; margin: auto;" /></p>
 <p>The <a href="https://www.opencasestudies.org/#searchtab">Open Case Study Search</a> tool can be found at the bottom of the <a href="https://www.opencasestudies.org/">OCS Website</a>. The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:</p>
@@ -332,10 +332,9 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>(avocado edit this table to fit with context better)</p>
 <div id="getting-started-with-ocsdata" class="section level3" number="2.5.1">
 <h3><span class="header-section-number">2.5.1</span> Getting Started with OCSdata</h3>
-<p>The <code>OCSdata</code> package is available on the package repository CRAN and can be installed in R as follows:</p>
-<p>[avocado R version requirement?]</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="open-case-study-infrastructure.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;OCSdata&quot;</span>) <span class="co">#only run once to install package</span></span>
-<span id="cb4-2"><a href="open-case-study-infrastructure.html#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(OCSdata) <span class="co">#run every new R session to load package</span></span></code></pre></div>
+<p>The <code>OCSdata</code> package is available on the package repository CRAN. It requires R 3.5 or higher and can be installed in R as follows:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="open-case-study-infrastructure.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;OCSdata&quot;</span>) <span class="co">#only run once to install package</span></span>
+<span id="cb1-2"><a href="open-case-study-infrastructure.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(OCSdata) <span class="co">#run every new R session to load package</span></span></code></pre></div>
 </div>
 <div id="downloading-raw-data" class="section level3" number="2.5.2">
 <h3><span class="header-section-number">2.5.2</span> Downloading raw data</h3>
@@ -343,7 +342,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>The first argument is the name of the case study. A list of case study names can be found in the package documentation <a href="https://cran.r-project.org/web/packages/OCSdata/vignettes/instructions.html#casestudy">online</a> or by typing <code>?raw_data</code> in R.</p>
 <p>The <code>outpath</code> argument is a string specifying the folder where the data should be downloaded. To download the data to a folder named “OCS_data” in the current working directory, you can supply <code>getwd()</code> to the <code>output</code> argument. If nothing is provided for the argument, you will be prompted to enter 1, 2, or 3 to download the data into the current director, to specify the download path, or to cancel, respectively.</p>
 <p>In the following example, we download the raw data for the “Opioids in the United States” case study to the current directory.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="open-case-study-infrastructure.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">raw_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="open-case-study-infrastructure.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">raw_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
 </div>
 <div id="downloading-data-in-other-formats" class="section level3" number="2.5.3">
 <h3><span class="header-section-number">2.5.3</span> Downloading data in other formats</h3>
@@ -351,33 +350,33 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="simpler-import" class="section level4" number="2.5.3.1">
 <h4><span class="header-section-number">2.5.3.1</span> Simpler import</h4>
 <p>The <code>simpler_import_data</code> function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="open-case-study-infrastructure.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">simpler_import_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="open-case-study-infrastructure.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">simpler_import_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
 </div>
 <div id="importing-data-as-r-objects" class="section level4" number="2.5.3.2">
 <h4><span class="header-section-number">2.5.3.2</span> Importing data as R objects</h4>
-<p>The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in Rstudio or using the load() function as follows.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="open-case-study-infrastructure.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">imported_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) <span class="co">#download data in .rda format </span></span>
-<span id="cb7-2"><a href="open-case-study-infrastructure.html#cb7-2" aria-hidden="true" tabindex="-1"></a>file_path <span class="ot">=</span> <span class="st">&quot;~/OCS_data/data/imported/land_area.rda&quot;</span> <span class="co">#specify download directory </span></span>
-<span id="cb7-3"><a href="open-case-study-infrastructure.html#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(file_path) <span class="co">#load R objects </span></span></code></pre></div>
+<p>The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the load() function as follows.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="open-case-study-infrastructure.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">imported_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) <span class="co">#download data in .rda format </span></span>
+<span id="cb4-2"><a href="open-case-study-infrastructure.html#cb4-2" aria-hidden="true" tabindex="-1"></a>file_path <span class="ot">=</span> <span class="st">&quot;~/OCS_data/data/imported/land_area.rda&quot;</span> <span class="co">#specify download directory </span></span>
+<span id="cb4-3"><a href="open-case-study-infrastructure.html#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(file_path) <span class="co">#load R objects </span></span></code></pre></div>
 </div>
 <div id="importing-wrangled-data" class="section level4" number="2.5.3.3">
 <h4><span class="header-section-number">2.5.3.3</span> Importing wrangled data</h4>
 <p>The following functions will download the data files that have already been wrangled and are ready to be analyzed. These come in both .csv and .rda formats.</p>
 <p>Download as csv files:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="open-case-study-infrastructure.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wrangled_csv</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="open-case-study-infrastructure.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wrangled_csv</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 <p>Downloading as R objects:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="open-case-study-infrastructure.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wrangled_rda</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="open-case-study-infrastructure.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wrangled_rda</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
 </div>
 <div id="downloading-extra-data" class="section level3" number="2.5.4">
 <h3><span class="header-section-number">2.5.4</span> Downloading extra data</h3>
 <p>Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data but can This data can be downloaded using the <code>extra_data</code> function.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="open-case-study-infrastructure.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extra_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="open-case-study-infrastructure.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extra_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
 <div id="downloading-all-case-study-data" class="section level3" number="2.5.5">
 <h3><span class="header-section-number">2.5.5</span> Downloading all case study data</h3>
 <p>The <code>zip_ocs</code> function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="open-case-study-infrastructure.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">zip_ocs</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="open-case-study-infrastructure.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">zip_ocs</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
 <div id="forking-the-case-study-repository" class="section level3" number="2.5.6">
 <h3><span class="header-section-number">2.5.6</span> Forking the case study repository</h3>
