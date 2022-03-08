@@ -27,7 +27,7 @@ All case studies use the R statistical programming language for data analysis. S
 
 **Software**
 
-All case studies use the R statistical programming language for data analysis. While there is no specific R version requirement for the case studies, the `OCSdata` package, which can be used to get and load the data, does require R 3.5 (avocado). Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the `sessionInfo()` section in each case study.  
+All case studies use the R statistical programming language for data analysis. While there is no specific R version requirement for the case studies, the `OCSdata` package, which can be used to get and load the data, does require R 3.5. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the `sessionInfo()` section in each case study.  
 
 ### Experience Level Descriptions
 
@@ -82,20 +82,39 @@ Some educators may find that only certain sections of a case study are relevant 
 
 ## Case Study Recommendations
 
+Each case study demonstrates an entire data analysis starting from data import and wrangling and continuing to statistical analysis and data visualization. This means that individual case studies can often incorporate different skill levels for different stages of the analyses. For example, a case study can use advanced data wrangling approaches but only need beginner level statistical analysis methods. Below we provide broad categorizations of each of the case studies in terms of the skill levels required (beginner, intermediate, or advanced) for each of the general stages of the case studies (data wrangling, data visualization, and statistics). More details on the specific skills taught in each case study can be found in the [Case Study Search Tool](https://www.opencasestudies.org/#searchtab) or in the Learning Objectives section in each case study. 
+
+Here, we are using the following interpretations of "beginner", "intermediate", and "advanced"
+| Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
+| ------- | --------- | ------------------------ | ------- | --------- |
+| Beginner | No experience with importing data into any programming language | No experience wrangling and cleaning raw data in any programming language | No experience visualizing data in any programming language | No experience with statistical concepts |
+| Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
+| Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
+
+
+
 The following table lists a few example case studies that would be suitable for each experience level. 
 
-| Experience Level | Case Studies |
-| ------ | ---------------------- |
-| Beginner | Exploring CO2 emissions across time: [Static](https://www.opencasestudies.org/ocs-bp-co2-emissions/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-co2-emissions-interactive/). Vaping Behaviors in American Youth: [Static](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). |
-| Intermediate | Mental Health of American Youth: [Static](https://www.opencasestudies.org/ocs-bp-youth-mental-health/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-youth-mental-health-interactive/). Opioids in United States: [Static](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-opioid-rural-urban-interactive). |
-| Advanced | Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1: [Static](https://www.opencasestudies.org/ocs-bp-RTC-wrangling/). Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2: [Static](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), [Interactive](https://rsconnect.biostat.jhsph.edu/ocs-bp-RTC-analysis-interactive). |
-
+| Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
+| ------- | --------- | ------------------------ | ------- | --------- |
+| School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
+| Disparities in Youth Disconnection | Intermediate | Beginner | Beginner | Beginner | 
+| Opioids in United States | Intermediate | Beginner | Beginner | Intermediate | 
+| Vaping Behaviors in American Youth | Beginner | Beginner | Beginner | Intermediate | 
+| Mental Health of American Youth | Advanced | Beginner | Beginner | Beginner | 
+| Exploring global patterns of obesity across rural and urban regions | Intermediate | Beginner | Beginner | Beginner | 
+| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 1 | Beginner | Advanced | NA | NA | 
+| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 2 | NA | NA | Intermediate | Advanced | 
+| Exploring CO2 emissions across time | Beginner | Beginner | Beginner | Beginner | 
+| Exploring global patterns of dietary behaviors associated with health risk | Intermediate | Intermediate | Intermediate | Intermediate | 
+| Predicting Annual Air Pollution | Beginner | Beginner | Intermediate | Advanced | 
+| Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | Beginner | 
 
 ## Example Use Cases
 
 Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to hear about it! 
 
-**Beginner Undergraduate Data Science Course** 
+**Intermediate Undergraduate Data Science Course** 
 
 [Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught be Dr. Shannon Ellis at University of California Santa Barbara. It includes three Open Case Studies and uses them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
@@ -103,7 +122,7 @@ The course incorporates labs and homeworks, which have guided coding and analysi
 
 **Advanced Graduate Data Science Course** 
 
-[Advanced Data Science](http://jtleek.com/ads2020/) is a semester-long course taught by Dr. Jeff Leek and Dr. Roger Peng in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
+[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long course taught by Dr. Jeff Leek and Dr. Roger Peng in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
 
 **Independent Study**  
 
@@ -116,10 +135,6 @@ Some of the case studies are also included in interactive versions. These versio
 ## Examples of assignments 
 
 Educators are not limited to having the students go through the case study in their current format. Case studies can be a spring board for further exploration and additional assignments. For example, in addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their curiosity, technical writing and communication skills. Additional assignments can include but is not limited to data visualization and presentation, written reports, and oral presentations. Below we provide a few examples of potential assignments that educators can use to tailor instruction to the desired learning objectives. 
-
-**Further Exploration**  
-
-Several case studies have additional data that is not discussed. This can be used for further exploration of the subject area that was discussed in the case study. This can be guided by the questions included in the Homework section of the case studies. Case studies that have additional data include the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question), the [Right to Carry Case Study](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), and the [CO2 Emissions Case Study](https://www.opencasestudies.org/ocs-bp-co2-emissions/).
 
 **Written Report** 
 
@@ -140,6 +155,11 @@ Below is an example of a presentation based on the [Vaping Behaviors in American
 **Data Visualization** 
 
 The data visualizations included in the case studies are not the only way to present the results of the analyses. While the principles of effective data visualization are not a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. As examples, we link a [lecture on the principles of data visualization](https://paldhous.github.io/ucb/2019/dataviz/week2.html) from Dr. Peter Aldhous' Introduction to Data Visualization Course and a [data visualization assignment and accompanying grading rubric](http://vis.mit.edu/classes/6.894/A1) from the Interactive Data Visualization course at MIT's Department of Computer Science.
+
+**Further Exploration**  
+
+Several case studies have additional data that is not discussed. This can be used for further exploration of the subject area that was discussed in the case study. This can be guided by the questions included in the Homework section of the case studies. Case studies that have additional data include the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question), the [Right to Carry Case Study](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), and the [CO2 Emissions Case Study](https://www.opencasestudies.org/ocs-bp-co2-emissions/).
+
 
 *Acknowledgments*
 
