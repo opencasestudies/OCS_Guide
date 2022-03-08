@@ -48,6 +48,24 @@ In this chapter we will discuss the guidelines for creating new case studies as 
     - If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the "extra" sub-folder. 
 
 
+<form
+  action="https://formspree.io/f/myybqzpz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+
+
 
 ```r
 sessionInfo()
