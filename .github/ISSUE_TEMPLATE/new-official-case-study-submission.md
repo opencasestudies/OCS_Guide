@@ -87,3 +87,6 @@ For questions/help about the submission process, please contact us on our [websi
 [1]: https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html#guidelines
 [2]: https://opencasestudies.org/code_of_conduct.html
 [3]: https://www.opencasestudies.org/#contact
+[4]: https://github.com/Bioconductor/Contributions/issues/new
+
+This submission issue template was inspired by the bioconductor package submission issue [template][4].
