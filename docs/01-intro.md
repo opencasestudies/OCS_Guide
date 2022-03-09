@@ -47,7 +47,7 @@ This guide documents:
 
 ## Open Case Studies Philosophy
 
-![](resources/images/01-intro_files/figure-docx//17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0_g107fd794960_0_154.png)
+![](resources/images/ocs_graphic.png)
 
 ## Open Case Studies Anatomy
 
