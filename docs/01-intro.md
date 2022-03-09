@@ -59,6 +59,8 @@ Case studies are designed to be self-contained examples of complete data analyse
 
 Each case study is composed of three main stages: \ 
 
+  
+  
 #### Stage 1: Getting Started \ 
 
 In the first stage, students learn about the subject area they will be investigating in their data analysis. This can include historical perspectives, previous literature, and current overarching questions in the field. Ideally, this will provide motivation as to why the data analysis they will be performing is interesting and useful. Students will then further refine questions of interest and define a specific question to be investigated by the data at hand. This question will define the statistical and data science learning objectives for the case study. Finally, students will explore the limitations of their investigation and discuss why their data analysis may or may not be able to fully answer the main question of interest. 
@@ -91,8 +93,9 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:	
 ![](resources/images/OCS_TOC_anatomy.png)
-
-
+  
+ <br> 
+    
 | **Case Study Section** | **Description** |
 | ------- | ---------------- |
 | Motivation | Motivating figure and text at the start of the case study |
