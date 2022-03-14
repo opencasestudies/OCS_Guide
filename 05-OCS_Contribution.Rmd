@@ -5,15 +5,69 @@ ottrpal::set_knitr_image_path()
 
 # New Case Studies - Building and Contributing 
 
-In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project. To preserve the integrity of the core ideas of our resource we provide the following guidelines for case studies to be included in the Open Case Studies collection:
+In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project. We recognize that educators may have case studies in various stages of development. We hope to facilitate sharing of these case studies on the OpenCaseStudies project to fullest extent possible. However, we may not be able to integrate all case studies we receive into the OpenCaseStudies. For this reason, we have outlined the following two modes of submission: 
 
-### Guidelines:
+1) **Submitting case study ideas for integration into the OpenCaseStudies project:** Here, the OpenCaseStudies team will work with you starting from a case study idea through development, testing, and peer review stages, with the ultimate goal of adding your case study to the OpenCaseStudies project. See details in the Submission section below on how to initiate this process.    
+2) **Submitting case studies and/or case study materials for sharing on our publicly available community repository:** Here, you can submit your case study materials (data, code, content explanations) to the OpenCaseStudies community repository. This repository will contain case studies submitted by educators but not included in the OpenCaseStudies project. See details in the Submission section below on how to submit. 
 
-- **Programming language:** Case studies should be written in open source programming languages (preferably R). 
-- **Data:**
+### Submission: 
+
+#### **Submitting case study idea for development and integration into the OpenCaseStudies project**
+
+Please complete the form below to contact the OpenCaseStudies team regarding a new case study idea. The team will get back to do as soon as possible. 
+
+<form
+  action="https://formspree.io/f/myybqzpz"
+  method="POST"
+>
+  <label>
+    Name:\n
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Email:  \n
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Case study title (tentative):\n
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <label>
+    Case study description:\n
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <label>
+    Dataset description:\n
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <label>
+    Statistics learning goals for the case study:\n
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <label>
+    Data science learning goals for the case study:\n
+    <textarea rows = "5" cols = "60" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+
+#### **Submitting case study materials to the OpenCaseStudies Community repository**
+
+These case studies will be shared publicly on the OpenCaseStudies Community Repository for the benefit of other educators and learners, with minimal review from the OpenCaseStudies team. To submit a case study to the Community Repository, please fill out the form below. 
+
+(avocado google form)
+
+To ensure that the submitted case studies provide the most benefit to the community, we hope that they adhere as much as possible to the core structure and ideas of the OpenCaseStudies project. We provide the guidelines detailed below for submission to the Community Repository. Furthermore, because the OpenCaseStudies team does not have the infrastructure to perform a full content review of submitted case studies, we ask that you provide brief comments from at least two independent reviewers supporting the validity of the content and conclusions presented in your case study. 
+
+##### Guidelines:
+
+###### **Programming language:** Case studies should be written in open source programming languages (preferably R). 
+###### **Data:**
   - Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already. 
   - Transparent descriptions of data sources and how data was generated should be included when possible. 
-- **Core sections**: all case studies should include the following sections consistent with the published case studies. See Chapter 1, Case Study Anatomy for a detailed description on what each section should include:
+###### **Core sections**: all case studies should include the following sections consistent with the published case studies. See Chapter 1, Case Study Anatomy for a detailed description on what each section should include:
   - Case study context 
   - Study motivation 
   - Main question 
@@ -29,16 +83,14 @@ In this chapter we will discuss the guidelines for creating new case studies as 
   - Next steps 
   - Homework 
   - Additional information
-- **Content:** Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process. 
+###### **Content:** Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process. 
   - Links to literature or other sources to motivate the scientific topic of the case study should be included where possible.
   - Case studies should aim to describe the decision making process involved in performing data science related tasks.
-- **Attribution:** all outside resources used in the case study should be referenced appropriately. 
+###### **Attribution:** all outside resources used in the case study should be referenced appropriately. 
   - Case studies should include disclaimers and appropriate license agreements.
   - All included images (that are not original to the case study) should include relevant sources.
 
-### Submission: 
-
-- **Data:**
+###### **Data:**
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
   ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
   knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
@@ -52,21 +104,6 @@ In this chapter we will discuss the guidelines for creating new case studies as 
     - If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the "extra" sub-folder. 
 
 
-<form
-  action="https://formspree.io/f/myybqzpz"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea rows = "5" cols = "60" name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
 
 
 
