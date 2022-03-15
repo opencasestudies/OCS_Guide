@@ -47,41 +47,64 @@ ownership of the case study repo will eventually need to be transferred to the _
 - [ ] All general steps are described within the case study or included within click-to-expand sections 
 
 ## Attributions
-  - [ ] Attributions: all outside sources are referenced and cited appropriately
-       -[ ] disclaimers are included
-       -[ ] licences for use are included
-       -[ ] All images/gif/videos and other forms of media that are not original to the case study include sources
-       -[ ] Information on how to cite the case study is included
-       -[ ] Anyone who contributed in a sizable way is included as an author
+
+- [ ] Attributions: all outside sources are referenced and cited appropriately
+  -[ ] disclaimers are included
+  -[ ] licences for use are included
+  -[ ] All images/gif/videos and other forms of media that are not original to the case study include sources
+  -[ ] Information on how to cite the case study is included
+  -[ ] Anyone who contributed in a sizable way is included as an author
 
 ## Case Study Sections
-  - [ ] All Core sections of the case study are present or within another case study
-    - [ ] Motivation
-    - [ ] Main Question(s)
-    - [ ] Learning Objectives
-    - [ ] Context
-    - [ ] Limitations
-    - [ ] What are the data?
-    - [ ] Data Import
-    - [ ] Data Exploration and Wrangling
-    - [ ] Data Visualization
-    - [ ] Data Analysis
-    - [ ] Summary
-    - [ ] Suggested Homework
-    - [ ] Additional Information
+
+- [ ] All Core sections of the case study are present or within another case study
+  - [ ] Motivation
+  - [ ] Main Question(s)
+  - [ ] Learning Objectives
+  - [ ] Context
+  - [ ] Limitations
+  - [ ] What are the data?
+  - [ ] Data Import
+  - [ ] Data Exploration and Wrangling
+  - [ ] Data Visualization
+  - [ ] Data Analysis
+  - [ ] Summary
+  - [ ] Suggested Homework
+  - [ ] Additional Information
   
 Note that some variation in the location of data exploration and data visualization is acceptable.
   
  ## Data
+ 
+- [ ] My case study uses data that is publicly available
 
-   - [ ] My case study uses data that is publicly available
-    - [ ] If I made the data available, I am allowed to do so
-  - [ ] I provide transparent descriptions of the source of the data and how it was generated when possible
-  - [ ] Data is set up using the file structure as outlined in the _OpenCaseStudy_ [Submission Guideline][1]
-  
+- [ ] If I made the data available, I am allowed to do so
+
+- [ ] I provide transparent descriptions of the source of the data and how it was generated when possible
+
+- [ ] Data is set up using the file structure as outlined in the _OpenCaseStudy_ [Submission Guideline][1]
   
 
-For questions/help about the submission process, please contact us on our [website][3].
+## Review Process
+
+Update the following URLs to point to two GitHub users who will serve as reviewers for
+the case study repo you wish to submit to _OpenCaseStudies_:
+
+https://github.com/username_review_1
+https://github.com/username_review_2
+
+Reviewers should provide comments here to this issue describing their thoughts about the case study regarding the validity of the descriptions about the data science and statistical methods used.
+
+- [ ] Reviewer 1 has submitted comments
+
+- [ ] Reviewer 2 has submitted comments
+
+- [ ] The case study has been updated (if any needed) based on reviewer 1 comments
+
+- [ ] The case study has been updated (if any needed) based on reviewer 2 comments
+
+
+For questions/help about the submission or review process, please contact us on our [website][3].
 
 
 [1]: https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html#guidelines
@@ -90,3 +113,4 @@ For questions/help about the submission process, please contact us on our [websi
 [4]: https://github.com/Bioconductor/Contributions/issues/new
 
 This submission issue template was inspired by the bioconductor package submission issue [template][4].
+
