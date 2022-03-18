@@ -11,7 +11,7 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 * our website
 * an open case studies search tool
 * our GitHub organization
-* an R package called OCSdata
+* an R package called `OCSdata`
 
 
 ## OCS Website
@@ -26,8 +26,7 @@ Links to all of our case studies can be found on the Open Case Studies website a
 
 The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
 
-(avocado do we need this subsection?)
-
+You can get in touch with the Open Case Studies project team - just send us an email with feedback, suggestions, or questions. You can send us an email by submitting an [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us).
 
 
 ## OCS Case Study Search Tool
@@ -70,9 +69,11 @@ Data included in the GitHub repository is available in multiple formats to facil
 
 ## OCSdata 
 
-To simplify the process of accessing the data required for each case study, we have created the OCSdata R package. Briefly, the OCSdata package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the OCSdata package also downloads extra source data that is not used in the case study. 
+To simplify the process of accessing the data required for each case study, we have created the `OCSdata` R package. Briefly, the `OCSdata` package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the `OCSdata` package also downloads extra source data that is not used in the case study. 
 
-| Data Folder | Case Study Section | OCSdata Function |
+The following are the main functions to import data in various formats using the `OCSdata` package. Each function is described in more detail in the `OCSdata` [package documentation](https://cran.r-project.org/web/packages/OCSdata/index.html).
+
+| Data Folder | Case Study Section | `OCSdata` Function |
 | ----- | -------- | ------ |
 | raw | Data Import | `raw_data` |
 | imported | Data Exploration, Data Wrangling | `imported_data` |
@@ -80,11 +81,10 @@ To simplify the process of accessing the data required for each case study, we h
 | simpler_import | Data Import | `simpler_import_data` |
 | extra | Suggested Homework (?) | `extra_data` |
 
-(avocado edit this table to fit with context better)
 
-### Getting Started with OCSdata
+### Getting Started with `OCSdata`
 
-The `OCSdata` package is available on the package repository CRAN. It requires R 3.5 or higher and can be installed in R as follows: 
+The `OCSdata` package is available on the package repository [CRAN](https://cran.r-project.org/web/packages/OCSdata/index.html). It requires R 3.5 or higher and can be installed in R as follows: 
 
 ```{r, include = TRUE, eval = FALSE}
 install.packages("OCSdata") #only run once to install package
@@ -107,7 +107,7 @@ raw_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 ### Downloading data in other formats
 
-The OCSdata package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.
+The `OCSdata` package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.
 
 #### Simpler import
 
@@ -167,6 +167,8 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 ## Feedback
 
 If you would like to provide feedback on the Open Case Studies please do so with our [user feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link). The survey should take no more than 10 minutes to complete and can be found on the [OCS website](https://www.opencasestudies.org/#survey) as well as within the case studies themselves. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
+
+## Session info
 
 ```{r, echo = FALSE}
 sessionInfo()
