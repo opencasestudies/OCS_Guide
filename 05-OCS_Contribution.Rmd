@@ -108,7 +108,6 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
 ## Session info
 
-
-```{r}
+```{r, echo = FALSE}
 sessionInfo()
 ```
