@@ -1,6 +1,6 @@
 ---
 name: New Case Study Guide Idea
-about: Suggest an idea for the the guide
+about: Suggest an idea for the guide
 title: ''
 labels: ''
 assignees:
