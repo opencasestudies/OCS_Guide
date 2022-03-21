@@ -21,7 +21,7 @@ Confirm the following by editing each check box to '[x]'
 - [ ] I understand that by submitting my case study to _OpenCaseStudies_,
 ownership of the case study repo will eventually need to be transferred to the _OpenCaseStudies_ organization. All source and all review commentary will be made visible to the general public. 
 
-- [ ] I understand that I am free to make use of any material that I create for _OpenCaseStudies_, so long as I abide by the Creative Commons Attribution-NonCommercial 3.0 (CC BY-NC 3.0) United States License. 
+- [ ] I understand that I am free to make use of any material that I create for _OpenCaseStudies_, so long as I abide by any license that I choose to use. 
 
 - [ ] I understand that a minimum requirement for case study acceptance 
   is to successfully knit with no ERRORS or WARNINGS. 
@@ -50,10 +50,10 @@ ownership of the case study repo will eventually need to be transferred to the _
 
 - [ ] Attributions: all outside sources are referenced and cited appropriately
   -[ ] disclaimers are included
-  -[ ] licences for use are included
+  -[ ] licences for use are included (Any open source license is allowed, such as CC-BY or MIT for example)
   -[ ] All images/gif/videos and other forms of media that are not original to the case study include sources
   -[ ] Information on how to cite the case study is included
-  -[ ] Anyone who contributed in a sizable way is included as an author
+  -[ ] Anyone who contributed in a sizable way is included as an author and they are otherwise acknowleged if it was a smaller contribution
 
 ## Case Study Sections
 
