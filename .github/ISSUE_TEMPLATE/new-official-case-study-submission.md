@@ -49,8 +49,8 @@ ownership of the case study repo will eventually need to be transferred to the _
 ## Attributions
 
 - [ ] Attributions: all outside sources are referenced and cited appropriately
-  -[ ] disclaimers are included
-  -[ ] licences for use are included (Any open source license is allowed, such as CC-BY or MIT for example)
+  -[ ] Open Case Study disclaimer is included (see current case studies)
+  -[ ] Licence for use is included (Any open source license is allowed, such as CC-BY or MIT for example)
   -[ ] All images/gif/videos and other forms of media that are not original to the case study include sources
   -[ ] Information on how to cite the case study is included
   -[ ] Anyone who contributed in a sizable way is included as an author and they are otherwise acknowleged if it was a smaller contribution
