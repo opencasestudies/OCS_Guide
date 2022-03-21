@@ -72,7 +72,12 @@ ownership of the case study repo will eventually need to be transferred to the _
   - [ ] Suggested Homework
   - [ ] Additional Information
   
-Note that some variation in the location of data exploration and data visualization is acceptable.
+Note that some variation in the location of the data exploration and data visualization sections is acceptable. We generally strive for consistent structure across our case studies, however some variation can be allowed if there is a good reason.
+
+If you are missing as section or have a different name for one or more section, please explain why:
+
+
+
   
  ## Data
  
