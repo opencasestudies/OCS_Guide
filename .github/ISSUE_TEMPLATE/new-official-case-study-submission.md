@@ -1,9 +1,17 @@
 ---
 name: New Official Case Study Submission
 about: If you would like your case study to be submitted to be a part of our official collection please fill out the following information and make sure your case study meets these requirements. 
+
+Note that we only plan to accept roughly two case studies per year to start at the discretion of the Open Case Studies faculty. We hope to grow our capacity to accept new case studies over time. Acceptance of case studies into the official Open Case Studies collection will not necessarily be on a first come first serve basis but will be based on the Open Case Studies faculty choice which will involve consideration of: 
+
+- the quality of the data science work presented in the case study
+- the quality of the instruction within the case study
+- if the case study fills a niche currently not present in our collection
+- if it is a useful and interesting topic
+
 title: ''
 labels: ''
-assignees:
+assignees: @stephaniehicks, @carriewright11
 
 ---
 
@@ -49,8 +57,13 @@ ownership of the case study repo will eventually need to be transferred to the _
 ## Attributions
 
 - [ ] Attributions: all outside sources are referenced and cited appropriately
-  -[ ] Open Case Study disclaimer is included (see current case studies)
-  -[ ] Licence for use is included (Any open source license is allowed, such as CC-BY or MIT for example)
+- [ ] Open Case Study disclaimer is included (see current case studies)
+- [ ] Any additional disclaimers related to the topic are included see the pink background sections in following case studies as examples: 
+
+- [Mental Health of American youth with a disclaimer about mental health][5] 
+- [Opiods In the United States with a disclaimer about drug abuse][6] 
+- [School Shootings in the United States][7] 
+  -[ ] Licence for use is included (Any [open source license][8] is allowed, such as CC-BY or MIT for example)
   -[ ] All images/gif/videos and other forms of media that are not original to the case study include sources
   -[ ] Information on how to cite the case study is included
   -[ ] Anyone who contributed in a sizable way is included as an author and they are otherwise acknowleged if it was a smaller contribution
@@ -116,6 +129,10 @@ For questions/help about the submission or review process, please contact us on 
 [2]: https://opencasestudies.org/code_of_conduct.html
 [3]: https://www.opencasestudies.org/#contact
 [4]: https://github.com/Bioconductor/Contributions/issues/new
+[5]: https://www.opencasestudies.org/ocs-bp-youth-mental-health/
+[6]:https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Additional_Information
+[7]: https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/#Additional_Information
+[8]: https://opensource.org/licenses
 
 This submission issue template was inspired by the bioconductor package submission issue [template][4].
 
