@@ -11,7 +11,7 @@ Note that we only plan to accept roughly two case studies per year to start at t
 
 title: ''
 labels: ''
-assignees: @stephaniehicks, @carriewright11
+assignees: ''
 
 ---
 
@@ -111,7 +111,7 @@ the case study repo you wish to submit to _OpenCaseStudies_:
 https://github.com/username_review_1
 https://github.com/username_review_2
 
-Reviewers should provide comments here to this issue describing their thoughts about the case study regarding the validity of the descriptions about the data science and statistical methods used. Reviewers should use the _OpenCaseStudy_ [Review Guidelines][9] to preform their reviews.
+Reviewers should provide comments here to this issue describing their thoughts about the case study regarding the validity of the descriptions about the data science and statistical methods used. Reviewers should use the _OpenCaseStudy_ [Review Guidelines][9] to perform their reviews. Reviewers should also check our [code of conduct][2].
 
 - [ ] Reviewer 1 has submitted comments
 
