@@ -11,7 +11,9 @@ Note that we only plan to accept roughly two case studies per year to start at t
 
 title: ''
 labels: ''
-assignees: ''
+assignees:
+  - carriewright11
+  - stephaniehicks
 
 ---
 
