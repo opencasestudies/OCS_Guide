@@ -111,7 +111,7 @@ the case study repo you wish to submit to _OpenCaseStudies_:
 https://github.com/username_review_1
 https://github.com/username_review_2
 
-Reviewers should provide comments here to this issue describing their thoughts about the case study regarding the validity of the descriptions about the data science and statistical methods used.
+Reviewers should provide comments here to this issue describing their thoughts about the case study regarding the validity of the descriptions about the data science and statistical methods used. Reviewers should use the _OpenCaseStudy_ [Review Guidelines][9] to preform their reviews.
 
 - [ ] Reviewer 1 has submitted comments
 
@@ -126,13 +126,14 @@ For questions/help about the submission or review process, please contact us on 
 
 
 [1]: https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html#guidelines
-[2]: https://opencasestudies.org/code_of_conduct.html
+[2]: https://docs.google.com/document/d/1E3K2sGlOdTMcZnBmIF7OceJWrUMWXpDC3slWygaury4/edit?usp=sharing
 [3]: https://www.opencasestudies.org/#contact
 [4]: https://github.com/Bioconductor/Contributions/issues/new
 [5]: https://www.opencasestudies.org/ocs-bp-youth-mental-health/
 [6]:https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Additional_Information
 [7]: https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard/#Additional_Information
 [8]: https://opensource.org/licenses
+[9]: https://docs.google.com/document/d/1JSA4lp2cboS1J7barc16aBewamsOiOtctH7fCGKsCzg/edit?usp=sharing
 
 This submission issue template was inspired by the bioconductor package submission issue [template][4].
 
