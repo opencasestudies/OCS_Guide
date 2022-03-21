@@ -1,28 +1,17 @@
 ---
-name: Course Problem Report
-about: Create a report to help improve the course
+name: Guide Problem Report
+about: Create a report to help improve the Open Case Studies Guide
 title: [Problem]
 labels: bug
 assignees:
 
 ---
 
-## Describe what is not working with the course
+## Describe what is not working or what is not clear within the guide
 <!-- A clear and concise description of what the bug is. -->
-
-## Steps to Reproduce
-<!-- Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
--->
-
-## Expected behavior
-<!-- A clear and concise description of what you expected to happen. -->
 
 ## Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-## Additional context
-<!-- Add any other context about the problem here. -->
+## Additional context and resources
+<!-- Add any other context about the problem here. Please provide any resources that you think might be helfpul. -->
