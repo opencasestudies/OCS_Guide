@@ -30,6 +30,7 @@ downloading-extra-data
 downloading-all-case-study-data
 forking-the-case-study-repository
 feedback-1
+session-info
 use-of-open-case-studies
 learning-objectives-1
 prerequisites
@@ -53,6 +54,7 @@ written-report
 oral-presentation
 data-visualization
 further-exploration
+session-info-1
 modifying-and-creating-open-case-studies
 learning-objectives-2
 modular-use
@@ -61,12 +63,10 @@ modify-a-case-study
 create-a-case-study
 template-case-study
 makecasestudies-app
-session-info
+session-info-2
 new-case-studies---building-and-contributing
 submission
+submitting-case-study-materials-to-the-open-case-studies-community-repository
 submitting-case-study-idea-for-development-and-integration-into-the-open-case-studies-project
-submitting-case-study-materials-to-the-open-cases-tudies-community-repository
 guidelines
-programming-language-case-studies-should-be-written-in-open-source-programming-languages-preferably-r.
-data
-data-1
+session-info-3
