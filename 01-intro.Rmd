@@ -112,7 +112,7 @@ In the first stage, students learn about the subject area they will be investiga
 
 ### Stage 2: Analyzing the Data 
 
-This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the required format. The cleaned data can then be visualized and analyzed to answer the study question. 
+This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the format needed for analysis. The cleaned data can then be visualized and analyzed to answer the study question. 
 
 - Data description
 - Import and exploration 
