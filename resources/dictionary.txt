@@ -22,6 +22,7 @@ koRpus
 Leanpub
 MakeCaseStudies
 Markua
+Meng
 mentorship
 modularization
 modularly
@@ -35,7 +36,9 @@ OpenCaseStudies
 opencasestudies
 Opioid
 Opioids
+outpath
 Peng
+Qier
 rda
 RData
 Rds
