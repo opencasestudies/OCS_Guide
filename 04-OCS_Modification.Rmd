@@ -65,7 +65,7 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 #### Manually Download Data from GitHub:
 
- 1) Download the .RDA files available on the case study GitHub repository from [here](https://github.com/opencasestudies/ocs-bp-opioid-rural-urban/tree/master/data/wrangled)
+ 1) Download the .RDA files available on the case study GitHub repository from [here](https://github.com/opencasestudies/ocs-bp-opioid-rural-urban/tree/master/data/wrangled).
 
   *The CSV versions of the files may also be downloaded here, if preferred*
 
