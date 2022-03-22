@@ -43,14 +43,14 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 1) First install and load the `OCSdata` package:
   
-```{r, include = TRUE}
+```{r, include = TRUE,}
   install.packages("OCSdata") #only run once to install package
   library(OCSdata) #run every new R session to load package
 ```
 
 2) Now download the wrangled data into your R environment using the following function command:
   
-```{r, include = TRUE, eval = FALSE}
+```{r, include = TRUE, eval = FALSE, comment = FALSE}
   wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
   
@@ -58,7 +58,7 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 3) Load the RDA files with the following commands:
 
-```{r, include = TRUE, eval = FALSE}
+```{r, include = TRUE, eval = FALSE, comment = FALSE}
   load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
   load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
 ```
@@ -73,7 +73,7 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
  3) Load the RDA files with the following commands:
   
-```{r, include = TRUE, eval = FALSE}
+```{r, include = TRUE, eval = FALSE, comment = FALSE}
   load(file = here::here("Annual_opioid_data.rda"))
   load(file = here::here("county_info.rda"))
 ```
@@ -108,7 +108,9 @@ If you  are new to GitHub, also be sure to check out @happygitwithr.
 
 These steps are demonstrated in the following video about modifying case studies:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UFs4qvgTuTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/UFs4qvgTuTw")
+```
 
 
 ## Create a case study
@@ -131,7 +133,10 @@ A template case study is available in a repository on our GitHub page at [github
 
 All of these steps are demonstrated in the following video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rP5E7GohTiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/rP5E7GohTiI")
+```
 
 ### MakeCaseStudies App
 
@@ -139,7 +144,11 @@ Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biosta
 
 Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dd4KASCIsNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/Dd4KASCIsNc")
+```
+
 
 ## Session info
 
