@@ -52,7 +52,7 @@ The case studies are structured to support both partial and full use of a case s
 
 The case studies are written to provide a cohesive story that simulates data science in the real world. Reading through an entire case study is an excellent exercise for students to experience a standard data science workflow and learn the best practices of today from start to finish. The following list provides a few examples of how educators have used a full case study in the past: 
 
-- Converted the case study into a [slide deck](https://cogs137.github.io/website/lecslides/16-cs2-data.html#1) ([Practical Data Science in R](https://cogs137.github.io/website/) taught by Dr. Shannon Ellis at University of California Santa Barbara)
+- Converted the case study into a [slide deck](https://cogs137.github.io/website/lecslides/16-cs2-data.html#1) ([Practical Data Science in R](https://cogs137.github.io/website/) taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara)
 - Assigned students to read the case study and write a report as homework ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework9))
 - Assigned students to extend analysis beyond case study ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework11))
 
@@ -136,7 +136,7 @@ Because the case studies were developed to be modular and stand-alone, they can 
 
 ### Using Case Studies as Lecture Content
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by Dr. Shannon Ellis at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
 Here you can see how the course used the `OCSdata` package:
 
@@ -145,11 +145,11 @@ Here you can see how the course used the `OCSdata` package:
 knitr::include_graphics('resources/images/shannon-casestudy.png')
 ```
 
-Dr. Ellis incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
+[Dr. Ellis](https://www.shanellis.com/) incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
 ### Using Case Studies for Assignments
 
-[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long graduate data science course taught by Dr. Jeff Leek and Dr. Roger Peng in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
+[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long graduate data science course taught by [Dr. Jeff Leek](https://jtleek.com/) and [Dr. Roger Peng](https://rdpeng.org/) in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
 
 ### Independent Study
 
@@ -192,7 +192,7 @@ Several case studies have additional data that is not discussed. This can be use
 
 We would like to thank the following people for generously sharing the ways in which they used Open Case Studies materials in their teaching:  
 
-- Shannon Ellis PhD., *University of California, Santa Barbara
+- [Shannon Ellis PhD.](https://www.shanellis.com/), *University of California, Santa Barbara
 
 ```{r, echo = FALSE, eval = FALSE}
 "https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation"
