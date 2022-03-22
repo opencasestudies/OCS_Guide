@@ -137,7 +137,7 @@ The following table lists a few example case studies that would be suitable for 
 
 Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
 
-### Intermediate Undergraduate Data Science Course
+### Using Case Studies as Lecture Content
 
 [Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by Dr. Shannon Ellis at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
@@ -150,9 +150,9 @@ knitr::include_graphics('resources/images/shannon-casestudy.png')
 
 Dr. Ellis incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
-### Advanced Graduate Data Science Course
+### Using Case Studies for Assignments
 
-[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long course taught by Dr. Jeff Leek and Dr. Roger Peng in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
+[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long graduate data science course taught by Dr. Jeff Leek and Dr. Roger Peng in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
 
 ### Independent Study
 
@@ -160,7 +160,7 @@ Case studies can be used for learners to gain experience in statistics and data 
 
 ### Interactive Case Studies
 
-Some of the case studies are also included in interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback.  
+Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback.  
 
 ## Examples of assignments 
 
