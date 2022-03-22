@@ -18,7 +18,7 @@ Here, the Open Case Studies team will work with you starting from a case study i
 
 These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below. 
 
-(avocado google form)
+**[OpenCaseStudies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
 
 ### Submitting case study idea for integration into the Open Case Studies project
 
