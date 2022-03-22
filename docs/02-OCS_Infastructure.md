@@ -117,7 +117,7 @@ The `OCSdata` package can be used to download the data in various processed form
 
 #### Simpler import
 
-The `simpler_import_data` function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step. 
+The `simpler_import_data()` function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step. 
 
 
 ```r
@@ -126,7 +126,7 @@ simpler_import_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 #### Importing data as R objects 
 
-The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the load() function as follows. 
+The `imported_data()` function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the `load()` function as follows. 
 
 
 
@@ -156,7 +156,7 @@ wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 ### Downloading extra data
 
-Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data  but can This data can be downloaded using the `extra_data` function. 
+Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data  but can This data can be downloaded using the `extra_data()` function. 
 
 
 ```r
@@ -165,15 +165,35 @@ extra_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 ### Downloading all case study data
 
-The `zip_ocs` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. 
+The `zip_ocs()` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are familiar with Git and GitHub), as this will not result in the user getting all of our git history. 
+
+If you choose to fork the repository you will automatically generate a repository on GitHub and your repository will have connections to the original case study. This can be helpful for pulling any changes to the original case study. It can also be helpful if you want to send edits to the original case study in the form of what is called a pull request.  
+
+If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.
+
+Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happywithgitr to learn more.
 
 
 ```r
 zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
-### Forking the case study repository
+### Fork or clone the case study repository
 
+If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the `OCSdata` package. The `clone_ocs()` function of the `OCSdata` package can be used to do either. If the `fork_repo` function is set to `TRUE` it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.
+
+Again you can also specify the outpath location as in the previous description about the `zip_ocs()` function.
+
+
+```r
+# clone a repository
+OCSdata::clone_ocs(casestudy = "ocs-bp-diet")
+
+#fork a repository
+OCSdata::clone_ocs(casestudy = "ocs-bp-diet", fork_repo = "TRUE")
+```
+
+However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead. 
 
 
 ## Session info

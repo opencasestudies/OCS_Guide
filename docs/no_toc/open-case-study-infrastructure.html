@@ -117,6 +117,28 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 </head>
@@ -184,7 +206,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.6.3" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-data-in-other-formats"><i class="fa fa-check"></i><b>2.6.3</b> Downloading data in other formats</a></li>
 <li class="chapter" data-level="2.6.4" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-extra-data"><i class="fa fa-check"></i><b>2.6.4</b> Downloading extra data</a></li>
 <li class="chapter" data-level="2.6.5" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-all-case-study-data"><i class="fa fa-check"></i><b>2.6.5</b> Downloading all case study data</a></li>
-<li class="chapter" data-level="2.6.6" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#forking-the-case-study-repository"><i class="fa fa-check"></i><b>2.6.6</b> Forking the case study repository</a></li>
+<li class="chapter" data-level="2.6.6" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#fork-or-clone-the-case-study-repository"><i class="fa fa-check"></i><b>2.6.6</b> Fork or clone the case study repository</a></li>
 </ul></li>
 <li class="chapter" data-level="2.7" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#session-info"><i class="fa fa-check"></i><b>2.7</b> Session info</a></li>
 </ul></li>
@@ -396,12 +418,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>The <code>OCSdata</code> package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.</p>
 <div id="simpler-import" class="section level4" number="2.6.3.1">
 <h4><span class="header-section-number">2.6.3.1</span> Simpler import</h4>
-<p>The <code>simpler_import_data</code> function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step.</p>
+<p>The <code>simpler_import_data()</code> function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="open-case-study-infrastructure.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">simpler_import_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
 </div>
 <div id="importing-data-as-r-objects" class="section level4" number="2.6.3.2">
 <h4><span class="header-section-number">2.6.3.2</span> Importing data as R objects</h4>
-<p>The imported_data function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the load() function as follows.</p>
+<p>The <code>imported_data()</code> function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the <code>load()</code> function as follows.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="open-case-study-infrastructure.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">imported_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) <span class="co">#download data in .rda format </span></span>
 <span id="cb4-2"><a href="open-case-study-infrastructure.html#cb4-2" aria-hidden="true" tabindex="-1"></a>file_path <span class="ot">=</span> <span class="st">&quot;~/OCS_data/data/imported/land_area.rda&quot;</span> <span class="co">#specify download directory </span></span>
 <span id="cb4-3"><a href="open-case-study-infrastructure.html#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(file_path) <span class="co">#load R objects </span></span></code></pre></div>
@@ -417,16 +439,27 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="downloading-extra-data" class="section level3" number="2.6.4">
 <h3><span class="header-section-number">2.6.4</span> Downloading extra data</h3>
-<p>Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data but can This data can be downloaded using the <code>extra_data</code> function.</p>
+<p>Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data but can This data can be downloaded using the <code>extra_data()</code> function.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="open-case-study-infrastructure.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extra_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
 <div id="downloading-all-case-study-data" class="section level3" number="2.6.5">
 <h3><span class="header-section-number">2.6.5</span> Downloading all case study data</h3>
-<p>The <code>zip_ocs</code> function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed.</p>
+<p>The <code>zip_ocs()</code> function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are familiar with Git and GitHub), as this will not result in the user getting all of our git history.</p>
+<p>If you choose to fork the repository you will automatically generate a repository on GitHub and your repository will have connections to the original case study. This can be helpful for pulling any changes to the original case study. It can also be helpful if you want to send edits to the original case study in the form of what is called a pull request.</p>
+<p>If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.</p>
+<p>Again, don’t worry if all these terms are new to you. You can just use the <code>zip_ocs()</code> function instead. Otherwise take a look at <span class="citation">(<a href="#ref-happywithgitr" role="doc-biblioref"><strong>happywithgitr?</strong></a>)</span> to learn more.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="open-case-study-infrastructure.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">zip_ocs</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
-<div id="forking-the-case-study-repository" class="section level3" number="2.6.6">
-<h3><span class="header-section-number">2.6.6</span> Forking the case study repository</h3>
+<div id="fork-or-clone-the-case-study-repository" class="section level3" number="2.6.6">
+<h3><span class="header-section-number">2.6.6</span> Fork or clone the case study repository</h3>
+<p>If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the <code>OCSdata</code> package. The <code>clone_ocs()</code> function of the <code>OCSdata</code> package can be used to do either. If the <code>fork_repo</code> function is set to <code>TRUE</code> it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.</p>
+<p>Again you can also specify the outpath location as in the previous description about the <code>zip_ocs()</code> function.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="open-case-study-infrastructure.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># clone a repository</span></span>
+<span id="cb9-2"><a href="open-case-study-infrastructure.html#cb9-2" aria-hidden="true" tabindex="-1"></a>OCSdata<span class="sc">::</span><span class="fu">clone_ocs</span>(<span class="at">casestudy =</span> <span class="st">&quot;ocs-bp-diet&quot;</span>)</span>
+<span id="cb9-3"><a href="open-case-study-infrastructure.html#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="open-case-study-infrastructure.html#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co">#fork a repository</span></span>
+<span id="cb9-5"><a href="open-case-study-infrastructure.html#cb9-5" aria-hidden="true" tabindex="-1"></a>OCSdata<span class="sc">::</span><span class="fu">clone_ocs</span>(<span class="at">casestudy =</span> <span class="st">&quot;ocs-bp-diet&quot;</span>, <span class="at">fork_repo =</span> <span class="st">&quot;TRUE&quot;</span>)</span></code></pre></div>
+<p>However, using these functions will involve the users getting all of our git history so we suggest that users use the <code>zip_ocs()</code> function (described in the above section) of <code>OCSdata</code> instead.</p>
 </div>
 </div>
 <div id="session-info" class="section level2" number="2.7">
