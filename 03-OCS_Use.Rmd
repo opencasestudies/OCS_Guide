@@ -116,9 +116,9 @@ Because the case studies were developed to be modular and stand-alone, they can 
 
 ### Intermediate Undergraduate Data Science Course
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught be Dr. Shannon Ellis at University of California Santa Barbara. It includes three Open Case Studies and uses them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by Dr. Shannon Ellis at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
-The course incorporates labs and homeworks, which have guided coding and analysis exercises related to the concepts discussed in lecture. The course also assigns written reports where students present the analysis they conduct related to the case study in the format of a scientific article (see example assignment below). 
+Dr. Ellis incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
 ### Advanced Graduate Data Science Course
 
