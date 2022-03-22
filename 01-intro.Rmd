@@ -10,8 +10,17 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
+## Learning Objectives
+
+In this chapter we will:
+
+- describe who this guide is for
+- discuss what you can expect in this guide
+- introduce to the [Open Case Studies](https://www.opencasestudies.org/) project
+- introduce the case studies that make up this project
 
 ## Motivation
+
 The [Open Case Studies project](https://www.opencasestudies.org), developed at the [Johns Hopkins Data Science Lab](https://jhudatascience.org/), is an education platform that provides self-contained, multimodal, peer-reviewed, and open-source guides for real-world examples for active experiences of complete data analyses. The intention of this guide is to provide instructors more information about how to make the most of our case studies.
 
 
