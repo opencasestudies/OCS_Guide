@@ -127,6 +127,7 @@ Because the case studies were developed to be modular and stand-alone, they can 
 Here you can see how the course used the `OCSdata` package:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "A slide from the class taught by Dr Ellis showing the use of the OCSdata package"}
+
 knitr::include_graphics('resources/images/shannon-casestudy.png')
 ```
 
