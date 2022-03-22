@@ -6,9 +6,14 @@
 ## Learning Objectives
 
 
-This chapter will provide guidance on how to use Open Case Studies in classroom settings. We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners. We will present some examples of assignments that can accompany the case studies and the rubrics that they can be evaluated with. Furthermore, we provide examples of extensions to case studies that can serve as a template for homework assignments or independent student exploration. 
+This chapter will provide guidance on how to use Open Case Studies for instruction. 
 
-The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please let us know what you come up with so that other educators may be inspired by your creativity. 
+- We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners.
+- We will describe ways that instructors can use full case studies, part of a case study, or just the data.
+- We will present ways in which others have used the case studies.
+- We will present some examples of extensions that can accompany the case studies and can serve as a template for homework assignments or independent student exploration. 
+
+The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please [let us know](https://www.opencasestudies.org/#contact) what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
 
@@ -172,7 +177,9 @@ Below is an example of a scientific-style paper written based on the [Opioid Use
 
 Below is an example of a presentation based on the [Vaping Behaviors in American Youth Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).  
 
-(avocado insert presentation assignment guide, example, and grading rubric)
+- [OCS Vaping Case Study Oral Presentation Assignment Example](https://github.com/advdatasci/homework12)
+- [OCS Vaping Case Study Oral Presentation Example](https://www.youtube.com/watch?v=noWLCSipKEU)
+
 
 ### Data Visualization
 
@@ -181,6 +188,10 @@ The data visualizations included in the case studies are not the only way to pre
 ### Further Exploration
 
 Several case studies have additional data that is not discussed. This can be used for further exploration of the subject area that was discussed in the case study. This can be guided by the questions included in the Homework section of the case studies. Case studies that have additional data include the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question), the [Right to Carry Case Study](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), and the [CO2 Emissions Case Study](https://www.opencasestudies.org/ocs-bp-co2-emissions/).
+
+Below is an example of an assignment assigned to students in the [Advanced Data Science Course at Johns Hopkins](http://jtleek.com/ads2020/). In this assignment students were asked to create a simpler machine learning analysis based on the case study. They were also asked to share their analysis with another student and write a summary and critique of the other student's analysis. This provides an opportunity for the student to try out analysis skills with their own analysis work, and also work on their comprehension skills of reading other people's work. It also shows how we can get different results with minor changes in our analyses.:
+
+ - [OCS Air Pollution Extension Assignment Example](https://github.com/advdatasci/homework12)
 
 
 *Acknowledgments*
