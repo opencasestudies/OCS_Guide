@@ -63,6 +63,9 @@ The case studies are written to provide a cohesive story that simulates data sci
 
 Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see the [OCSdata section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#ocsdata) in chapter 2). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
 
+<br>
+
+
 | Data Folder | Case Study Section | Example Use |
 | ------- | --------- | ------------------------ |
 | raw | Data Import | Assigning public health students to read through a case study starting from the beginning |
@@ -84,6 +87,7 @@ Each case study demonstrates an entire data analysis starting from data import a
 
 Here, we are using the following interpretations of "beginner", "intermediate", and "advanced":  
 
+<br>
 
 | Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
@@ -91,10 +95,12 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 | Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
 | Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
 
-
+<br>
+<br>
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
+<br>
 | Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
 | School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
@@ -112,11 +118,17 @@ The following table lists a few example case studies that would be suitable for 
 
 ## Example Use Cases
 
-Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to hear about it! 
+Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
 
 ### Intermediate Undergraduate Data Science Course
 
 [Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by Dr. Shannon Ellis at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+
+Here you can see how the course used the `OCSdata` package:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "A slide from the class taught by Dr Ellis showing the use of the OCSdata package"}
+knitr::include_graphics('resources/images/shannon-casestudy.png')
+```
 
 Dr. Ellis incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
