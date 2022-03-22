@@ -9,34 +9,27 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Credits|Names|
 |-------|-----|
 |**Pedagogy**||
-|Lead Content Instructor(s)|[FirstName LastName]|
-|Lecturer(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved| Delivered the course in some way - video or audio|
-|Content Author(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved | If any other authors besides lead instructor| 
-|Content Author(s) |Michael Breshock and Lyla Atta|
-|Content Contributor(s) (include section name/link in parentheses) - make new line if more than one section involved|  Wrote less than a chapter|
-|Content Editor(s)/Reviewer(s) | Checked your content|
-|Content Director(s) | Helped guide the content direction|
-|Content Consultants (include chapter name/link in parentheses or word "General") - make new line if more than one chapter involved | Gave high level advice on content|
-|Acknowledgments| Gave small assistance to content but not to the level of consulting |
+|Lead Content Instructor(s)|[Carrie Wright](https://carriewright11.github.io/) and [Stephanie Hicks](https://www.stephaniehicks.com/)|
+|Lecturer(s) | [Michael Breshock](https://mbreshock.github.io/) and [Qier Meng](https://www.linkedin.com/in/qier-meng-41769a194/)|
+|Content Author(s) | [Michael Breshock](https://mbreshock.github.io/) and [Lyla Atta](https://lylaatta.github.io/) and [Carrie Wright](https://carriewright11.github.io/)|
+|Content Director(s) | [Carrie Wright](https://carriewright11.github.io/) and [Stephanie Hicks](https://www.stephaniehicks.com/)|
+|Acknowledgments| [Shannon Ellis](https://www.shanellis.com/), [Jeff Leek](https://jtleek.com/), and [Roger Peng](https://rdpeng.org/) - Thank you for your resources on your uses of case studies from OCS!|
 |**Production**||
 |Content Publisher(s)| Helped with publishing platform|
 |Content Publishing Reviewer(s)| Reviewed overall content and aesthetics on publishing platform|
 |**Technical**||
-|Course Publishing Engineer(s)| Helped with the code for the technical aspects related to the specific course generation|
+|Course Publishing Engineer(s)| [Carrie Wright], [Candace Savonen]|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright]|
 |Publishing Maintenance Engineer|[Candace Savonen]|
 |Technical Publishing Stylists|[Carrie Wright], [Candace Savonen]|
 |Package Developers ([ottr])|[John Muschelli], [Candace Savonen], [Carrie Wright]|
 |**Art and Design**||
-|Illustrator(s)| Created graphics for the course|
-|Figure Artist(s)| Created figures/plots for course|
-|Videographer(s)| Filmed videos|
-|Videography Editor(s)| Edited film|
-|Audiographer(s)| Recorded audio|
-|Audiography Editor(s)| Edited audio recordings|
+|Illustrator(s)|[Lyla Atta], [Carrie Wright]|
+|Videographer(s)| [Michael Breshock](https://mbreshock.github.io/) and [Qier Meng](https://www.linkedin.com/in/qier-meng-41769a194/)|
+|Videography Editor(s)| [Michael Breshock](https://mbreshock.github.io/) and [Lyla Atta](https://lylaatta.github.io/)|
 |**Funding**||
-|Funder(s)| Institution/individual who funded course including grant number|
-|Funding Staff| Staff members who help with funding|
+|Funder(s)| This guide was funded as an extension to funding for the [Genomic Data Science Community Network (GDSCN)](https://arxiv.org/abs/2201.08443)|
+|Funding Staff| Jennifer Vessio|
 
 &nbsp;
 
@@ -50,6 +43,8 @@ devtools::session_info()
 [John Muschelli]: https://johnmuschelli.com/
 [Candace Savonen]: https://www.cansavvy.com/
 [Carrie Wright]: https://carriewright11.github.io/
+[Michael Breshock]: https://mbreshock.github.io/
+[Stephanie Hicks]
 
 <!-- Links -->
 
