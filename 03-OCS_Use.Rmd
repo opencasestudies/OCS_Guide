@@ -61,7 +61,7 @@ The case studies are written to provide a cohesive story that simulates data sci
 
 **Case Study Reading Time and Readability Index**
 
-The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful in deciding which case study(ies) to use in your curriculum.
+The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum.
 
 | **Case Study** | **Reading Time** (minutes) | Readability Index (Flesch-Kincaid) |
 | -------------------- | --------- | ---------------- |
