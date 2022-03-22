@@ -57,6 +57,24 @@ The case studies are written to provide a cohesive story that simulates data sci
 
 (avocado add discussion of interactive case studies)
 
+**Case Study Reading Time and Readability Index**
+
+The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum.
+
+| **Case Study** | **Reading Time** (minutes) | Readability Index (Flesch-Kincaid) |
+| -------------------- | --------- | ---------------- |
+| [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard) | 110 | Grade 9, Age 14 |
+| [Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection) | 85 | Grade 8, Age 13 |
+| [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban) | 90 | Grade 9, Age 14 |
+| [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study) | 75 | Grade 10, Age 15 |
+| [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health) | 90 | Grade 8, Age 13 |
+| [Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity) | 70 | Grade 9, Age 14 |
+| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling) | 55 | Grade 9, Age 14 |
+| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 60 | Grade 11, Age 16 |
+| [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 70 | Grade 9, Age 14 |
+| [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 100 | Grade 10, Age 15 |
+| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 95 | Grade 10, Age 15 |
+
 ### Teaching Part of a Case Study
 
 Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see the [OCSdata section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#ocsdata) in chapter 2). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
