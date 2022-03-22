@@ -201,7 +201,7 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the `OCSdata` package. The `clone_ocs()` function of the `OCSdata` package can be used to do either. If the `fork_repo` function is set to `TRUE` it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.
 
-Again you can also specify the outpath location as in the previous description about the `zip_ocs()` function.
+Again you can also specify the `outpath` location as in the previous description about the `zip_ocs()` function.
 
 ```{r, eval = FALSE}
 # clone a repository
