@@ -49,11 +49,11 @@ This guide documents:
 
 ## Open Case Studies Philosophy
 
+The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges.
+
 Case studies of the Open Case Studies project provide independent learners and educators with resources for data science education. The case studies use realistic data from sources that are used for actual research or public health initiatives. Each case study addresses a timely and interesting topic, in an effort to make the material more engaging and relevant.
 
-Case studies of the project are not intended to show all aspects of the research process, and we do not claim that the analyses show the most appropriate way to analyze a given data set, however case studies are intended to demonstrate the decision making process of real data analyses, to show examples of applications of data methods and to provide context for when such methods could be applied and how these methods be used to generally glean information from data. We hope to demonstrate best practices for being data cleaning and wrangling, reproducible work, as well as effective data science communication. 
-
-The goal of the project overall is to provide instructors with resources to use in the classroom so that they can make their instruction more hands on while covering interesting and relevant topics, while also providing stand-alone resources to students to supplement their course instruction and for independent learners to expand their data science knowledge. 
+Case studies of the project are not intended to show all aspects of the research process, and we do not claim that the analyses show the most appropriate way to analyze a given data set, however case studies are intended to demonstrate the decision making process of real data analyses, the basic challenges of analyses, to show examples of applications of data methods, and to provide context for when such methods could be applied to glean information from data. We hope to demonstrate best practices for mindful data cleaning, reproducibility, and effective data science communication. 
 
 All case study materials are open source and free. We provide transparency about where the data came from and where possible how it was produced. We cover data and data method limitations. We try to be as complete as possible to provide users with all necessary steps to understand the analysis and to provide context, while also maintaining a reasonable length. 
 
@@ -65,9 +65,7 @@ We hope you find our case studies useful!
 knitr::include_graphics('resources/images/ocs_graphic.png', dpi = NA)
 ```
 
-### What is the Open Case Studies (OCS) project?
 
-The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges.
 
 ### What problem are we addressing?
 
@@ -75,11 +73,11 @@ Despite unprecedented and growing interest in data science on campuses, there ar
 
 ### Problems with previously suggested solutions
 
-In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce. Furthermore they are often open-ended without a single complete full example. This can make it challenging for instructors who are new to these topics or who have limited time.
+In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce. Furthermore they are often open-ended without a single complete full example. This can make it challenging for instructors who are new to these topics or have limited time.
 
 ### What are we proposing as a solution?
 
-To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative **complete** data analyses that can be used in  and outside the classroom to teach learners how to effectively derive knowledge from data. This approach has successfully been used to teach data science courses at many universities, including:
+To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative **complete** data analyses that can be used in and outside the classroom to teach learners how to effectively derive knowledge from data. This approach has successfully been used to teach data science courses at many universities, including:
 
  - [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
  - [Harvard University](http://cs109.github.io/2014/)
