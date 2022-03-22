@@ -75,7 +75,7 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 ## Modify a case study
 
-The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using Markdown syntax (avocado$). RStudio projects are used to organize the case studies and support version control (is this correct?). The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. Open Case Studies uses these HTML files to post the case studies online. The entire case study project is contained in a GitHub repository which allows for easy distribution and version control. [GitHub Pages](https://pages.github.com/) is used to host the case study webpage from the case study repository.
+The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using [Markdown syntax](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf). RStudio projects are used to organize the case studies. The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. Open Case Studies uses these HTML files to post the case studies online. The entire case study project is contained in a GitHub repository which allows for easy distribution and version control. [GitHub Pages](https://pages.github.com/) is used to host the case study webpage from the case study repository.
 
 $ do we have any resources for markdown we prefer to use?
 
@@ -93,11 +93,13 @@ Modifying a case study requires the following simple steps:
 knitr::include_graphics('resources/images/rstudio_modify_knit_red.png', dpi = NA)
 ```
 
-5. Distribute your modified case study as you please! (avocado should i add a note here about hosting online with personal GitHub pages?)
+5. Distribute your modified case study as you please! 
 
-*add reference to a resource on GitHub for beginners?
+You can share HTML, PDF and Word files directly with your students or you can host your case study for free on GitHub using [GitHub pages](https://pages.github.com/) [@pages_github]. 
 
-*create a video showing: step by step example of forking a case study repository, editing Rmd content, knitting, and sharing the output
+If you  are new to GitHub, also be sure to check out @happygitwithr.
+
+
 
 ## Create a case study
 
