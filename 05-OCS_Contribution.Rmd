@@ -6,8 +6,13 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project. We recognize that educators may have case studies in various stages of development. We hope to facilitate sharing of these case studies on the Open Case Studies project to fullest extent possible. However, we may not be able to integrate all case studies we receive into the Open Case Studies. For this reason, we have outlined the following two modes of submission: 
 
-1) **Submitting case studies for integration into the Open Case Studies project:** Here, the Open Case Studies team will work with you starting from a case study idea through development, testing, and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. See details in the Submission section below on how to initiate this process.    
-2) **Submitting case studies and/or case study materials for sharing on our publicly available community repository:** Here, you can submit your case study materials (data, code, content explanations) to the Open Case Studies community repository. This repository will contain case studies submitted by educators but not included in the Open Case Studies project. See details in the Submission section below on how to submit. 
+1) **Submitting case studies and/or case study materials for sharing on our publicly available community repository:** 
+
+Here, you can submit your case study materials (data, code, content explanations) to the Open Case Studies community repository. This repository will contain case studies submitted by educators but not included in the Open Case Studies project. See details in the Submission section below on how to submit. 
+
+2) **Submitting case studies for integration into the Open Case Studies project:** 
+
+Here, the Open Case Studies team will work with you starting from a case study idea through development, testing, and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. See details in the Submission section below on how to initiate this process.
 
 ## Submission: 
 
@@ -74,13 +79,13 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
 **Core sections**: all case studies should include the following sections consistent with the published case studies. See [Chapter 1, Case Study Anatomy](https://www.opencasestudies.org/OCS_Guide/introduction.html#open-case-studies-anatomy) for a detailed description on what each section should include:
 
-  - **Getting Started:** *Case study context, Study motivation, Main question, Learning objectives, Study limitations.* This section will outline previous literature and overarching questions in the field that make this case study question important, providing motivation for conducting the analysis in the case study. It will specify the exact question that the case study endeavors to address as well as the definining the statistical and data analysis learning objectives for the case study. It will also discuss the limitations of the investigation that may prevent the analysis from answering the main question of interest. 
+  - **Getting Started:** *Case study context, Study motivation, Main question, Learning objectives, Study limitations.* This section will outline previous literature and overarching questions in the field that make this case study question important, providing motivation for conducting the analysis in the case study. It will specify the exact question that the case study endeavors to address as well as the defining the statistical and data analysis learning objectives for the case study. It will also discuss the limitations of the investigation that may prevent the analysis from answering the main question of interest. 
 
 
   - **Analyzing the Data:** *Data description, Import and exploration, Wrangling, Visualization, Analysis.* This section includes the bulk of the data analysis, beginning with a detailed description of the data used in the case study, how it was generated, and where it was obtained. Then it walks through, step-by-step, the data import, exploration, wrangling, procedures. Finally, it demonstrates the visualization and statistical analysis steps used to address the case study question. 
 
 
-  - **Wrapping-up:** *Analysis conclusions, Case study summary, Next steps, Homework, Additional information.* This section synthesized conclusions to the main study question based on the data analysis results demonstrated in the previous sections. It summarizes the analysis steps and potential next steps for further exploration, which can be suggseted as homework. If applicable, additional information relevant to further study can be provided here. 
+  - **Wrapping-up:** *Analysis conclusions, Case study summary, Next steps, Homework, Additional information.* This section synthesized conclusions to the main study question based on the data analysis results demonstrated in the previous sections. It summarizes the analysis steps and potential next steps for further exploration, which can be suggested as homework. If applicable, additional information relevant to further study can be provided here. 
 
 
 **Content:** Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process. 
