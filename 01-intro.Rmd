@@ -49,7 +49,7 @@ This guide documents:
 
 ## Open Case Studies Philosophy
 
-Case studies of the Open Case Studies project provide independent learners and educators with resources for data science education. The case studies use realistic data from sources that are used for actual research or public health initiatives. Each case study addresses a timely and interesting topic, in an effort so that learners find the material more engaging and relevant.
+Case studies of the Open Case Studies project provide independent learners and educators with resources for data science education. The case studies use realistic data from sources that are used for actual research or public health initiatives. Each case study addresses a timely and interesting topic, in an effort to make the material more engaging and relevant.
 
 Case studies of the project are not intended to show all aspects of the research process, and we do not claim that the analyses show most appropriate way to analyze a given data set, however they are intended to demonstrate the decision making process of real data analyses, to show examples of applications of data methods and to provide context for when such methods could be applied and how they might be used to generally glean information from data.
 
