@@ -47,6 +47,14 @@ This diagram illustrates the workflow of accessing a case study from the OCS web
 
 <img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" style="display: block; margin: auto;" />
 
+### Interactive Case Studies
+
+The interactive versions of the case studies are a recent development. These versions include live tutorials through quizzes and interactive coding exercises with real-time feedback. The interactive case studies were made using the [`learnr`](https://rstudio.github.io/learnr/) and [`gradethis`](https://pkgs.rstudio.com/gradethis/) packages. 
+
+If you'd like to learn more about the interactive case studies, graduate student [Qier Meng](https://www.opencasestudies.org/authors/qmeng/) discusses the interactive versions in further detail in the video below: 
+
+<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px"></iframe>
+
 The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
 
 - The "Case Study" column contains the case study name and a link to the static and interactive versions of the case study (if available)
@@ -60,6 +68,10 @@ The main two columns likely to be helpful in identifying appropriate case studie
 This table can be used to access all case study resources:
 
 <img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" style="display: block; margin: auto;" />
+
+This video provides a live demonstration on how to use the search tool: 
+
+<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px"></iframe>
 
 ## Open Case Studies GitHub Organization
 
@@ -182,7 +194,7 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the `OCSdata` package. The `clone_ocs()` function of the `OCSdata` package can be used to do either. If the `fork_repo` function is set to `TRUE` it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.
 
-Again you can also specify the outpath location as in the previous description about the `zip_ocs()` function.
+Again you can also specify the `outpath` location as in the previous description about the `zip_ocs()` function.
 
 
 ```r

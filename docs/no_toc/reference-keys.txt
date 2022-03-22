@@ -27,6 +27,7 @@ feedback-1
 email-form
 survey-1
 ocs-case-study-search-tool
+interactive-case-studies
 open-case-studies-github-organization
 ocsdata
 getting-started-with-ocsdata
@@ -56,7 +57,7 @@ example-use-cases
 using-case-studies-as-lecture-content
 using-case-studies-for-assignments
 independent-study
-interactive-case-studies
+interactive-case-studies-1
 examples-of-assignments
 written-report
 oral-presentation
