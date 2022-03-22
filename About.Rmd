@@ -11,7 +11,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |**Pedagogy**||
 |Lead Content Instructor(s)|[Carrie Wright](https://carriewright11.github.io/) and [Stephanie Hicks](https://www.stephaniehicks.com/)|
 |Lecturer(s) | [Michael Breshock](https://mbreshock.github.io/) and [Qier Meng](https://www.linkedin.com/in/qier-meng-41769a194/)|
-|Content Author(s) | [Michael Breshock](https://mbreshock.github.io/) and [Lyla Atta](https://lylaatta.github.io/) and [Carrie Wright](https://carriewright11.github.io/)|
+|Content Author(s) | [Michael Breshock](https://mbreshock.github.io/), [Lyla Atta](https://lylaatta.github.io/) and [Carrie Wright](https://carriewright11.github.io/)|
 |Content Director(s) | [Carrie Wright](https://carriewright11.github.io/) and [Stephanie Hicks](https://www.stephaniehicks.com/)|
 |Acknowledgments| [Shannon Ellis](https://www.shanellis.com/), [Jeff Leek](https://jtleek.com/), and [Roger Peng](https://rdpeng.org/) - Thank you for your resources on your uses of case studies from OCS!|
 |**Production**||
