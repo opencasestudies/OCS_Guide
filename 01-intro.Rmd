@@ -200,17 +200,26 @@ For reproducible data analyses and easy publishing of reports and presentations,
 Open Case Studies is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. While GitHub is not needed for users to access the case studies, users can use GitHub to streamline download and modification of case studies. Check out the GitHub Organization and OCSdata sections in Chapter 2 for more details on how to use GitHub to access case studies and modify content for personalized use. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
 
 
-## Feedback  
+## Feedback
 
-We are continually working to improve the Open Case Studies project to address learner and educator needs. Feedback is essential for this goal. If you use Open Case Studies material, we would love to hear from you! Please submit your feedback to our [user experience survey](https://www.opencasestudies.org/#survey). We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
+We are continually working to improve the Open Case Studies project to address learner and educator needs. Feedback is essential for this goal. If you use Open Case Studies material, we would love to hear from you!
 
+### Survey
+
+Please consider participating in our [user experience survey](https://www.opencasestudies.org/#survey).
+
+We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
 <div style="display: flex; justify-content: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+### Feedback for this Guide
+
+If you have feedback for this guide about how we can improve the content, please see [here](https://github.com/opencasestudies/OCS_Guide/issues/new/choose).
 
 
 ## Contact Us 
 
-If you have any questions, suggestions for improvement for individual case studies, or you have an idea for a case study and would like to work with us, you can contact us through email using this form:
+If you have any questions, suggestions for improvement for individual case studies, ideas, or thoughts, you can contact us through email using this form:
 
 <form
   action="https://formspree.io/f/myybqzpz"
