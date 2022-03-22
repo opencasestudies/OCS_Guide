@@ -9,10 +9,10 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
 
-* our website
-* an open case studies search tool
-* our GitHub organization
-* an R package called `OCSdata`
+- Open Case Studies (OCS) website
+- OCS search tool
+- OCS GitHub organization
+- R package called `OCSdata`
 
 
 ## OCS Website
