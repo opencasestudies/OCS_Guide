@@ -190,7 +190,7 @@ OCSdata::clone_ocs(casestudy = "ocs-bp-diet", fork_repo = "TRUE")
 
 ```
 
-However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead.
+However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead. 
 
 
 ## Session info
