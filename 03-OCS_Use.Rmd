@@ -59,7 +59,7 @@ The case studies are written to provide a cohesive story that simulates data sci
 
 **Case Study Reading Time and Readability Index**
 
-The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum.
+The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum. Based on the course taught by Dr. Ellis, in which the case studies were used for lecture material, it appears that for intermediate level data science students, a 10 week course could cover 2 longer case studies or 3 shorter case studies. How long a case study will take however, will depend on the experience level of the students.
 
 | **Case Study** | **Reading Time** (minutes) | Readability Index (Flesch-Kincaid) |
 | -------------------- | --------- | ---------------- |
