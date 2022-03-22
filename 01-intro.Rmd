@@ -174,20 +174,11 @@ Open Case Studies are designed to be beginner friendly. Users can work through a
 
 ### Technical Requirements 
 
-#### Operating System 
-
-| **Computer Type** | **Minimum Required Operating System** |
-| ----------------- | ------------------------------------- |
-| Mac               | OS X 10.11 (El Capitan)               |
-| PC                | Windows 7                             |
-| Linux             | ???                                   |
-
-
-(avocado note from slack: what physical resources are needed - software installed - what type of computers - think about interactive case studies)
-
 All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the [`OCSdata`](https://github.com/opencasestudies/OCSdata) package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
 
 Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
+
+Please note that to install R version 3.5 and higher you will need to have a [web browser](https://en.wikipedia.org/wiki/Web_browser)  and a compatible [operating system](https://en.wikipedia.org/wiki/Operating_system). See this [link](https://cran.r-project.org/) for more information.
 
 ### RStudio
 
