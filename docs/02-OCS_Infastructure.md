@@ -47,6 +47,19 @@ This diagram illustrates the workflow of accessing a case study from the OCS web
 
 ![](resources/images/OCS_GitHub_Repository_Diagram_Draft3.png)
 
+### Interactive Case Studies
+
+The interactive versions of the case studies are a recent development. These versions include live tutorials through quizzes and interactive coding exercises with real-time feedback. The interactive case studies were made using the [`learnr`](https://rstudio.github.io/learnr/) and [`gradethis`](https://pkgs.rstudio.com/gradethis/) packages. 
+
+If you'd like to learn more about the interactive case studies, graduate student [Qier Meng](https://www.opencasestudies.org/authors/qmeng/) discusses the interactive versions in further detail in the video below: 
+
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px"></iframe>
+
 The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
 
 - The "Case Study" column contains the case study name and a link to the static and interactive versions of the case study (if available)
@@ -60,6 +73,10 @@ The main two columns likely to be helpful in identifying appropriate case studie
 This table can be used to access all case study resources:
 
 ![](resources/images/searchtable.png)
+
+This video provides a live demonstration on how to use the search tool: 
+
+<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px"></iframe>
 
 ## Open Case Studies GitHub Organization
 
@@ -182,7 +199,7 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the `OCSdata` package. The `clone_ocs()` function of the `OCSdata` package can be used to do either. If the `fork_repo` function is set to `TRUE` it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.
 
-Again you can also specify the outpath location as in the previous description about the `zip_ocs()` function.
+Again you can also specify the `outpath` location as in the previous description about the `zip_ocs()` function.
 
 
 ```r
@@ -220,10 +237,10 @@ However, using these functions will involve the users getting all of our git his
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
-##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.0        ellipsis_0.3.1 
-## [13] vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2     stringr_1.4.0  
-## [17] readr_1.4.0     hms_0.5.3       xfun_0.26       yaml_2.2.1     
-## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
-## [25] knitr_1.33      tibble_3.0.3
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    rlang_0.4.10    stringi_1.5.3   fs_1.5.0       
+## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  webshot_0.5.2  
+## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
+## [21] xfun_0.26       yaml_2.2.1      compiler_4.0.2  pkgconfig_2.0.3
+## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
 ```
