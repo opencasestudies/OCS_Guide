@@ -4,7 +4,8 @@ about: Suggest an idea for the guide
 title: ''
 labels: ''
 assignees:
-
+  - carriewright11
+  - stephaniehicks
 ---
 
 ## Describe the your scope of your content idea

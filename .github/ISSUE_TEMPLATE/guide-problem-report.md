@@ -4,6 +4,8 @@ about: Create a report to help improve the Open Case Studies Guide
 title: [Problem]
 labels: bug
 assignees:
+  - carriewright11
+  - stephaniehicks
 
 ---
 
