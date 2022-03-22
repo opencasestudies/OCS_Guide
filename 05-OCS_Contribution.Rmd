@@ -73,7 +73,10 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
 
 **Data:**
+
   - Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already. 
+
+  
   - Transparent descriptions of data sources and how data was generated should be included when possible. 
 
 
