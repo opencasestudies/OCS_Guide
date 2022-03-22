@@ -105,7 +105,7 @@ Each case study demonstrates an entire data analysis starting from data import a
 
 Here, we are using the following interpretations of "beginner", "intermediate", and "advanced":  
 
-
+<br>
 
 | Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
@@ -117,7 +117,7 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
-<br>
+
 | Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
 | School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
