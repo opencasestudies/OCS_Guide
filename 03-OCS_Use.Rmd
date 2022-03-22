@@ -52,12 +52,10 @@ The case studies are structured to support both partial and full use of a case s
 
 The case studies are written to provide a cohesive story that simulates data science in the real world. Reading through an entire case study is an excellent exercise for students to experience a standard data science workflow and learn the best practices of today from start to finish. The following list provides a few examples of how educators have used a full case study in the past: 
 
-- Converted the case study into a slide deck (add link, source and example image of slide)
-- Assigned students to read the case study and write a report as homework
-- Suggested reading and supplemental material 
-- more? 
+- Converted the case study into a [slide deck](https://cogs137.github.io/website/lecslides/16-cs2-data.html#1) ([Practical Data Science in R](https://cogs137.github.io/website/) taught by Dr. Shannon Ellis at University of California Santa Barbara)
+- Assigned students to read the case study and write a report as homework ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework9)
+- Assigned students to extend analysis beyond case study ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework11))
 
-(avocado add discussion of interactive case studies)
 
 **Case Study Reading Time and Readability Index**
 
