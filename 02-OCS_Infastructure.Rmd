@@ -9,10 +9,10 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
 
-- Open Case Studies (OCS) website
-- OCS search tool
-- OCS GitHub organization
-- R package called `OCSdata`
+- the Open Case Studies (OCS) website
+- a search tool to find case studies
+- the OCS GitHub organization
+- our R package called `OCSdata`
 
 
 ## OCS Website
@@ -21,20 +21,17 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 knitr::include_graphics('resources/images/OCSwebsite.png', dpi = NA)
 ```
 
-Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can also be found on the website as well as an archive of talks and blog posts. The website also contains a contact form that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
+The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
 
-### Open Case Studies mission 
+Links to all of our case studies can be found on the Open Case Studies website. The case studies are listed in a searchable table that will be detailed further in the following section.  
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
-
-You can get in touch with the Open Case Studies project team - just send us an email with feedback, suggestions, or questions. You can send us an email by submitting an [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us).
-
+The website also contains a contact[email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
 
 ## OCS Case Study Search Tool
 
 The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
 
-This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.
+This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table"}
 knitr::include_graphics('resources/images/OCS_GitHub_Repository_Diagram_Draft3.png', dpi = NA)
