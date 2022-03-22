@@ -36,7 +36,7 @@ importing-data-as-r-objects
 importing-wrangled-data
 downloading-extra-data
 downloading-all-case-study-data
-forking-the-case-study-repository
+fork-or-clone-the-case-study-repository
 session-info
 use-of-open-case-studies
 learning-objectives-1
@@ -52,8 +52,8 @@ teaching-part-of-a-case-study
 teaching-with-case-study-data-only
 case-study-recommendations
 example-use-cases
-intermediate-undergraduate-data-science-course
-advanced-graduate-data-science-course
+using-case-studies-as-lecture-content
+using-case-studies-for-assignments
 independent-study
 interactive-case-studies
 examples-of-assignments
@@ -66,6 +66,9 @@ modifying-open-case-studies
 learning-objectives-2
 modular-use
 example-of-modular-use
+steps-for-modular-use
+downloading-data-with-ocsdata
+manually-download-data-from-github
 modify-a-case-study
 create-a-case-study
 template-case-study
