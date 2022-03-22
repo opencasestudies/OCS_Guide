@@ -7,15 +7,15 @@
 
 This chapter will cover how to modify the case studies to your own needs using the following methods:  
 
-- Modular case study use with the help of the [OCSdata package](https://github.com/opencasestudies/OCSdata)
+- Modular case study use with the help of the [`OCSdata` package](https://github.com/opencasestudies/OCSdata)
 - Modifying a case study with [GitHub](https://github.com/opencasestudies) and [RStudio](https://www.rstudio.com/)
 - Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template) and [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/)
 
 ## Modular use
 
-Some educators may find that only certain sections of a case study are relevant to their specific needs. For example, a statistics teacher may want students to practice the skills covered in the data analysis section, but doesn't have time to go through the whole case study. The case studies are designed to allow for such use. This educator and their students may jump right in to any case study section without working through any previous sections. This is made possible because the data files are saved at the end of each section. These data files are made available on the case study's GitHub repository and may also be downloaded with the help of the OCSdata package. See Chapter 2 for more details on the structure and organization of a case study data folder. The table below explains which data sub-folder and package function to use for each case study section.
+Some educators may find that only certain sections of a case study are relevant to their specific needs. For example, a statistics teacher may want students to practice the skills covered in the data analysis section, but doesn't have time to go through the whole case study. The case studies are designed to allow for such use. This educator and their students may jump right in to any case study section without working through any previous sections. This is made possible because the data files are saved at the end of each section. These data files are made available on the case study's GitHub repository and may also be downloaded with the help of the `OCSdata` package. See Chapter 2 for more details on the structure and organization of a case study data folder. The table below explains which data sub-folder and package function to use for each case study section.
 
-| Data Folder | Case Study Section | OCSdata Function |
+| Data Folder | Case Study Section | `OCSdata` Function |
 | ----- | -------- | ------ |
 | raw | Data Import | `raw_data` |
 | imported | Data Exploration, Data Wrangling | `imported_data` |
@@ -27,73 +27,79 @@ Some educators may find that only certain sections of a case study are relevant 
 
 The following steps illustrate how one would skip to a specific case study section. The data analysis section from the "Opioids in United States" case study is used for this example, but these directions apply for any section in any case study.
 
+#### Steps for modular use
+
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
 <img src="resources/images/skip_section.gif" title="Moving image (GIF) showing a user skipping to the data analysis section of a case study" alt="Moving image (GIF) showing a user skipping to the data analysis section of a case study" style="display: block; margin: auto;" />
 
-2) Follow the instructions provided to download the data files from the previous section either with OCSdata or manually through GitHub:
+2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
-2.1) Download with OCSdata:
+#### Downloading data with `OCSdata`:
 
-  2.1.1) First install and load the OCSdata package:
+1) First install and load the `OCSdata` package:
   
-  ```r
+
+```r
   install.packages("OCSdata") #only run once to install package
-  ```
-  
-  ```
-  ## Installing package into '/usr/local/lib/R/site-library'
-  ## (as 'lib' is unspecified)
-  ```
-  
-  ```
-  ## Warning: package 'OCSdata' is not available (for R version 4.0.2)
-  ```
-  
-  ```r
+```
+
+```
+## Installing package into '/usr/local/lib/R/site-library'
+## (as 'lib' is unspecified)
+```
+
+```
+## Warning: package 'OCSdata' is not available (for R version 4.0.2)
+```
+
+```r
   library(OCSdata) #run every new R session to load package
-  ```
+```
 
-  2.1.2) Now download the wrangled data into your R environment using the following function command:
+2) Now download the wrangled data into your R environment using the following function command:
   
-  ```r
+
+```r
   wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
-  ```
-  *This command will download the wrangled data in .RDA format. You may also be downloaded wrangled data in .CSV format by replacing 'wrangled_rda' with 'wrangled_csv'*
-
-  2.1.3) Load the RDA files with the following commands:
+```
   
-  ```r
+*This command will download the wrangled data in .RDA format. You may also be downloaded wrangled data in .CSV format by replacing 'wrangled_rda' with 'wrangled_csv'*
+
+3) Load the RDA files with the following commands:
+
+
+```r
   load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
   load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
-  ```
+```
 
-2.2) Manually Download from GitHub:
+#### Manually Download Data from GitHub:
 
-  2.2.1) Download the .RDA files available on the case study GitHub repository from [here](https://github.com/opencasestudies/ocs-bp-opioid-rural-urban/tree/master/data/wrangled)
+ 1) Download the .RDA files available on the case study GitHub repository from [here](https://github.com/opencasestudies/ocs-bp-opioid-rural-urban/tree/master/data/wrangled).
 
   *The CSV versions of the files may also be downloaded here, if preferred*
 
-  2.2.2) Move the data files from your 'Downloads' folder to your R session's current working directory (you can see what this is with ```getwd()```).
+  2) Move the data files from your 'Downloads' folder to your R session's current working directory (you can see what this is with ```getwd()```).
 
-  2.2.3) Load the RDA files with the following commands:
+ 3) Load the RDA files with the following commands:
   
-  ```r
+
+```r
   load(file = here::here("Annual_opioid_data.rda"))
   load(file = here::here("county_info.rda"))
-  ```
+```
 
 3) All the data you need to work through the current section is now loaded into your environment. You are ready to work through the section of interest, without needing to work through any of the previous sections.
 
 ## Modify a case study
 
-The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using Markdown syntax (avocado$). RStudio projects are used to organize the case studies and support version control (is this correct?). The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. Open Case Studies uses these HTML files to post the case studies online. The entire case study project is contained in a GitHub repository which allows for easy distribution and version control. [GitHub Pages](https://pages.github.com/) is used to host the case study webpage from the case study repository.
+The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using [Markdown syntax](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf). RStudio projects are used to organize the case studies. The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. Open Case Studies uses these HTML files to post the case studies online. The entire case study project is contained in a GitHub repository which allows for easy distribution and version control. [GitHub Pages](https://pages.github.com/) is used to host the case study webpage from the case study repository.
 
-$ do we have any resources for markdown we prefer to use?
 
 Modifying a case study requires the following simple steps:
 
-1. Clone or fork the case study repository from GitHub. Clone if you only want to have the repository locally. Fork if you would like to have both a local version and a remote repository on your personal GitHub account.
+1. Use the `OCSdata` package `zip_ocs()` function to download the case study files without our git history. Alternatively, if you are familiar with GitHub and wish to you can clone or fork the case study repository from GitHub. 
 
 2. In the repository folder, open the case study .Rproj file to open the project up in RStudio.
 
@@ -103,13 +109,17 @@ Modifying a case study requires the following simple steps:
 
 <img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." style="display: block; margin: auto;" />
 
-5. Distribute your modified case study as you please! (avocado should i add a note here about hosting online with personal GitHub pages?)
+5. Distribute your modified case study as you please! 
 
-*add reference to a resource on GitHub for beginners?
+You can share HTML, PDF and Word files directly with your students or you can host your case study for free on GitHub using [GitHub pages](https://pages.github.com/) [@pages_github]. 
+
+To do so, you will need to set up your version of the case study on GitHub. If you  are new to GitHub, also be sure to check out @happygitwithr.
+
 
 These steps are demonstrated in the following video about modifying case studies:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UFs4qvgTuTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/UFs4qvgTuTw" width="100%" height="400px"></iframe>
+
 
 ## Create a case study
 
@@ -131,7 +141,8 @@ A template case study is available in a repository on our GitHub page at [github
 
 All of these steps are demonstrated in the following video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rP5E7GohTiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/rP5E7GohTiI" width="100%" height="400px"></iframe>
 
 ### MakeCaseStudies App
 
@@ -139,7 +150,9 @@ Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biosta
 
 Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dd4KASCIsNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/Dd4KASCIsNc" width="100%" height="400px"></iframe>
+
 
 ## Session info
 
