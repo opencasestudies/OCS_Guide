@@ -28,8 +28,8 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Videographer(s)| [Michael Breshock](https://mbreshock.github.io/) and [Qier Meng](https://www.linkedin.com/in/qier-meng-41769a194/)|
 |Videography Editor(s)| [Michael Breshock](https://mbreshock.github.io/) and [Lyla Atta](https://lylaatta.github.io/)|
 |**Funding**||
-|Funder(s)| This guide was funded as an extension to funding for the [Genomic Data Science Community Network (GDSCN)](https://arxiv.org/abs/2201.08443)|
-|Funding Staff| Jennifer Vessio|
+|Funder(s)| This guide was funded as an extension to funding for the [Genomic Data Science Community Network (GDSCN)](https://arxiv.org/abs/2201.08443). The GDSCN is supported through a contract to Johns Hopkins University (75N92020P00235) NHGRI.|
+|Funding Staff| [Jennifer Vessio](https://www.linkedin.com/in/jennifer-vessio-0a240888/)|
 
 &nbsp;
 
