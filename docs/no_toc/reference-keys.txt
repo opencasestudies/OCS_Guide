@@ -3,7 +3,6 @@ motivation
 target-audience
 curriculum
 open-case-studies-philosophy
-what-is-the-open-case-studies-ocs-project
 what-problem-are-we-addressing
 problems-with-previously-suggested-solutions
 what-are-we-proposing-as-a-solution
@@ -14,15 +13,18 @@ stage-3-wrapping-up
 table-of-contents
 starter-kit
 technical-requirements
-operating-system
 rstudio
 github
 feedback
+survey
+feedback-for-this-guide
 contact-us
 open-case-study-infrastructure
 learning-objectives
 ocs-website
-open-case-studies-mission
+feedback-1
+email-form
+survey-1
 ocs-case-study-search-tool
 open-case-studies-github-organization
 ocsdata
@@ -35,7 +37,6 @@ importing-wrangled-data
 downloading-extra-data
 downloading-all-case-study-data
 forking-the-case-study-repository
-feedback-1
 session-info
 use-of-open-case-studies
 learning-objectives-1
@@ -61,7 +62,7 @@ oral-presentation
 data-visualization
 further-exploration
 session-info-1
-modifying-and-creating-open-case-studies
+modifying-open-case-studies
 learning-objectives-2
 modular-use
 example-of-modular-use

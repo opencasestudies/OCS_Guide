@@ -19,11 +19,11 @@ The case studies in Open Case Studies generally deal with topics in public healt
 
 #### Statistics
 
-The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see Section 3.3) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column. 
+The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see the [case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column. 
 
 #### Coding/Data Science
 
-All case studies use the R statistical programming language for data analysis. Some familiarity with R basics is expected for effective use of the case studies. However, depending on the data used and the extent to which it needs to be cleaned and processed before analysis, each case study may require experience with additional programming and data wrangling skills. This will be indicated by the Experience Level designation for the case study (see Section 3.3).  
+All case studies use the R statistical programming language for data analysis. Some familiarity with R basics is expected for effective use of the case studies. However, depending on the data used and the extent to which it needs to be cleaned and processed before analysis, each case study may require experience with additional programming and data wrangling skills. This will be indicated by the Experience Level designation for the case study ([case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)).  
 
 #### Software 
 
@@ -57,9 +57,30 @@ The case studies are written to provide a cohesive story that simulates data sci
 
 (avocado add discussion of interactive case studies)
 
+**Case Study Reading Time and Readability Index**
+
+The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum.
+
+| **Case Study** | **Reading Time** (minutes) | Readability Index (Flesch-Kincaid) |
+| -------------------- | --------- | ---------------- |
+| [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard) | 110 | Grade 9, Age 14 |
+| [Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection) | 85 | Grade 8, Age 13 |
+| [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban) | 90 | Grade 9, Age 14 |
+| [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study) | 75 | Grade 10, Age 15 |
+| [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health) | 90 | Grade 8, Age 13 |
+| [Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity) | 70 | Grade 9, Age 14 |
+| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling) | 55 | Grade 9, Age 14 |
+| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 60 | Grade 11, Age 16 |
+| [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 70 | Grade 9, Age 14 |
+| [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 100 | Grade 10, Age 15 |
+| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 95 | Grade 10, Age 15 |
+
 ### Teaching Part of a Case Study
 
-Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see chapter 2.5). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
+Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see the [OCSdata section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#ocsdata) in chapter 2). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
+
+<br>
+
 
 | Data Folder | Case Study Section | Example Use |
 | ------- | --------- | ------------------------ |
@@ -82,6 +103,7 @@ Each case study demonstrates an entire data analysis starting from data import a
 
 Here, we are using the following interpretations of "beginner", "intermediate", and "advanced":  
 
+<br>
 
 | Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
@@ -89,10 +111,12 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 | Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
 | Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
 
-
+<br>
+<br>
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
+<br>
 | Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
 | School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
@@ -110,13 +134,17 @@ The following table lists a few example case studies that would be suitable for 
 
 ## Example Use Cases
 
-Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to hear about it! 
+Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
 
 ### Intermediate Undergraduate Data Science Course
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught be Dr. Shannon Ellis at University of California Santa Barbara. It includes three Open Case Studies and uses them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by Dr. Shannon Ellis at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
-The course incorporates labs and homeworks, which have guided coding and analysis exercises related to the concepts discussed in lecture. The course also assigns written reports where students present the analysis they conduct related to the case study in the format of a scientific article (see example assignment below). 
+Here you can see how the course used the `OCSdata` package:
+
+<img src="resources/images/shannon-casestudy.png" title="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" alt="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" width="450" style="display: block; margin: auto;" />
+
+Dr. Ellis incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
 ### Advanced Graduate Data Science Course
 
@@ -190,12 +218,13 @@ We would like to thank the following people for generously sharing the ways in w
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   digest_0.6.25   crayon_1.3.4    R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
-##  [9] stringi_1.5.3   rlang_0.4.10    fs_1.5.0        jquerylib_0.1.4
-## [13] vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10  tools_4.0.2    
-## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       yaml_2.2.1     
-## [21] xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
-## [25] ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
+##  [1] knitr_1.33      magrittr_2.0.2  hms_0.5.3       R6_2.4.1       
+##  [5] rlang_0.4.10    stringr_1.4.0   highr_0.8       tools_4.0.2    
+##  [9] xfun_0.26       png_0.1-7       jquerylib_0.1.4 htmltools_0.5.0
+## [13] ellipsis_0.3.1  ottrpal_0.1.2   yaml_2.2.1      digest_0.6.25  
+## [17] tibble_3.0.3    lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24  
+## [21] readr_1.4.0     vctrs_0.3.4     fs_1.5.0        evaluate_0.14  
+## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
+## [29] pkgconfig_2.0.3
 ```
 

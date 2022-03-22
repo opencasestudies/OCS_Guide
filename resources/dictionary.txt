@@ -7,6 +7,7 @@ Capitan
 csv
 Datatrail
 El
+Flesch
 GDSCN
 github
 ggplot
@@ -15,7 +16,9 @@ impactful
 ITCR
 itcrtraining
 ITN
+Kincaid
 knitr
+koRpus
 Leanpub
 MakeCaseStudies
 Markua
