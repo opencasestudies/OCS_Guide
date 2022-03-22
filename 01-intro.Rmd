@@ -49,6 +49,18 @@ This guide documents:
 
 ## Open Case Studies Philosophy
 
+Case studies of the Open Case Studies project provide independent learners and educators with resources for data science education. The case studies use realistic data from sources that are used for actual research or public health initiatives. Each case study addresses a timely and interesting topic, in an effort so that learners find the material more engaging and relevant.
+
+Case studies of the project are not intended to show all aspects of the research process, and we do not claim that the analyses show most appropriate way to analyze a given data set, however they are intended to demonstrate the decision making process of real data analyses, to show examples of applications of data methods and to provide context for when such methods could be applied and how they might be used to generally glean information from data.
+
+The goal of the project overall is to provide instructors with resources to use in the classroom so that they can make their instruction more hands on while covering interesting and relevant topics, while also providing stand-alone resources to students to supplement their course instruction and for independent learners to expand their data science knowledge. 
+
+All case study materials are open source and free. We provide transparency about where the data came from and where possible how it was produced. We cover data and data method limitations. We try to be as complete as possible to provide users with all necessary steps to understand the analysis and to provide context, while also maintaining a reasonable length. 
+
+Our case studies can be used for small additional assignments in a classroom setting or as the main content that educators can slowly work through with students.
+
+We hope you find our case studies useful!
+
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts."}
 knitr::include_graphics('resources/images/ocs_graphic.png', dpi = NA)
 ```
