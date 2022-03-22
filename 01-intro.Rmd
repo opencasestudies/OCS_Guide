@@ -77,14 +77,12 @@ In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued
 
 ### What are we proposing as a solution?
 
-To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative **complete** data analyses that can be used in and outside the classroom to teach learners how to effectively derive knowledge from data. This approach has successfully been used to teach data science courses at many universities, including:
+To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative **complete** data analyses that can be used in and outside the classroom to teach learners how to effectively derive knowledge from data. Our case studies have successfully been used to teach data science and statistics courses to graduate and undergraduate students at:
 
  - [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
- - [Harvard University](http://cs109.github.io/2014/)
- - [Harvard T.H. Chan School of Public Health](http://datasciencelabs.github.io/2016/)
- - [University of California at Berkeley](https://rdatasciencecases.org/)
- - [Smith College](https://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1081105?journalCode=utas20)
-
+ - [Johns Hopkins University](https://www.jhu.edu/)
+ - [UC Santa Barbara](https://www.ucsb.edu/)
+ 
 ## Open Case Studies Anatomy
 
 ```{r, include = FALSE, echo = FALSE}
