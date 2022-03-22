@@ -87,7 +87,7 @@ The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) doc
 
 Modifying a case study requires the following simple steps:
 
-1. Clone or fork the case study repository from GitHub. Clone if you only want to have the repository locally. Fork if you would like to have both a local version and a remote repository on your personal GitHub account.
+1. Clone or fork the case study repository from GitHub. Clone if you only want to have the repository locally. Fork if you would like to have both a local version and a remote repository on your personal GitHub account. Alternatively, use the `OCSdata` package `zip_ocs()` function to download the case study files without our git history.
 
 2. In the repository folder, open the case study .Rproj file to open the project up in RStudio.
 
@@ -103,7 +103,7 @@ knitr::include_graphics('resources/images/rstudio_modify_knit_red.png', dpi = NA
 
 You can share HTML, PDF and Word files directly with your students or you can host your case study for free on GitHub using [GitHub pages](https://pages.github.com/) [@pages_github]. 
 
-If you  are new to GitHub, also be sure to check out @happygitwithr.
+To do so, you will need to set up your version of the case study on GitHub. If you  are new to GitHub, also be sure to check out @happygitwithr.
 
 
 These steps are demonstrated in the following video about modifying case studies:
