@@ -8,8 +8,17 @@ output:
 
 # Introduction
 
+## Learning Objectives
+
+In this chapter we will:
+
+- describe who this guide is for
+- discuss what you can expect in this guide
+- introduce to the [Open Case Studies](https://www.opencasestudies.org/) project
+- introduce the case studies that make up this project
 
 ## Motivation
+
 The [Open Case Studies project](https://www.opencasestudies.org), developed at the [Johns Hopkins Data Science Lab](https://jhudatascience.org/), is an education platform that provides self-contained, multimodal, peer-reviewed, and open-source guides for real-world examples for active experiences of complete data analyses. The intention of this guide is to provide instructors more information about how to make the most of our case studies.
 
 
@@ -104,7 +113,7 @@ In the first stage, students learn about the subject area they will be investiga
 
 ### Stage 2: Analyzing the Data 
 
-This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the required format. The cleaned data can then be visualized and analyzed to answer the study question. 
+This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the format needed for analysis. The cleaned data can then be visualized and analyzed to answer the study question. 
 
 - Data description
 - Import and exploration 
