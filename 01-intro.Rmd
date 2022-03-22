@@ -75,11 +75,11 @@ Despite unprecedented and growing interest in data science on campuses, there ar
 
 ### Problems with previously suggested solutions
 
-In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce.
+In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce. Furthermore they are often open-ended without a single complete full example. This can make it challenging for instructors who are new to these topics or who have limited time.
 
 ### What are we proposing as a solution?
 
-To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to teach data science courses at many universities, including:
+To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative **complete** data analyses that can be used in  and outside the classroom to teach learners how to effectively derive knowledge from data. This approach has successfully been used to teach data science courses at many universities, including:
 
  - [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
  - [Harvard University](http://cs109.github.io/2014/)
@@ -210,7 +210,7 @@ We are continually working to improve the Open Case Studies project to address l
 
 ## Contact Us 
 
-If you have any questions or have an idea for a case study and would like to work with us, you can contact us through email using this form:
+If you have any questions, suggestions for improvement for individual case studies, or you have an idea for a case study and would like to work with us, you can contact us through email using this form:
 
 <form
   action="https://formspree.io/f/myybqzpz"
@@ -229,5 +229,7 @@ If you have any questions or have an idea for a case study and would like to wor
 </form>
 
 <br>
+
+Also, see the final chapter for information on submitting case studies to our collection.
 
 You can also find us on Twitter with the following handle: [`@OpenCaseStudies`](https://twitter.com/opencasestudies)
