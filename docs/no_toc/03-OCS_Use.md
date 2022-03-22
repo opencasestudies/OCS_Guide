@@ -50,16 +50,14 @@ The case studies are structured to support both partial and full use of a case s
 
 The case studies are written to provide a cohesive story that simulates data science in the real world. Reading through an entire case study is an excellent exercise for students to experience a standard data science workflow and learn the best practices of today from start to finish. The following list provides a few examples of how educators have used a full case study in the past: 
 
-- Converted the case study into a slide deck (add link, source and example image of slide)
-- Assigned students to read the case study and write a report as homework
-- Suggested reading and supplemental material 
-- more? 
+- Converted the case study into a [slide deck](https://cogs137.github.io/website/lecslides/16-cs2-data.html#1) ([Practical Data Science in R](https://cogs137.github.io/website/) taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara)
+- Assigned students to read the case study and write a report as homework ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework9))
+- Assigned students to extend analysis beyond case study ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework11))
 
-(avocado add discussion of interactive case studies)
 
 **Case Study Reading Time and Readability Index**
 
-The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum.
+The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum. Based on the course taught by Dr. Ellis, in which the case studies were used for lecture material, it appears that for intermediate level data science students, a 10 week course could cover 2 longer case studies or 3 shorter case studies. How long a case study will take however, will depend on the experience level of the students.
 
 | **Case Study** | **Reading Time** (minutes) | Readability Index (Flesch-Kincaid) |
 | -------------------- | --------- | ---------------- |
@@ -90,7 +88,6 @@ Some educators may find that only certain sections of a case study are relevant 
 | simpler_import | Data Import | Introductory data science instructor wants students to practice data import without over-complication |
 | extra | Not Used in Case Study | Public health course assigns homework to practice case study methods with similar but new data | 
 
-(avocado add discussion of interactive case studies)
 
 ### Teaching With Case Study Data Only
 
@@ -111,12 +108,11 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 | Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
 | Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
 
-<br>
-<br>
+
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
-<br>
+
 | Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
 | School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
@@ -136,19 +132,19 @@ The following table lists a few example case studies that would be suitable for 
 
 Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
 
-### Intermediate Undergraduate Data Science Course
+### Using Case Studies as Lecture Content
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by Dr. Shannon Ellis at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
 
 Here you can see how the course used the `OCSdata` package:
 
 <img src="resources/images/shannon-casestudy.png" title="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" alt="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" width="450" style="display: block; margin: auto;" />
 
-Dr. Ellis incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
+[Dr. Ellis](https://www.shanellis.com/) incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
-### Advanced Graduate Data Science Course
+### Using Case Studies for Assignments
 
-[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long course taught by Dr. Jeff Leek and Dr. Roger Peng in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
+[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long graduate data science course taught by [Dr. Jeff Leek](https://jtleek.com/) and [Dr. Roger Peng](https://rdpeng.org/) in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
 
 ### Independent Study
 
@@ -156,21 +152,21 @@ Case studies can be used for learners to gain experience in statistics and data 
 
 ### Interactive Case Studies
 
-Some of the case studies are also included in interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback.  
+Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback.  
 
 ## Examples of assignments 
 
-Educators are not limited to having the students go through the case study in their current format. Case studies can be a spring board for further exploration and additional assignments. For example, in addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their curiosity, technical writing and communication skills. Additional assignments can include but is not limited to data visualization and presentation, written reports, and oral presentations. Below we provide a few examples of potential assignments that educators can use to tailor instruction to the desired learning objectives. 
+Educators are not limited to having the students go through the case study in their current format. Case studies can be a spring board for further exploration and additional assignments. For example, in addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their curiosity, technical writing and communication skills. Additional assignments can include but is not limited to data visualization and presentation, written reports, and oral presentations. Below we provide a few examples of potential assignments that educators can use to tailor instruction to the desired learning objectives. See [here](http://jtleek.com/ads2020/week-5.html) guidelines about considerations for effective and ethical data visualizations from the [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
 
 ### Written Report 
 
 Below is an example of a scientific-style paper written based on the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question). We also include an example rubric by which this paper can be evaluated adapted from [here](https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation). 
 
-[OCS Example Report Assignment Guide](https://cogs137.github.io/website/project/cs01.html)  
+- [OCS Example Report Assignment Guide](https://cogs137.github.io/website/project/cs01.html)  
 
-[OCS Opioid Use in the US Example Report](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf)
+- [OCS Opioid Use in the US Example Report](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf)
 
-[OCS Opioid Use in the US Example Report Rubric](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf)
+- [OCS Opioid Use in the US Example Report Rubric](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf)
 
 ### Oral Presentation 
 
@@ -180,7 +176,7 @@ Below is an example of a presentation based on the [Vaping Behaviors in American
 
 ### Data Visualization
 
-The data visualizations included in the case studies are not the only way to present the results of the analyses. While the principles of effective data visualization are not a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. As examples, we link a [lecture on the principles of data visualization](https://paldhous.github.io/ucb/2019/dataviz/week2.html) from Dr. Peter Aldhous' Introduction to Data Visualization Course and a [data visualization assignment and accompanying grading rubric](http://vis.mit.edu/classes/6.894/A1) from the Interactive Data Visualization course at MIT's Department of Computer Science.
+The data visualizations included in the case studies are not the only way to present the data used within the analyses. While the principles of effective data visualization are a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. Students can be assigned to create a new visualization beyond what is included in the case studies that emphasizes different aspects in the data.
 
 ### Further Exploration
 
@@ -191,7 +187,9 @@ Several case studies have additional data that is not discussed. This can be use
 
 We would like to thank the following people for generously sharing the ways in which they used Open Case Studies materials in their teaching:  
 
-- Shannon Ellis PhD., *University of California, Santa Barbara
+- [Shannon Ellis PhD.](https://www.shanellis.com/)
+- [Dr. Jeff Leek](https://jtleek.com/)
+- [Dr. Roger Peng](https://rdpeng.org/)
 
 
 
