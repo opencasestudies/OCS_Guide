@@ -8,7 +8,12 @@ ottrpal::set_knitr_image_path()
 ## Learning Objectives
 
 
-This chapter will provide guidance on how to use Open Case Studies in classroom settings. We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners. We will present some examples of assignments that can accompany the case studies and the rubrics that they can be evaluated with. Furthermore, we provide examples of extensions to case studies that can serve as a template for homework assignments or independent student exploration. 
+This chapter will provide guidance on how to use Open Case Studies for instruction. 
+
+- We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners.
+- We will describe ways that instructors can use full case studies, part of a case study, or just the data.
+- We will present ways in which others have used the case studies.
+- We will present some examples of extensions that can accompany the case studies and can serve as a template for homework assignments or independent student exploration. 
 
 The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please [let us know](https://www.opencasestudies.org/#contact) what you come up with so that other educators may be inspired by your creativity. 
 
