@@ -3,12 +3,18 @@ motivation
 target-audience
 curriculum
 open-case-studies-philosophy
+what-is-the-open-case-studies-ocs-project
+what-problem-are-we-addressing
+problems-with-previously-suggested-solutions
+what-are-we-proposing-as-a-solution
 open-case-studies-anatomy
 stage-1-getting-started
 stage-2-analyzing-the-data
 stage-3-wrapping-up
+table-of-contents
 starter-kit
 technical-requirements
+operating-system
 rstudio
 github
 feedback
@@ -67,6 +73,6 @@ session-info-2
 new-case-studies---building-and-contributing
 submission
 submitting-case-study-materials-to-the-open-case-studies-community-repository
-submitting-case-study-idea-for-development-and-integration-into-the-open-case-studies-project
+submitting-case-study-idea-for-integration-into-the-open-case-studies-project
 guidelines
 session-info-3
