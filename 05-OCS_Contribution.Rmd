@@ -76,7 +76,7 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
   - Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already. 
 
-  
+
   - Transparent descriptions of data sources and how data was generated should be included when possible. 
 
 
@@ -92,23 +92,33 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
 
 **Content:** Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process. 
+
   - Links to literature or other sources to motivate the scientific topic of the case study should be included where possible.
+
   - Case studies should aim to describe the decision making process involved in performing data science related tasks.
 
 
 **Attribution:** all outside resources used in the case study should be referenced appropriately. 
+
   - Case studies should include disclaimers and appropriate license agreements.
+
   - All included images (that are not original to the case study) should include relevant sources.
 
 **Data:**
+
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
   ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
   knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
   ```
+
   - The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient. 
+
   - The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section. 
+
   - Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the `save()` function in R after importing the raw data. 
+
   - Wrangled data is the version of the data after it has been cleaned and is ready for analysis. Use the `save()` function in R after wrangling the data to create these files. This data should be provided in both RDA and CSV format. 
+  
   - The next two data sub-folders are optional and used as needed: 
     - If the raw data files for your case study come in a format that requires a complicated data import process (such as web scraping) you may consider providing the raw data in an import friendly format such as CSV or XLS(X). Place these files in the "simpler_import" sub-folder.
     - If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the "extra" sub-folder. 
