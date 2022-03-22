@@ -27,6 +27,10 @@ Links to all of our case studies can be found on the Open Case Studies website. 
 
 The website also contains a contact[email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
 
+
+There is also a [survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link) available on our website that allows us to do research to learn more about how we can make our case studies more effective. The survey should take no more than 10 minutes to complete. This survey is also located within the case studies themselves. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
+
+
 ## OCS Case Study Search Tool
 
 The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
@@ -162,9 +166,6 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 ### Forking the case study repository
 
 
-## Feedback
-
-If you would like to provide feedback on the Open Case Studies please do so with our [user feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link). The survey should take no more than 10 minutes to complete and can be found on the [OCS website](https://www.opencasestudies.org/#survey) as well as within the case studies themselves. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
 
 ## Session info
 
