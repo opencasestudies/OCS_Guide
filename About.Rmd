@@ -15,8 +15,8 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Content Director(s) | [Carrie Wright](https://carriewright11.github.io/) and [Stephanie Hicks](https://www.stephaniehicks.com/)|
 |Acknowledgments| [Shannon Ellis](https://www.shanellis.com/), [Jeff Leek](https://jtleek.com/), and [Roger Peng](https://rdpeng.org/) - Thank you for your resources on your uses of case studies from OCS!|
 |**Production**||
-|Content Publisher(s)| Helped with publishing platform|
-|Content Publishing Reviewer(s)| Reviewed overall content and aesthetics on publishing platform|
+|Content Publisher(s)| [Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
+|Content Publishing Reviewer(s)| [Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
 |**Technical**||
 |Course Publishing Engineer(s)| [Carrie Wright], [Candace Savonen]|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright]|
@@ -24,7 +24,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Technical Publishing Stylists|[Carrie Wright], [Candace Savonen]|
 |Package Developers ([ottr])|[John Muschelli], [Candace Savonen], [Carrie Wright]|
 |**Art and Design**||
-|Illustrator(s)|[Lyla Atta], [Carrie Wright]|
+|Illustrator(s)|[Lyla Atta](https://lylaatta.github.io/), [Carrie Wright], and [Michael Breshock](https://mbreshock.github.io/)|
 |Videographer(s)| [Michael Breshock](https://mbreshock.github.io/) and [Qier Meng](https://www.linkedin.com/in/qier-meng-41769a194/)|
 |Videography Editor(s)| [Michael Breshock](https://mbreshock.github.io/) and [Lyla Atta](https://lylaatta.github.io/)|
 |**Funding**||
@@ -44,7 +44,7 @@ devtools::session_info()
 [Candace Savonen]: https://www.cansavvy.com/
 [Carrie Wright]: https://carriewright11.github.io/
 [Michael Breshock]: https://mbreshock.github.io/
-[Stephanie Hicks]
+
 
 <!-- Links -->
 
