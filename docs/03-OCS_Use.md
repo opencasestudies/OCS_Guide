@@ -167,6 +167,8 @@ We would like to thank the following people for generously sharing the ways in w
 
 
 
+## Session info
+
 
 ```
 ## R version 4.0.2 (2020-06-22)
