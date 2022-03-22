@@ -169,7 +169,13 @@ extra_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 
 ### Downloading all case study data
 
-The `zip_ocs()` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are filimiar with Git and GitHub), as this will not result in the user getting all of our git history. 
+The `zip_ocs()` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are familiar with Git and GitHub), as this will not result in the user getting all of our git history. 
+
+If you choose to fork the repository you will automatically generate a repository on GitHub and your repository will have connections to the original case study. This can be helpful for pulling any changes to the original case study. It can also be helpful if you want to send edits to the original case study in the form of what is called a pull request.  
+
+If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.
+
+Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happywithgitr to learn more.
 
 ```{r, include = TRUE, eval = FALSE}
 zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd()) 
