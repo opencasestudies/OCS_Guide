@@ -41,15 +41,38 @@ This guide documents:
 - The general structure of case studies
 - Various entry points to using the case studies (including an R package to enable modular use of the case studies)
 - Examples of how to use the case studies
-- How to modify and adapt components of the case studies for the classroom
-- How to contribute new case studies. 
+- Instructions on how to modify and adapt components of the case studies for the classroom
+- Guidelines for contributing new case studies
 
 
 ## Open Case Studies Philosophy
 
 <img src="resources/images/ocs_graphic.png" title="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." alt="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." style="display: block; margin: auto;" />
 
+### What is the Open Case Studies (OCS) project?
+
+The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges.
+
+### What problem are we addressing?
+
+Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean datasets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.
+
+### Problems with previously suggested solutions
+
+In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce.
+
+### What are we proposing as a solution?
+
+To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative data analyses that can be used in the classroom to teach students how to effectively derive knowledge from data. This approach has successfully been used to teach data science courses at many universities, including:
+
+ - [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
+ - [Harvard University](http://cs109.github.io/2014/)
+ - [Harvard T.H. Chan School of Public Health](http://datasciencelabs.github.io/2016/)
+ - [University of California at Berkeley](https://rdatasciencecases.org/)
+ - [Smith College](https://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1081105?journalCode=utas20)
+
 ## Open Case Studies Anatomy
+
 
 
 
@@ -61,7 +84,7 @@ Each case study is composed of three main stages: \
 
   
   
-#### Stage 1: Getting Started \ 
+### Stage 1: Getting Started \ 
 
 In the first stage, students learn about the subject area they will be investigating in their data analysis. This can include historical perspectives, previous literature, and current overarching questions in the field. Ideally, this will provide motivation as to why the data analysis they will be performing is interesting and useful. Students will then further refine questions of interest and define a specific question to be investigated by the data at hand. This question will define the statistical and data science learning objectives for the case study. Finally, students will explore the limitations of their investigation and discuss why their data analysis may or may not be able to fully answer the main question of interest. 
 
@@ -71,7 +94,7 @@ In the first stage, students learn about the subject area they will be investiga
 - Learning objectives 
 - Study limitations 
 
-#### Stage 2: Analyzing the Data \ 
+### Stage 2: Analyzing the Data \ 
 
 This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the required format. The cleaned data can then be visualized and analyzed to answer the study question. 
 
@@ -81,7 +104,7 @@ This stage includes the bulk of the data analysis. It begins with a detailed des
 - Visualization 
 - Analysis 
 
-#### Stage 3: Wrapping-Up \ 
+### Stage 3: Wrapping-Up \ 
 
 In the final stage of the case study, students synthesize conclusions to the main study question based on the results of their data analysis. They summarize the data exploration and analysis steps they took and discuss potential next steps they could take based on their results. Finally, additional analyses are suggested as homework and additional information relevant to the case study is provided. 
 
@@ -90,8 +113,10 @@ In the final stage of the case study, students synthesize conclusions to the mai
 - Next steps 
 - Homework 
 
+### Table of Contents
 	
-This anatomy is reflected in the table of contents of case study sections:	
+This anatomy is reflected in the table of contents of case study sections:
+
 <img src="resources/images/OCS_TOC_anatomy.png" title="Open Case Study Anatomy in the Table of Contents" alt="Open Case Study Anatomy in the Table of Contents" style="display: block; margin: auto;" />
   
  <br> 
@@ -113,8 +138,10 @@ This anatomy is reflected in the table of contents of case study sections:
 | Suggested homework | Question(s) to explore further |
 | Additional information | Helpful links and packages used |
 
+ <br>
 
 The table of contents can be used to navigate to specific sections in a case study:
+
 <img src="resources/images/TOC_scroll.gif" title="Moving GIF image illustrating how to navigate a case study with the table of contents" alt="Moving GIF image illustrating how to navigate a case study with the table of contents" style="display: block; margin: auto;" />
 
 ## Starter Kit
@@ -123,9 +150,18 @@ Open Case Studies are designed to be beginner friendly. Users can work through a
 
 ### Technical Requirements 
 
+#### Operating System 
+
+| **Computer Type** | **Minimum Required Operating System** |
+| ----------------- | ------------------------------------- |
+| Mac               | OS X 10.11 (El Capitan)               |
+| PC                | Windows 7                             |
+| Linux             | ???                                   |
+
+
 (avocado note from slack: what physical resources are needed - software installed - what type of computers - think about interactive case studies)
 
-All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the OCSdata package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
+All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the [`OCSdata`](https://github.com/opencasestudies/OCSdata) package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
 
 Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
@@ -139,13 +175,18 @@ For reproducible data analyses and easy publishing of reports and presentations,
 
 Open Case Studies is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. While GitHub is not needed for users to access the case studies, users can use GitHub to streamline download and modification of case studies. Check out the GitHub Organization and OCSdata sections in Chapter 2 for more details on how to use GitHub to access case studies and modify content for personalized use. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
 
+
 ## Feedback  
 
-We are continually working to improve the Open Case Studies project to address learner and educator needs. Feedback is essential for this goal. If you use Open Case Studies material, we would love to hear from you! Please submit your feedback in the [user experience survey](https://www.opencasestudies.org/). We appreciate feedback about all aspects of the Open Case Studies user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
+We are continually working to improve the Open Case Studies project to address learner and educator needs. Feedback is essential for this goal. If you use Open Case Studies material, we would love to hear from you! Please submit your feedback to our [user experience survey](https://www.opencasestudies.org/#survey). We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
+
+
+<div style="display: flex; justify-content: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
 
 ## Contact Us 
 
-You can contact us through email using this form:
+If you have any questions or have an idea for a case study and would like to work with us, you can contact us through email using this form:
 
 <form
   action="https://formspree.io/f/myybqzpz"
