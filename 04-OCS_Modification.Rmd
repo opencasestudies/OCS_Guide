@@ -37,35 +37,35 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 2) Follow the instructions provided to download the data files from the previous section either with OCSdata or manually through GitHub:
 
-2.1) Download with OCSdata:
+2.1. Download with OCSdata:
 
-  2.1.1) First install and load the OCSdata package:
+  2.1.1. First install and load the OCSdata package:
   ```{r, include = TRUE}
   install.packages("OCSdata") #only run once to install package
   library(OCSdata) #run every new R session to load package
   ```
 
-  2.1.2) Now download the wrangled data into your R environment using the following function command:
+  2.1.2. Now download the wrangled data into your R environment using the following function command:
   ```{r, include = TRUE, eval = FALSE}
   wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
   ```
   *This command will download the wrangled data in .RDA format. You may also be downloaded wrangled data in .CSV format by replacing 'wrangled_rda' with 'wrangled_csv'*
 
-  2.1.3) Load the RDA files with the following commands:
+  2.1.3. Load the RDA files with the following commands:
   ```{r, include = TRUE, eval = FALSE}
   load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
   load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
   ```
 
-2.2) Manually Download from GitHub:
+2.2. Manually Download from GitHub:
 
-  2.2.1) Download the .RDA files available on the case study GitHub repository from [here](https://github.com/opencasestudies/ocs-bp-opioid-rural-urban/tree/master/data/wrangled)
+  2.2.1. Download the .RDA files available on the case study GitHub repository from [here](https://github.com/opencasestudies/ocs-bp-opioid-rural-urban/tree/master/data/wrangled)
 
   *The CSV versions of the files may also be downloaded here, if preferred*
 
-  2.2.2) Move the data files from your 'Downloads' folder to your R session's current working directory (you can see what this is with ```getwd()```).
+  2.2.2. Move the data files from your 'Downloads' folder to your R session's current working directory (you can see what this is with ```getwd()```).
 
-  2.2.3) Load the RDA files with the following commands:
+  2.2.3. Load the RDA files with the following commands:
   ```{r, include = TRUE, eval = FALSE}
   load(file = here::here("Annual_opioid_data.rda"))
   load(file = here::here("county_info.rda"))
