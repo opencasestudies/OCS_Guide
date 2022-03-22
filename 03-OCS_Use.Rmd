@@ -105,7 +105,7 @@ Each case study demonstrates an entire data analysis starting from data import a
 
 Here, we are using the following interpretations of "beginner", "intermediate", and "advanced":  
 
-<br>
+
 
 | Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
 | ------- | --------- | --------- | ------- | --------- |
@@ -113,8 +113,7 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 | Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
 | Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
 
-<br>
-<br>
+
 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
