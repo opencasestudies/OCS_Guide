@@ -81,7 +81,7 @@ To address this, we are developing the Open Case Studies educational resource of
 
  - [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
  - [Johns Hopkins University](https://www.jhu.edu/)
- - [UC Santa Barbara](https://www.ucsb.edu/)
+ - [University of California Santa Barbara](https://www.ucsb.edu/)
  
 ## Open Case Studies Anatomy
 
