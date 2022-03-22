@@ -177,7 +177,7 @@ Below is an example of a scientific-style paper written based on the [Opioid Use
 
 Below is an example of a presentation based on the [Vaping Behaviors in American Youth Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).  
 
-(avocado insert presentation assignment guide, example, and grading rubric)
+- [OCS Vaping Case Study Oral Presentation Assignment Example](https://github.com/advdatasci/homework12)
 
 ### Data Visualization
 
