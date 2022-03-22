@@ -1,4 +1,5 @@
 introduction
+learning-objectives
 motivation
 target-audience
 curriculum
@@ -20,7 +21,7 @@ survey
 feedback-for-this-guide
 contact-us
 open-case-study-infrastructure
-learning-objectives
+learning-objectives-1
 ocs-website
 feedback-1
 email-form
@@ -39,7 +40,7 @@ downloading-all-case-study-data
 fork-or-clone-the-case-study-repository
 session-info
 use-of-open-case-studies
-learning-objectives-1
+learning-objectives-2
 prerequisites
 public-health-subject-matter
 statistics
@@ -63,7 +64,7 @@ data-visualization
 further-exploration
 session-info-1
 modifying-open-case-studies
-learning-objectives-2
+learning-objectives-3
 modular-use
 example-of-modular-use
 steps-for-modular-use
