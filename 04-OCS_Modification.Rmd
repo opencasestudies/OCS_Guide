@@ -87,7 +87,7 @@ The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) doc
 
 Modifying a case study requires the following simple steps:
 
-1. Use the `OCSdata` package `zip_ocs()` function to download the case study files without our git history. Alternatively, if you are familiar with GitHub and wish to you can clone or fork the case study repository from GitHub. 
+1. Use the `OCSdata` package `zip_ocs()` function to download the case study files without our git history. Alternatively, if you are familiar with GitHub and wish to you can clone or fork the case study repository from GitHub. See [this section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#fork-or-clone-the-case-study-repository) of chapter 2 for more information.
 
 2. In the repository folder, open the case study .Rproj file to open the project up in RStudio.
 

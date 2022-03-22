@@ -366,31 +366,41 @@ Data science learning goals for the case study: <br>
 <h2><span class="header-section-number">5.2</span> Guidelines:</h2>
 <p>To ensure that the submitted case studies provide the most benefit to the community, we hope that they adhere as much as possible to the core structure and ideas of the Open Case Studies project. We provide the guidelines detailed below for submission to the Community Repository. Furthermore, because the Open Case Studies team does not have the infrastructure to perform a full content review of submitted case studies, we ask that you provide brief comments from at least two independent reviewers supporting the validity of the content and conclusions presented in your case study.</p>
 <p><strong>Programming language:</strong> Case studies should be written in open source programming languages (such as R or python).</p>
-<p><strong>Data:</strong>
-- Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already.
-- Transparent descriptions of data sources and how data was generated should be included when possible.</p>
+<p><strong>Data:</strong></p>
+<ul>
+<li><p>Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already.</p></li>
+<li><p>Transparent descriptions of data sources and how data was generated should be included when possible.</p></li>
+</ul>
 <p><strong>Core sections</strong>: all case studies should include the following sections consistent with the published case studies. See <a href="https://www.opencasestudies.org/OCS_Guide/introduction.html#open-case-studies-anatomy">Chapter 1, Case Study Anatomy</a> for a detailed description on what each section should include:</p>
 <ul>
 <li><p><strong>Getting Started:</strong> <em>Case study context, Study motivation, Main question, Learning objectives, Study limitations.</em> This section will outline previous literature and overarching questions in the field that make this case study question important, providing motivation for conducting the analysis in the case study. It will specify the exact question that the case study endeavors to address as well as the defining the statistical and data analysis learning objectives for the case study. It will also discuss the limitations of the investigation that may prevent the analysis from answering the main question of interest.</p></li>
 <li><p><strong>Analyzing the Data:</strong> <em>Data description, Import and exploration, Wrangling, Visualization, Analysis.</em> This section includes the bulk of the data analysis, beginning with a detailed description of the data used in the case study, how it was generated, and where it was obtained. Then it walks through, step-by-step, the data import, exploration, wrangling, procedures. Finally, it demonstrates the visualization and statistical analysis steps used to address the case study question.</p></li>
 <li><p><strong>Wrapping-up:</strong> <em>Analysis conclusions, Case study summary, Next steps, Homework, Additional information.</em> This section synthesized conclusions to the main study question based on the data analysis results demonstrated in the previous sections. It summarizes the analysis steps and potential next steps for further exploration, which can be suggested as homework. If applicable, additional information relevant to further study can be provided here.</p></li>
 </ul>
-<p><strong>Content:</strong> Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process.
-- Links to literature or other sources to motivate the scientific topic of the case study should be included where possible.
-- Case studies should aim to describe the decision making process involved in performing data science related tasks.</p>
-<p><strong>Attribution:</strong> all outside resources used in the case study should be referenced appropriately.
-- Case studies should include disclaimers and appropriate license agreements.
-- All included images (that are not original to the case study) should include relevant sources.</p>
-<p><strong>Data:</strong>
-- All data files should be saved in a folder named “data” within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
-<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" />
-- The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient.
-- The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section.
-- Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the <code>save()</code> function in R after importing the raw data.
-- Wrangled data is the version of the data after it has been cleaned and is ready for analysis. Use the <code>save()</code> function in R after wrangling the data to create these files. This data should be provided in both RDA and CSV format.
-- The next two data sub-folders are optional and used as needed:
-- If the raw data files for your case study come in a format that requires a complicated data import process (such as web scraping) you may consider providing the raw data in an import friendly format such as CSV or XLS(X). Place these files in the “simpler_import” sub-folder.
-- If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the “extra” sub-folder.</p>
+<p><strong>Content:</strong> Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process.</p>
+<ul>
+<li><p>Links to literature or other sources to motivate the scientific topic of the case study should be included where possible.</p></li>
+<li><p>Case studies should aim to describe the decision making process involved in performing data science related tasks.</p></li>
+</ul>
+<p><strong>Attribution:</strong> all outside resources used in the case study should be referenced appropriately.</p>
+<ul>
+<li><p>Case studies should include disclaimers and appropriate license agreements.</p></li>
+<li><p>All included images (that are not original to the case study) should include relevant sources.</p></li>
+</ul>
+<p><strong>Data:</strong></p>
+<ul>
+<li><p>All data files should be saved in a folder named “data” within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
+<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" /></p></li>
+<li><p>The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient.</p></li>
+<li><p>The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section.</p></li>
+<li><p>Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the <code>save()</code> function in R after importing the raw data.</p></li>
+<li><p>Wrangled data is the version of the data after it has been cleaned and is ready for analysis. Use the <code>save()</code> function in R after wrangling the data to create these files. This data should be provided in both RDA and CSV format.</p></li>
+<li><p>The next two data sub-folders are optional and used as needed:</p>
+<ul>
+<li>If the raw data files for your case study come in a format that requires a complicated data import process (such as web scraping) you may consider providing the raw data in an import friendly format such as CSV or XLS(X). Place these files in the “simpler_import” sub-folder.</li>
+<li>If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the “extra” sub-folder.</li>
+</ul></li>
+</ul>
 </div>
 <div id="session-info-3" class="section level2" number="5.3">
 <h2><span class="header-section-number">5.3</span> Session info</h2>
