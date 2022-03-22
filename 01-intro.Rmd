@@ -174,7 +174,27 @@ All case studies use the R statistical programming language for data analysis. R
 
 Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
-Please note that to install R version 3.5 and higher you will need to have a [web browser](https://en.wikipedia.org/wiki/Web_browser)  and a compatible [operating system](https://en.wikipedia.org/wiki/Operating_system). See this [link](https://cran.r-project.org/) for more information.
+Please note that to install R version 3.5 and higher you will need to have a [web browser](https://en.wikipedia.org/wiki/Web_browser) and a compatible [operating system](https://en.wikipedia.org/wiki/Operating_system). See this [link](https://cran.r-project.org/) for more information.
+
+**Case Study Compilation Times**
+
+The following table lists the time it took for RMarkdown to compile each case study using the "Knit" button in RStudio. 
+
+| **Case Study** | **Compilation Time** (seconds) |
+| -------------------- | -------------- |
+| [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard) | 29 - 39 |
+| [Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection) | 36 - 46 |
+| [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban) | 103 - 113 |
+| [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study) | 107 - 117 |
+| [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health) | 35 - 45 |
+| [Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity) | 31 - 41 |
+| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling) | ??? |
+| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 39 - 49 |
+| [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 36 - 46 |
+| [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 79 - 89 |
+| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | ??? |
+
+These compilation times were measured on a PC machine operating on Windows 10. The ranges listed should only be used as estimates as compilation time will vary with different machines and operating systems.
 
 ### RStudio
 
@@ -185,7 +205,6 @@ For reproducible data analyses and easy publishing of reports and presentations,
 ### GitHub  
 
 Open Case Studies is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. While GitHub is not needed for users to access the case studies, users can use GitHub to streamline download and modification of case studies. Check out the GitHub Organization and OCSdata sections in [Chapter 2](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html) for more details on how to use GitHub to access case studies and modify content for personalized use. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
-
 
 ## Feedback
 
