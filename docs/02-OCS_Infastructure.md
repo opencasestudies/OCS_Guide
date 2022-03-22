@@ -6,30 +6,44 @@
 ## Learning Objectives
 
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
-* our website
-* an open case studies search tool
-* our GitHub organization
-* an R package called `OCSdata`
+
+- the Open Case Studies (OCS) website
+- methods to provide feedback
+- a search tool to find case studies
+- the OCS GitHub organization
+- our R package called `OCSdata`
 
 
 ## OCS Website
 
 ![](resources/images/OCSwebsite.png)
 
-Links to all of our case studies can be found on the Open Case Studies website at [opencasestudies.org](https://www.opencasestudies.org/). The case studies are listed in a searchable table that will be detailed further in the following section. A description of the Open Case Studies' mission, history, and people can also be found on the website as well as an archive of talks and blog posts. The website also contains a contact form that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
+The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
 
-### Open Case Studies mission 
+Links to all of our case studies can be found on the Open Case Studies website. The case studies are listed in a searchable table that will be detailed further in the following section.  
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, and current and previous members of the OCS team, among other information. 
+## Feedback
 
-You can get in touch with the Open Case Studies project team - just send us an email with feedback, suggestions, or questions. You can send us an email by submitting an [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us).
+We are continually striving to make our case studies better. Please contact us if you have ideas for suggestions for the project or new ideas for how case studies can be used in the classroom.
+
+Also please let us know if you notice typos or errors, or if you are interested in getting involved.
+
+### Email Form
+
+The website contains a contact [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions.
+
+### Survey
+
+There is also a [survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link) available on our website and also within the case studies themselves that allows us to do research on case study use. 
+
+The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
 
 
 ## OCS Case Study Search Tool
 
 The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
 
-This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository as well as instructions on how to use the case study.
+This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
 
 ![](resources/images/OCS_GitHub_Repository_Diagram_Draft3.png)
 
@@ -161,9 +175,6 @@ zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd())
 ### Forking the case study repository
 
 
-## Feedback
-
-If you would like to provide feedback on the Open Case Studies please do so with our [user feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link). The survey should take no more than 10 minutes to complete and can be found on the [OCS website](https://www.opencasestudies.org/#survey) as well as within the case studies themselves. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
 
 ## Session info
 

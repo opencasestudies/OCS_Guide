@@ -1,7 +1,7 @@
 
 
 
-# Modifying and creating open case studies
+# Modifying open case studies
 
 ## Learning Objectives
 
