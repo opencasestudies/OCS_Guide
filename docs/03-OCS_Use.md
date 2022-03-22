@@ -157,7 +157,14 @@ Case studies can be used for learners to gain experience in statistics and data 
 
 ### Interactive Case Studies
 
-Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback.  
+Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback. Please see the following video for a demonstration on how to use the interactive case studies:   
+
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="https://www.youtube.com/embed/3iFtuDK0o-M" width="100%" height="400px"></iframe>
 
 ## Examples of assignments 
 
@@ -227,12 +234,13 @@ We would like to thank the following people for generously sharing the ways in w
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   png_0.1-7       crayon_1.3.4    digest_0.6.25  
-##  [5] R6_2.4.1        lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14  
-##  [9] pillar_1.4.6    rlang_0.4.10    stringi_1.5.3   fs_1.5.0       
-## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
-## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
-## [21] yaml_2.2.1      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
-## [25] ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
+##  [1] knitr_1.33      magrittr_2.0.2  hms_0.5.3       R6_2.4.1       
+##  [5] rlang_0.4.10    stringr_1.4.0   highr_0.8       tools_4.0.2    
+##  [9] webshot_0.5.2   xfun_0.26       png_0.1-7       htmltools_0.5.0
+## [13] ellipsis_0.3.1  ottrpal_0.1.2   yaml_2.2.1      digest_0.6.25  
+## [17] tibble_3.0.3    lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24  
+## [21] readr_1.4.0     vctrs_0.3.4     fs_1.5.0        evaluate_0.14  
+## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
+## [29] pkgconfig_2.0.3
 ```
 
