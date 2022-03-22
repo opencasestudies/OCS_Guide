@@ -34,7 +34,7 @@ Also please let us know if you notice typos or errors, or if you are interested 
 
 ### Email Form
 
-The website contains a contact [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions. 
+The website contains a contact [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions.
 
 ### Survey
 
