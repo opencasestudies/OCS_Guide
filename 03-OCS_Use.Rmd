@@ -21,11 +21,11 @@ The case studies in Open Case Studies generally deal with topics in public healt
 
 #### Statistics
 
-The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see Section 3.3) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column. 
+The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see the [case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column. 
 
 #### Coding/Data Science
 
-All case studies use the R statistical programming language for data analysis. Some familiarity with R basics is expected for effective use of the case studies. However, depending on the data used and the extent to which it needs to be cleaned and processed before analysis, each case study may require experience with additional programming and data wrangling skills. This will be indicated by the Experience Level designation for the case study (see Section 3.3).  
+All case studies use the R statistical programming language for data analysis. Some familiarity with R basics is expected for effective use of the case studies. However, depending on the data used and the extent to which it needs to be cleaned and processed before analysis, each case study may require experience with additional programming and data wrangling skills. This will be indicated by the Experience Level designation for the case study ([case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)).  
 
 #### Software 
 
@@ -61,7 +61,7 @@ The case studies are written to provide a cohesive story that simulates data sci
 
 ### Teaching Part of a Case Study
 
-Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see chapter 2.5). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
+Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see the [OCSdata section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#ocsdata) in chapter 2). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
 
 | Data Folder | Case Study Section | Example Use |
 | ------- | --------- | ------------------------ |
