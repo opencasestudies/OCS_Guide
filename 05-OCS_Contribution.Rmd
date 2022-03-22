@@ -6,8 +6,13 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project. We recognize that educators may have case studies in various stages of development. We hope to facilitate sharing of these case studies on the Open Case Studies project to fullest extent possible. However, we may not be able to integrate all case studies we receive into the Open Case Studies. For this reason, we have outlined the following two modes of submission: 
 
-1) **Submitting case studies for integration into the Open Case Studies project:** Here, the Open Case Studies team will work with you starting from a case study idea through development, testing, and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. See details in the Submission section below on how to initiate this process.    
-2) **Submitting case studies and/or case study materials for sharing on our publicly available community repository:** Here, you can submit your case study materials (data, code, content explanations) to the Open Case Studies community repository. This repository will contain case studies submitted by educators but not included in the Open Case Studies project. See details in the Submission section below on how to submit. 
+1) **Submitting case studies and/or case study materials for sharing on our publicly available community repository:** 
+
+Here, you can submit your case study materials (data, code, content explanations) to the Open Case Studies community repository. This repository will contain case studies submitted by educators but not included in the Open Case Studies project. See details in the Submission section below on how to submit. 
+
+2) **Submitting case studies for integration into the Open Case Studies project:** 
+
+Here, the Open Case Studies team will work with you starting from a case study idea through development, testing, and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. See details in the Submission section below on how to initiate this process.
 
 ## Submission: 
 
