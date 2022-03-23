@@ -4,27 +4,49 @@ ottrpal::set_knitr_image_path()
 
 # New Case Studies - Building and Contributing 
 
-In this chapter we will discuss the guidelines for creating new case studies as well as how to publish your own new case study as part of our project. We recognize that educators may have case studies in various stages of development. We hope to facilitate sharing of these case studies on the Open Case Studies project to fullest extent possible. However, we may not be able to integrate all case studies we receive into the Open Case Studies. For this reason, we have outlined the following two modes of submission: 
+## Learning Objectives
 
-1) **Submitting case studies and/or case study materials for sharing on our publicly available community repository:** 
+In this chapter we will discuss:
+- Our two case study submission options
+- The guidelines for  how to publish your own case studies as part of our project
 
-Here, you can submit your case study materials (data, code, content explanations) to the Open Case Studies community repository. This repository will contain case studies submitted by educators but not included in the Open Case Studies project. See details in the Submission section below on how to submit. 
+## Case Study Libraries
 
-2) **Submitting case studies for integration into the Open Case Studies project:** 
+To help curate case studies for educators and learners, we would like to encourage others to help us expand our library of case studies. 
 
-Here, the Open Case Studies team will work with you starting from a case study idea through development, testing, and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. See details in the Submission section below on how to initiate this process.
 
-## Submission: 
 
-### Submitting case study materials to the Open Case Studies community repository
+We recognize that other educators may have case studies in various stages of development that could be helpful to others.
 
-These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below. 
+We hope to facilitate sharing of these case studies on the Open Case Studies project.
+
+
+However, we unfortunately do not have the resources or time to help integrate all case studies we receive into the official Open Case Studies library
+
+For this reason, we have outlined the following two modes of submission: 
+
+
+1) **Submissions for integration into the official library:** 
+
+With this submission type, the Open Case Studies team will work with you starting from a case study idea through development and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. 
+
+2) **Submissions for a publicly available community repository:** 
+
+We hope to also create a more casual community library that allows others to share their work more easily and quickly. This repository will contain case studies submitted by educators but not included in the official Open Case Studies project library. The submission proces is much simpler. 
+
+## Submission Process 
+
+The process of submitting community case studies, involves filling out a simple form. The process of submitting to our official library involves ensuring that your case study meets our more lengthy requirements and a review process. Now we will describe the submission process for each library
+
+### Community Library Submissions
+
+These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below: 
 
 **[OpenCaseStudies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
 
-### Submitting case study idea for integration into the Open Case Studies project
+### Offical Library Submissions
 
-Please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as possible. 
+If you have not yet created a case study, but want to create one for our official library, please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as we can. 
 
 <form
   action="https://formspree.io/f/myybqzpz"
@@ -62,11 +84,11 @@ Please complete the form below to contact the Open Case Studies team regarding a
   <button type="submit">Send</button>
 </form>
 
+Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at [this link](https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&labels=&template=new-official-case-study-submission.md&title=).
 
+## Offical Case Study Guidelines
 
-## Guidelines:
-
-To ensure that the submitted case studies provide the most benefit to the community, we hope that they adhere as much as possible to the core structure and ideas of the Open Case Studies project. We provide the guidelines detailed below for submission to the Community Repository. Furthermore, because the Open Case Studies team does not have the infrastructure to perform a full content review of submitted case studies, we ask that you provide brief comments from at least two independent reviewers supporting the validity of the content and conclusions presented in your case study. 
+To ensure that the submitted case studies provide the most benefit to the community, we hope that they adhere as much as possible to the core structure and ideas of the Open Case Studies project. We provide the guidelines detailed below for submission to the official library. Furthermore, because the Open Case Studies team does not have the infrastructure to perform a full content review of submitted case studies, we ask that you find at least two independent reviewers to comment about the validity of the content and conclusions presented in your case study. 
 
 
 **Programming language:** Case studies should be written in open source programming languages (such as R or python). 
