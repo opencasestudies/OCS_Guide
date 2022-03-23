@@ -77,8 +77,10 @@ template-case-study
 makecasestudies-app
 session-info-2
 new-case-studies---building-and-contributing
-submission
-submitting-case-study-materials-to-the-open-case-studies-community-repository
-submitting-case-study-idea-for-integration-into-the-open-case-studies-project
-guidelines
+learning-objectives-4
+case-study-libraries
+submission-process
+community-library-submissions
+official-library-submissions
+offical-case-study-guidelines
 session-info-3
