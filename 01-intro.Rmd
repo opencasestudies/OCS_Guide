@@ -92,6 +92,8 @@ To address this, we are developing the Open Case Studies educational resource of
  - [Johns Hopkins University](https://www.jhu.edu/)
  - [University of California Santa Barbara](https://www.ucsb.edu/)
  
+If you'd like to learn more about the Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+ 
 ## Open Case Studies Anatomy
 
 ```{r, include = FALSE, echo = FALSE}
