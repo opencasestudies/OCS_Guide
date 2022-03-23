@@ -131,7 +131,7 @@ Open Case Studies offers two options for creating a case study. The first method
 
 A template case study is available in a repository on our GitHub page at [github.com/opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). This template contains the basic skeletal structure used for our case studies. Creating a new case study with the template is very similar to modifying an existing case study:
 
-1. Clone the template at [opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). (avocado should be "click use as template button")
+1. Click on the "use this template" button at [opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). 
 
 2. Open the index.Rmd file in RStudio.
 
