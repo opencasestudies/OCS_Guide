@@ -55,6 +55,8 @@ If you'd like to learn more about the interactive case studies, graduate student
 
 <iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px"></iframe>
 
+If you'd like to learn more about the interactive case studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+
 The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
 
 - The "Case Study" column contains the case study name and a link to the static and interactive versions of the case study (if available)
@@ -97,6 +99,7 @@ The following are the main functions to import data in various formats using the
 | simpler_import | Data Import | `simpler_import_data` |
 | extra | Suggested Homework (?) | `extra_data` |
 
+The package source files and documentation are also available on [GitHub](https://github.com/opencasestudies/OCSdata).
 
 ### Getting Started with `OCSdata`
 
@@ -207,6 +210,8 @@ OCSdata::clone_ocs(casestudy = "ocs-bp-diet", fork_repo = "TRUE")
 
 However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead. 
 
+
+If you'd like to learn more about the `OCSdata` package or the OCS GitHub organization page, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
 ## Session info
 

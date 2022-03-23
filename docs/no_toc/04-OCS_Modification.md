@@ -23,6 +23,8 @@ Some educators may find that only certain sections of a case study are relevant 
 | simpler_import | Data Import | `simpler_import_data` |
 | extra | Suggested Homework (?) | `extra_data` |
 
+If you'd like to learn more about modular use of Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+
 ### Example of Modular Use
 
 The following steps illustrate how one would skip to a specific case study section. The data analysis section from the "Opioids in United States" case study is used for this example, but these directions apply for any section in any case study.
@@ -150,9 +152,9 @@ Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biosta
 
 Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
 
-
 <iframe src="https://www.youtube.com/embed/Dd4KASCIsNc" width="100%" height="400px"></iframe>
 
+If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
 ## Session info
 
