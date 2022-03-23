@@ -32,7 +32,7 @@ With this submission type, the Open Case Studies team will work with you startin
 
 2) **Submissions for a publicly available community repository:** 
 
-We hope to also create a more casual community library that allows others to share their work more easily and quickly. This repository will contain case studies submitted by educators but not included in the official Open Case Studies project library. The submission proces is much simpler. 
+We hope to also create a more casual community library that allows others to share their work more easily and quickly. This repository will contain case studies submitted by educators but not included in the official Open Case Studies project library. The submission process is much simpler. 
 
 ## Submission Process 
 
@@ -44,7 +44,7 @@ These case studies will be shared publicly on the Open Case Studies Community Re
 
 **[OpenCaseStudies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
 
-### Offical Library Submissions
+### Official Library Submissions
 
 If you have not yet created a case study, but want to create one for our official library, please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as we can. 
 
