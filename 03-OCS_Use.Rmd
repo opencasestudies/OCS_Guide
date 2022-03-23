@@ -207,7 +207,7 @@ Below is an example of an assignment assigned to students in the [Advanced Data 
 
 We would like to thank the following people for generously sharing the ways in which they used Open Case Studies materials in their teaching:  
 
-- [Shannon Ellis PhD.](https://www.shanellis.com/)
+- [Dr. Shannon Ellis](https://www.shanellis.com/)
 - [Dr. Jeff Leek](https://jtleek.com/)
 - [Dr. Roger Peng](https://rdpeng.org/)
 
