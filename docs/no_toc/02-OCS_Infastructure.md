@@ -7,11 +7,11 @@
 
 In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
 
-- the Open Case Studies (OCS) website
-- methods to provide feedback
-- a search tool to find case studies
-- the OCS GitHub organization
-- our R package called `OCSdata`
+- The Open Case Studies (OCS) website
+- Methods to provide feedback
+- A search tool to find case studies
+- The OCS GitHub organization
+- Our R package called `OCSdata`
 
 
 ## OCS Website
