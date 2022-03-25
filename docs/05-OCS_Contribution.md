@@ -128,7 +128,8 @@ To ensure that the submitted case studies provide the most benefit to the commun
 **Data:**
 
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
-  ![](resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png)
+  
+![](resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png)
   
 This diagram is from former graduate student [Michael Breshock's](https://mbreshock.github.io/) [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files @breshock_expanding_2021.
 
@@ -168,11 +169,11 @@ This diagram is from former graduate student [Michael Breshock's](https://mbresh
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   pillar_1.4.6   
-##  [9] rlang_0.4.10    stringi_1.5.3   fs_1.5.0        ellipsis_0.3.1 
-## [13] vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2     stringr_1.4.0  
-## [17] readr_1.4.0     hms_0.5.3       xfun_0.26       yaml_2.2.1     
-## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
-## [25] knitr_1.33      tibble_3.0.3
+##  [1] bookdown_0.24   png_0.1-7       crayon_1.3.4    digest_0.6.25  
+##  [5] R6_2.4.1        lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14  
+##  [9] pillar_1.4.6    rlang_0.4.10    stringi_1.5.3   fs_1.5.0       
+## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
+## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
+## [21] yaml_2.2.1      compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0
+## [25] ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
 ```
