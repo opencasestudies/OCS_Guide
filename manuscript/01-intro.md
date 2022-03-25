@@ -64,8 +64,8 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-{alt: "Open Case Study graphic stating that open case studies provide real-world data analysis examples", width: "100%", align: "middle",}
-![](01-intro_files/figure-html//17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0_g107fd794960_0_154.png)
+{alt: "Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts.", width: "100%", align: "middle",}
+![](resources/images/ocs_graphic.png)
 
 
 
@@ -159,8 +159,8 @@ This anatomy is reflected in the table of contents of case study sections:
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-{height: "400px", width: "100%", align: "middle",}
-[Check out this link](youtube.com/embed/j-I0Zgicjsk)
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=j-I0Zgicjsk)
 
 ## Starter Kit
 
