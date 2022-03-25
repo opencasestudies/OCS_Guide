@@ -45,7 +45,7 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 
 1) First install and load the `OCSdata` package:
   
-```{r, include = TRUE,}
+```{r, include = TRUE, eval = FALSE}
   install.packages("OCSdata") #only run once to install package
   library(OCSdata) #run every new R session to load package
 ```
