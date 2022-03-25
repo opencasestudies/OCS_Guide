@@ -36,7 +36,7 @@ The following steps illustrate how one would skip to a specific case study secti
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Video showing a user skipping to the data analysis section of a case study", out.width="100%"}
-knitr::include_url'https://www.youtube.com/watch?v=Z4WZ7A0OZF8')
+knitr::include_url'https://www.youtube.com/embed/Z4WZ7A0OZF8')
 ```
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
@@ -147,7 +147,7 @@ Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biosta
 Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
 
 ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
-knitr::include_url("https://www.youtube.com/watch?v=Dd4KASCIsNc")
+knitr::include_url("https://www.youtube.com/embed/Dd4KASCIsNc")
 ```
 
 If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
