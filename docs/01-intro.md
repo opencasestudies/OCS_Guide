@@ -94,7 +94,6 @@ If you'd like to learn more about the Open Case Studies you can read this [thesi
 
 
 
-
 ![](resources/images/ocs_anatomy.png)
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
