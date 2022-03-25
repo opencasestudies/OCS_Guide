@@ -1,6 +1,6 @@
 
 
-```{r, include = FALSE}
+```{r, include = FALSE, eval = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
