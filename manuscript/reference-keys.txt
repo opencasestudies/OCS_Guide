@@ -1,3 +1,5 @@
+formats
+summary
 introduction
 learning-objectives
 motivation
