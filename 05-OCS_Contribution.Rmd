@@ -131,7 +131,7 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
   
-```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders", out.width="100%"}
 knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png')
 ```
   
