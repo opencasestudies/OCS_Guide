@@ -1,6 +1,6 @@
 
 
-```{r, include = FALSE}
+```{r, include = FALSE, eval = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
@@ -137,7 +137,7 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents, out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents", out.width="100%"}
 knitr::include_graphics('resources/images/OCS_TOC_anatomy.png')
 ```
   
