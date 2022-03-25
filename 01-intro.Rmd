@@ -67,7 +67,7 @@ Our case studies can be used for small additional assignments in a classroom set
 We hope you find our case studies useful!
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study graphic stating that open case studies provide real-world data analysis examples", out.width="100%"}
-knitr::include_graphics('resources/images/ocs_graphic.png')
+ottrpal::include_slide("https://docs.google.com/presentation/d/17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0/edit#slide=id.g107fd794960_0_154")
 ```
 
 
@@ -164,8 +164,8 @@ knitr::include_graphics('resources/images/OCS_TOC_anatomy.png')
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Moving GIF image illustrating how to navigate a case study with the table of contents", out.width="100%"}
-knitr::include_graphics('resources/images/TOC_scroll.gif')
+```{r, fig.align='center', echo = FALSE, fig.alt= "Video illustrating how to navigate a case study with the table of contents", out.width="100%"}
+knitr::include_url("youtube.com/embed/j-I0Zgicjsk")
 ```
 
 ## Starter Kit
@@ -220,7 +220,9 @@ Please consider participating in our [user experience survey](https://www.openca
 
 We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
-<div style="display: flex; justify-content: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
+knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true")
+```
 
 ### Feedback for this Guide
 
