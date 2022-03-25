@@ -22,7 +22,13 @@ knitr::write_bib(c(
 
 # About this guide {-}
 
-If you found this elsewhere, you can find an online version of this guide at https://www.opencasestudies.org/OCS_Guide. 
+## Formats
+
+You can find an online version of this guide at https://www.opencasestudies.org/OCS_Guide. 
+
+PDF versions are available at https://leanpub.com/opencasestudies_guide.
+
+## Summary
 
 The [Open Case Studies project](https://www.opencasestudies.org), developed at the [Johns Hopkins Data Science Lab](https://jhudatascience.org/), is an education platform that provides self-contained, multimodal, peer-reviewed, and open-source guides for real-world examples for active experiences of complete data analyses. 
 
