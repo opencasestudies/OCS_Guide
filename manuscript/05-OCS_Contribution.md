@@ -129,9 +129,10 @@ To ensure that the submitted case studies provide the most benefit to the commun
 
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
   
-<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="100%" style="display: block; margin: auto;" />
+{alt: "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders", width: "100%", align: "middle",}
+![](resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png)
   
-This diagram is from former graduate student [Michael Breshock's](https://mbreshock.github.io/) [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files @breshock_expanding_2021.
+This diagram is from former graduate student [Michael Breshock’s](https://mbreshock.github.io/) [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files Breshock (2021).
 
   - The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient. 
 
@@ -176,3 +177,8 @@ This diagram is from former graduate student [Michael Breshock's](https://mbresh
 ## [33] bslib_0.3.1     compiler_4.1.2  pillar_1.7.0    jsonlite_1.8.0 
 ## [37] pkgconfig_2.0.3
 ```
+
+## References
+Breshock, Michael Robert. 2021. “EXPANDING ACCESS AND REMOVING BARRIERS: DATA SCIENCE EDUCATION WITH THE OPEN CASE STUDIES DIGITAL PLATFORM.” Thesis, Johns Hopkins University. <https://jscholarship.library.jhu.edu/handle/1774.2/66820>.
+
+

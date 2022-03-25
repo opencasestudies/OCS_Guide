@@ -16,7 +16,8 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 
 ## OCS Website
 
-<img src="resources/images/OCSwebsite.png" title="Open Case Studies Website Landing Page" alt="Open Case Studies Website Landing Page" width="100%" style="display: block; margin: auto;" />
+{alt: "Open Case Studies Website Landing Page", width: "100%", align: "middle",}
+![](resources/images/OCSwebsite.png)
 
 The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
 
@@ -45,7 +46,8 @@ The website also includes the case study search tool to aid instructors in findi
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
 
-<img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" width="100%" style="display: block; margin: auto;" />
+{alt: "Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table", width: "100%", align: "middle",}
+![](resources/images/OCS_GitHub_Repository_Diagram_Draft3.png)
 
 ### Interactive Case Studies
 
@@ -53,9 +55,10 @@ The interactive versions of the case studies are a recent development. These ver
 
 If you'd like to learn more about the interactive case studies, graduate student [Qier Meng](https://www.opencasestudies.org/authors/qmeng/) discusses the interactive versions in further detail in the video below: 
 
-<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px" data-external="1"></iframe>
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=fVeaVm9g6Kg)
 
-If you'd like to learn more about the interactive case studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+If you’d like to learn more about the interactive case studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) Breshock (2021).
 
 The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
 
@@ -69,11 +72,13 @@ The main two columns likely to be helpful in identifying appropriate case studie
 
 This table can be used to access all case study resources:
 
-<img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" width="100%" style="display: block; margin: auto;" />
+{alt: "Open Case Studies Searchable Table", width: "100%", align: "middle",}
+![](resources/images/searchtable.png)
 
 This video provides a live demonstration on how to use the search tool: 
 
-<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px" data-external="1"></iframe>
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=OHqamzlrnaw)
 
 ## Open Case Studies GitHub Organization
 
@@ -81,7 +86,8 @@ GitHub is a website and cloud service that enables developers to store, manage, 
 
 Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
 
-<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="100%" style="display: block; margin: auto;" />
+{alt: "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders", width: "100%", align: "middle",}
+![](resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png)
 
 Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the `OCSdata` R package described below. 
 
@@ -186,7 +192,7 @@ If you choose to fork the repository you will automatically generate a repositor
 
 If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.
 
-Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happygitwithr to learn more.
+Again, don’t worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at Hester (n.d.) to learn more.
 
 
 ```r
@@ -211,7 +217,7 @@ OCSdata::clone_ocs(casestudy = "ocs-bp-diet", fork_repo = "TRUE")
 However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead. 
 
 
-If you'd like to learn more about the `OCSdata` package or the OCS GitHub organization page, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+If you’d like to learn more about the `OCSdata` package or the OCS GitHub organization page, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) Breshock (2021).
 
 ## Session info
 
@@ -243,3 +249,11 @@ If you'd like to learn more about the `OCSdata` package or the OCS GitHub organi
 ## [33] bslib_0.3.1     compiler_4.1.2  pillar_1.7.0    jsonlite_1.8.0 
 ## [37] pkgconfig_2.0.3
 ```
+
+## References
+Breshock, Michael Robert. 2021. “EXPANDING ACCESS AND REMOVING BARRIERS: DATA SCIENCE EDUCATION WITH THE OPEN CASE STUDIES DIGITAL PLATFORM.” Thesis, Johns Hopkins University. <https://jscholarship.library.jhu.edu/handle/1774.2/66820>.
+
+
+Hester, Jim, the STAT 545 TAs. n.d. *Let’s Git Started Happy Git and GitHub for the <span class="nocase">useR</span>*. Accessed March 22, 2022. <https://happygitwithr.com/>.
+
+

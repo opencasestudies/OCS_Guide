@@ -143,7 +143,8 @@ Because the case studies were developed to be modular and stand-alone, they can 
 
 Here you can see how the course used the `OCSdata` package:
 
-<img src="resources/images/shannon-casestudy.png" title="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" alt="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" width="100%" style="display: block; margin: auto;" />
+{alt: "A slide from the class taught by Dr Ellis showing the use of the OCSdata package", width: "100%", align: "middle",}
+![](resources/images/shannon-casestudy.png)
 
 [Dr. Ellis](https://www.shanellis.com/) incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
@@ -159,7 +160,8 @@ Case studies can be used for learners to gain experience in statistics and data 
 
 Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback. Please see the following video for a demonstration on how to use the interactive case studies:   
 
-<iframe src="https://www.youtube.com/embed/3iFtuDK0o-M" width="100%" height="400px" data-external="1"></iframe>
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=3iFtuDK0o-M)
 
 ## Examples of assignments 
 
@@ -236,4 +238,5 @@ We would like to thank the following people for generously sharing the ways in w
 ## [33] bslib_0.3.1     compiler_4.1.2  pillar_1.7.0    jsonlite_1.8.0 
 ## [37] pkgconfig_2.0.3
 ```
+
 
