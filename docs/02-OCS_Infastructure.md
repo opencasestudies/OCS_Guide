@@ -191,7 +191,7 @@ If you choose to fork the repository you will automatically generate a repositor
 
 If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.
 
-Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happywithgitr to learn more.
+Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happygitwithr to learn more.
 
 
 ```r
