@@ -64,7 +64,7 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-![](resources/images/ocs_graphic.png){width=100%}
+![](01-intro_files/figure-docx//17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0_g107fd794960_0_154.png){width=100%}
 
 
 
@@ -156,7 +156,12 @@ This anatomy is reflected in the table of contents of case study sections:
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-![](resources/images/TOC_scroll.gif){width=100%}
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px"></iframe>
 
 ## Starter Kit
 
@@ -210,7 +215,7 @@ Please consider participating in our [user experience survey](https://www.openca
 
 We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
-<div style="display: flex; justify-content: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="100%" height="400px"></iframe>
 
 ### Feedback for this Guide
 

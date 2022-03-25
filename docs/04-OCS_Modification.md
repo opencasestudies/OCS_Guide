@@ -33,7 +33,12 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
-![](resources/images/skip_section.gif){width=100%}
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="https://www.youtube.com/embed/Z4WZ7A0OZF8" width="100%" height="400px"></iframe>
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
@@ -107,11 +112,6 @@ To do so, you will need to set up your version of the case study on GitHub. If y
 
 
 These steps are demonstrated in the following video about modifying case studies:
-
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
 
 <iframe src="https://www.youtube.com/embed/UFs4qvgTuTw" width="100%" height="400px"></iframe>
 
