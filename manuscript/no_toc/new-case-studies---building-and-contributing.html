@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 New Case Studies - Building and Contributing | An Educator’s Guide to the Open Case Studies</title>
+  <meta name="description" content="Guide for the Open Case Studies Project" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 New Case Studies - Building and Contributing | An Educator’s Guide to the Open Case Studies" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Guide for the Open Case Studies Project" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 New Case Studies - Building and Contributing | An Educator’s Guide to the Open Case Studies" />
+  
+  <meta name="twitter:description" content="Guide for the Open Case Studies Project" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/favicon_ocs.ico" type="image/x-icon" />
+<link rel="prev" href="modifying-open-case-studies.html"/>
+<link rel="next" href="about-the-authors.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.opencasestudies.org/"><img src="https://opencasestudies.github.io/img/icon.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this guide</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.3</b> Target Audience</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+<li class="chapter" data-level="1.5" data-path="introduction.html"><a href="introduction.html#open-case-studies-philosophy"><i class="fa fa-check"></i><b>1.5</b> Open Case Studies Philosophy</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="introduction.html"><a href="introduction.html#what-problem-are-we-addressing"><i class="fa fa-check"></i><b>1.5.1</b> What problem are we addressing?</a></li>
+<li class="chapter" data-level="1.5.2" data-path="introduction.html"><a href="introduction.html#problems-with-previously-suggested-solutions"><i class="fa fa-check"></i><b>1.5.2</b> Problems with previously suggested solutions</a></li>
+<li class="chapter" data-level="1.5.3" data-path="introduction.html"><a href="introduction.html#what-are-we-proposing-as-a-solution"><i class="fa fa-check"></i><b>1.5.3</b> What are we proposing as a solution?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="introduction.html"><a href="introduction.html#open-case-studies-anatomy"><i class="fa fa-check"></i><b>1.6</b> Open Case Studies Anatomy</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="introduction.html"><a href="introduction.html#stage-1-getting-started"><i class="fa fa-check"></i><b>1.6.1</b> Stage 1: Getting Started</a></li>
+<li class="chapter" data-level="1.6.2" data-path="introduction.html"><a href="introduction.html#stage-2-analyzing-the-data"><i class="fa fa-check"></i><b>1.6.2</b> Stage 2: Analyzing the Data</a></li>
+<li class="chapter" data-level="1.6.3" data-path="introduction.html"><a href="introduction.html#stage-3-wrapping-up"><i class="fa fa-check"></i><b>1.6.3</b> Stage 3: Wrapping-Up</a></li>
+<li class="chapter" data-level="1.6.4" data-path="introduction.html"><a href="introduction.html#table-of-contents"><i class="fa fa-check"></i><b>1.6.4</b> Table of Contents</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="introduction.html"><a href="introduction.html#starter-kit"><i class="fa fa-check"></i><b>1.7</b> Starter Kit</a>
+<ul>
+<li class="chapter" data-level="1.7.1" data-path="introduction.html"><a href="introduction.html#technical-requirements"><i class="fa fa-check"></i><b>1.7.1</b> Technical Requirements</a></li>
+<li class="chapter" data-level="1.7.2" data-path="introduction.html"><a href="introduction.html#rstudio"><i class="fa fa-check"></i><b>1.7.2</b> RStudio</a></li>
+<li class="chapter" data-level="1.7.3" data-path="introduction.html"><a href="introduction.html#github"><i class="fa fa-check"></i><b>1.7.3</b> GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="1.8" data-path="introduction.html"><a href="introduction.html#feedback"><i class="fa fa-check"></i><b>1.8</b> Feedback</a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="introduction.html"><a href="introduction.html#survey"><i class="fa fa-check"></i><b>1.8.1</b> Survey</a></li>
+<li class="chapter" data-level="1.8.2" data-path="introduction.html"><a href="introduction.html#feedback-for-this-guide"><i class="fa fa-check"></i><b>1.8.2</b> Feedback for this Guide</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="introduction.html"><a href="introduction.html#contact-us"><i class="fa fa-check"></i><b>1.9</b> Contact Us</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html"><i class="fa fa-check"></i><b>2</b> Open Case Study Infrastructure</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#learning-objectives-1"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#ocs-website"><i class="fa fa-check"></i><b>2.2</b> OCS Website</a></li>
+<li class="chapter" data-level="2.3" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#feedback-1"><i class="fa fa-check"></i><b>2.3</b> Feedback</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#email-form"><i class="fa fa-check"></i><b>2.3.1</b> Email Form</a></li>
+<li class="chapter" data-level="2.3.2" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#survey-1"><i class="fa fa-check"></i><b>2.3.2</b> Survey</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#ocs-case-study-search-tool"><i class="fa fa-check"></i><b>2.4</b> OCS Case Study Search Tool</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#interactive-case-studies"><i class="fa fa-check"></i><b>2.4.1</b> Interactive Case Studies</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#open-case-studies-github-organization"><i class="fa fa-check"></i><b>2.5</b> Open Case Studies GitHub Organization</a></li>
+<li class="chapter" data-level="2.6" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#ocsdata"><i class="fa fa-check"></i><b>2.6</b> OCSdata</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#getting-started-with-ocsdata"><i class="fa fa-check"></i><b>2.6.1</b> Getting Started with <code>OCSdata</code></a></li>
+<li class="chapter" data-level="2.6.2" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-raw-data"><i class="fa fa-check"></i><b>2.6.2</b> Downloading raw data</a></li>
+<li class="chapter" data-level="2.6.3" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-data-in-other-formats"><i class="fa fa-check"></i><b>2.6.3</b> Downloading data in other formats</a></li>
+<li class="chapter" data-level="2.6.4" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-extra-data"><i class="fa fa-check"></i><b>2.6.4</b> Downloading extra data</a></li>
+<li class="chapter" data-level="2.6.5" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#downloading-all-case-study-data"><i class="fa fa-check"></i><b>2.6.5</b> Downloading all case study data</a></li>
+<li class="chapter" data-level="2.6.6" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#fork-or-clone-the-case-study-repository"><i class="fa fa-check"></i><b>2.6.6</b> Fork or clone the case study repository</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="open-case-study-infrastructure.html"><a href="open-case-study-infrastructure.html#session-info"><i class="fa fa-check"></i><b>2.7</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html"><i class="fa fa-check"></i><b>3</b> Use of Open Case Studies</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#learning-objectives-2"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#prerequisites"><i class="fa fa-check"></i><b>3.1.1</b> Prerequisites</a></li>
+<li class="chapter" data-level="3.1.2" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#experience-level-descriptions"><i class="fa fa-check"></i><b>3.1.2</b> Experience Level Descriptions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#open-case-studies-in-the-classroom"><i class="fa fa-check"></i><b>3.2</b> Open Case Studies in the Classroom</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#teaching-a-full-case-study"><i class="fa fa-check"></i><b>3.2.1</b> Teaching a Full Case Study</a></li>
+<li class="chapter" data-level="3.2.2" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#teaching-part-of-a-case-study"><i class="fa fa-check"></i><b>3.2.2</b> Teaching Part of a Case Study</a></li>
+<li class="chapter" data-level="3.2.3" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#teaching-with-case-study-data-only"><i class="fa fa-check"></i><b>3.2.3</b> Teaching With Case Study Data Only</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#case-study-recommendations"><i class="fa fa-check"></i><b>3.3</b> Case Study Recommendations</a></li>
+<li class="chapter" data-level="3.4" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#example-use-cases"><i class="fa fa-check"></i><b>3.4</b> Example Use Cases</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#using-case-studies-as-lecture-content"><i class="fa fa-check"></i><b>3.4.1</b> Using Case Studies as Lecture Content</a></li>
+<li class="chapter" data-level="3.4.2" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#using-case-studies-for-assignments"><i class="fa fa-check"></i><b>3.4.2</b> Using Case Studies for Assignments</a></li>
+<li class="chapter" data-level="3.4.3" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#independent-study"><i class="fa fa-check"></i><b>3.4.3</b> Independent Study</a></li>
+<li class="chapter" data-level="3.4.4" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#interactive-case-studies-1"><i class="fa fa-check"></i><b>3.4.4</b> Interactive Case Studies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#examples-of-assignments"><i class="fa fa-check"></i><b>3.5</b> Examples of assignments</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#written-report"><i class="fa fa-check"></i><b>3.5.1</b> Written Report</a></li>
+<li class="chapter" data-level="3.5.2" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#oral-presentation"><i class="fa fa-check"></i><b>3.5.2</b> Oral Presentation</a></li>
+<li class="chapter" data-level="3.5.3" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#data-visualization"><i class="fa fa-check"></i><b>3.5.3</b> Data Visualization</a></li>
+<li class="chapter" data-level="3.5.4" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#further-exploration"><i class="fa fa-check"></i><b>3.5.4</b> Further Exploration</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="use-of-open-case-studies.html"><a href="use-of-open-case-studies.html#session-info-1"><i class="fa fa-check"></i><b>3.6</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html"><i class="fa fa-check"></i><b>4</b> Modifying open case studies</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#learning-objectives-3"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.2" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#modular-use"><i class="fa fa-check"></i><b>4.2</b> Modular use</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#example-of-modular-use"><i class="fa fa-check"></i><b>4.2.1</b> Example of Modular Use</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#modify-a-case-study"><i class="fa fa-check"></i><b>4.3</b> Modify a case study</a></li>
+<li class="chapter" data-level="4.4" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#create-a-case-study"><i class="fa fa-check"></i><b>4.4</b> Create a case study</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#template-case-study"><i class="fa fa-check"></i><b>4.4.1</b> Template Case Study</a></li>
+<li class="chapter" data-level="4.4.2" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#makecasestudies-app"><i class="fa fa-check"></i><b>4.4.2</b> MakeCaseStudies App</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#session-info-2"><i class="fa fa-check"></i><b>4.5</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html"><i class="fa fa-check"></i><b>5</b> New Case Studies - Building and Contributing</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#learning-objectives-4"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#case-study-libraries"><i class="fa fa-check"></i><b>5.2</b> Case Study Libraries</a></li>
+<li class="chapter" data-level="5.3" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#submission-process"><i class="fa fa-check"></i><b>5.3</b> Submission Process</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#community-library-submissions"><i class="fa fa-check"></i><b>5.3.1</b> Community Library Submissions</a></li>
+<li class="chapter" data-level="5.3.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#official-library-submissions"><i class="fa fa-check"></i><b>5.3.2</b> Official Library Submissions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#offical-case-study-guidelines"><i class="fa fa-check"></i><b>5.4</b> Offical Case Study Guidelines</a></li>
+<li class="chapter" data-level="5.5" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#session-info-3"><i class="fa fa-check"></i><b>5.5</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
+<p style="text-align:center;"> <a href="https://www.opencasestudies.org/"> Open Case Studies</a></p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/">  of the Johns Hopkins Data Science Lab </a></p>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://github.com/opencasestudies/OCS_Guide/issues/new/choose"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">An Educator’s Guide to the Open Case Studies</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+
+
+
+<div class="hero-image-container">
+  <img class= "hero-image" src= "https://github.com/opencasestudies/OCS_Guide/raw/main/assets/OCS_long.png">
+</div>
+<div id="new-case-studies---building-and-contributing" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> New Case Studies - Building and Contributing</h1>
+<div id="learning-objectives-4" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Learning Objectives</h2>
+<p>In this chapter we will discuss:
+- Our two case study submission options
+- The guidelines for how to publish your own case studies as part of our project</p>
+</div>
+<div id="case-study-libraries" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Case Study Libraries</h2>
+<p>To help curate case studies for educators and learners, we would like to encourage others to help us expand our library of case studies.</p>
+<p>We recognize that other educators may have case studies in various stages of development that could be helpful to others.</p>
+<p>We hope to facilitate sharing of these case studies on the Open Case Studies project.</p>
+<p>However, we unfortunately do not have the resources or time to help integrate all case studies we receive into the official Open Case Studies library</p>
+<p>For this reason, we have outlined the following two modes of submission:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Submissions for integration into the official library:</strong></li>
+</ol>
+<p>With this submission type, the Open Case Studies team will work with you starting from a case study idea through development and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Submissions for a publicly available community repository:</strong></li>
+</ol>
+<p>We hope to also create a more casual community library that allows others to share their work more easily and quickly. This repository will contain case studies submitted by educators but not included in the official Open Case Studies project library. The submission process is much simpler.</p>
+</div>
+<div id="submission-process" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Submission Process</h2>
+<p>The process of submitting community case studies, involves filling out a simple form. The process of submitting to our official library involves ensuring that your case study meets our more lengthy requirements and a review process. Now we will describe the submission process for each library</p>
+<div id="community-library-submissions" class="section level3" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Community Library Submissions</h3>
+<p>These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below:</p>
+<p><strong><a href="https://forms.gle/BgkQMbb13wtaYHMo6">OpenCaseStudies Community Repository Submission Form</a></strong></p>
+</div>
+<div id="official-library-submissions" class="section level3" number="5.3.2">
+<h3><span class="header-section-number">5.3.2</span> Official Library Submissions</h3>
+<p>If you have not yet created a case study, but want to create one for our official library, please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as we can.</p>
+<form action="https://formspree.io/f/myybqzpz" method="POST">
+<label>
+Name: <br>
+<input type="text" name="_replyto"><br>
+</label>
+<label>
+Email: <br>
+<input type="text" name="_replyto"><br>
+</label>
+<label>
+Case study title (tentative): <br>
+<textarea rows = "5" cols = "60" name="message"></textarea>
+<br>
+</label>
+<label>
+Case study description: <br>
+<textarea rows = "5" cols = "60" name="message"></textarea>
+<br>
+</label>
+<label>
+Dataset description: <br>
+<textarea rows = "5" cols = "60" name="message"></textarea>
+<br>
+</label>
+<label>
+Statistics learning goals for the case study: <br>
+<textarea rows = "5" cols = "60" name="message"></textarea>
+<br>
+</label>
+<label>
+Data science learning goals for the case study: <br>
+<textarea rows = "5" cols = "60" name="message"></textarea>
+<br>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
+<p>Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at <a href="https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&amp;labels=&amp;template=new-official-case-study-submission.md&amp;title=">this link</a>.</p>
+</div>
+</div>
+<div id="offical-case-study-guidelines" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Offical Case Study Guidelines</h2>
+<p>To ensure that the submitted case studies provide the most benefit to the community, we hope that they adhere as much as possible to the core structure and ideas of the Open Case Studies project. We provide the guidelines detailed below for submission to the official library. Furthermore, because the Open Case Studies team does not have the infrastructure to perform a full content review of submitted case studies, we ask that you find at least two independent reviewers to comment about the validity of the content and conclusions presented in your case study.</p>
+<p><strong>Programming language:</strong> Case studies should be written in open source programming languages (such as R or python).</p>
+<p><strong>Data:</strong></p>
+<ul>
+<li><p>Case studies should use data that is publicly available or can be made publicly available. Please ensure that you are allowed to make the data public if it is not already.</p></li>
+<li><p>Transparent descriptions of data sources and how data was generated should be included when possible.</p></li>
+</ul>
+<p><strong>Core sections</strong>: all case studies should include the following sections consistent with the published case studies. See <a href="https://www.opencasestudies.org/OCS_Guide/introduction.html#open-case-studies-anatomy">Chapter 1, Case Study Anatomy</a> for a detailed description on what each section should include:</p>
+<ul>
+<li><p><strong>Getting Started:</strong> <em>Case study context, Study motivation, Main question, Learning objectives, Study limitations.</em> This section will outline previous literature and overarching questions in the field that make this case study question important, providing motivation for conducting the analysis in the case study. It will specify the exact question that the case study endeavors to address as well as the defining the statistical and data analysis learning objectives for the case study. It will also discuss the limitations of the investigation that may prevent the analysis from answering the main question of interest.</p></li>
+<li><p><strong>Analyzing the Data:</strong> <em>Data description, Import and exploration, Wrangling, Visualization, Analysis.</em> This section includes the bulk of the data analysis, beginning with a detailed description of the data used in the case study, how it was generated, and where it was obtained. Then it walks through, step-by-step, the data import, exploration, wrangling, procedures. Finally, it demonstrates the visualization and statistical analysis steps used to address the case study question.</p></li>
+<li><p><strong>Wrapping-up:</strong> <em>Analysis conclusions, Case study summary, Next steps, Homework, Additional information.</em> This section synthesized conclusions to the main study question based on the data analysis results demonstrated in the previous sections. It summarizes the analysis steps and potential next steps for further exploration, which can be suggested as homework. If applicable, additional information relevant to further study can be provided here.</p></li>
+</ul>
+<p><strong>Content:</strong> Despite often being motivated by articles, case studies are not intended to demonstrate the methods of a paper - they are intended as an educational resource where users are guided through the data science process.</p>
+<ul>
+<li><p>Links to literature or other sources to motivate the scientific topic of the case study should be included where possible.</p></li>
+<li><p>Case studies should aim to describe the decision making process involved in performing data science related tasks.</p></li>
+</ul>
+<p><strong>Attribution:</strong> all outside resources used in the case study should be referenced appropriately.</p>
+<ul>
+<li><p>Case studies should include disclaimers and appropriate license agreements.</p></li>
+<li><p>All included images (that are not original to the case study) should include relevant sources.</p></li>
+</ul>
+<p><strong>Data:</strong></p>
+<ul>
+<li>All data files should be saved in a folder named “data” within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
+<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" /></li>
+</ul>
+<p>This diagram is from former graduate student <a href="https://mbreshock.github.io/">Michael Breshock’s</a> <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021" role="doc-biblioref">2021</a>)</span>.</p>
+<ul>
+<li><p>The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient.</p></li>
+<li><p>The raw data folder consists of data files as they came from the source. These are used at the beginning of the case study analysis at the Data Import section.</p></li>
+<li><p>Imported data is the version of the data after it has already been imported into R. These should be in the form of R Data files (extensions include .RData, .Rda, and .Rds). To create these files, use the <code>save()</code> function in R after importing the raw data.</p></li>
+<li><p>Wrangled data is the version of the data after it has been cleaned and is ready for analysis. Use the <code>save()</code> function in R after wrangling the data to create these files. This data should be provided in both RDA and CSV format.</p></li>
+<li><p>The next two data sub-folders are optional and used as needed:</p>
+<ul>
+<li>If the raw data files for your case study come in a format that requires a complicated data import process (such as web scraping) you may consider providing the raw data in an import friendly format such as CSV or XLS(X). Place these files in the “simpler_import” sub-folder.</li>
+<li>If there are any raw data files from your source that are not used in the case study analysis, but could be analyzed in a similar fashion, please include these in the “extra” sub-folder.</li>
+</ul></li>
+</ul>
+</div>
+<div id="session-info-3" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Session info</h2>
+<pre><code>## R version 4.0.2 (2020-06-22)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 20.04.3 LTS
+## 
+## Matrix products: default
+## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+## 
+## locale:
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## loaded via a namespace (and not attached):
+##  [1] bookdown_0.24   digest_0.6.25   crayon_1.3.4    R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
+## [13] jquerylib_0.1.4 vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10 
+## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
+## [21] yaml_2.2.1      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
+## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3</code></pre>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-breshock_expanding_2021" class="csl-entry">
+Breshock, Michael Robert. 2021. <span>“<span>EXPANDING</span> <span>ACCESS</span> <span>AND</span> <span>REMOVING</span> <span>BARRIERS</span>: <span>DATA</span> <span>SCIENCE</span> <span>EDUCATION</span> <span>WITH</span> <span>THE</span> <span>OPEN</span> <span>CASE</span> <span>STUDIES</span> <span>DIGITAL</span> <span>PLATFORM</span>.”</span> Thesis, Johns Hopkins University. <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">https://jscholarship.library.jhu.edu/handle/1774.2/66820</a>.
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="modifying-open-case-studies.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
