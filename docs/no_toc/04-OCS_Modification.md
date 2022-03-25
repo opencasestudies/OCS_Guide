@@ -33,7 +33,7 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
-<img src="resources/images/skip_section.gif" title="Moving image (GIF) showing a user skipping to the data analysis section of a case study" alt="Moving image (GIF) showing a user skipping to the data analysis section of a case study" style="display: block; margin: auto;" />
+<img src="resources/images/skip_section.gif" title="Moving image (GIF) showing a user skipping to the data analysis section of a case study" alt="Moving image (GIF) showing a user skipping to the data analysis section of a case study" width="100%" style="display: block; margin: auto;" />
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
@@ -97,7 +97,7 @@ Modifying a case study requires the following simple steps:
 
 4. Save your changes, then click on the "Knit" drop down menu in the top left corner of RStudio. Choose which file format you'd like to knit to.
 
-<img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." style="display: block; margin: auto;" />
+<img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." width="100%" style="display: block; margin: auto;" />
 
 5. Distribute your modified case study as you please! 
 
