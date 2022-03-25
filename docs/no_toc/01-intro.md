@@ -94,7 +94,6 @@ If you'd like to learn more about the Open Case Studies you can read this [thesi
 
 
 
-
 <img src="resources/images/ocs_anatomy.png" title="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" alt="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" style="display: block; margin: auto;" />
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
@@ -136,7 +135,7 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:
 
-<img src="resources/images/OCS_TOC_anatomy.png" title="Open Case Study Anatomy in the Table of Contents" alt="Open Case Study Anatomy in the Table of Contents" style="display: block; margin: auto;" />
+<img src="resources/images/OCS_TOC_anatomy.png" title="Open Case Study Anatomy in the Table of Contents" alt="Open Case Study Anatomy in the Table of Contents" width="880" style="display: block; margin: auto;" />
   
  <br> 
     
