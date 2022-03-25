@@ -22,6 +22,8 @@ knitr::write_bib(c(
 
 # About this guide {-}
 
+If you found this elsewhere, you can find an online version of this guide at https://www.opencasestudies.org/OCS_Guide. 
+
 The [Open Case Studies project](https://www.opencasestudies.org), developed at the [Johns Hopkins Data Science Lab](https://jhudatascience.org/), is an education platform that provides self-contained, multimodal, peer-reviewed, and open-source guides for real-world examples for active experiences of complete data analyses. 
 
 Case study guides can be used:
@@ -32,4 +34,4 @@ Case study guides can be used:
 
 To help guide educators on how to most effectively use the Open Case Studies (either in or outside of the classroom), this guide documents various entry points to using the case studies (including an R package to enable modular use of the case studies), examples of how to use the case studies, how to modify and adapt components of the case studies for the classroom, and how to contribute new case studies. 
 
-You can find an online version of this guide at https://www.opencasestudies.org/OCS_Guide. 
+
