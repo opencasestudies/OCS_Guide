@@ -64,7 +64,7 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-![](01-intro_files/figure-docx//17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0_g107fd794960_0_154.png){width=100%}
+![](resources/images/ocs_graphic.png){width=100%}
 
 
 
@@ -161,7 +161,7 @@ The table of contents can be used to navigate to specific sections in a case stu
 ## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
 ```
 
-<iframe src="youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px"></iframe>
 
 ## Starter Kit
 
