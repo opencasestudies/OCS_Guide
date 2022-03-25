@@ -96,12 +96,9 @@ If you'd like to learn more about the Open Case Studies you can read this [thesi
  
 ## Open Case Studies Anatomy
 
-```{r, include = FALSE, echo = FALSE}
-alt <- "Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information"
-```
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy", fig.alt = alt}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy", fig.alt = Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information}
 knitr::include_graphics('resources/images/ocs_anatomy.png', dpi = NA)
 ```
 
@@ -145,7 +142,7 @@ In the final stage of the case study, students synthesize conclusions to the mai
 This anatomy is reflected in the table of contents of case study sections:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents"}
-knitr::include_graphics('resources/images/OCS_TOC_anatomy.png', dpi = NA)
+knitr::include_graphics('resources/images/OCS_TOC_anatomy.png')
 ```
   
  <br> 
@@ -172,7 +169,7 @@ knitr::include_graphics('resources/images/OCS_TOC_anatomy.png', dpi = NA)
 The table of contents can be used to navigate to specific sections in a case study:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Moving GIF image illustrating how to navigate a case study with the table of contents"}
-knitr::include_graphics('resources/images/TOC_scroll.gif', dpi = NA)
+knitr::include_graphics('resources/images/TOC_scroll.gif')
 ```
 
 ## Starter Kit
