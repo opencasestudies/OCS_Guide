@@ -152,15 +152,8 @@ jobs:
           Rscript -e "ottrpal::bookdown_to_leanpub(
             render = TRUE, \
             verbose = TRUE,\
-            make_book_txt = TRUE)"
-
-      - name: Run ottrpal::bookdown_to_leanpub
-        if: needs.yaml-check.outputs.toggle_quiz_check == 'yes'
-        run: |
-          Rscript -e "ottrpal::bookdown_to_leanpub(
-            render = TRUE, \
-            verbose = TRUE,\
-            make_book_txt = TRUE)"
+            make_book_txt = TRUE,\
+            quiz_dir = NULL)"
 
       # Commit the rendered Leanpub files
       - name: Commit rendered Leanpub files
