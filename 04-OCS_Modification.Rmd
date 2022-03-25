@@ -147,7 +147,7 @@ Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biosta
 Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
 
 ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
-knitr::include_url("https://www.youtube.com/embed/Dd4KASCIsNc")
+knitr::include_url("https://www.youtube.com/watch?v=Dd4KASCIsNc")
 ```
 
 If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
