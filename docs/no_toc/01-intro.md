@@ -64,7 +64,7 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-<img src="01-intro_files/figure-html//17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0_g107fd794960_0_154.png" title="Open Case Study graphic stating that open case studies provide real-world data analysis examples" alt="Open Case Study graphic stating that open case studies provide real-world data analysis examples" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/ocs_graphic.png" title="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." alt="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -156,7 +156,7 @@ This anatomy is reflected in the table of contents of case study sections:
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-<iframe src="youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px"></iframe>
 
 ## Starter Kit
 
