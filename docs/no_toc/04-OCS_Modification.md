@@ -33,7 +33,7 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
-<img src="resources/images/skip_section.gif" title="Moving image (GIF) showing a user skipping to the data analysis section of a case study" alt="Moving image (GIF) showing a user skipping to the data analysis section of a case study" width="100%" style="display: block; margin: auto;" />
+<iframe src="https://www.youtube.com/embed/Z4WZ7A0OZF8" width="100%" height="400px"></iframe>
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
