@@ -36,7 +36,7 @@ The following steps illustrate how one would skip to a specific case study secti
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Video showing a user skipping to the data analysis section of a case study", out.width="100%"}
-knitr::include_url'https://www.youtube.com/embed/Z4WZ7A0OZF8')
+knitr::include_url('https://www.youtube.com/embed/Z4WZ7A0OZF8')
 ```
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
