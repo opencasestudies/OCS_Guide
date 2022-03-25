@@ -1,5 +1,5 @@
-Index.md
-01-Introduction.md
+index.md
+01-intro.md
 02-OCS_Infastructure.md
 03-OCS_Use.md
 04-OCS_Modification.md
