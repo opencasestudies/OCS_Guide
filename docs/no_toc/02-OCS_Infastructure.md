@@ -16,7 +16,7 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 
 ## OCS Website
 
-<img src="resources/images/OCSwebsite.png" title="Open Case Studies Website Landing Page" alt="Open Case Studies Website Landing Page" style="display: block; margin: auto;" />
+<img src="resources/images/OCSwebsite.png" title="Open Case Studies Website Landing Page" alt="Open Case Studies Website Landing Page" width="502" style="display: block; margin: auto;" />
 
 The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
 
@@ -45,7 +45,7 @@ The website also includes the case study search tool to aid instructors in findi
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
 
-<img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" style="display: block; margin: auto;" />
+<img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" width="918" style="display: block; margin: auto;" />
 
 ### Interactive Case Studies
 
@@ -69,7 +69,7 @@ The main two columns likely to be helpful in identifying appropriate case studie
 
 This table can be used to access all case study resources:
 
-<img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" style="display: block; margin: auto;" />
+<img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" width="406" style="display: block; margin: auto;" />
 
 This video provides a live demonstration on how to use the search tool: 
 
@@ -81,7 +81,7 @@ GitHub is a website and cloud service that enables developers to store, manage, 
 
 Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
 
-<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" />
+<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="853" style="display: block; margin: auto;" />
 
 Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the `OCSdata` R package described below. 
 
@@ -236,11 +236,12 @@ If you'd like to learn more about the `OCSdata` package or the OCS GitHub organi
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   digest_0.6.25   crayon_1.3.4    R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
-##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
-## [13] jquerylib_0.1.4 vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10 
-## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
-## [21] yaml_2.2.1      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
-## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
+##  [1] knitr_1.33      magrittr_2.0.2  hms_0.5.3       R6_2.4.1       
+##  [5] rlang_0.4.10    stringr_1.4.0   highr_0.8       tools_4.0.2    
+##  [9] xfun_0.26       png_0.1-7       jquerylib_0.1.4 htmltools_0.5.0
+## [13] ellipsis_0.3.1  ottrpal_0.1.2   yaml_2.2.1      digest_0.6.25  
+## [17] tibble_3.0.3    lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24  
+## [21] readr_1.4.0     vctrs_0.3.4     fs_1.5.0        evaluate_0.14  
+## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
+## [29] pkgconfig_2.0.3
 ```

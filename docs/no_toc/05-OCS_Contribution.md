@@ -128,7 +128,8 @@ To ensure that the submitted case studies provide the most benefit to the commun
 **Data:**
 
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
-  <img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" />
+  
+<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="853" style="display: block; margin: auto;" />
   
 This diagram is from former graduate student [Michael Breshock's](https://mbreshock.github.io/) [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files @breshock_expanding_2021.
 
@@ -168,11 +169,12 @@ This diagram is from former graduate student [Michael Breshock's](https://mbresh
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   digest_0.6.25   crayon_1.3.4    R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
-##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
-## [13] jquerylib_0.1.4 vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10 
-## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
-## [21] yaml_2.2.1      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
-## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
+##  [1] knitr_1.33      magrittr_2.0.2  hms_0.5.3       R6_2.4.1       
+##  [5] rlang_0.4.10    stringr_1.4.0   highr_0.8       tools_4.0.2    
+##  [9] xfun_0.26       png_0.1-7       jquerylib_0.1.4 htmltools_0.5.0
+## [13] ellipsis_0.3.1  ottrpal_0.1.2   yaml_2.2.1      digest_0.6.25  
+## [17] tibble_3.0.3    lifecycle_1.0.0 crayon_1.3.4    bookdown_0.24  
+## [21] readr_1.4.0     vctrs_0.3.4     fs_1.5.0        evaluate_0.14  
+## [25] rmarkdown_2.10  stringi_1.5.3   compiler_4.0.2  pillar_1.4.6   
+## [29] pkgconfig_2.0.3
 ```
