@@ -23,7 +23,7 @@ Some educators may find that only certain sections of a case study are relevant 
 | simpler_import | Data Import | `simpler_import_data` |
 | extra | Suggested Homework (?) | `extra_data` |
 
-If you'd like to learn more about modular use of Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+If you’d like to learn more about modular use of Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) Breshock (2021).
 
 ### Example of Modular Use
 
@@ -33,7 +33,8 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
-<img src="resources/images/skip_section.gif" title="Moving image (GIF) showing a user skipping to the data analysis section of a case study" alt="Moving image (GIF) showing a user skipping to the data analysis section of a case study" width="100%" style="display: block; margin: auto;" />
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=Z4WZ7A0OZF8)
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
@@ -97,18 +98,20 @@ Modifying a case study requires the following simple steps:
 
 4. Save your changes, then click on the "Knit" drop down menu in the top left corner of RStudio. Choose which file format you'd like to knit to.
 
-<img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." width="100%" style="display: block; margin: auto;" />
+{alt: "Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened.", width: "100%", align: "middle",}
+![](resources/images/rstudio_modify_knit_red.png)
 
 5. Distribute your modified case study as you please! 
 
-You can share HTML, PDF and Word files directly with your students or you can host your case study for free on GitHub using [GitHub pages](https://pages.github.com/) [@pages_github]. 
+You can share HTML, PDF and Word files directly with your students or you can host your case study for free on GitHub using [GitHub pages](https://pages.github.com/) (“GitHub Pages Documentation” n.d.).
 
-To do so, you will need to set up your version of the case study on GitHub. If you  are new to GitHub, also be sure to check out @happygitwithr.
+To do so, you will need to set up your version of the case study on GitHub. If you are new to GitHub, also be sure to check out Hester (n.d.).
 
 
 These steps are demonstrated in the following video about modifying case studies:
 
-<iframe src="https://www.youtube.com/embed/UFs4qvgTuTw" width="100%" height="400px" data-external="1"></iframe>
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=UFs4qvgTuTw)
 
 
 ## Create a case study
@@ -132,7 +135,8 @@ A template case study is available in a repository on our GitHub page at [github
 All of these steps are demonstrated in the following video:
 
 
-<iframe src="https://www.youtube.com/embed/rP5E7GohTiI" width="100%" height="400px" data-external="1"></iframe>
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=rP5E7GohTiI)
 
 ### MakeCaseStudies App
 
@@ -140,9 +144,10 @@ Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biosta
 
 Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
 
-<iframe src="https://www.youtube.com/embed/Dd4KASCIsNc" width="100%" height="400px" data-external="1"></iframe>
+{height: "400px", width: "100%", align: "middle", type: "video", poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg",}
+![Click on the lower right corner to expand the screen](https://www.youtube.com/watch?v=Dd4KASCIsNc)
 
-If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+If you’d like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) Breshock (2021).
 
 ## Session info
 
@@ -174,3 +179,14 @@ If you'd like to learn more about MakeCaseStudies, you can read this [thesis](ht
 ## [33] bslib_0.3.1     compiler_4.1.2  pillar_1.7.0    jsonlite_1.8.0 
 ## [37] pkgconfig_2.0.3
 ```
+
+## References
+Breshock, Michael Robert. 2021. “EXPANDING ACCESS AND REMOVING BARRIERS: DATA SCIENCE EDUCATION WITH THE OPEN CASE STUDIES DIGITAL PLATFORM.” Thesis, Johns Hopkins University. <https://jscholarship.library.jhu.edu/handle/1774.2/66820>.
+
+
+“GitHub Pages Documentation.” n.d. *GitHub Docs*. Accessed March 22, 2022. <https://docs.github.com/en/pages>.
+
+
+Hester, Jim, the STAT 545 TAs. n.d. *Let’s Git Started Happy Git and GitHub for the <span class="nocase">useR</span>*. Accessed March 22, 2022. <https://happygitwithr.com/>.
+
+

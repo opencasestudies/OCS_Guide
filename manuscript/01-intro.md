@@ -64,7 +64,8 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-<img src="resources/images/ocs_graphic.png" title="Open Case Study graphic stating that open case studies provide real-world data analysis examples" alt="Open Case Study graphic stating that open case studies provide real-world data analysis examples" width="100%" style="display: block; margin: auto;" />
+{alt: "Open Case Study graphic stating that open case studies provide real-world data analysis examples", width: "100%", align: "middle",}
+![](01-intro_files/figure-html//17DhSo5YTKzP9bl-zfduezsyfItZRzJYmIgczUvr-Cw0_g107fd794960_0_154.png)
 
 
 
@@ -84,13 +85,14 @@ To address this, we are developing the Open Case Studies educational resource of
  - [Johns Hopkins University](https://www.jhu.edu/)
  - [University of California Santa Barbara](https://www.ucsb.edu/)
  
-If you'd like to learn more about the Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+If you’d like to learn more about the Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) Breshock (2021).
  
 ## Open Case Studies Anatomy
 
 
 
-<img src="resources/images/ocs_anatomy.png" title="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" alt="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" width="100%" style="display: block; margin: auto;" />
+{alt: "Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information", width: "100%", align: "middle",}
+![](resources/images/ocs_anatomy.png)
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
 
@@ -131,7 +133,8 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:
 
-<img src="resources/images/OCS_TOC_anatomy.png" title="Open Case Study Anatomy in the Table of Contents" alt="Open Case Study Anatomy in the Table of Contents" width="100%" style="display: block; margin: auto;" />
+{alt: "Open Case Study Anatomy in the Table of Contents", width: "100%", align: "middle",}
+![](resources/images/OCS_TOC_anatomy.png)
   
  <br> 
     
@@ -156,7 +159,8 @@ This anatomy is reflected in the table of contents of case study sections:
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-<img src="resources/images/TOC_scroll.gif" title="Moving GIF image illustrating how to navigate a case study with the table of contents" alt="Moving GIF image illustrating how to navigate a case study with the table of contents" width="100%" style="display: block; margin: auto;" />
+{height: "400px", width: "100%", align: "middle",}
+[Check out this link](youtube.com/embed/j-I0Zgicjsk)
 
 ## Starter Kit
 
@@ -210,7 +214,8 @@ Please consider participating in our [user experience survey](https://www.openca
 
 We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
-<div style="display: flex; justify-content: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+{height: "400px", width: "672", align: "middle",}
+[Check out this link](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true)
 
 ### Feedback for this Guide
 
@@ -242,3 +247,8 @@ If you have any questions, suggestions for improvement for individual case studi
 Also, see the [final chapter](https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html) for information on submitting case studies to our collection.
 
 You can also find us on Twitter with the following handle: [`@OpenCaseStudies`](https://twitter.com/opencasestudies)
+
+## References
+Breshock, Michael Robert. 2021. “EXPANDING ACCESS AND REMOVING BARRIERS: DATA SCIENCE EDUCATION WITH THE OPEN CASE STUDIES DIGITAL PLATFORM.” Thesis, Johns Hopkins University. <https://jscholarship.library.jhu.edu/handle/1774.2/66820>.
+
+
