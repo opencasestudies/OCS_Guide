@@ -165,7 +165,7 @@ knitr::include_graphics('resources/images/OCS_TOC_anatomy.png')
 The table of contents can be used to navigate to specific sections in a case study:
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Video illustrating how to navigate a case study with the table of contents", out.width="100%"}
-knitr::include_url("youtube.com/embed/j-I0Zgicjsk")
+knitr::include_url("https://www.youtube.com/embed/j-I0Zgicjsk")
 ```
 
 ## Starter Kit
