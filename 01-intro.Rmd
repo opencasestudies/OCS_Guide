@@ -1,8 +1,4 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
+
 
 ```{r, include = FALSE}
 ottrpal::set_knitr_image_path()
