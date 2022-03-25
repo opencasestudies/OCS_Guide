@@ -44,18 +44,6 @@ The following steps illustrate how one would skip to a specific case study secti
 
 ```r
   install.packages("OCSdata") #only run once to install package
-```
-
-```
-## Installing package into '/usr/local/lib/R/site-library'
-## (as 'lib' is unspecified)
-```
-
-```
-## Warning: package 'OCSdata' is not available (for R version 4.0.2)
-```
-
-```r
   library(OCSdata) #run every new R session to load package
 ```
 
@@ -178,16 +166,12 @@ If you'd like to learn more about MakeCaseStudies, you can read this [thesis](ht
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
-## other attached packages:
-## [1] OCSdata_1.0.2
-## 
 ## loaded via a namespace (and not attached):
-##  [1] knitr_1.33         magrittr_2.0.2     usethis_2.1.5.9000 hms_0.5.3         
-##  [5] R6_2.4.1           rlang_0.4.10       httr_1.4.2         stringr_1.4.0     
-##  [9] highr_0.8          tools_4.0.2        xfun_0.26          jquerylib_0.1.4   
-## [13] htmltools_0.5.0    ellipsis_0.3.1     ottrpal_0.1.2      yaml_2.2.1        
-## [17] digest_0.6.25      tibble_3.0.3       lifecycle_1.0.0    crayon_1.3.4      
-## [21] bookdown_0.24      purrr_0.3.4        readr_1.4.0        vctrs_0.3.4       
-## [25] fs_1.5.0           glue_1.6.1         evaluate_0.14      rmarkdown_2.10    
-## [29] stringi_1.5.3      compiler_4.0.2     pillar_1.4.6       pkgconfig_2.0.3
+##  [1] bookdown_0.24   digest_0.6.25   crayon_1.3.4    R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
+## [13] jquerylib_0.1.4 vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10 
+## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
+## [21] yaml_2.2.1      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
+## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
 ```
