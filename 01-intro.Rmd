@@ -220,6 +220,9 @@ Please consider participating in our [user experience survey](https://www.openca
 
 We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
+```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
+knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true")
+```
 
 ### Feedback for this Guide
 
