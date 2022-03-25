@@ -43,15 +43,15 @@ The following steps illustrate how one would skip to a specific case study secti
   
 
 ```r
-  install.packages("OCSdata") #only run once to install package
-  library(OCSdata) #run every new R session to load package
+install.packages("OCSdata") #only run once to install package
+library(OCSdata) #run every new R session to load package
 ```
 
 2) Now download the wrangled data into your R environment using the following function command:
   
 
 ```r
-  wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
+wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
   
 *This command will download the wrangled data in .RDA format. You may also be downloaded wrangled data in .CSV format by replacing 'wrangled_rda' with 'wrangled_csv'*
@@ -60,8 +60,8 @@ The following steps illustrate how one would skip to a specific case study secti
 
 
 ```r
-  load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
-  load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
+load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
+load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
 ```
 
 #### Manually Download Data from GitHub:
@@ -76,8 +76,8 @@ The following steps illustrate how one would skip to a specific case study secti
   
 
 ```r
-  load(file = here::here("Annual_opioid_data.rda"))
-  load(file = here::here("county_info.rda"))
+load(file = here::here("Annual_opioid_data.rda"))
+load(file = here::here("county_info.rda"))
 ```
 
 3) All the data you need to work through the current section is now loaded into your environment. You are ready to work through the section of interest, without needing to work through any of the previous sections.
