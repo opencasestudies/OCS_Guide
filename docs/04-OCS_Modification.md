@@ -33,7 +33,7 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
-![](resources/images/skip_section.gif)
+![](resources/images/skip_section.gif){width=100%}
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
@@ -97,7 +97,7 @@ Modifying a case study requires the following simple steps:
 
 4. Save your changes, then click on the "Knit" drop down menu in the top left corner of RStudio. Choose which file format you'd like to knit to.
 
-![](resources/images/rstudio_modify_knit_red.png)
+![](resources/images/rstudio_modify_knit_red.png){width=100%}
 
 5. Distribute your modified case study as you please! 
 
@@ -172,11 +172,8 @@ If you'd like to learn more about MakeCaseStudies, you can read this [thesis](ht
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
-##  [9] pillar_1.4.6    rlang_0.4.10    stringi_1.5.3   fs_1.5.0       
-## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  webshot_0.5.2  
-## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
-## [21] xfun_0.26       yaml_2.2.1      compiler_4.0.2  pkgconfig_2.0.3
-## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
+##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
+##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
+##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
+## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
 ```

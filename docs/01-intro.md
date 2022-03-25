@@ -64,7 +64,7 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-![](resources/images/ocs_graphic.png)
+![](resources/images/ocs_graphic.png){width=100%}
 
 
 
@@ -90,7 +90,7 @@ If you'd like to learn more about the Open Case Studies you can read this [thesi
 
 
 
-![](resources/images/ocs_anatomy.png)
+![](resources/images/ocs_anatomy.png){width=100%}
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
 
@@ -131,7 +131,7 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:
 
-![](resources/images/OCS_TOC_anatomy.png)
+![](resources/images/OCS_TOC_anatomy.png){width=100%}
   
  <br> 
     
@@ -156,7 +156,7 @@ This anatomy is reflected in the table of contents of case study sections:
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-![](resources/images/TOC_scroll.gif)
+![](resources/images/TOC_scroll.gif){width=100%}
 
 ## Starter Kit
 
