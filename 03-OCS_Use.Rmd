@@ -211,9 +211,7 @@ We would like to thank the following people for generously sharing the ways in w
 - [Dr. Jeff Leek](https://jtleek.com/)
 - [Dr. Roger Peng](https://rdpeng.org/)
 
-```{r, echo = FALSE, eval = FALSE}
-"https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation"
-```
+
 
 ## Session info
 

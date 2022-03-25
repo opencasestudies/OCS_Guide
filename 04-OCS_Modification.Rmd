@@ -36,7 +36,7 @@ The following steps illustrate how one would skip to a specific case study secti
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Moving image (GIF) showing a user skipping to the data analysis section of a case study"}
-knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
+knitr::include_graphics('resources/images/skip_section.gif')
 ```
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
@@ -46,14 +46,14 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 1) First install and load the `OCSdata` package:
   
 ```{r, include = TRUE, eval = FALSE}
-  install.packages("OCSdata") #only run once to install package
-  library(OCSdata) #run every new R session to load package
+install.packages("OCSdata") #only run once to install package
+library(OCSdata) #run every new R session to load package
 ```
 
 2) Now download the wrangled data into your R environment using the following function command:
   
 ```{r, include = TRUE, eval = FALSE, comment = FALSE}
-  wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
+wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
   
 *This command will download the wrangled data in .RDA format. You may also be downloaded wrangled data in .CSV format by replacing 'wrangled_rda' with 'wrangled_csv'*
@@ -61,8 +61,8 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
 3) Load the RDA files with the following commands:
 
 ```{r, include = TRUE, eval = FALSE, comment = FALSE}
-  load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
-  load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
+load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
+load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
 ```
 
 #### Manually Download Data from GitHub:
@@ -76,8 +76,8 @@ knitr::include_graphics('resources/images/skip_section.gif', dpi = NA)
  3) Load the RDA files with the following commands:
   
 ```{r, include = TRUE, eval = FALSE, comment = FALSE}
-  load(file = here::here("Annual_opioid_data.rda"))
-  load(file = here::here("county_info.rda"))
+load(file = here::here("Annual_opioid_data.rda"))
+load(file = here::here("county_info.rda"))
 ```
 
 3) All the data you need to work through the current section is now loaded into your environment. You are ready to work through the section of interest, without needing to work through any of the previous sections.
