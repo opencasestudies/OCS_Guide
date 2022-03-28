@@ -33,7 +33,7 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
-<img src="resources/images/skip_section.gif" title="Moving image (GIF) showing a user skipping to the data analysis section of a case study" alt="Moving image (GIF) showing a user skipping to the data analysis section of a case study" style="display: block; margin: auto;" />
+<iframe src="https://www.youtube.com/embed/Z4WZ7A0OZF8" width="100%" height="400px"></iframe>
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
@@ -43,27 +43,15 @@ The following steps illustrate how one would skip to a specific case study secti
   
 
 ```r
-  install.packages("OCSdata") #only run once to install package
-```
-
-```
-## Installing package into '/usr/local/lib/R/site-library'
-## (as 'lib' is unspecified)
-```
-
-```
-## Warning: package 'OCSdata' is not available (for R version 4.0.2)
-```
-
-```r
-  library(OCSdata) #run every new R session to load package
+install.packages("OCSdata") #only run once to install package
+library(OCSdata) #run every new R session to load package
 ```
 
 2) Now download the wrangled data into your R environment using the following function command:
   
 
 ```r
-  wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
+wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
   
 *This command will download the wrangled data in .RDA format. You may also be downloaded wrangled data in .CSV format by replacing 'wrangled_rda' with 'wrangled_csv'*
@@ -72,8 +60,8 @@ The following steps illustrate how one would skip to a specific case study secti
 
 
 ```r
-  load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
-  load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
+load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
+load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
 ```
 
 #### Manually Download Data from GitHub:
@@ -88,8 +76,8 @@ The following steps illustrate how one would skip to a specific case study secti
   
 
 ```r
-  load(file = here::here("Annual_opioid_data.rda"))
-  load(file = here::here("county_info.rda"))
+load(file = here::here("Annual_opioid_data.rda"))
+load(file = here::here("county_info.rda"))
 ```
 
 3) All the data you need to work through the current section is now loaded into your environment. You are ready to work through the section of interest, without needing to work through any of the previous sections.
@@ -109,7 +97,7 @@ Modifying a case study requires the following simple steps:
 
 4. Save your changes, then click on the "Knit" drop down menu in the top left corner of RStudio. Choose which file format you'd like to knit to.
 
-<img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." style="display: block; margin: auto;" />
+<img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." width="100%" style="display: block; margin: auto;" />
 
 5. Distribute your modified case study as you please! 
 
@@ -178,16 +166,12 @@ If you'd like to learn more about MakeCaseStudies, you can read this [thesis](ht
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
-## other attached packages:
-## [1] OCSdata_1.0.2
-## 
 ## loaded via a namespace (and not attached):
-##  [1] knitr_1.33         magrittr_2.0.2     usethis_2.1.5.9000 hms_0.5.3         
-##  [5] R6_2.4.1           rlang_0.4.10       httr_1.4.2         stringr_1.4.0     
-##  [9] highr_0.8          tools_4.0.2        xfun_0.26          jquerylib_0.1.4   
-## [13] htmltools_0.5.0    ellipsis_0.3.1     ottrpal_0.1.2      yaml_2.2.1        
-## [17] digest_0.6.25      tibble_3.0.3       lifecycle_1.0.0    crayon_1.3.4      
-## [21] bookdown_0.24      purrr_0.3.4        readr_1.4.0        vctrs_0.3.4       
-## [25] fs_1.5.0           glue_1.6.1         evaluate_0.14      rmarkdown_2.10    
-## [29] stringi_1.5.3      compiler_4.0.2     pillar_1.4.6       pkgconfig_2.0.3
+##  [1] bookdown_0.24   digest_0.6.25   crayon_1.3.4    R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
+## [13] jquerylib_0.1.4 vctrs_0.3.4     ellipsis_0.3.1  rmarkdown_2.10 
+## [17] tools_4.0.2     stringr_1.4.0   readr_1.4.0     hms_0.5.3      
+## [21] yaml_2.2.1      xfun_0.26       compiler_4.0.2  pkgconfig_2.0.3
+## [25] htmltools_0.5.0 ottrpal_0.1.2   knitr_1.33      tibble_3.0.3
 ```

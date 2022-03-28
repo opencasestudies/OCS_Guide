@@ -153,31 +153,32 @@ If you’d like to learn more about MakeCaseStudies, you can read this [thesis](
 
 
 ```
-## R version 4.1.2 (2021-11-01)
-## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Mojave 10.14.6
+## R version 4.0.2 (2020-06-22)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 20.04.3 LTS
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
 ## 
 ## locale:
-## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] rstudioapi_0.13 knitr_1.37      magrittr_2.0.2  hms_1.1.1      
-##  [5] R6_2.5.1        rlang_1.0.2     fastmap_1.1.0   fansi_1.0.2    
-##  [9] highr_0.9       stringr_1.4.0   tools_4.1.2     xfun_0.30      
-## [13] utf8_1.2.2      cli_3.2.0       jquerylib_0.1.4 htmltools_0.5.2
-## [17] ellipsis_0.3.2  ottrpal_1.0     digest_0.6.29   tibble_3.1.6   
-## [21] lifecycle_1.0.1 crayon_1.5.0    bookdown_0.24   tzdb_0.2.0     
-## [25] readr_2.1.2     sass_0.4.0      vctrs_0.3.8     fs_1.5.2       
-## [29] glue_1.6.2      evaluate_0.15   rmarkdown_2.11  stringi_1.7.6  
-## [33] bslib_0.3.1     compiler_4.1.2  pillar_1.7.0    jsonlite_1.8.0 
-## [37] pkgconfig_2.0.3
+##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
+## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
+## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
+## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
+## [25] knitr_1.33      tibble_3.0.3
 ```
 
 ## References

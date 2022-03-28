@@ -41,49 +41,16 @@ The process of submitting community case studies, involves filling out a simple 
 
 These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below: 
 
-**[OpenCaseStudies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
+**[Open Case Studies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
 
 ### Official Library Submissions
 
 If you have not yet created a case study, but want to create one for our official library, please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as we can. 
 
-<form
-  action="https://formspree.io/f/myybqzpz"
-  method="POST"
->
-  <label>
-    Name: <br>
-    <input type="text" name="_replyto"><br>
-  </label>
-  <label>
-    Email:  <br>
-    <input type="text" name="_replyto"><br>
-  </label>
-  <label>
-    Case study title (tentative): <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Case study description: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Dataset description: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Statistics learning goals for the case study: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Data science learning goals for the case study: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+**[Open Case Studies New Idea Offical Repository Submission Form](https://forms.gle/2EEYfnTJkNB7Nn9dA)**
 
-Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at [this link](https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&labels=&template=new-official-case-study-submission.md&title=).
+
+Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at [this link](https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&labels=&template=new-official-case-study-submission.md&title=). The form indicates what is required for case studies to be considered for inclusion in our official collection, including peer review. We will now also describe some of these requirements in more depth in the next section.
 
 ## Offical Case Study Guidelines
 
@@ -151,31 +118,32 @@ This diagram is from former graduate student [Michael Breshock’s](https://mbre
 
 
 ```
-## R version 4.1.2 (2021-11-01)
-## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Mojave 10.14.6
+## R version 4.0.2 (2020-06-22)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 20.04.3 LTS
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
 ## 
 ## locale:
-## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] rstudioapi_0.13 knitr_1.37      magrittr_2.0.2  hms_1.1.1      
-##  [5] R6_2.5.1        rlang_1.0.2     fastmap_1.1.0   fansi_1.0.2    
-##  [9] highr_0.9       stringr_1.4.0   tools_4.1.2     xfun_0.30      
-## [13] utf8_1.2.2      cli_3.2.0       jquerylib_0.1.4 htmltools_0.5.2
-## [17] ellipsis_0.3.2  ottrpal_1.0     digest_0.6.29   tibble_3.1.6   
-## [21] lifecycle_1.0.1 crayon_1.5.0    bookdown_0.24   tzdb_0.2.0     
-## [25] readr_2.1.2     sass_0.4.0      vctrs_0.3.8     fs_1.5.2       
-## [29] glue_1.6.2      evaluate_0.15   rmarkdown_2.11  stringi_1.7.6  
-## [33] bslib_0.3.1     compiler_4.1.2  pillar_1.7.0    jsonlite_1.8.0 
-## [37] pkgconfig_2.0.3
+##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
+## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
+## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
+## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
+## [25] knitr_1.33      tibble_3.0.3
 ```
 
 ## References
