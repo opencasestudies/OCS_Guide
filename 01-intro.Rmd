@@ -1,10 +1,6 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 
-```{r, include = FALSE}
+
+```{r, include = FALSE, eval = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
@@ -70,8 +66,8 @@ Our case studies can be used for small additional assignments in a classroom set
 
 We hope you find our case studies useful!
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts."}
-knitr::include_graphics('resources/images/ocs_graphic.png', dpi = NA)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts.", out.width="100%"}
+knitr::include_graphics('resources/images/ocs_graphic.png')
 ```
 
 
@@ -96,13 +92,10 @@ If you'd like to learn more about the Open Case Studies you can read this [thesi
  
 ## Open Case Studies Anatomy
 
-```{r, include = FALSE, echo = FALSE}
-alt <- "Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information"
-```
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy", fig.alt = alt}
-knitr::include_graphics('resources/images/ocs_anatomy.png', dpi = NA)
+```{r, fig.align='center', echo = FALSE, fig.alt = "Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information", out.width="100%"}
+knitr::include_graphics('resources/images/ocs_anatomy.png')
 ```
 
 Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition. 
@@ -144,8 +137,8 @@ In the final stage of the case study, students synthesize conclusions to the mai
 	
 This anatomy is reflected in the table of contents of case study sections:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents"}
-knitr::include_graphics('resources/images/OCS_TOC_anatomy.png', dpi = NA)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents", out.width="100%"}
+knitr::include_graphics('resources/images/OCS_TOC_anatomy.png')
 ```
   
  <br> 
@@ -171,8 +164,8 @@ knitr::include_graphics('resources/images/OCS_TOC_anatomy.png', dpi = NA)
 
 The table of contents can be used to navigate to specific sections in a case study:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Moving GIF image illustrating how to navigate a case study with the table of contents"}
-knitr::include_graphics('resources/images/TOC_scroll.gif', dpi = NA)
+```{r, fig.align='center', echo = FALSE, fig.alt= "Video illustrating how to navigate a case study with the table of contents", out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/j-I0Zgicjsk")
 ```
 
 ## Starter Kit
@@ -227,7 +220,9 @@ Please consider participating in our [user experience survey](https://www.openca
 
 We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
-<div style="display: flex; justify-content: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
+knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true")
+```
 
 ### Feedback for this Guide
 

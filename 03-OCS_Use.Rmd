@@ -1,5 +1,5 @@
 
-```{r, include = FALSE}
+```{r, include = FALSE, eval = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
@@ -145,7 +145,7 @@ Because the case studies were developed to be modular and stand-alone, they can 
 
 Here you can see how the course used the `OCSdata` package:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "A slide from the class taught by Dr Ellis showing the use of the OCSdata package"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "A slide from the class taught by Dr Ellis showing the use of the OCSdata package", out.width="100%"}
 
 knitr::include_graphics('resources/images/shannon-casestudy.png')
 ```
@@ -211,9 +211,7 @@ We would like to thank the following people for generously sharing the ways in w
 - [Dr. Jeff Leek](https://jtleek.com/)
 - [Dr. Roger Peng](https://rdpeng.org/)
 
-```{r, echo = FALSE, eval = FALSE}
-"https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation"
-```
+
 
 ## Session info
 

@@ -1,4 +1,5 @@
-```{r, include = FALSE}
+
+```{r, include = FALSE, eval = FALSE}
 ottrpal::set_knitr_image_path()
 ```
 
@@ -129,9 +130,10 @@ To ensure that the submitted case studies provide the most benefit to the commun
 **Data:**
 
   - All data files should be saved in a folder named "data" within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
-  ```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders"}
-  knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png', dpi = NA)
-  ```
+  
+```{r, fig.align='center', echo = FALSE, fig.alt= "Diagram explaining the case study data folder structure and how data is categorized into different sub-folders", out.width="100%"}
+knitr::include_graphics('resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png')
+```
   
 This diagram is from former graduate student [Michael Breshock's](https://mbreshock.github.io/) [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files @breshock_expanding_2021.
 
