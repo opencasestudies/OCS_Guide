@@ -33,6 +33,11 @@ The following steps illustrate how one would skip to a specific case study secti
 
 1) Use the table of contents to navigate to the section of interest. Click on the arrow that reads "If you skipped the previous sections click here."
 
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
 <iframe src="https://www.youtube.com/embed/Z4WZ7A0OZF8" width="100%" height="400px"></iframe>
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
@@ -97,7 +102,7 @@ Modifying a case study requires the following simple steps:
 
 4. Save your changes, then click on the "Knit" drop down menu in the top left corner of RStudio. Choose which file format you'd like to knit to.
 
-<img src="resources/images/rstudio_modify_knit_red.png" title="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." alt="Screenshot of RStudio window with Knit button highlighted in red and drop down menu showing. Window also shows the Opioids case study repository with the index.Rmd file opened." width="100%" style="display: block; margin: auto;" />
+![](resources/images/rstudio_modify_knit_red.png){width=100%}
 
 5. Distribute your modified case study as you please! 
 
@@ -167,11 +172,8 @@ If you'd like to learn more about MakeCaseStudies, you can read this [thesis](ht
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
-##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
-## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
-## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
-## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
-## [25] knitr_1.33      tibble_3.0.3
+##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
+##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
+##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
+## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
 ```
