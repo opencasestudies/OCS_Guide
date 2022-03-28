@@ -4,6 +4,7 @@ BIPOC
 Bloomberg
 bp
 Breshock
+Breshock's
 Capitan
 csv
 Datatrail
@@ -20,6 +21,7 @@ ITN
 Kincaid
 knitr
 koRpus
+leanpub
 Leanpub
 MakeCaseStudies
 Markua
