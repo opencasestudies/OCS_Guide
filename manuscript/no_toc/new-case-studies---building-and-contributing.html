@@ -156,7 +156,11 @@ div.csl-indent {
 <a href="https://www.opencasestudies.org/"><img src="https://opencasestudies.github.io/img/icon.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this guide</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this guide</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#formats"><i class="fa fa-check"></i><b>0.1</b> Formats</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#summary"><i class="fa fa-check"></i><b>0.2</b> Summary</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
@@ -338,49 +342,13 @@ div.csl-indent {
 <div id="community-library-submissions" class="section level3" number="5.3.1">
 <h3><span class="header-section-number">5.3.1</span> Community Library Submissions</h3>
 <p>These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below:</p>
-<p><strong><a href="https://forms.gle/BgkQMbb13wtaYHMo6">OpenCaseStudies Community Repository Submission Form</a></strong></p>
+<p><strong><a href="https://forms.gle/BgkQMbb13wtaYHMo6">Open Case Studies Community Repository Submission Form</a></strong></p>
 </div>
 <div id="official-library-submissions" class="section level3" number="5.3.2">
 <h3><span class="header-section-number">5.3.2</span> Official Library Submissions</h3>
 <p>If you have not yet created a case study, but want to create one for our official library, please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as we can.</p>
-<form action="https://formspree.io/f/myybqzpz" method="POST">
-<label>
-Name: <br>
-<input type="text" name="_replyto"><br>
-</label>
-<label>
-Email: <br>
-<input type="text" name="_replyto"><br>
-</label>
-<label>
-Case study title (tentative): <br>
-<textarea rows = "5" cols = "60" name="message"></textarea>
-<br>
-</label>
-<label>
-Case study description: <br>
-<textarea rows = "5" cols = "60" name="message"></textarea>
-<br>
-</label>
-<label>
-Dataset description: <br>
-<textarea rows = "5" cols = "60" name="message"></textarea>
-<br>
-</label>
-<label>
-Statistics learning goals for the case study: <br>
-<textarea rows = "5" cols = "60" name="message"></textarea>
-<br>
-</label>
-<label>
-Data science learning goals for the case study: <br>
-<textarea rows = "5" cols = "60" name="message"></textarea>
-<br>
-</label>
-<!-- your other form fields go here -->
-<button type="submit">Send</button>
-</form>
-<p>Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at <a href="https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&amp;labels=&amp;template=new-official-case-study-submission.md&amp;title=">this link</a>.</p>
+<p><strong><a href="https://forms.gle/2EEYfnTJkNB7Nn9dA">Open Case Studies New Idea Offical Repository Submission Form</a></strong></p>
+<p>Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at <a href="https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&amp;labels=&amp;template=new-official-case-study-submission.md&amp;title=">this link</a>. The form indicates what is required for case studies to be considered for inclusion in our official collection, including peer review. We will now also describe some of these requirements in more depth in the next section.</p>
 </div>
 </div>
 <div id="offical-case-study-guidelines" class="section level2" number="5.4">
@@ -410,9 +378,9 @@ Data science learning goals for the case study: <br>
 </ul>
 <p><strong>Data:</strong></p>
 <ul>
-<li>All data files should be saved in a folder named “data” within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:
-<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" style="display: block; margin: auto;" /></li>
+<li>All data files should be saved in a folder named “data” within the project directory. All files should be contained in a sub-folder using the design scheme outlined in this diagram:</li>
 </ul>
+<p><img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="100%" style="display: block; margin: auto;" /></p>
 <p>This diagram is from former graduate student <a href="https://mbreshock.github.io/">Michael Breshock’s</a> <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> on the Open Case Studies. In this thesis you can find a detailed description on the organization and structure of the case study data files <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021" role="doc-biblioref">2021</a>)</span>.</p>
 <ul>
 <li><p>The data folder is required to have at least raw, imported, and wrangled data files. This allows users to skip sections when convenient.</p></li>

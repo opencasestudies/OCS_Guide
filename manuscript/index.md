@@ -19,9 +19,9 @@ output:
 
 ## Formats
 
-You can find an online version of this guide at https://www.opencasestudies.org/OCS_Guide. 
+You can find an online version of this guide at [www.opencasestudies.org/OCS_Guide](https://www.opencasestudies.org/OCS_Guide). 
 
-PDF versions are available at https://leanpub.com/opencasestudies_guide.
+PDF versions are available at [leanpub.com/opencasestudies_guide](https://leanpub.com/opencasestudies_guide).
 
 ## Summary
 

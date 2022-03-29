@@ -226,23 +226,9 @@ If you have feedback for this guide about how we can improve the content, please
 
 If you have any questions, suggestions for improvement for individual case studies, ideas, or thoughts, you can contact us through email using this form:
 
-<form
-  action="https://formspree.io/f/myybqzpz"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea rows = "5" cols = "60" name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<iframe src="https://www.opencasestudies.org/#contact" width="100%" height="400px"></iframe>
 
-<br>
+
 
 Also, see the [final chapter](https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html) for information on submitting case studies to our collection.
 

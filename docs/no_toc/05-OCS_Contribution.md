@@ -41,49 +41,16 @@ The process of submitting community case studies, involves filling out a simple 
 
 These case studies will be shared publicly on the Open Case Studies Community Repository for the benefit of other educators and learners, with minimal review from the Open Case Studies team. To submit a case study to the Community Repository, please fill out the form below: 
 
-**[OpenCaseStudies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
+**[Open Case Studies Community Repository Submission Form](https://forms.gle/BgkQMbb13wtaYHMo6)**
 
 ### Official Library Submissions
 
 If you have not yet created a case study, but want to create one for our official library, please complete the form below to contact the Open Case Studies team regarding a new case study idea. The team will get back to do as soon as we can. 
 
-<form
-  action="https://formspree.io/f/myybqzpz"
-  method="POST"
->
-  <label>
-    Name: <br>
-    <input type="text" name="_replyto"><br>
-  </label>
-  <label>
-    Email:  <br>
-    <input type="text" name="_replyto"><br>
-  </label>
-  <label>
-    Case study title (tentative): <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Case study description: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Dataset description: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Statistics learning goals for the case study: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <label>
-    Data science learning goals for the case study: <br>
-    <textarea rows = "5" cols = "60" name="message"></textarea><br>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+**[Open Case Studies New Idea Offical Repository Submission Form](https://forms.gle/2EEYfnTJkNB7Nn9dA)**
 
-Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at [this link](https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&labels=&template=new-official-case-study-submission.md&title=).
+
+Ultimately your case study will be submitted using an issue template to the GitHub repository for this guide, located at [this link](https://github.com/opencasestudies/OCS_Guide/issues/new?assignees=carriewright11%2Cstephaniehicks&labels=&template=new-official-case-study-submission.md&title=). The form indicates what is required for case studies to be considered for inclusion in our official collection, including peer review. We will now also describe some of these requirements in more depth in the next section.
 
 ## Offical Case Study Guidelines
 
