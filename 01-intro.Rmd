@@ -196,7 +196,7 @@ The following table lists the time it took for RMarkdown to compile each case st
 | [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 39 - 49 |
 | [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 36 - 46 |
 | [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 79 - 89 |
-| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | ??? |
+| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 148 - 158 |
 
 These compilation times were measured on a PC machine operating on Windows 10. The ranges listed should only be used as estimates as compilation time will vary with different machines and operating systems.
 

@@ -78,7 +78,7 @@ The reading time and readability index were calculated for each case study with 
 | [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 60 | Grade 11, Age 16 |
 | [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 70 | Grade 9, Age 14 |
 | [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 100 | Grade 10, Age 15 |
-| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 95 | Grade 10, Age 15 |
+| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 100 | Grade 10, Age 15 |
 
 ### Teaching Part of a Case Study
 
