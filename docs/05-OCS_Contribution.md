@@ -6,8 +6,47 @@
 ## Learning Objectives
 
 In this chapter we will discuss:
+- Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template) or [app](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/)
 - Our two case study submission options
-- The guidelines for  how to publish your own case studies as part of our project
+- The guidelines for how to publish your own case studies as part of our project
+
+## Create a Case Study
+
+Open Case Studies offers two options for creating a case study. The first method is a template repository available on GitHub. The second is a new live web application. The first option offers more customization, while the second is much more fast and simple. These methods are free for all to use. If you'd like to create a case study to contribute to the Open Case Studies, using one of these methods is recommended, but not required.
+
+### Template Case Study
+
+A template case study is available in a repository on our GitHub page at [github.com/opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). This template contains the basic skeletal structure used for our case studies. Creating a new case study with the template is very similar to modifying an existing case study:
+
+1. Click on the "use this template" button at [opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). 
+
+2. Open the index.Rmd file in RStudio.
+
+3. Add the case study content to the index.Rmd file. Use the instructions provided in this file to add different elements such as images and videos.
+
+4. Save your changes and knit the case study to the preferred file format.
+
+5. Distribute the knitted case study as you please!
+
+All of these steps are demonstrated in the following video:
+
+
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="https://www.youtube.com/embed/rP5E7GohTiI" width="100%" height="400px"></iframe>
+
+### MakeCaseStudies App
+
+Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app as an option for our users to create their own case studies. The app has an easy-to-use interface where users can copy and paste their content into text boxes on the "Create" tab and check the "Preview" tab to see what they’ve made so far. Once satisfied, click the download button to export your finished case study!
+
+Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
+
+<iframe src="https://www.youtube.com/embed/Dd4KASCIsNc" width="100%" height="400px"></iframe>
+
+If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
 ## Case Study Libraries
 
@@ -138,6 +177,6 @@ This diagram is from former graduate student [Michael Breshock's](https://mbresh
 ## loaded via a namespace (and not attached):
 ##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
 ##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
-##  [9] knitr_1.33      stringr_1.4.0   digest_0.6.25   xfun_0.26      
-## [13] rlang_0.4.10    evaluate_0.14
+##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
+## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
 ```
