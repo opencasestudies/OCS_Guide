@@ -74,12 +74,12 @@ steps-for-modular-use
 downloading-data-with-ocsdata
 manually-download-data-from-github
 modify-a-case-study
-create-a-case-study
-template-case-study
-makecasestudies-app
 session-info-2
 new-case-studies---building-and-contributing
 learning-objectives-4
+create-a-case-study
+template-case-study
+makecasestudies-app
 case-study-libraries
 submission-process
 community-library-submissions

@@ -9,7 +9,6 @@ This chapter will cover how to modify the case studies to your own needs using t
 
 - Modular case study use with the help of the [`OCSdata` package](https://github.com/opencasestudies/OCSdata)
 - Modifying a case study with [GitHub](https://github.com/opencasestudies) and [RStudio](https://www.rstudio.com/)
-- Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template) and [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/)
 
 ## Modular use
 
@@ -86,7 +85,6 @@ load(file = here::here("county_info.rda"))
 
 The case studies are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using [Markdown syntax](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf). RStudio projects are used to organize the case studies. The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. Open Case Studies uses these HTML files to post the case studies online. The entire case study project is contained in a GitHub repository which allows for easy distribution and version control. [GitHub Pages](https://pages.github.com/) is used to host the case study webpage from the case study repository.
 
-
 Modifying a case study requires the following simple steps:
 
 1. Use the `OCSdata` package `zip_ocs()` function to download the case study files without our git history. Alternatively, if you are familiar with GitHub and wish to you can clone or fork the case study repository from GitHub. See [this section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#fork-or-clone-the-case-study-repository) of chapter 2 for more information.
@@ -109,40 +107,6 @@ To do so, you will need to set up your version of the case study on GitHub. If y
 These steps are demonstrated in the following video about modifying case studies:
 
 <iframe src="https://www.youtube.com/embed/UFs4qvgTuTw" width="100%" height="400px"></iframe>
-
-
-## Create a case study
-
-Open Case Studies offers two options for creating a case study. The first method is a template repository available on GitHub. The second is a new live web application. The first option offers more customization, while the second is much more fast and simple.
-
-### Template Case Study
-
-A template case study is available in a repository on our GitHub page at [github.com/opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). This template contains the basic skeletal structure used for our case studies. Creating a new case study with the template is very similar to modifying an existing case study:
-
-1. Click on the "use this template" button at [opencasestudies/ocs-bp-template](https://github.com/opencasestudies/ocs-bp-template). 
-
-2. Open the index.Rmd file in RStudio.
-
-3. Add the case study content to the index.Rmd file. Use the instructions provided in this file to add different elements such as images and videos.
-
-4. Save your changes and knit the case study to the preferred file format.
-
-5. Distribute the knitted case study as you please!
-
-All of these steps are demonstrated in the following video:
-
-
-<iframe src="https://www.youtube.com/embed/rP5E7GohTiI" width="100%" height="400px"></iframe>
-
-### MakeCaseStudies App
-
-Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app as an option for our users to create their own case studies. The app has an easy-to-use interface where users can copy and paste their content into text boxes on the "Create" tab and check the "Preview" tab to see what they’ve made so far. Once satisfied, click the download button to export your finished case study!
-
-Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
-
-<iframe src="https://www.youtube.com/embed/Dd4KASCIsNc" width="100%" height="400px"></iframe>
-
-If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
 ## Session info
 
