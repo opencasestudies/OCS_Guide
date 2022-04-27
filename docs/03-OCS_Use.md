@@ -76,7 +76,7 @@ The reading time and readability index were calculated for each case study with 
 | [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 60 | Grade 11, Age 16 |
 | [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 70 | Grade 9, Age 14 |
 | [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 100 | Grade 10, Age 15 |
-| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 95 | Grade 10, Age 15 |
+| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 100 | Grade 10, Age 15 |
 
 ### Teaching Part of a Case Study
 
@@ -143,7 +143,7 @@ Because the case studies were developed to be modular and stand-alone, they can 
 
 Here you can see how the course used the `OCSdata` package:
 
-![](resources/images/shannon-casestudy.png){width=100%}
+<img src="resources/images/shannon-casestudy.png" title="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" alt="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" width="100%" style="display: block; margin: auto;" />
 
 [Dr. Ellis](https://www.shanellis.com/) incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
 
@@ -158,11 +158,6 @@ Case studies can be used for learners to gain experience in statistics and data 
 ### Interactive Case Studies
 
 Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback. Please see the following video for a demonstration on how to use the interactive case studies:   
-
-
-```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-```
 
 <iframe src="https://www.youtube.com/embed/3iFtuDK0o-M" width="100%" height="400px"></iframe>
 
@@ -234,9 +229,12 @@ We would like to thank the following people for generously sharing the ways in w
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
-##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
-##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
-## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
+##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
+##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
+##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
+## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
+## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
+## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
+## [25] knitr_1.33      tibble_3.0.3
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: "An Educator’s Guide to the Open Case Studies"
-date: "March, 2022"
+date: "April, 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
