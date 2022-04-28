@@ -16,7 +16,7 @@ In this chapter we will discuss the overall infrastructure of the Open Case Stud
 
 ## OCS Website
 
-<img src="resources/images/OCSwebsite.png" title="Open Case Studies Website Landing Page" alt="Open Case Studies Website Landing Page" width="100%" style="display: block; margin: auto;" />
+![](resources/images/OCSwebsite.png){width=100%}
 
 The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
 
@@ -45,13 +45,18 @@ The website also includes the case study search tool to aid instructors in findi
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
 
-<img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" width="100%" style="display: block; margin: auto;" />
+![](resources/images/OCS_GitHub_Repository_Diagram_Draft3.png){width=100%}
 
 ### Interactive Case Studies
 
 The interactive versions of the case studies are a recent development. These versions include live tutorials through quizzes and interactive coding exercises with real-time feedback. The interactive case studies were made using the [`learnr`](https://rstudio.github.io/learnr/) and [`gradethis`](https://pkgs.rstudio.com/gradethis/) packages. 
 
 If you'd like to learn more about the interactive case studies, graduate student [Qier Meng](https://www.opencasestudies.org/authors/qmeng/) discusses the interactive versions in further detail in the video below: 
+
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
 
 <iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px"></iframe>
 
@@ -69,7 +74,7 @@ The main two columns likely to be helpful in identifying appropriate case studie
 
 This table can be used to access all case study resources:
 
-<img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" width="100%" style="display: block; margin: auto;" />
+![](resources/images/searchtable.png){width=100%}
 
 This video provides a live demonstration on how to use the search tool: 
 
@@ -81,7 +86,7 @@ GitHub is a website and cloud service that enables developers to store, manage, 
 
 Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
 
-<img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="100%" style="display: block; margin: auto;" />
+![](resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png){width=100%}
 
 Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the `OCSdata` R package described below. 
 
@@ -236,11 +241,8 @@ If you'd like to learn more about the `OCSdata` package or the OCS GitHub organi
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] bookdown_0.24   crayon_1.3.4    digest_0.6.25   R6_2.4.1       
-##  [5] lifecycle_1.0.0 magrittr_2.0.2  evaluate_0.14   highr_0.8      
-##  [9] pillar_1.4.6    stringi_1.5.3   rlang_0.4.10    fs_1.5.0       
-## [13] ellipsis_0.3.1  vctrs_0.3.4     rmarkdown_2.10  tools_4.0.2    
-## [17] stringr_1.4.0   readr_1.4.0     hms_0.5.3       xfun_0.26      
-## [21] compiler_4.0.2  pkgconfig_2.0.3 htmltools_0.5.0 ottrpal_0.1.2  
-## [25] knitr_1.33      tibble_3.0.3
+##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
+##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
+##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
+## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
 ```
