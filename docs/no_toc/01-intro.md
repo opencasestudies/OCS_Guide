@@ -10,7 +10,7 @@ In this chapter we will:
 
 - Describe the audience for this guide
 - Discuss what you can expect in this guide
-- Introduce to the [Open Case Studies](https://www.opencasestudies.org/) project
+- Introduce the [Open Case Studies](https://www.opencasestudies.org/) project
 - Introduce the case studies that make up this project
 
 ## Motivation
