@@ -61,7 +61,7 @@ For this reason, we have outlined the following two modes of submission:
 
 1) **Submissions for integration into the official library:** 
 
-With this submission type, the Open Case Studies team will work with you starting from a case study idea through development and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. Please note that we will only be able to accept one or two case studies a year to the official repository, as we are currently doing this as a passion project and have limited time to review and collaborate on the case studies. 
+With this submission type, the Open Case Studies team will work with you starting from a case study idea through development and peer review stages, with the ultimate goal of adding your case study to the Open Case Studies project. Please note that we will only be able to accept one or two case studies a year to the official repository, as we are currently doing this as a passion project and have limited time to review and collaborate on the case studies. Please note that it is not required that case studies explore a public health topic, instead the just need to explore an interesting and timely problem. 
 
 2) **Submissions for a publicly available community repository:** 
 
