@@ -1,8 +1,0 @@
-index.md
-01-intro.md
-02-OCS_Infastructure.md
-03-OCS_Use.md
-04-OCS_Modification.md
-05-OCS_Contribution.md
-About.md
-References.md
