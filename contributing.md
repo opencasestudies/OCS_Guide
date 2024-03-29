@@ -174,7 +174,7 @@ knitr::include_url("https://drive.google.com/file/d/1mm72K4V7fqpgAfWkr6b7HTZrc3f
 
 Or this:
 
-[This works](hhttps://drive.google.com/file/d/1mm72K4V7fqpgAfWkr6b7HTZrc3f-T6AV/preview).
+[This works](https://drive.google.com/file/d/1mm72K4V7fqpgAfWkr6b7HTZrc3f-T6AV/preview).
 
 Or this:
 
