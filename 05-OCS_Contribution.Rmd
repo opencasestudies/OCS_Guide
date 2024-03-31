@@ -75,6 +75,8 @@ We hope to also create a more casual community library that allows others to sha
 
 Please note that case studies submitted to either collection need to be open source and with a license that permits sharing of derivatives to allow other educators to make use of our case studies as needed. 
 
+The original others will retain the rights of their case studies, but need to provide citation information for others to attribute their case studies. For official case studies, the OCS team may help modify the case study and may therefore be included as authors. 
+
 ## Submission Process 
 
 The process of submitting community case studies, involves filling out a simple form. The process of submitting to our official library involves ensuring that your case study meets our more lengthy requirements and a review process. Now we will describe the submission process for each library
