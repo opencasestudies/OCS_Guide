@@ -55,6 +55,7 @@ teaching-a-full-case-study
 teaching-part-of-a-case-study
 teaching-with-case-study-data-only
 case-study-recommendations
+troubleshooting
 example-use-cases
 using-case-studies-as-lecture-content
 using-case-studies-for-assignments
