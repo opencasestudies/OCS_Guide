@@ -31,7 +31,7 @@ Confirm the following by editing each check box to '[x]'
 - [ ] I understand that by submitting my case study to _OpenCaseStudies_,
 ownership of the case study repo will eventually need to be transferred to the _OpenCaseStudies_ organization. All source and all review commentary will be made visible to the general public. 
 
-- [ ] I understand that submitted case studies are required to be open source.
+- [ ] I understand that submitted case studies are required to be open source and must allow for derivatives to be shared (in other words no ND license).
 
 - [ ] I understand that I am free to make use of any material that I create for _OpenCaseStudies_, so long as I abide by any licenses for that material and the open source license that I choose to use. 
 
