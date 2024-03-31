@@ -133,6 +133,16 @@ The following table lists a few example case studies that would be suitable for 
 | Predicting Annual Air Pollution | Beginner | Beginner | Intermediate | Advanced | 
 | Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | Beginner | 
 
+## Troubleshooting
+
+You may encounter errors trying to render our case studies. 
+
+In which case, we suggest that you check the "Session Info" section under the "Additional Information "section of the case study to see what versions of packages we used. 
+
+R packages versions can have updates to arguments and function names that can cause code to work differently or can break the code.
+
+If you encounter an error, this is likely the reason. We try to update our case studies when we can, but we can't always update the information in a timely manner as this is currently a passion project. You can either use the error message from trying to knit the case study to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information), or you can use the versions of the packages that are shown in our Session Info section and load the versions that we used, following the directions [here](https://search.r-project.org/CRAN/refmans/remotes/html/install_version.html). 
+
 ## Example Use Cases
 
 Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
