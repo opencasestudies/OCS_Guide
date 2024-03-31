@@ -31,7 +31,9 @@ Confirm the following by editing each check box to '[x]'
 - [ ] I understand that by submitting my case study to _OpenCaseStudies_,
 ownership of the case study repo will eventually need to be transferred to the _OpenCaseStudies_ organization. All source and all review commentary will be made visible to the general public. 
 
-- [ ] I understand that I am free to make use of any material that I create for _OpenCaseStudies_, so long as I abide by any license that I choose to use. 
+- [ ] I understand that submitted case studies are required to be open source and must allow for derivatives to be shared (in other words no ND license).
+
+- [ ] I understand that I am free to make use of any material that I create for _OpenCaseStudies_, so long as I abide by any licenses for that material and the open source license that I choose to use. 
 
 - [ ] I understand that a minimum requirement for case study acceptance 
   is to successfully knit with no ERRORS or WARNINGS. 
@@ -62,7 +64,7 @@ ownership of the case study repo will eventually need to be transferred to the _
 - [ ] All images/gif/videos and other forms of media that are not original to the case study include sources
 - [ ] Information on how to cite the case study is included
 - [ ] Anyone who contributed in a sizable way is included as an author and they are otherwise acknowledged if it was a smaller contribution
-- [ ] Licence for use is included (Any [open source license][8] is allowed, such as CC-BY or MIT for example)
+- [ ] License for use is included (Any [open source license][8] is allowed, as long as sharing of derivatives is permitted, to allow other educators to reuse case studies as needed)
 - [ ] Open Case Study disclaimer is included (see current case studies)
 - [ ] Any additional disclaimers related to the topic are included see the pink background sections in following case studies as examples: 
 

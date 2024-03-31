@@ -54,7 +54,6 @@ If you'd like to learn more about MakeCaseStudies, you can read this [thesis](ht
 To help curate case studies for educators and learners, we would like to encourage others to help us expand our library of case studies. 
 
 
-
 We recognize that other educators may have case studies in various stages of development that could be helpful to others.
 
 We hope to facilitate sharing of these case studies on the Open Case Studies project.
@@ -72,6 +71,11 @@ With this submission type, the Open Case Studies team will work with you startin
 2) **Submissions for a publicly available community repository:** 
 
 We hope to also create a more casual community library that allows others to share their work more easily and quickly. This repository will contain case studies submitted by educators but not included in the official Open Case Studies project library. The submission process is much simpler. 
+
+
+Please note that case studies submitted to either collection need to be open source and with a license that permits sharing of derivatives to allow other educators to make use of our case studies as needed. 
+
+The original others will retain the rights of their case studies, but need to provide citation information for others to attribute their case studies. For official case studies, the OCS team may help modify the case study and may therefore be included as authors. 
 
 ## Submission Process 
 
