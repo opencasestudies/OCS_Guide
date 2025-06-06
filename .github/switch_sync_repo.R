@@ -13,8 +13,8 @@ option_list <- list(
   optparse::make_option(
     c("--repo"),
     type = "character",
-    default = "jhudsl/OTTR_Template_Test",
-    help = "GitHub repository name, e.g. jhudsl/OTTR_Template_Test",
+    default = "ottrproject/OTTR_Template_Test",
+    help = "GitHub repository name, e.g. ottrproject/OTTR_Template_Test",
   )
 )
 
