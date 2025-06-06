@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       repo:
-        description: 'What repo to test on e.g. jhudsl/OTTR_Template_Test'
+        description: 'What repo to test on e.g. ottrproject/OTTR_Template_Test'
         required: true
-        default: 'jhudsl/OTTR_Template_Test'
+        default: 'ottrproject/OTTR_Template_Test'
 
 jobs:
   test-sync:
