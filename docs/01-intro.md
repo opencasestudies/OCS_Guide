@@ -158,10 +158,10 @@ The table of contents can be used to navigate to specific sections in a case stu
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px" data-external="1"></iframe>
 
 ## Starter Kit
 
@@ -215,7 +215,7 @@ Please consider participating in our [user experience survey](https://www.openca
 
 We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="100%" height="400px"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="100%" height="400px" data-external="1"></iframe>
 
 ### Feedback for this Guide
 
@@ -226,7 +226,7 @@ If you have feedback for this guide about how we can improve the content, please
 
 If you have any questions, suggestions for improvement for individual case studies, ideas, or thoughts, you can contact us through email using this form:
 
-<iframe src="https://www.opencasestudies.org/#contact" width="100%" height="400px"></iframe>
+<iframe src="https://www.opencasestudies.org/#contact" width="100%" height="400px" data-external="1"></iframe>
 
 
 

@@ -55,10 +55,10 @@ If you'd like to learn more about the interactive case studies, graduate student
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px" data-external="1"></iframe>
 
 If you'd like to learn more about the interactive case studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
@@ -78,7 +78,7 @@ This table can be used to access all case study resources:
 
 This video provides a live demonstration on how to use the search tool: 
 
-<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px" data-external="1"></iframe>
 
 ## Open Case Studies GitHub Organization
 
@@ -111,7 +111,7 @@ The package source files and documentation are also available on [GitHub](https:
 The `OCSdata` package is available on the package repository [CRAN](https://cran.r-project.org/web/packages/OCSdata/index.html). It requires R 3.5 or higher and can be installed in R as follows: 
 
 
-```r
+``` r
 install.packages("OCSdata") #only run once to install package
 library(OCSdata) #run every new R session to load package
 ```
@@ -127,7 +127,7 @@ The `outpath` argument is a string specifying the folder where the data should b
 In the following example, we download the raw data for the "Opioids in the United States" case study to the current directory. 
 
 
-```r
+``` r
 raw_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
@@ -140,7 +140,7 @@ The `OCSdata` package can be used to download the data in various processed form
 The `simpler_import_data()` function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step. 
 
 
-```r
+``` r
 simpler_import_data("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
 
@@ -150,7 +150,7 @@ The `imported_data()` function will download raw data files in .rda format. This
 
 
 
-```r
+``` r
 imported_data("ocs-bp-opioid-rural-urban", outpath = getwd()) #download data in .rda format 
 file_path = "~/OCS_data/data/imported/land_area.rda" #specify download directory 
 load(file_path) #load R objects 
@@ -163,14 +163,14 @@ The following functions will download the data files that have already been wran
 Download as csv files:
 
 
-```r
+``` r
 wrangled_csv("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
 Downloading as R objects:
 
 
-```r
+``` r
 wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
@@ -179,7 +179,7 @@ wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data  but can This data can be downloaded using the `extra_data()` function. 
 
 
-```r
+``` r
 extra_data("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
@@ -194,7 +194,7 @@ If you clone the case study repository, you can set it up on GitHub as well with
 Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happygitwithr to learn more.
 
 
-```r
+``` r
 zip_ocs("ocs-bp-opioid-rural-urban", outpath = getwd()) 
 ```
 
@@ -205,7 +205,7 @@ If instead users are familiar with Git and GitHub and want to fork or clone the 
 Again you can also specify the `outpath` location as in the previous description about the `zip_ocs()` function.
 
 
-```r
+``` r
 # clone a repository
 OCSdata::clone_ocs(casestudy = "ocs-bp-diet")
 
@@ -222,27 +222,34 @@ If you'd like to learn more about the `OCSdata` package or the OCS GitHub organi
 
 
 ```
-## R version 4.0.2 (2020-06-22)
+## R version 4.3.2 (2023-10-31)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.3 LTS
+## Running under: Ubuntu 22.04.4 LTS
 ## 
 ## Matrix products: default
-## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
 ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
 ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
 ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
-##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
-##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
-## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
+##  [1] digest_0.6.34   R6_2.5.1        later_1.3.2     bookdown_0.41  
+##  [5] fastmap_1.1.1   xfun_0.48       websocket_1.4.2 magrittr_2.0.3 
+##  [9] knitr_1.48      htmltools_0.5.7 rmarkdown_2.25  ps_1.7.6       
+## [13] promises_1.2.1  cli_3.6.2       processx_3.8.3  webshot2_0.1.1 
+## [17] chromote_0.3.1  compiler_4.3.2  highr_0.11      tools_4.3.2    
+## [21] evaluate_0.23   Rcpp_1.0.12     yaml_2.3.8      jsonlite_1.8.8 
+## [25] rlang_1.1.4
 ```

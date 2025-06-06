@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 1 Introduction | An Educator’s Guide to the Open Case Studies</title>
   <meta name="description" content="Guide for the Open Case Studies Project" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 1 Introduction | An Educator’s Guide to the Open Case Studies" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Guide for the Open Case Studies Project" />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/favicon_ocs.ico" type="image/x-icon" />
 <link rel="prev" href="index.html"/>
 <link rel="next" href="open-case-study-infrastructure.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,8 +47,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -89,11 +88,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
+code span.at { color: #204a87; } /* Attribute */
 code span.bn { color: #0000cf; } /* BaseN */
 code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
+code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #8f5902; font-style: italic; } /* Comment */
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
@@ -102,14 +101,14 @@ code span.dv { color: #0000cf; } /* DecVal */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
 code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
 code span.ot { color: #8f5902; } /* Other */
 code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
 code span.ss { color: #4e9a06; } /* SpecialString */
 code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
@@ -117,6 +116,10 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -265,7 +268,6 @@ div.csl-indent {
 <li class="chapter" data-level="5.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#create-a-case-study"><i class="fa fa-check"></i><b>5.2</b> Create a Case Study</a>
 <ul>
 <li class="chapter" data-level="5.2.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#template-case-study"><i class="fa fa-check"></i><b>5.2.1</b> Template Case Study</a></li>
-<li class="chapter" data-level="5.2.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#makecasestudies-app"><i class="fa fa-check"></i><b>5.2.2</b> MakeCaseStudies App</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#case-study-libraries"><i class="fa fa-check"></i><b>5.3</b> Case Study Libraries</a></li>
 <li class="chapter" data-level="5.4" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#submission-process"><i class="fa fa-check"></i><b>5.4</b> Submission Process</a>
@@ -301,6 +303,26 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W60LHBECW0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-W60LHBECW0');
+  </script>
+      
+  </body>
+  </html>
 <head>
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
@@ -313,10 +335,10 @@ div.csl-indent {
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/opencasestudies/OCS_Guide/raw/main/assets/OCS_long.png">
 </div>
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<div id="learning-objectives" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Learning Objectives</h2>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Introduction<a href="introduction.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-objectives" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Learning Objectives<a href="introduction.html#learning-objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this chapter we will:</p>
 <ul>
 <li>Describe the audience for this guide</li>
@@ -325,12 +347,12 @@ div.csl-indent {
 <li>Introduce the case studies that make up this project</li>
 </ul>
 </div>
-<div id="motivation" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Motivation</h2>
+<div id="motivation" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Motivation<a href="introduction.html#motivation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The <a href="https://www.opencasestudies.org">Open Case Studies project</a>, developed at the <a href="https://jhudatascience.org/">Johns Hopkins Data Science Lab</a>, is an education platform that provides self-contained, multimodal, peer-reviewed, and open-source guides for real-world examples for active experiences of complete data analyses. The intention of this guide is to provide instructors more information about how to make the most of our case studies.</p>
 </div>
-<div id="target-audience" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Target Audience</h2>
+<div id="target-audience" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Target Audience<a href="introduction.html#target-audience" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This guide is intended for educators who are interested in using Open Case Studies for instruction.</p>
 <p>Elements of the case studies can be helpful for instructors who teach:</p>
 <ul>
@@ -348,8 +370,8 @@ div.csl-indent {
 </ul>
 <p>… and more</p>
 </div>
-<div id="curriculum" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Curriculum</h2>
+<div id="curriculum" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Curriculum<a href="introduction.html#curriculum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This guide documents:</p>
 <ul>
 <li>The Open Case Studies philosophy</li>
@@ -360,41 +382,41 @@ div.csl-indent {
 <li>Guidelines for contributing new case studies</li>
 </ul>
 </div>
-<div id="open-case-studies-philosophy" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Open Case Studies Philosophy</h2>
+<div id="open-case-studies-philosophy" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Open Case Studies Philosophy<a href="introduction.html#open-case-studies-philosophy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The Open Case Studies project is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges.</p>
 <p>Case studies of the Open Case Studies project provide independent learners and educators with resources for data science education. The case studies use realistic data from sources that are used for actual research or public health initiatives. Each case study addresses a timely and interesting topic, in an effort to make the material more engaging and relevant.</p>
 <p>Case studies of the project are not intended to show all aspects of the research process, and we do not claim that the analyses show the most appropriate way to analyze a given data set, however case studies are intended to demonstrate the decision making process of real data analyses, the basic challenges of analyses, to show examples of applications of data methods, and to provide context for when such methods could be applied to glean information from data. We hope to demonstrate best practices for mindful data cleaning, reproducibility, and effective data science communication.</p>
 <p>All case study materials are open source and free. We provide transparency about where the data came from and where possible how it was produced. We cover data and data method limitations. We try to be as complete as possible to provide users with all necessary steps to understand the analysis and to provide context, while also maintaining a reasonable length.</p>
 <p>Our case studies can be used for small additional assignments in a classroom setting or as the main content that educators can slowly work through with students.</p>
 <p>We hope you find our case studies useful!</p>
-<p><img src="resources/images/ocs_graphic.png" title="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." alt="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." width="100%" style="display: block; margin: auto;" /></p>
-<div id="what-problem-are-we-addressing" class="section level3" number="1.5.1">
-<h3><span class="header-section-number">1.5.1</span> What problem are we addressing?</h3>
+<p><img src="resources/images/ocs_graphic.png" alt="Open Case Study graphic stating that open case studies provide real-world data analysis examples, that there are over 12 currently, that they are free and open-source, that the github organization is OpenCaseStudies, that the twitter handle is @OpenCaseStudies, and that the website is www.opencasestudies.org. There is a quote that says - it is always so challenging to find datasets that allow students to explore rich and complex questions. The Open Case Studies project provides an absolute gold mine of resources - from a case study reviewer. It also says that case studies are experiential - evaluating real-world problems with realistic data in a hands-on experience, complete - Demonstrating analyses from start to finish emphasizing data prepration, multimodal - including diverse education content including figures, images, videos, gifs and links, interactive - option to use case studies with questions and exercises with real-time feedback, and peer-reviewed - our case studies have been reviewed by subject matter, data science, and statistics experts." width="100%" style="display: block; margin: auto;" /></p>
+<div id="what-problem-are-we-addressing" class="section level3 hasAnchor" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> What problem are we addressing?<a href="introduction.html#what-problem-are-we-addressing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean datasets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.</p>
 </div>
-<div id="problems-with-previously-suggested-solutions" class="section level3" number="1.5.2">
-<h3><span class="header-section-number">1.5.2</span> Problems with previously suggested solutions</h3>
+<div id="problems-with-previously-suggested-solutions" class="section level3 hasAnchor" number="1.5.2">
+<h3><span class="header-section-number">1.5.2</span> Problems with previously suggested solutions<a href="introduction.html#problems-with-previously-suggested-solutions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In 1999, <a href="https://www.stat.berkeley.edu/users/statlabs/">Nolan and Speed</a> argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce. Furthermore they are often open-ended without a single complete full example. This can make it challenging for instructors who are new to these topics or have limited time.</p>
 </div>
-<div id="what-are-we-proposing-as-a-solution" class="section level3" number="1.5.3">
-<h3><span class="header-section-number">1.5.3</span> What are we proposing as a solution?</h3>
+<div id="what-are-we-proposing-as-a-solution" class="section level3 hasAnchor" number="1.5.3">
+<h3><span class="header-section-number">1.5.3</span> What are we proposing as a solution?<a href="introduction.html#what-are-we-proposing-as-a-solution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative <strong>complete</strong> data analyses that can be used in and outside the classroom to teach learners how to effectively derive knowledge from data. Our case studies have successfully been used to teach data science and statistics courses to graduate and undergraduate students at:</p>
 <ul>
 <li><a href="https://jhu-advdatasci.github.io/2018/">Johns Hopkins Bloomberg School of Public Health</a></li>
 <li><a href="https://www.jhu.edu/">Johns Hopkins University</a></li>
 <li><a href="https://www.ucsb.edu/">University of California Santa Barbara</a></li>
 </ul>
-<p>If you’d like to learn more about the Open Case Studies you can read this <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> by former graduate student <a href="https://mbreshock.github.io/">Michael Breshock</a> <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021" role="doc-biblioref">2021</a>)</span>.</p>
+<p>If you’d like to learn more about the Open Case Studies you can read this <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> by former graduate student <a href="https://mbreshock.github.io/">Michael Breshock</a> <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021">2021</a>)</span>.</p>
 </div>
 </div>
-<div id="open-case-studies-anatomy" class="section level2" number="1.6">
-<h2><span class="header-section-number">1.6</span> Open Case Studies Anatomy</h2>
-<p><img src="resources/images/ocs_anatomy.png" title="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" alt="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" width="100%" style="display: block; margin: auto;" /></p>
+<div id="open-case-studies-anatomy" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> Open Case Studies Anatomy<a href="introduction.html#open-case-studies-anatomy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="resources/images/ocs_anatomy.png" alt="Illustration of Open Case Studies anatomy, where there are three panels showing the components of the three main stages of a case study: Getting Started, 2. Analyzing the Data, 3. Wrapping-Up. Getting started includes case study context, study motivation, main question, learning objectives, and study limitations. Analyzing the data includes data description, import and exploration, wrangling, visualization, and analysis. Wrapping-up includes analysis conclusions, case study summary, next steps, homework, and additional information" width="100%" style="display: block; margin: auto;" /></p>
 <p>Case studies are designed to be self-contained examples of complete data analyses. They start with a subject area of interest and a problem definition.</p>
 <p>Each case study is composed of three main stages:</p>
-<div id="stage-1-getting-started" class="section level3" number="1.6.1">
-<h3><span class="header-section-number">1.6.1</span> Stage 1: Getting Started</h3>
+<div id="stage-1-getting-started" class="section level3 hasAnchor" number="1.6.1">
+<h3><span class="header-section-number">1.6.1</span> Stage 1: Getting Started<a href="introduction.html#stage-1-getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In the first stage, students learn about the subject area they will be investigating in their data analysis. This can include historical perspectives, previous literature, and current overarching questions in the field. Ideally, this will provide motivation as to why the data analysis they will be performing is interesting and useful. Students will then further refine questions of interest and define a specific question to be investigated by the data at hand. This question will define the statistical and data science learning objectives for the case study. Finally, students will explore the limitations of their investigation and discuss why their data analysis may or may not be able to fully answer the main question of interest.</p>
 <ul>
 <li>Case study context</li>
@@ -404,8 +426,8 @@ div.csl-indent {
 <li>Study limitations</li>
 </ul>
 </div>
-<div id="stage-2-analyzing-the-data" class="section level3" number="1.6.2">
-<h3><span class="header-section-number">1.6.2</span> Stage 2: Analyzing the Data</h3>
+<div id="stage-2-analyzing-the-data" class="section level3 hasAnchor" number="1.6.2">
+<h3><span class="header-section-number">1.6.2</span> Stage 2: Analyzing the Data<a href="introduction.html#stage-2-analyzing-the-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the format needed for analysis. The cleaned data can then be visualized and analyzed to answer the study question.</p>
 <ul>
 <li>Data description</li>
@@ -415,8 +437,8 @@ div.csl-indent {
 <li>Analysis</li>
 </ul>
 </div>
-<div id="stage-3-wrapping-up" class="section level3" number="1.6.3">
-<h3><span class="header-section-number">1.6.3</span> Stage 3: Wrapping-Up</h3>
+<div id="stage-3-wrapping-up" class="section level3 hasAnchor" number="1.6.3">
+<h3><span class="header-section-number">1.6.3</span> Stage 3: Wrapping-Up<a href="introduction.html#stage-3-wrapping-up" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In the final stage of the case study, students synthesize conclusions to the main study question based on the results of their data analysis. They summarize the data exploration and analysis steps they took and discuss potential next steps they could take based on their results. Finally, additional analyses are suggested as homework and additional information relevant to the case study is provided.</p>
 <ul>
 <li>Analysis conclusions</li>
@@ -425,10 +447,10 @@ div.csl-indent {
 <li>Homework</li>
 </ul>
 </div>
-<div id="table-of-contents" class="section level3" number="1.6.4">
-<h3><span class="header-section-number">1.6.4</span> Table of Contents</h3>
+<div id="table-of-contents" class="section level3 hasAnchor" number="1.6.4">
+<h3><span class="header-section-number">1.6.4</span> Table of Contents<a href="introduction.html#table-of-contents" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This anatomy is reflected in the table of contents of case study sections:</p>
-<p><img src="resources/images/OCS_TOC_anatomy.png" title="Open Case Study Anatomy in the Table of Contents" alt="Open Case Study Anatomy in the Table of Contents" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/OCS_TOC_anatomy.png" alt="Open Case Study Anatomy in the Table of Contents" width="100%" style="display: block; margin: auto;" /></p>
 <p><br></p>
 <table>
 <colgroup>
@@ -502,15 +524,15 @@ div.csl-indent {
 </table>
 <p><br></p>
 <p>The table of contents can be used to navigate to specific sections in a case study:</p>
-<iframe src="https://www.youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px">
+<iframe src="https://www.youtube.com/embed/j-I0Zgicjsk" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
 </div>
-<div id="starter-kit" class="section level2" number="1.7">
-<h2><span class="header-section-number">1.7</span> Starter Kit</h2>
+<div id="starter-kit" class="section level2 hasAnchor" number="1.7">
+<h2><span class="header-section-number">1.7</span> Starter Kit<a href="introduction.html#starter-kit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Open Case Studies are designed to be beginner friendly. Users can work through an entire case study with no prerequisite knowledge in programming, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is required. This section will detail what students will need to be able to jump into a case study.</p>
-<div id="technical-requirements" class="section level3" number="1.7.1">
-<h3><span class="header-section-number">1.7.1</span> Technical Requirements</h3>
+<div id="technical-requirements" class="section level3 hasAnchor" number="1.7.1">
+<h3><span class="header-section-number">1.7.1</span> Technical Requirements<a href="introduction.html#technical-requirements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the <a href="https://cran.r-project.org/">The Comprehensive R Archive Network (CRAN)</a>. While there is no specific R version requirement for the case studies, the <a href="https://github.com/opencasestudies/OCSdata"><code>OCSdata</code></a> package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.</p>
 <p>Cheat sheets detailing how to use common packages and functions are available at the <a href="https://www.rstudio.com/resources/cheatsheets/">RStudio website</a>.</p>
 <p>Please note that to install R version 3.5 and higher you will need to have a <a href="https://en.wikipedia.org/wiki/Web_browser">web browser</a> and a compatible <a href="https://en.wikipedia.org/wiki/Operating_system">operating system</a>. See this <a href="https://cran.r-project.org/">link</a> for more information.</p>
@@ -576,42 +598,42 @@ div.csl-indent {
 </table>
 <p>These compilation times were measured on a PC machine operating on Windows 10. The ranges listed should only be used as estimates as compilation time will vary with different machines and operating systems.</p>
 </div>
-<div id="rstudio" class="section level3" number="1.7.2">
-<h3><span class="header-section-number">1.7.2</span> RStudio</h3>
+<div id="rstudio" class="section level3 hasAnchor" number="1.7.2">
+<h3><span class="header-section-number">1.7.2</span> RStudio<a href="introduction.html#rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To work with R, we recommend the RStudio Integrated Development Environment. RStudio includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server. More information and program installation instruction are available at the <a href="https://www.rstudio.com/products/rstudio/">RStudio website</a>.</p>
 <p>For reproducible data analyses and easy publishing of reports and presentations, we recommend using RMarkdown. More information about RMarkdown is also available at the <a href="https://rmarkdown.rstudio.com/index.html">RStudio website</a>.</p>
 </div>
-<div id="github" class="section level3" number="1.7.3">
-<h3><span class="header-section-number">1.7.3</span> GitHub</h3>
+<div id="github" class="section level3 hasAnchor" number="1.7.3">
+<h3><span class="header-section-number">1.7.3</span> GitHub<a href="introduction.html#github" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Open Case Studies is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our <a href="https://github.com/opencasestudies">OCS GitHub page</a> where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. While GitHub is not needed for users to access the case studies, users can use GitHub to streamline download and modification of case studies. Check out the GitHub Organization and OCSdata sections in <a href="https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html">Chapter 2</a> for more details on how to use GitHub to access case studies and modify content for personalized use. An introduction on how to get started with GitHub is available at <a href="https://happygitwithr.com/index.html">Happy Git</a>.</p>
 </div>
 </div>
-<div id="feedback" class="section level2" number="1.8">
-<h2><span class="header-section-number">1.8</span> Feedback</h2>
+<div id="feedback" class="section level2 hasAnchor" number="1.8">
+<h2><span class="header-section-number">1.8</span> Feedback<a href="introduction.html#feedback" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We are continually working to improve the Open Case Studies project to address learner and educator needs. Feedback is essential for this goal. If you use Open Case Studies material, we would love to hear from you!</p>
-<div id="survey" class="section level3" number="1.8.1">
-<h3><span class="header-section-number">1.8.1</span> Survey</h3>
+<div id="survey" class="section level3 hasAnchor" number="1.8.1">
+<h3><span class="header-section-number">1.8.1</span> Survey<a href="introduction.html#survey" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Please consider participating in our <a href="https://www.opencasestudies.org/#survey">user experience survey</a>.</p>
 <p>We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom.</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="672" height="400px">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true" width="672" height="400px" data-external="1">
 </iframe>
 </div>
-<div id="feedback-for-this-guide" class="section level3" number="1.8.2">
-<h3><span class="header-section-number">1.8.2</span> Feedback for this Guide</h3>
+<div id="feedback-for-this-guide" class="section level3 hasAnchor" number="1.8.2">
+<h3><span class="header-section-number">1.8.2</span> Feedback for this Guide<a href="introduction.html#feedback-for-this-guide" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you have feedback for this guide about how we can improve the content, please see <a href="https://github.com/opencasestudies/OCS_Guide/issues/new/choose">here</a>.</p>
 </div>
 </div>
-<div id="contact-us" class="section level2" number="1.9">
-<h2><span class="header-section-number">1.9</span> Contact Us</h2>
+<div id="contact-us" class="section level2 hasAnchor" number="1.9">
+<h2><span class="header-section-number">1.9</span> Contact Us<a href="introduction.html#contact-us" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>If you have any questions, suggestions for improvement for individual case studies, ideas, or thoughts, you can contact us through email using this form:</p>
-<iframe src="https://www.opencasestudies.org/#contact" width="672" height="400px">
+<iframe src="https://www.opencasestudies.org/#contact" width="672" height="400px" data-external="1">
 </iframe>
 <p>Also, see the <a href="https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html">final chapter</a> for information on submitting case studies to our collection.</p>
 <p>You can also find us on Twitter with the following handle: <a href="https://twitter.com/opencasestudies"><code>@OpenCaseStudies</code></a></p>
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-breshock_expanding_2021" class="csl-entry">
 Breshock, Michael Robert. 2021. <span>“<span>EXPANDING</span> <span>ACCESS</span> <span>AND</span> <span>REMOVING</span> <span>BARRIERS</span>: <span>DATA</span> <span>SCIENCE</span> <span>EDUCATION</span> <span>WITH</span> <span>THE</span> <span>OPEN</span> <span>CASE</span> <span>STUDIES</span> <span>DIGITAL</span> <span>PLATFORM</span>.”</span> Thesis, Johns Hopkins University. <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">https://jscholarship.library.jhu.edu/handle/1774.2/66820</a>.

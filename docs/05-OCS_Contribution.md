@@ -6,13 +6,13 @@
 ## Learning Objectives
 
 In this chapter we will discuss:
-- Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template) or [app](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/)
-- Our two case study submission options
+- Creating your own case study with our [template](https://github.com/opencasestudies/ocs-bp-template)
+<!-- - Creating your own case study with our [app](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) -->
 - The guidelines for how to publish your own case studies as part of our project
 
 ## Create a Case Study
 
-Open Case Studies offers two options for creating a case study. The first method is a template repository available on GitHub. The second is a new live web application. The first option offers more customization, while the second is much more fast and simple. These methods are free for all to use. If you'd like to create a case study to contribute to the Open Case Studies, using one of these methods is recommended, but not required.
+<!-- Open Case Studies offers two options for creating a case study. The first method is a template repository available on GitHub. The second is a new live web application. The first option offers more customization, while the second is much more fast and simple. These methods are free for all to use. If you'd like to create a case study to contribute to the Open Case Studies, using one of these methods is recommended, but not required. -->
 
 ### Template Case Study
 
@@ -33,18 +33,20 @@ All of these steps are demonstrated in the following video:
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/rP5E7GohTiI" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/rP5E7GohTiI" width="100%" height="400px" data-external="1"></iframe>
 
-### MakeCaseStudies App
+<!-- ### MakeCaseStudies App -->
 
-Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app as an option for our users to create their own case studies. The app has an easy-to-use interface where users can copy and paste their content into text boxes on the "Create" tab and check the "Preview" tab to see what they’ve made so far. Once satisfied, click the download button to export your finished case study! (This is currently being rehosted so the URL will not work!)
+<!-- Open Case Studies now also offers the [MakeCaseStudies](https://rsconnect.biostat.jhsph.edu/MakeCaseStudies/) app as an option for our users to create their own case studies. The app has an easy-to-use interface where users can copy and paste their content into text boxes on the "Create" tab and check the "Preview" tab to see what they’ve made so far. Once satisfied, click the download button to export your finished case study! (This is currently being rehosted so the URL will not work!) -->
 
-Watch the following video to learn more about creating case studies with the MakeCaseStudies app:
+<!-- Watch the following video to learn more about creating case studies with the MakeCaseStudies app: -->
 
-<iframe src="https://www.youtube.com/embed/Dd4KASCIsNc" width="100%" height="400px"></iframe>
+<!-- ```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"} -->
+<!-- knitr::include_url("https://www.youtube.com/embed/Dd4KASCIsNc") -->
+<!-- ``` -->
 
 If you'd like to learn more about MakeCaseStudies, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
@@ -160,27 +162,34 @@ This diagram is from former graduate student [Michael Breshock's](https://mbresh
 
 
 ```
-## R version 4.0.2 (2020-06-22)
+## R version 4.3.2 (2023-10-31)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.3 LTS
+## Running under: Ubuntu 22.04.4 LTS
 ## 
 ## Matrix products: default
-## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
 ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
 ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
 ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
-##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
-##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
-## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
+##  [1] digest_0.6.34   R6_2.5.1        later_1.3.2     bookdown_0.41  
+##  [5] fastmap_1.1.1   xfun_0.48       websocket_1.4.2 magrittr_2.0.3 
+##  [9] knitr_1.48      htmltools_0.5.7 rmarkdown_2.25  ps_1.7.6       
+## [13] promises_1.2.1  cli_3.6.2       processx_3.8.3  webshot2_0.1.1 
+## [17] chromote_0.3.1  compiler_4.3.2  highr_0.11      tools_4.3.2    
+## [21] evaluate_0.23   Rcpp_1.0.12     yaml_2.3.8      jsonlite_1.8.8 
+## [25] rlang_1.1.4
 ```

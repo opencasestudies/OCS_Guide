@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Open Case Study Infrastructure | An Educator’s Guide to the Open Case Studies</title>
   <meta name="description" content="Guide for the Open Case Studies Project" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Open Case Study Infrastructure | An Educator’s Guide to the Open Case Studies" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Guide for the Open Case Studies Project" />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/favicon_ocs.ico" type="image/x-icon" />
 <link rel="prev" href="introduction.html"/>
 <link rel="next" href="use-of-open-case-studies.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,8 +47,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -89,11 +88,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
+code span.at { color: #204a87; } /* Attribute */
 code span.bn { color: #0000cf; } /* BaseN */
 code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
+code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #8f5902; font-style: italic; } /* Comment */
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
@@ -102,14 +101,14 @@ code span.dv { color: #0000cf; } /* DecVal */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
 code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
 code span.ot { color: #8f5902; } /* Other */
 code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
 code span.ss { color: #4e9a06; } /* SpecialString */
 code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
@@ -117,6 +116,10 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -265,7 +268,6 @@ div.csl-indent {
 <li class="chapter" data-level="5.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#create-a-case-study"><i class="fa fa-check"></i><b>5.2</b> Create a Case Study</a>
 <ul>
 <li class="chapter" data-level="5.2.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#template-case-study"><i class="fa fa-check"></i><b>5.2.1</b> Template Case Study</a></li>
-<li class="chapter" data-level="5.2.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#makecasestudies-app"><i class="fa fa-check"></i><b>5.2.2</b> MakeCaseStudies App</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#case-study-libraries"><i class="fa fa-check"></i><b>5.3</b> Case Study Libraries</a></li>
 <li class="chapter" data-level="5.4" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#submission-process"><i class="fa fa-check"></i><b>5.4</b> Submission Process</a>
@@ -301,6 +303,26 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W60LHBECW0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-W60LHBECW0');
+  </script>
+      
+  </body>
+  </html>
 <head>
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
@@ -313,10 +335,10 @@ div.csl-indent {
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/opencasestudies/OCS_Guide/raw/main/assets/OCS_long.png">
 </div>
-<div id="open-case-study-infrastructure" class="section level1" number="2">
-<h1><span class="header-section-number">Chapter 2</span> Open Case Study Infrastructure</h1>
-<div id="learning-objectives-1" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Learning Objectives</h2>
+<div id="open-case-study-infrastructure" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Open Case Study Infrastructure<a href="open-case-study-infrastructure.html#open-case-study-infrastructure" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-objectives-1" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Learning Objectives<a href="open-case-study-infrastructure.html#learning-objectives-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:</p>
 <ul>
 <li>The Open Case Studies (OCS) website</li>
@@ -326,38 +348,38 @@ div.csl-indent {
 <li>Our R package called <code>OCSdata</code></li>
 </ul>
 </div>
-<div id="ocs-website" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> OCS Website</h2>
-<p><img src="resources/images/OCSwebsite.png" title="Open Case Studies Website Landing Page" alt="Open Case Studies Website Landing Page" width="100%" style="display: block; margin: auto;" /></p>
+<div id="ocs-website" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> OCS Website<a href="open-case-study-infrastructure.html#ocs-website" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="resources/images/OCSwebsite.png" alt="Open Case Studies Website Landing Page" width="100%" style="display: block; margin: auto;" /></p>
 <p>The <a href="https://www.opencasestudies.org/">OpenCaseStudies website</a> describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information.</p>
 <p>Links to all of our case studies can be found on the Open Case Studies website. The case studies are listed in a searchable table that will be detailed further in the following section.</p>
 </div>
-<div id="feedback-1" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> Feedback</h2>
+<div id="feedback-1" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Feedback<a href="open-case-study-infrastructure.html#feedback-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We are continually striving to make our case studies better. Please contact us if you have ideas for suggestions for the project or new ideas for how case studies can be used in the classroom.</p>
 <p>Also please let us know if you notice typos or errors, or if you are interested in getting involved.</p>
-<div id="email-form" class="section level3" number="2.3.1">
-<h3><span class="header-section-number">2.3.1</span> Email Form</h3>
+<div id="email-form" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Email Form<a href="open-case-study-infrastructure.html#email-form" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The website contains a contact <a href="https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us">email form</a> that may be used to send a message to Open Case Studies to ask a question or provide suggestions.</p>
 </div>
-<div id="survey-1" class="section level3" number="2.3.2">
-<h3><span class="header-section-number">2.3.2</span> Survey</h3>
+<div id="survey-1" class="section level3 hasAnchor" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Survey<a href="open-case-study-infrastructure.html#survey-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There is also a <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link">survey</a> available on our website and also within the case studies themselves that allows us to do research on case study use.</p>
 <p>The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!</p>
 </div>
 </div>
-<div id="ocs-case-study-search-tool" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> OCS Case Study Search Tool</h2>
+<div id="ocs-case-study-search-tool" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> OCS Case Study Search Tool<a href="open-case-study-infrastructure.html#ocs-case-study-search-tool" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.</p>
 <p>This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.</p>
-<p><img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" title="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" width="100%" style="display: block; margin: auto;" /></p>
-<div id="interactive-case-studies" class="section level3" number="2.4.1">
-<h3><span class="header-section-number">2.4.1</span> Interactive Case Studies</h3>
+<p><img src="resources/images/OCS_GitHub_Repository_Diagram_Draft3.png" alt="Diagram illustrating how to access case studies and their source material through the Open Case Studies website and search table" width="100%" style="display: block; margin: auto;" /></p>
+<div id="interactive-case-studies" class="section level3 hasAnchor" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Interactive Case Studies<a href="open-case-study-infrastructure.html#interactive-case-studies" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The interactive versions of the case studies are a recent development. These versions include live tutorials through quizzes and interactive coding exercises with real-time feedback. The interactive case studies were made using the <a href="https://rstudio.github.io/learnr/"><code>learnr</code></a> and <a href="https://pkgs.rstudio.com/gradethis/"><code>gradethis</code></a> packages.</p>
 <p>If you’d like to learn more about the interactive case studies, graduate student <a href="https://www.opencasestudies.org/authors/qmeng/">Qier Meng</a> discusses the interactive versions in further detail in the video below:</p>
-<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px">
+<iframe src="https://www.youtube.com/embed/fVeaVm9g6Kg" width="100%" height="400px" data-external="1">
 </iframe>
-<p>If you’d like to learn more about the interactive case studies you can read this <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> by former graduate student <a href="https://mbreshock.github.io/">Michael Breshock</a> <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021" role="doc-biblioref">2021</a>)</span>.</p>
+<p>If you’d like to learn more about the interactive case studies you can read this <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> by former graduate student <a href="https://mbreshock.github.io/">Michael Breshock</a> <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021">2021</a>)</span>.</p>
 <p>The <a href="https://www.opencasestudies.org/#searchtab">Open Case Study Search</a> tool can be found at the bottom of the <a href="https://www.opencasestudies.org/">OCS Website</a>. The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:</p>
 <ul>
 <li>The “Case Study” column contains the case study name and a link to the static and interactive versions of the case study (if available)</li>
@@ -368,24 +390,29 @@ div.csl-indent {
 </ul>
 <p>The main two columns likely to be helpful in identifying appropriate case studies are the “Packages” and “Objectives” columns. Users may search for keywords across all columns using the overall search bar, otherwise users can search individual columns of interest.</p>
 <p>This table can be used to access all case study resources:</p>
-<p><img src="resources/images/searchtable.png" title="Open Case Studies Searchable Table" alt="Open Case Studies Searchable Table" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/searchtable.png" alt="Open Case Studies Searchable Table" width="100%" style="display: block; margin: auto;" /></p>
 <p>This video provides a live demonstration on how to use the search tool:</p>
-<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px">
+<iframe src="https://www.youtube.com/embed/OHqamzlrnaw" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
 </div>
-<div id="open-case-studies-github-organization" class="section level2" number="2.5">
-<h2><span class="header-section-number">2.5</span> Open Case Studies GitHub Organization</h2>
+<div id="open-case-studies-github-organization" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Open Case Studies GitHub Organization<a href="open-case-study-infrastructure.html#open-case-studies-github-organization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our <a href="https://github.com/opencasestudies">OCS GitHub page</a> where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use.</p>
 <p>Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:</p>
-<p><img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" title="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/OCS_GitHub_Data_Directory_Diagram_Final.png" alt="Diagram explaining the case study data folder structure and how data is categorized into different sub-folders" width="100%" style="display: block; margin: auto;" /></p>
 <p>Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the <code>OCSdata</code> R package described below.</p>
 </div>
-<div id="ocsdata" class="section level2" number="2.6">
-<h2><span class="header-section-number">2.6</span> OCSdata</h2>
+<div id="ocsdata" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> OCSdata<a href="open-case-study-infrastructure.html#ocsdata" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To simplify the process of accessing the data required for each case study, we have created the <code>OCSdata</code> R package. Briefly, the <code>OCSdata</code> package creates a new folder called “OCSdata” where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the <code>OCSdata</code> package also downloads extra source data that is not used in the case study.</p>
 <p>The following are the main functions to import data in various formats using the <code>OCSdata</code> package. Each function is described in more detail in the <code>OCSdata</code> <a href="https://cran.r-project.org/web/packages/OCSdata/index.html">package documentation</a>.</p>
-<table>
+<table style="width:100%;">
+<colgroup>
+<col width="26%" />
+<col width="42%" />
+<col width="31%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Data Folder</th>
@@ -422,99 +449,105 @@ div.csl-indent {
 </tbody>
 </table>
 <p>The package source files and documentation are also available on <a href="https://github.com/opencasestudies/OCSdata">GitHub</a>.</p>
-<div id="getting-started-with-ocsdata" class="section level3" number="2.6.1">
-<h3><span class="header-section-number">2.6.1</span> Getting Started with <code>OCSdata</code></h3>
+<div id="getting-started-with-ocsdata" class="section level3 hasAnchor" number="2.6.1">
+<h3><span class="header-section-number">2.6.1</span> Getting Started with <code>OCSdata</code><a href="open-case-study-infrastructure.html#getting-started-with-ocsdata" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <code>OCSdata</code> package is available on the package repository <a href="https://cran.r-project.org/web/packages/OCSdata/index.html">CRAN</a>. It requires R 3.5 or higher and can be installed in R as follows:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="open-case-study-infrastructure.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;OCSdata&quot;</span>) <span class="co">#only run once to install package</span></span>
-<span id="cb1-2"><a href="open-case-study-infrastructure.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(OCSdata) <span class="co">#run every new R session to load package</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="open-case-study-infrastructure.html#cb1-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;OCSdata&quot;</span>) <span class="co">#only run once to install package</span></span>
+<span id="cb1-2"><a href="open-case-study-infrastructure.html#cb1-2" tabindex="-1"></a><span class="fu">library</span>(OCSdata) <span class="co">#run every new R session to load package</span></span></code></pre></div>
 </div>
-<div id="downloading-raw-data" class="section level3" number="2.6.2">
-<h3><span class="header-section-number">2.6.2</span> Downloading raw data</h3>
+<div id="downloading-raw-data" class="section level3 hasAnchor" number="2.6.2">
+<h3><span class="header-section-number">2.6.2</span> Downloading raw data<a href="open-case-study-infrastructure.html#downloading-raw-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <code>raw_data</code> function will download the raw data files that can be imported into R.</p>
 <p>The first argument is the name of the case study. A list of case study names can be found in the package documentation <a href="https://cran.r-project.org/web/packages/OCSdata/vignettes/instructions.html#casestudy">online</a> or by typing <code>?raw_data</code> in R.</p>
 <p>The <code>outpath</code> argument is a string specifying the folder where the data should be downloaded. To download the data to a folder named “OCS_data” in the current working directory, you can supply <code>getwd()</code> to the <code>output</code> argument. If nothing is provided for the argument, you will be prompted to enter 1, 2, or 3 to download the data into the current director, to specify the download path, or to cancel, respectively.</p>
 <p>In the following example, we download the raw data for the “Opioids in the United States” case study to the current directory.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="open-case-study-infrastructure.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">raw_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="open-case-study-infrastructure.html#cb2-1" tabindex="-1"></a><span class="fu">raw_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
 </div>
-<div id="downloading-data-in-other-formats" class="section level3" number="2.6.3">
-<h3><span class="header-section-number">2.6.3</span> Downloading data in other formats</h3>
+<div id="downloading-data-in-other-formats" class="section level3 hasAnchor" number="2.6.3">
+<h3><span class="header-section-number">2.6.3</span> Downloading data in other formats<a href="open-case-study-infrastructure.html#downloading-data-in-other-formats" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <code>OCSdata</code> package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.</p>
-<div id="simpler-import" class="section level4" number="2.6.3.1">
-<h4><span class="header-section-number">2.6.3.1</span> Simpler import</h4>
+<div id="simpler-import" class="section level4 hasAnchor" number="2.6.3.1">
+<h4><span class="header-section-number">2.6.3.1</span> Simpler import<a href="open-case-study-infrastructure.html#simpler-import" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The <code>simpler_import_data()</code> function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="open-case-study-infrastructure.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">simpler_import_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="open-case-study-infrastructure.html#cb3-1" tabindex="-1"></a><span class="fu">simpler_import_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>())</span></code></pre></div>
 </div>
-<div id="importing-data-as-r-objects" class="section level4" number="2.6.3.2">
-<h4><span class="header-section-number">2.6.3.2</span> Importing data as R objects</h4>
+<div id="importing-data-as-r-objects" class="section level4 hasAnchor" number="2.6.3.2">
+<h4><span class="header-section-number">2.6.3.2</span> Importing data as R objects<a href="open-case-study-infrastructure.html#importing-data-as-r-objects" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The <code>imported_data()</code> function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the <code>load()</code> function as follows.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="open-case-study-infrastructure.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">imported_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) <span class="co">#download data in .rda format </span></span>
-<span id="cb4-2"><a href="open-case-study-infrastructure.html#cb4-2" aria-hidden="true" tabindex="-1"></a>file_path <span class="ot">=</span> <span class="st">&quot;~/OCS_data/data/imported/land_area.rda&quot;</span> <span class="co">#specify download directory </span></span>
-<span id="cb4-3"><a href="open-case-study-infrastructure.html#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(file_path) <span class="co">#load R objects </span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="open-case-study-infrastructure.html#cb4-1" tabindex="-1"></a><span class="fu">imported_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) <span class="co">#download data in .rda format </span></span>
+<span id="cb4-2"><a href="open-case-study-infrastructure.html#cb4-2" tabindex="-1"></a>file_path <span class="ot">=</span> <span class="st">&quot;~/OCS_data/data/imported/land_area.rda&quot;</span> <span class="co">#specify download directory </span></span>
+<span id="cb4-3"><a href="open-case-study-infrastructure.html#cb4-3" tabindex="-1"></a><span class="fu">load</span>(file_path) <span class="co">#load R objects </span></span></code></pre></div>
 </div>
-<div id="importing-wrangled-data" class="section level4" number="2.6.3.3">
-<h4><span class="header-section-number">2.6.3.3</span> Importing wrangled data</h4>
+<div id="importing-wrangled-data" class="section level4 hasAnchor" number="2.6.3.3">
+<h4><span class="header-section-number">2.6.3.3</span> Importing wrangled data<a href="open-case-study-infrastructure.html#importing-wrangled-data" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The following functions will download the data files that have already been wrangled and are ready to be analyzed. These come in both .csv and .rda formats.</p>
 <p>Download as csv files:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="open-case-study-infrastructure.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wrangled_csv</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="open-case-study-infrastructure.html#cb5-1" tabindex="-1"></a><span class="fu">wrangled_csv</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 <p>Downloading as R objects:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="open-case-study-infrastructure.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wrangled_rda</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="open-case-study-infrastructure.html#cb6-1" tabindex="-1"></a><span class="fu">wrangled_rda</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
 </div>
-<div id="downloading-extra-data" class="section level3" number="2.6.4">
-<h3><span class="header-section-number">2.6.4</span> Downloading extra data</h3>
+<div id="downloading-extra-data" class="section level3 hasAnchor" number="2.6.4">
+<h3><span class="header-section-number">2.6.4</span> Downloading extra data<a href="open-case-study-infrastructure.html#downloading-extra-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data but can This data can be downloaded using the <code>extra_data()</code> function.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="open-case-study-infrastructure.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">extra_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="open-case-study-infrastructure.html#cb7-1" tabindex="-1"></a><span class="fu">extra_data</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
-<div id="downloading-all-case-study-data" class="section level3" number="2.6.5">
-<h3><span class="header-section-number">2.6.5</span> Downloading all case study data</h3>
+<div id="downloading-all-case-study-data" class="section level3 hasAnchor" number="2.6.5">
+<h3><span class="header-section-number">2.6.5</span> Downloading all case study data<a href="open-case-study-infrastructure.html#downloading-all-case-study-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <code>zip_ocs()</code> function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are familiar with Git and GitHub), as this will not result in the user getting all of our git history.</p>
 <p>If you choose to fork the repository you will automatically generate a repository on GitHub and your repository will have connections to the original case study. This can be helpful for pulling any changes to the original case study. It can also be helpful if you want to send edits to the original case study in the form of what is called a pull request.</p>
 <p>If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.</p>
-<p>Again, don’t worry if all these terms are new to you. You can just use the <code>zip_ocs()</code> function instead. Otherwise take a look at <span class="citation">Hester (<a href="#ref-happygitwithr" role="doc-biblioref">n.d.</a>)</span> to learn more.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="open-case-study-infrastructure.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">zip_ocs</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
+<p>Again, don’t worry if all these terms are new to you. You can just use the <code>zip_ocs()</code> function instead. Otherwise take a look at <span class="citation">Hester (<a href="#ref-happygitwithr">n.d.</a>)</span> to learn more.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="open-case-study-infrastructure.html#cb8-1" tabindex="-1"></a><span class="fu">zip_ocs</span>(<span class="st">&quot;ocs-bp-opioid-rural-urban&quot;</span>, <span class="at">outpath =</span> <span class="fu">getwd</span>()) </span></code></pre></div>
 </div>
-<div id="fork-or-clone-the-case-study-repository" class="section level3" number="2.6.6">
-<h3><span class="header-section-number">2.6.6</span> Fork or clone the case study repository</h3>
+<div id="fork-or-clone-the-case-study-repository" class="section level3 hasAnchor" number="2.6.6">
+<h3><span class="header-section-number">2.6.6</span> Fork or clone the case study repository<a href="open-case-study-infrastructure.html#fork-or-clone-the-case-study-repository" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the <code>OCSdata</code> package. The <code>clone_ocs()</code> function of the <code>OCSdata</code> package can be used to do either. If the <code>fork_repo</code> function is set to <code>TRUE</code> it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.</p>
 <p>Again you can also specify the <code>outpath</code> location as in the previous description about the <code>zip_ocs()</code> function.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="open-case-study-infrastructure.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># clone a repository</span></span>
-<span id="cb9-2"><a href="open-case-study-infrastructure.html#cb9-2" aria-hidden="true" tabindex="-1"></a>OCSdata<span class="sc">::</span><span class="fu">clone_ocs</span>(<span class="at">casestudy =</span> <span class="st">&quot;ocs-bp-diet&quot;</span>)</span>
-<span id="cb9-3"><a href="open-case-study-infrastructure.html#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="open-case-study-infrastructure.html#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co">#fork a repository</span></span>
-<span id="cb9-5"><a href="open-case-study-infrastructure.html#cb9-5" aria-hidden="true" tabindex="-1"></a>OCSdata<span class="sc">::</span><span class="fu">clone_ocs</span>(<span class="at">casestudy =</span> <span class="st">&quot;ocs-bp-diet&quot;</span>, <span class="at">fork_repo =</span> <span class="st">&quot;TRUE&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="open-case-study-infrastructure.html#cb9-1" tabindex="-1"></a><span class="co"># clone a repository</span></span>
+<span id="cb9-2"><a href="open-case-study-infrastructure.html#cb9-2" tabindex="-1"></a>OCSdata<span class="sc">::</span><span class="fu">clone_ocs</span>(<span class="at">casestudy =</span> <span class="st">&quot;ocs-bp-diet&quot;</span>)</span>
+<span id="cb9-3"><a href="open-case-study-infrastructure.html#cb9-3" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="open-case-study-infrastructure.html#cb9-4" tabindex="-1"></a><span class="co">#fork a repository</span></span>
+<span id="cb9-5"><a href="open-case-study-infrastructure.html#cb9-5" tabindex="-1"></a>OCSdata<span class="sc">::</span><span class="fu">clone_ocs</span>(<span class="at">casestudy =</span> <span class="st">&quot;ocs-bp-diet&quot;</span>, <span class="at">fork_repo =</span> <span class="st">&quot;TRUE&quot;</span>)</span></code></pre></div>
 <p>However, using these functions will involve the users getting all of our git history so we suggest that users use the <code>zip_ocs()</code> function (described in the above section) of <code>OCSdata</code> instead.</p>
-<p>If you’d like to learn more about the <code>OCSdata</code> package or the OCS GitHub organization page, you can read this <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> by former graduate student <a href="https://mbreshock.github.io/">Michael Breshock</a> <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021" role="doc-biblioref">2021</a>)</span>.</p>
+<p>If you’d like to learn more about the <code>OCSdata</code> package or the OCS GitHub organization page, you can read this <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">thesis</a> by former graduate student <a href="https://mbreshock.github.io/">Michael Breshock</a> <span class="citation">Breshock (<a href="#ref-breshock_expanding_2021">2021</a>)</span>.</p>
 </div>
 </div>
-<div id="session-info" class="section level2" number="2.7">
-<h2><span class="header-section-number">2.7</span> Session info</h2>
-<pre><code>## R version 4.0.2 (2020-06-22)
+<div id="session-info" class="section level2 hasAnchor" number="2.7">
+<h2><span class="header-section-number">2.7</span> Session info<a href="open-case-study-infrastructure.html#session-info" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>## R version 4.3.2 (2023-10-31)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.3 LTS
+## Running under: Ubuntu 22.04.4 LTS
 ## 
 ## Matrix products: default
-## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
 ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
 ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
 ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
-##  [5] tools_4.0.2     yaml_2.2.1      jquerylib_0.1.4 stringi_1.5.3  
-##  [9] rmarkdown_2.10  highr_0.8       knitr_1.33      stringr_1.4.0  
-## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14</code></pre>
+##  [1] digest_0.6.34   R6_2.5.1        bookdown_0.41   fastmap_1.1.1  
+##  [5] xfun_0.48       cachem_1.0.8    knitr_1.48      htmltools_0.5.7
+##  [9] rmarkdown_2.25  lifecycle_1.0.4 cli_3.6.2       sass_0.4.8     
+## [13] jquerylib_0.1.4 compiler_4.3.2  highr_0.11      tools_4.3.2    
+## [17] evaluate_0.23   bslib_0.6.1     yaml_2.3.8      rlang_1.1.4    
+## [21] jsonlite_1.8.8</code></pre>
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-breshock_expanding_2021" class="csl-entry">
 Breshock, Michael Robert. 2021. <span>“<span>EXPANDING</span> <span>ACCESS</span> <span>AND</span> <span>REMOVING</span> <span>BARRIERS</span>: <span>DATA</span> <span>SCIENCE</span> <span>EDUCATION</span> <span>WITH</span> <span>THE</span> <span>OPEN</span> <span>CASE</span> <span>STUDIES</span> <span>DIGITAL</span> <span>PLATFORM</span>.”</span> Thesis, Johns Hopkins University. <a href="https://jscholarship.library.jhu.edu/handle/1774.2/66820">https://jscholarship.library.jhu.edu/handle/1774.2/66820</a>.

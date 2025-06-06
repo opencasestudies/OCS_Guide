@@ -34,10 +34,10 @@ The following steps illustrate how one would skip to a specific case study secti
 
 
 ```
-## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+## `google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
 ```
 
-<iframe src="https://www.youtube.com/embed/Z4WZ7A0OZF8" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/Z4WZ7A0OZF8" width="100%" height="400px" data-external="1"></iframe>
 
 2) Follow the instructions provided to download the data files from the previous section either with `OCSdata` or manually through GitHub. We will now demonstrate each option.
 
@@ -46,7 +46,7 @@ The following steps illustrate how one would skip to a specific case study secti
 1) First install and load the `OCSdata` package:
   
 
-```r
+``` r
 install.packages("OCSdata") #only run once to install package
 library(OCSdata) #run every new R session to load package
 ```
@@ -54,7 +54,7 @@ library(OCSdata) #run every new R session to load package
 2) Now download the wrangled data into your R environment using the following function command:
   
 
-```r
+``` r
 wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 ```
   
@@ -63,7 +63,7 @@ wrangled_rda("ocs-bp-opioid-rural-urban", outpath = getwd())
 3) Load the RDA files with the following commands:
 
 
-```r
+``` r
 load(file = here::here("OCS_data", "data", "wrangled", "Annual_opioid_data.rda"))
 load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
 ```
@@ -79,7 +79,7 @@ load(file = here::here("OCS_data", "data", "wrangled", "county_info.rda"))
  3) Load the RDA files with the following commands:
   
 
-```r
+``` r
 load(file = here::here("Annual_opioid_data.rda"))
 load(file = here::here("county_info.rda"))
 ```
@@ -111,33 +111,40 @@ To do so, you will need to set up your version of the case study on GitHub. If y
 
 These steps are demonstrated in the following video about modifying case studies:
 
-<iframe src="https://www.youtube.com/embed/UFs4qvgTuTw" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/UFs4qvgTuTw" width="100%" height="400px" data-external="1"></iframe>
 
 ## Session info
 
 
 ```
-## R version 4.0.2 (2020-06-22)
+## R version 4.3.2 (2023-10-31)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.3 LTS
+## Running under: Ubuntu 22.04.4 LTS
 ## 
 ## Matrix products: default
-## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
 ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
 ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
 ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
-##  [5] tools_4.0.2     yaml_2.2.1      stringi_1.5.3   rmarkdown_2.10 
-##  [9] highr_0.8       knitr_1.33      webshot_0.5.2   stringr_1.4.0  
-## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14
+##  [1] digest_0.6.34   R6_2.5.1        later_1.3.2     bookdown_0.41  
+##  [5] fastmap_1.1.1   xfun_0.48       websocket_1.4.2 magrittr_2.0.3 
+##  [9] knitr_1.48      htmltools_0.5.7 rmarkdown_2.25  ps_1.7.6       
+## [13] promises_1.2.1  cli_3.6.2       processx_3.8.3  webshot2_0.1.1 
+## [17] chromote_0.3.1  compiler_4.3.2  highr_0.11      tools_4.3.2    
+## [21] evaluate_0.23   Rcpp_1.0.12     yaml_2.3.8      jsonlite_1.8.8 
+## [25] rlang_1.1.4
 ```

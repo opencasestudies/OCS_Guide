@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Use of Open Case Studies | An Educator’s Guide to the Open Case Studies</title>
   <meta name="description" content="Guide for the Open Case Studies Project" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Use of Open Case Studies | An Educator’s Guide to the Open Case Studies" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Guide for the Open Case Studies Project" />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/favicon_ocs.ico" type="image/x-icon" />
 <link rel="prev" href="open-case-study-infrastructure.html"/>
 <link rel="next" href="modifying-open-case-studies.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,8 +47,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -89,11 +88,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #c4a000; } /* Attribute */
+code span.at { color: #204a87; } /* Attribute */
 code span.bn { color: #0000cf; } /* BaseN */
 code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4e9a06; } /* Char */
-code span.cn { color: #000000; } /* Constant */
+code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #8f5902; font-style: italic; } /* Comment */
 code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
@@ -102,14 +101,14 @@ code span.dv { color: #0000cf; } /* DecVal */
 code span.er { color: #a40000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #0000cf; } /* Float */
-code span.fu { color: #000000; } /* Function */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
 code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
 code span.ot { color: #8f5902; } /* Other */
 code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code span.sc { color: #000000; } /* SpecialChar */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
 code span.ss { color: #4e9a06; } /* SpecialString */
 code span.st { color: #4e9a06; } /* String */
 code span.va { color: #000000; } /* Variable */
@@ -117,6 +116,10 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -265,7 +268,6 @@ div.csl-indent {
 <li class="chapter" data-level="5.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#create-a-case-study"><i class="fa fa-check"></i><b>5.2</b> Create a Case Study</a>
 <ul>
 <li class="chapter" data-level="5.2.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#template-case-study"><i class="fa fa-check"></i><b>5.2.1</b> Template Case Study</a></li>
-<li class="chapter" data-level="5.2.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#makecasestudies-app"><i class="fa fa-check"></i><b>5.2.2</b> MakeCaseStudies App</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#case-study-libraries"><i class="fa fa-check"></i><b>5.3</b> Case Study Libraries</a></li>
 <li class="chapter" data-level="5.4" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#submission-process"><i class="fa fa-check"></i><b>5.4</b> Submission Process</a>
@@ -301,6 +303,26 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W60LHBECW0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-W60LHBECW0');
+  </script>
+      
+  </body>
+  </html>
 <head>
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
@@ -313,10 +335,10 @@ div.csl-indent {
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/opencasestudies/OCS_Guide/raw/main/assets/OCS_long.png">
 </div>
-<div id="use-of-open-case-studies" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Use of Open Case Studies</h1>
-<div id="learning-objectives-2" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Learning Objectives</h2>
+<div id="use-of-open-case-studies" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Use of Open Case Studies<a href="use-of-open-case-studies.html#use-of-open-case-studies" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-objectives-2" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Learning Objectives<a href="use-of-open-case-studies.html#learning-objectives-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This chapter will provide guidance on how to use Open Case Studies for instruction.</p>
 <ul>
 <li>We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners.</li>
@@ -325,27 +347,27 @@ div.csl-indent {
 <li>We will present some examples of extensions that can accompany the case studies and can serve as a template for homework assignments or independent student exploration.</li>
 </ul>
 <p>The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please <a href="https://www.opencasestudies.org/#contact">let us know</a> what you come up with so that other educators may be inspired by your creativity.</p>
-<div id="prerequisites" class="section level3" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> Prerequisites</h3>
-<div id="public-health-subject-matter" class="section level4" number="3.1.1.1">
-<h4><span class="header-section-number">3.1.1.1</span> Public Health Subject Matter</h4>
+<div id="prerequisites" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Prerequisites<a href="use-of-open-case-studies.html#prerequisites" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="public-health-subject-matter" class="section level4 hasAnchor" number="3.1.1.1">
+<h4><span class="header-section-number">3.1.1.1</span> Public Health Subject Matter<a href="use-of-open-case-studies.html#public-health-subject-matter" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The case studies in Open Case Studies generally deal with topics in public health. We do not require any prior knowledge on the public health subjects examined in the case studies. The Getting Started section in each case study (specifically, the case study context) will present the subject material relevant to understanding the data and the case study implications.</p>
 </div>
-<div id="statistics" class="section level4" number="3.1.1.2">
-<h4><span class="header-section-number">3.1.1.2</span> Statistics</h4>
+<div id="statistics" class="section level4 hasAnchor" number="3.1.1.2">
+<h4><span class="header-section-number">3.1.1.2</span> Statistics<a href="use-of-open-case-studies.html#statistics" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see the <a href="https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations">case study recommendation section</a>) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column.</p>
 </div>
-<div id="codingdata-science" class="section level4" number="3.1.1.3">
-<h4><span class="header-section-number">3.1.1.3</span> Coding/Data Science</h4>
+<div id="codingdata-science" class="section level4 hasAnchor" number="3.1.1.3">
+<h4><span class="header-section-number">3.1.1.3</span> Coding/Data Science<a href="use-of-open-case-studies.html#codingdata-science" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>All case studies use the R statistical programming language for data analysis. Some familiarity with R basics is expected for effective use of the case studies. However, depending on the data used and the extent to which it needs to be cleaned and processed before analysis, each case study may require experience with additional programming and data wrangling skills. This will be indicated by the Experience Level designation for the case study (<a href="https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations">case study recommendation section</a>).</p>
 </div>
-<div id="software" class="section level4" number="3.1.1.4">
-<h4><span class="header-section-number">3.1.1.4</span> Software</h4>
+<div id="software" class="section level4 hasAnchor" number="3.1.1.4">
+<h4><span class="header-section-number">3.1.1.4</span> Software<a href="use-of-open-case-studies.html#software" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>All case studies use the R statistical programming language for data analysis. While there is no specific R version requirement for the case studies, the <code>OCSdata</code> package, which can be used to get and load the data, does require R 3.5. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the <code>sessionInfo()</code> section in each case study.</p>
 </div>
 </div>
-<div id="experience-level-descriptions" class="section level3" number="3.1.2">
-<h3><span class="header-section-number">3.1.2</span> Experience Level Descriptions</h3>
+<div id="experience-level-descriptions" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Experience Level Descriptions<a href="use-of-open-case-studies.html#experience-level-descriptions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The table below explains how we define the beginner, intermediate, and advanced experience levels.</p>
 <table>
 <colgroup>
@@ -376,11 +398,11 @@ div.csl-indent {
 <p>Typically, most middle/high school and first year undergraduate students will fit in the beginner category. Upperclassmen undergraduates and some graduate students are often at the intermediate level. Most advanced level students will be at the graduate level. However, this is a generalization, and a student may be considered beginner, intermediate, or advanced at any academic level depending on their independent studies and experiences.</p>
 </div>
 </div>
-<div id="open-case-studies-in-the-classroom" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Open Case Studies in the Classroom</h2>
+<div id="open-case-studies-in-the-classroom" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Open Case Studies in the Classroom<a href="use-of-open-case-studies.html#open-case-studies-in-the-classroom" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The case studies are structured to support both partial and full use of a case study. Educators are also free to use case study data by itself.</p>
-<div id="teaching-a-full-case-study" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Teaching a Full Case Study</h3>
+<div id="teaching-a-full-case-study" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Teaching a Full Case Study<a href="use-of-open-case-studies.html#teaching-a-full-case-study" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The case studies are written to provide a cohesive story that simulates data science in the real world. Reading through an entire case study is an excellent exercise for students to experience a standard data science workflow and learn the best practices of today from start to finish. The following list provides a few examples of how educators have used a full case study in the past:</p>
 <ul>
 <li>Converted the case study into a <a href="https://cogs137.github.io/website/lecslides/16-cs2-data.html#1">slide deck</a> (<a href="https://cogs137.github.io/website/">Practical Data Science in R</a> taught by <a href="https://www.shanellis.com/">Dr. Shannon Ellis</a> at University of California Santa Barbara)</li>
@@ -461,8 +483,8 @@ div.csl-indent {
 </tbody>
 </table>
 </div>
-<div id="teaching-part-of-a-case-study" class="section level3" number="3.2.2">
-<h3><span class="header-section-number">3.2.2</span> Teaching Part of a Case Study</h3>
+<div id="teaching-part-of-a-case-study" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Teaching Part of a Case Study<a href="use-of-open-case-studies.html#teaching-part-of-a-case-study" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study <a href="https://github.com/opencasestudies">GitHub repositories</a> provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the <a href="https://github.com/opencasestudies/OCSdata">OCSdata</a> package (see the <a href="https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#ocsdata">OCSdata section</a> in chapter 2). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well.</p>
 <p><br></p>
 <table>
@@ -507,13 +529,13 @@ div.csl-indent {
 </tbody>
 </table>
 </div>
-<div id="teaching-with-case-study-data-only" class="section level3" number="3.2.3">
-<h3><span class="header-section-number">3.2.3</span> Teaching With Case Study Data Only</h3>
+<div id="teaching-with-case-study-data-only" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Teaching With Case Study Data Only<a href="use-of-open-case-studies.html#teaching-with-case-study-data-only" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Educators can use the data available with the case studies without using the case study as a whole. The data is available on GitHub and can be accessed using the <code>OCSdata</code> R package.</p>
 </div>
 </div>
-<div id="case-study-recommendations" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Case Study Recommendations</h2>
+<div id="case-study-recommendations" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Case Study Recommendations<a href="use-of-open-case-studies.html#case-study-recommendations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Each case study demonstrates an entire data analysis starting from data import and wrangling and continuing to statistical analysis and data visualization. This means that individual case studies can often incorporate different skill levels for different stages of the analyses. For example, a case study can use advanced data wrangling approaches but only need beginner level statistical analysis methods. Below we provide broad categorizations of each of the case studies in terms of the skill levels required (beginner, intermediate, or advanced) for each of the general stages of the case studies (data wrangling, data visualization, and statistics). More details on the specific skills taught in each case study can be found in the <a href="https://www.opencasestudies.org/#searchtab">Case Study Search Tool</a> or in the Learning Objectives section in each case study.</p>
 <p>Here, we are using the following interpretations of “beginner”, “intermediate”, and “advanced”:</p>
 <p><br></p>
@@ -664,63 +686,63 @@ div.csl-indent {
 </tbody>
 </table>
 </div>
-<div id="troubleshooting" class="section level2" number="3.4">
-<h2><span class="header-section-number">3.4</span> Troubleshooting</h2>
+<div id="troubleshooting" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Troubleshooting<a href="use-of-open-case-studies.html#troubleshooting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You may encounter errors trying to render our case studies.</p>
 <p>In which case, we suggest that you check the “Session Info” section under the “Additional Information”section of the case study to see what versions of packages we used.</p>
 <p>R packages versions can have updates to arguments and function names that can cause code to work differently or can break the code.</p>
 <p>If you encounter an error, this is likely the reason. We try to update our case studies when we can, but we can’t always update the information in a timely manner as this is currently a passion project. You can either use the error message from trying to knit the case study to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information), or you can use the versions of the packages that are shown in our Session Info section and load the versions that we used, following the directions <a href="https://search.r-project.org/CRAN/refmans/remotes/html/install_version.html">here</a>.</p>
 </div>
-<div id="example-use-cases" class="section level2" number="3.5">
-<h2><span class="header-section-number">3.5</span> Example Use Cases</h2>
+<div id="example-use-cases" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Example Use Cases<a href="use-of-open-case-studies.html#example-use-cases" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner’s goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to <a href="https://www.opencasestudies.org/#contact">hear</a> about it!</p>
-<div id="using-case-studies-as-lecture-content" class="section level3" number="3.5.1">
-<h3><span class="header-section-number">3.5.1</span> Using Case Studies as Lecture Content</h3>
+<div id="using-case-studies-as-lecture-content" class="section level3 hasAnchor" number="3.5.1">
+<h3><span class="header-section-number">3.5.1</span> Using Case Studies as Lecture Content<a href="use-of-open-case-studies.html#using-case-studies-as-lecture-content" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><a href="https://cogs137.github.io/website/">Practical Data Science in R</a> is a 10-week intermediate undergraduate course taught by <a href="https://www.shanellis.com/">Dr. Shannon Ellis</a> at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data.</p>
 <p>Here you can see how the course used the <code>OCSdata</code> package:</p>
-<p><img src="resources/images/shannon-casestudy.png" title="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" alt="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/shannon-casestudy.png" alt="A slide from the class taught by Dr Ellis showing the use of the OCSdata package" width="100%" style="display: block; margin: auto;" /></p>
 <p><a href="https://www.shanellis.com/">Dr. Ellis</a> incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below).</p>
 </div>
-<div id="using-case-studies-for-assignments" class="section level3" number="3.5.2">
-<h3><span class="header-section-number">3.5.2</span> Using Case Studies for Assignments</h3>
+<div id="using-case-studies-for-assignments" class="section level3 hasAnchor" number="3.5.2">
+<h3><span class="header-section-number">3.5.2</span> Using Case Studies for Assignments<a href="use-of-open-case-studies.html#using-case-studies-for-assignments" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><a href="http://jtleek.com/ads2020/">Advanced Data Science</a> was a semester-long graduate data science course taught by <a href="https://jtleek.com/">Dr. Jeff Leek</a> and <a href="https://rdpeng.org/">Dr. Roger Peng</a> in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included <a href="https://github.com/advdatasci/homework9">writing scientific journal sections</a> (e.g. Introduction, Methods, Results, Discussion) based on the case studies and <a href="https://github.com/advdatasci/homework11">extending analyses</a> based on results presented in the case study.</p>
 </div>
-<div id="independent-study" class="section level3" number="3.5.3">
-<h3><span class="header-section-number">3.5.3</span> Independent Study</h3>
+<div id="independent-study" class="section level3 hasAnchor" number="3.5.3">
+<h3><span class="header-section-number">3.5.3</span> Independent Study<a href="use-of-open-case-studies.html#independent-study" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Case studies can be used for learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the case study by running the analyses independently, exploring the data beyond what is presented in the case study, and extending the analyses by to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned.</p>
 </div>
-<div id="interactive-case-studies-1" class="section level3" number="3.5.4">
-<h3><span class="header-section-number">3.5.4</span> Interactive Case Studies</h3>
+<div id="interactive-case-studies-1" class="section level3 hasAnchor" number="3.5.4">
+<h3><span class="header-section-number">3.5.4</span> Interactive Case Studies<a href="use-of-open-case-studies.html#interactive-case-studies-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback. Please see the following video for a demonstration on how to use the interactive case studies:</p>
-<iframe src="https://www.youtube.com/embed/3iFtuDK0o-M" width="100%" height="400px">
+<iframe src="https://www.youtube.com/embed/3iFtuDK0o-M" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
 </div>
-<div id="examples-of-assignments" class="section level2" number="3.6">
-<h2><span class="header-section-number">3.6</span> Examples of assignments</h2>
+<div id="examples-of-assignments" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Examples of assignments<a href="use-of-open-case-studies.html#examples-of-assignments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Educators are not limited to having the students go through the case study in their current format. Case studies can be a spring board for further exploration and additional assignments. For example, in addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their curiosity, technical writing and communication skills. Additional assignments can include but is not limited to data visualization and presentation, written reports, and oral presentations. Below we provide a few examples of potential assignments that educators can use to tailor instruction to the desired learning objectives. See <a href="http://jtleek.com/ads2020/week-5.html">here</a> guidelines about considerations for effective and ethical data visualizations from the <a href="http://jtleek.com/ads2020/">Advanced Data Science Course</a> taught by <a href="https://jtleek.com/">Jeff leek</a> and <a href="https://rdpeng.org/">Roger Peng</a> at <a href="https://publichealth.jhu.edu/">Johns Hopkins Bloomberg School of Public Health</a>.</p>
-<div id="written-report" class="section level3" number="3.6.1">
-<h3><span class="header-section-number">3.6.1</span> Written Report</h3>
+<div id="written-report" class="section level3 hasAnchor" number="3.6.1">
+<h3><span class="header-section-number">3.6.1</span> Written Report<a href="use-of-open-case-studies.html#written-report" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Below is an example of a scientific-style paper written based on the <a href="https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question">Opioid Use Case Study</a>. We also include an example rubric by which this paper can be evaluated adapted from <a href="https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation">here</a>.</p>
 <ul>
 <li><p><a href="https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf">OCS Opioid Use in the US Example Report</a></p></li>
 <li><p><a href="https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf">OCS Opioid Use in the US Example Report Rubric</a></p></li>
 </ul>
 </div>
-<div id="oral-presentation" class="section level3" number="3.6.2">
-<h3><span class="header-section-number">3.6.2</span> Oral Presentation</h3>
+<div id="oral-presentation" class="section level3 hasAnchor" number="3.6.2">
+<h3><span class="header-section-number">3.6.2</span> Oral Presentation<a href="use-of-open-case-studies.html#oral-presentation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Below is an example of a presentation based on the <a href="https://www.opencasestudies.org/ocs-bp-vaping-case-study/">Vaping Behaviors in American Youth Case Study</a>. This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).</p>
 <ul>
 <li><a href="https://github.com/advdatasci/homework12">OCS Vaping Case Study Oral Presentation Assignment Example</a></li>
 <li><a href="https://www.youtube.com/watch?v=noWLCSipKEU">OCS Vaping Case Study Oral Presentation Example</a></li>
 </ul>
 </div>
-<div id="data-visualization" class="section level3" number="3.6.3">
-<h3><span class="header-section-number">3.6.3</span> Data Visualization</h3>
+<div id="data-visualization" class="section level3 hasAnchor" number="3.6.3">
+<h3><span class="header-section-number">3.6.3</span> Data Visualization<a href="use-of-open-case-studies.html#data-visualization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The data visualizations included in the case studies are not the only way to present the data used within the analyses. While the principles of effective data visualization are a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. Students can be assigned to create a new visualization beyond what is included in the case studies that emphasizes different aspects in the data.</p>
 </div>
-<div id="further-exploration" class="section level3" number="3.6.4">
-<h3><span class="header-section-number">3.6.4</span> Further Exploration</h3>
+<div id="further-exploration" class="section level3 hasAnchor" number="3.6.4">
+<h3><span class="header-section-number">3.6.4</span> Further Exploration<a href="use-of-open-case-studies.html#further-exploration" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Several case studies have additional data that is not discussed. This can be used for further exploration of the subject area that was discussed in the case study. This can be guided by the questions included in the Homework section of the case studies. Case studies that have additional data include the <a href="https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question">Opioid Use Case Study</a>, the <a href="https://www.opencasestudies.org/ocs-bp-RTC-analysis/">Right to Carry Case Study</a>, and the <a href="https://www.opencasestudies.org/ocs-bp-co2-emissions/">CO2 Emissions Case Study</a>.</p>
 <p>Below is an example of an assignment assigned to students in the <a href="http://jtleek.com/ads2020/">Advanced Data Science Course at Johns Hopkins</a>. In this assignment students were asked to create a simpler machine learning analysis based on the case study. They were also asked to share their analysis with another student and write a summary and critique of the other student’s analysis. This provides an opportunity for the student to try out analysis skills with their own analysis work, and also work on their comprehension skills of reading other people’s work. It also shows how we can get different results with minor changes in our analyses.:</p>
 <ul>
@@ -735,31 +757,37 @@ div.csl-indent {
 </ul>
 </div>
 </div>
-<div id="session-info-1" class="section level2" number="3.7">
-<h2><span class="header-section-number">3.7</span> Session info</h2>
-<pre><code>## R version 4.0.2 (2020-06-22)
+<div id="session-info-1" class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> Session info<a href="use-of-open-case-studies.html#session-info-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>## R version 4.3.2 (2023-10-31)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.3 LTS
+## Running under: Ubuntu 22.04.4 LTS
 ## 
 ## Matrix products: default
-## BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
 ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=C             
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
 ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
 ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.0.2  magrittr_2.0.2  bookdown_0.24   htmltools_0.5.0
-##  [5] tools_4.0.2     yaml_2.2.1      jquerylib_0.1.4 stringi_1.5.3  
-##  [9] rmarkdown_2.10  highr_0.8       knitr_1.33      stringr_1.4.0  
-## [13] digest_0.6.25   xfun_0.26       rlang_0.4.10    evaluate_0.14</code></pre>
+##  [1] digest_0.6.34   R6_2.5.1        bookdown_0.41   fastmap_1.1.1  
+##  [5] xfun_0.48       cachem_1.0.8    knitr_1.48      htmltools_0.5.7
+##  [9] rmarkdown_2.25  lifecycle_1.0.4 cli_3.6.2       sass_0.4.8     
+## [13] jquerylib_0.1.4 compiler_4.3.2  highr_0.11      tools_4.3.2    
+## [17] evaluate_0.23   bslib_0.6.1     yaml_2.3.8      rlang_1.1.4    
+## [21] jsonlite_1.8.8</code></pre>
 
 </div>
 </div>

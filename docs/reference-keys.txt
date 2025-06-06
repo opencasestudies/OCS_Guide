@@ -80,7 +80,6 @@ new-case-studies---building-and-contributing
 learning-objectives-4
 create-a-case-study
 template-case-study
-makecasestudies-app
 case-study-libraries
 submission-process
 community-library-submissions
